@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>web app title</title>
+    <link rel='stylesheet' href="{{url_for('static', filename='style.css' )}}"">
+</head>
+
+<body>
+    <div class=" container">
+    <h1>welcome to the web app</h1>
+    <p> lets start with some basics,
+        <br>such as form creation and submission on the index page
+    </p>
+    <form method="POST" action="/">
+        <input type="text" name="test">
+        <input type="submit" value="submit here">
+    </form>
+    <h1> and now for something new </h1>
+    <p> we can use the new_record route to create a new record in the database (at least thats what its supposed to
+        do)
+    </p>
+    <form method="POST" action="{{url_for('new_record')}}">
+        <input type="text" name="thing">
+        <input type="submit" value="to new horizons!">
+    </form>
+    {% if rows %}
+    <table>
+        <!--
+            <thead>
+                <tr>
+                    <th>log</th>
+                    <th>record</th>
+                </tr>
+            </thead>
+        -->
+        <tbody>
+            <tr>
+                <th>log</th>
+                <th>record</th>
+            </tr>
+            {% for log, record in rows %}
+            <tr>
+                <th>{{log}}</th>
+                <td>{{record}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+    <iframe data-testid="embed-iframe" style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/3567eNX2L3RkkMkwspncMH?utm_source=generator&si=559c90895f3f407d"
+        width="100%" height="352" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    </body>
+
+</html>

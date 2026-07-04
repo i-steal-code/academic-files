@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title> results </title>
+<link rel='stylesheet' href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+<div class='container'>
+<h1> results </h1>
+<p> results page. displays results from database query </p>
+<p> search results for <b> {{name}} </b> under <b> "{{category}}" </b> category </p>
+<p class='disclaimer'> sorting by category does not work as <br>
+backend is not equipped with the logic to add a field to indicate reason categories <br>
+in the event it needs to be implemented, it would parse all late reasons and 
+create a list with 1 of every late reason, inserting a new late reason into
+the html select options so that reason can be passed as a category into the backend to query
+</p>
+<!-- displays results only if it exists -->
+{% if results %}
+<table>
+<!-- table header row -->
+<thead>
+<tr>
+<th> student name </th>
+<th> class group </th>
+<th> date </th>
+<th> reason </th>
+</tr>
+</thead>
+<!-- iterate table body rows -->
+<tbody>
+{% for row in results %}
+<tr>
+<th> {{row['Student_Name']}} </th>
+<th> {{row['Class_Group']}} </th>
+<th> {{row['Date']}} </th>
+<th> {{row['Reason']}} </th>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+<!-- error handling: records not found -->
+{% else %}
+<p> no latecoming records match the query </p> 
+{% endif%}
+
+<form method='GET' action='/'>
+<input type='submit' value='return to homepage'>
+</form>
+</div>
+</body>
+</html>

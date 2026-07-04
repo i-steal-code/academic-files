@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title> search results </title>
+<link rel = 'stylesheet' href = '{{url_for("static", filename="style.css")}}'>
+</head>
+<body>
+<div class = 'container'>
+<h1> search results for {{stu_name}} </h1>
+{% if results %}
+<table>
+<thead>
+<th>
+<tr>
+<td> date </td>
+<td> reason </td>
+</tr>
+<th>
+</thead>
+<tbody>
+<th>
+{% for row in results %}
+<tr>
+<td> {{row[0]}} </td>
+<td> {{row[1]}} </td>
+</tr>
+{% endfor%}
+</th>
+</tbody>
+{% else %}
+<p> no latecoming records found for {{stu_name}} </p>
+{% endif %}
+</table>
+<form action = "/" method = 'POST'>
+<input type = 'submit' value = 'return to homepage'>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title> latecoming search </title>
+<link rel = 'stylesheet' href = '{{url_for("static", filename="style.css")}}'>
+</head>
+<body>
+<div class = 'container'>
+<h1> latecoming search homepage </h1>
+<p> input the name of a student to search for their latecoming records </p>
+<form action = "/search" method = 'POST'>
+<label> key in student's name: </label>
+<input type = 'text' name = 'stu_name'>
+<input type = 'submit'>
+</form>
+</div>
+</body>
+</html>

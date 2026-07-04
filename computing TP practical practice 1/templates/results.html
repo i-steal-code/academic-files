@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>results</title>
+<link rel='stylesheet' href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+<div class="container">
+<h1>
+search results
+</h1>
+<p> showing results for {{name}} under {{category}} category</p>
+{% if results %}
+<table>
+<thead>
+<tr>
+<td> tbl head row 1 cell 1</td>
+<td> tbl head row 1 cell 2</td>
+</tr>
+<tr> <td> tbl headrow 2 cell 1 </td> </tr>
+</thead>
+<tbody>
+<td> tbl body row 1 cell 1 </td>
+<td> tbl body row 1 cell 2 </td>
+</tr>
+<tr> <td> tbl body row 2 cell 1 </td> </tr>
+</tbody>
+</table>
+
+{% else %}
+<p> no match found </p>
+{% endif %}
+<form method='GET' action='/'>
+<input type='submit' value='return to homepage'>
+</form>
+</div>
+</body>
+</html>

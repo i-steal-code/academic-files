@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>latecoming search</title>
+<link rel='stylesheet' href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+<div class="container">
+<h1>
+latecoming search
+</h1>
+<p>
+select reason for latecoming and key in student's name <br>
+to obtain latecoming records of the student for that particular reason
+</p>
+<form method='POST' action='/search'>
+<label> latecoming reason: </label>
+<select name='category'>
+<option value='medical'> medical </option>
+<option value='family'> family </option>
+<option value='other'> other </option>
+</select>
+<label> student name: </label>
+<input type='text' name='name'>
+<input type="submit" value="submit">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.container{
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 4px #black;
+	background: #4682b4;
+}
+
+table, th, td{
+	border: 2 px solid #black;
+	border-collapse: collapse;
+	padding: 5px;
+}

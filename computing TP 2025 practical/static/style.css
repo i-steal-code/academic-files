@@ -1,0 +1,16 @@
+.container{
+	width: 1600px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #2F8A7B;
+	font-family: Arial;
+}
+
+table, th, tr, td{
+	border: 1px solid orange;
+	border-collapse: collapse;
+}
+
+h1, p{
+	color: white;
+}

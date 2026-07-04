@@ -1,0 +1,33 @@
+.container{
+	width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	font-family: SanFranciscoText-Regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+table, th, td{
+	border: 1px solid orange;
+	border-collapse: collapse;
+	padding: auto;
+}
+
+label, input, select{
+	display: block;
+	box-sizing: border-box;
+}
+
+input[type="submit"]{
+	background-color: white;
+	color: white;
+	padding: 10px auto;
+	border: none;
+	cursor: pointer;
+}
+
+.disclaimer{
+	color: red; 
+	font-weight: italic; 
+	font-size: 10px;
+}

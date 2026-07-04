@@ -1,0 +1,92 @@
+[
+	{
+	"userID": "U755545",
+	"name": "Jin Park",
+	"email": "jin.park72@gmail.com",
+	"gender": "M",
+	"dateOfBirth": "04/08/1973",
+	"yearOfRegistration": 2017,
+	"active": 1,
+	"phasebookFriends": 68,
+	"viewtubeSubscribers": 12,
+	"whatsupContacts": 238
+	},
+	{
+	"userID": "U110878",
+	"name": "Jun Lee",
+	"email": "jun.lee99@hotmail.com",
+	"gender": "M",
+	"dateOfBirth": "27/02/1964",
+	"yearOfRegistration": 2021,
+	"active": 1,
+	"phasebookFriends": 464,
+	"viewtubeSubscribers": 44,
+	"whatsupContacts": 559
+	},
+	{
+	"userID": "U782803",
+	"name": "Yuna Kim",
+	"email": "yuna.kim67@gmail.com",
+	"gender": "F",
+	"dateOfBirth": "11/05/1997",
+	"yearOfRegistration": 2018,
+	"active": 1,
+	"viewtubeSubscribers": 1324,
+	"whatsupContacts": 366
+	},
+	{
+	"userID": "U734578",
+	"name": "Ava Wilson",
+	"email": "ava.wilson81@yahoo.com",
+	"gender": "F",
+	"dateOfBirth": "05/10/1995",
+	"yearOfRegistration": 2022,
+	"active": 1,
+	"phasebookFriends": 97,
+	"whatsupContacts": 122
+	},
+	{
+	"userID": "U838111",
+	"name": "Matthew Turner",
+	"email": "matthew.turner22@gmail.com",
+	"gender": "M",
+	"dateOfBirth": "14/11/1987",
+	"yearOfRegistration": 2022,
+	"active": 0,
+	"phasebookFriends": 70,
+	"viewtubeSubscribers": 54,
+	"whatsupContacts": 441
+	},
+	{
+	"userID": "U613183",
+	"name": "Isabella Davis",
+	"email": "isabella.davis72@gmail.com",
+	"gender": "F",
+	"dateOfBirth": "09/02/1968",
+	"yearOfRegistration": 2023,
+	"active": 1,
+	"whatsupContacts": 97
+	},
+	{
+	"userID": "U752641",
+	"name": "Yuta Sato",
+	"email": "yuta.sato55@yahoo.com",
+	"gender": "M",
+	"dateOfBirth": "28/11/1989",
+	"yearOfRegistration": 2022,
+	"active": 1,
+	"whatsupContacts": 201
+	},
+	{
+	"userID": "U389712",
+	"name": "Rajeev Gupta",
+	"email": "rajeev.gupta44@gmail.com",
+	"gender": "M",
+	"dateOfBirth": "05/11/1999",
+	"yearOfRegistration": 2019,
+	"active": 1,
+	"phasebookFriends": 699,
+	"viewtubeSubscribers": 78,
+	"whatsupContacts": 1149
+	}
+]
