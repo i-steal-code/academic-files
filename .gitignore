@@ -1,0 +1,8 @@
+# Local Python env for MarkItDown / PyMuPDF conversion
+.venv-convert/
+
+# Science hybrid packages: page PNGs dominate disk; regenerate with tools/convert_one.ps1
+converted packages/
+
+# Legacy flat science markdown (lossy); do not reintroduce
+converted markdowns/H2 math/

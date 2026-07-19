@@ -1,15 +1,37 @@
 # academic-files
 file database for LLM qualitative analysis
 
-math converted md are very poorly converted due to nature of math being very sign and graphically heavy
+## conversion policy
+- **H1 GP:** markdown-only (prefer `.docx` → md when both exist; PDF only if no DOCX). Text-heavy and converts cleanly.
+- **H2 math / physics / computing:** hybrid packages under `converted packages/` — raw PDF stays canonical; MarkItDown `content.md` is a lossy text index; `pages/page-NNN.png` preserves visual fidelity for equations/figures.
+- Never treat science `content.md` as exam-accurate alone. Prefer md for search/chunking; open `pages/` or the raw PDF when math or diagrams matter.
 
-actually good to convert subjects:
-1. GP; virtually no images, extremely text heavy
-2. computing; mostly text, and diagrams/images are extremely well known by LLMs (they literally think in it). why would i need to explain what a binary tree is if the LLM is literally optimised for that?
-3. physics; large portion of ambiguous parts are covered in simple math equations and in textual explanations, so the problem that math faced (graph and sign heavy) is mitigated here.
-
-how to deal with math:
+how to deal with math content (syllabus):
 some minor changes in qns, mark out portions of questions that are not tested in 2026 H2 math syllabus to take note of
+
+### science hybrid conversion
+Requires **Python 3.10+** on PATH/`py` launcher (MarkItDown). The wrapper creates `.venv-convert` automatically.
+
+```powershell
+# setup + mass convert (math, physics, computing PDFs under raw files/)
+.\tools\convert_one.ps1
+
+# skip archived RI TP under exam papers/misc/
+.\tools\convert_one.ps1 -SkipMisc
+
+# force rebuild / smoke test
+.\tools\convert_one.ps1 -Force
+.\tools\convert_one.ps1 -Limit 2
+```
+
+Package layout (mirrors raw path, stem = package folder):
+```text
+converted packages/H2 math/TYS ANS/2016 P1 A-level H2 math/
+  content.md
+  pages/page-001.png
+  manifest.json
+```
+`converted packages/` page rasters are gitignored (local analysis artifacts). Re-run the converter after adding PDFs.
 
 ## collection target
 - digitised TYS for all subjects (ANS + QP per paper)
