@@ -6,3 +6,12 @@ converted packages/
 
 # Legacy flat science markdown (lossy); do not reintroduce
 converted markdowns/H2 math/
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+# Exceeds GitHub 100MB limit; keep local only
+raw files/H1 GP/essay resources/2020 KS Bull Issue 1.pdf
+

@@ -3,6 +3,7 @@ file database for LLM qualitative analysis
 
 ## conversion policy
 - **H1 GP:** markdown-only (prefer `.docx` → md when both exist; PDF only if no DOCX). Text-heavy and converts cleanly.
+- **Cheatsheets / living notes:** keep as ordinary files under `notes/` (e.g. `H1 GP cheatsheet.docx`). Prefer infrequent manual drops over live API sync — packages may eventually freeze at end-of-life with no further updates. An experimental Google Docs hourly sync lives on archived branch `archive/google-integration` if needed later.
 - **H2 math / physics / computing:** hybrid packages under `converted packages/` — raw PDF stays canonical; MarkItDown `content.md` is a lossy text index; `pages/page-NNN.png` preserves visual fidelity for equations/figures.
 - Never treat science `content.md` as exam-accurate alone. Prefer md for search/chunking; open `pages/` or the raw PDF when math or diagrams matter.
 
@@ -41,8 +42,9 @@ converted packages/H2 math/TYS ANS/2016 P1 A-level H2 math/
 
 ## naming
 - TYS: `YYYY PX A-level H2 {subject}.pdf` (physics TYS ANS currently year-bundled: `YYYY A-level H2 physics.pdf`)
-- prelims: `YYYY {RI|HCI} PX A-level H2 {subject}.pdf`
-- folder holds ANS vs QP (not repeated in filename)
+- prelims: `YYYY {RI|HCI} PX A-level H2 {subject}.pdf` (GP: `YYYY {RI|HCI} PX A-level H1 GP.pdf`)
+- folder holds ANS vs QP (not repeated in filename); GP P2 also uses `prelim IN` / `promo IN` for comprehension inserts
+- GP essay models keep readable titles under `essay resources/` (`essay - {question}.pdf`); periodicals as `YYYY KS Bull Issue N.pdf`
 
 ## missing documents
 ### H2 math
@@ -68,11 +70,12 @@ have: TYS ANS year-bundles 2016-2024; empty `prelim ANS`/`prelim QP` (school in 
 have: empty `raw files/H2 computing`; some practical boilerplates/TPs under `computing practical/` (not normalised TYS/prelim sets)
 
 ### H1 GP
-1. TYS entire (P1 essay + P2 compre, QP + ANS)
-2. RI prelim QP + ANS 2021-2025 (P1-2)
-3. HCI prelim QP + ANS 2021-2025 (P1-2)
+1. TYS entire (P1 essay + P2 compre, QP + ANS + P2 IN) — folders empty
+2. P1 essay prelims RI + HCI 2021-2025 (QP + ANS) — none present
+3. P2 compre prelims: RI 2021-2023, 2025 split set (have 2024 RI QP+ANS+IN; 2025 RI only as FULL SET in misc); HCI 2021-2023 (have 2024-2025 HCI QP+ANS+IN)
+4. Promo sets are extras (not in core target): have RI Y5 Promo 2024-2025 QP+ANS+IN
 
-have: `H1 GP essay instance` only (not a paper set)
+have: normalised under `raw files/H1 GP/` — `exam papers/` (prelim/promo ANS|QP|IN + misc), `notes/`, `essay resources/` (KS Bull 2018–2025 + model essays), `topics + case studies/`, `misc/` (essay instance JSON)
 
 ## some thoughts
 due to the sheer volume of the A levels (insane 230 marks for physics over 9.5h, 200 marks for math over 6h, 200 marks for computing over 6h) going for 700+ marks over the course of ~24.5h, it is simply not feasible to try and specialise in papers especially for the sciences.
