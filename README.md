@@ -3,12 +3,40 @@ file database for LLM qualitative analysis
 
 ## conversion policy
 - **H1 GP:** markdown-only (prefer `.docx` → md when both exist; PDF only if no DOCX). Text-heavy and converts cleanly.
-- **Cheatsheets / living notes:** keep as ordinary files under `notes/` (e.g. `H1 GP cheatsheet.docx`). Prefer infrequent manual drops over live API sync — packages may eventually freeze at end-of-life with no further updates. An experimental Google Docs hourly sync lives on archived branch `archive/google-integration` if needed later.
+- **Cheatsheets (Google Docs):** [experimental branch] source of truth stays in Google Docs (multi-tab). GitHub is a scheduled hourly mirror (see below). Exam papers and lecture PDFs remain manual file drops.
 - **H2 math / physics / computing:** hybrid packages under `converted packages/` — raw PDF stays canonical; MarkItDown `content.md` is a lossy text index; `pages/page-NNN.png` preserves visual fidelity for equations/figures.
 - Never treat science `content.md` as exam-accurate alone. Prefer md for search/chunking; open `pages/` or the raw PDF when math or diagrams matter.
 
 how to deal with math content (syllabus):
 some minor changes in qns, mark out portions of questions that are not tested in 2026 H2 math syllabus to take note of
+
+### Google Docs cheatsheet sync
+One-way Docs → GitHub. Each Doc tab becomes one raw `.docx` + one `.md` file.
+
+**One-time setup**
+1. GCP project → enable **Google Docs API** and **Google Drive API**.
+2. Create a **service account** → download JSON key.
+3. Share each cheatsheet Google Doc with the service account email as **Viewer**.
+4. GitHub repo secret `GOOGLE_SERVICE_ACCOUNT_JSON` = full JSON key contents.
+5. Set `document_id` in [`tools/docs-sync/cheatsheets.json`](tools/docs-sync/cheatsheets.json) (from the Doc URL).
+6. Actions → **Sync Google Docs cheatsheets** → Run workflow (or wait for hourly cron).
+
+**Local run**
+```powershell
+$env:GOOGLE_SERVICE_ACCOUNT_JSON = "C:\path\to\sa-key.json"
+.\.venv-convert\Scripts\python.exe -m pip install -r tools\docs-sync\requirements.txt
+.\.venv-convert\Scripts\python.exe tools\docs-sync\sync_cheatsheets.py --force
+```
+
+**Layout**
+```text
+raw files/H1 GP/notes/H1 GP cheatsheet/
+  sync-meta.json
+  tabs/{tab-slug}.docx
+converted markdowns/H1 GP/cheatsheet/
+  INDEX.md
+  {tab-slug}.md
+```
 
 ### science hybrid conversion
 Requires **Python 3.10+** on PATH/`py` launcher (MarkItDown). The wrapper creates `.venv-convert` automatically.

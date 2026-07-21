@@ -1,0 +1,41 @@
+name: Sync Google Docs cheatsheets
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install sync dependencies
+        run: pip install -r tools/docs-sync/requirements.txt
+
+      - name: Sync cheatsheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python tools/docs-sync/sync_cheatsheets.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A "raw files" "converted markdowns"
+          if git diff --staged --quiet; then
+            echo "No cheatsheet changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(docs-sync): update cheatsheet mirrors from Google Docs"
+          git push
