@@ -60,7 +60,7 @@ have: TYS ANS 2016-2025 P1-2; RI prelim ANS 2021-2025 P1-2; RI prelim QP 2023-20
 3. RI prelim QP + ANS 2021-2025 entire (P1, P2, P3A, P3B, P4)
 4. HCI prelim QP + ANS 2021-2025 entire (P1-4)
 
-have: TYS ANS year-bundles 2016-2024; empty `prelim ANS`/`prelim QP` (school in filename, same as math); RI TP/CT archived under `exam papers/misc/`
+have: TYS ANS year-bundles 2016-2024; empty `prelim ANS`/`prelim QP`; RI TP/CT under `exam papers/misc/`; base syllabus `lect notes` + `tut soln` complete for Chap 1–20
 
 ### H2 computing
 1. TYS 2020-2025 full sets (P1 theory + P2 practical, QP + ANS)
