@@ -1,0 +1,1799 @@
+[
+  {
+    "stu_id": "25031",
+    "name": "Nguyen Hoang",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25025",
+    "name": "Sim Wen Jie",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25087",
+    "name": "Mohammad Rizwan",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25022",
+    "name": "Kim Choon Yee",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25018",
+    "name": "Anh Tran",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25050",
+    "name": "Siti Nurhaliza",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25058",
+    "name": "Philippe de la Cruz",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25021",
+    "name": "Tan Yu Wei",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25039",
+    "name": "Lee Xue Ying",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25088",
+    "name": "Prakash Ravi",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25067",
+    "name": "Rina Ong",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present" 
+  },
+  {
+    "stu_id": "25032",
+    "name": "Ali Faisal",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Absent",
+    "reason_category": "Medical",
+    "remarks": "MC recorded.",
+    "evidence_link": "25032_MC_Apr14.jpg"
+  },
+  {
+    "stu_id": "25082",
+    "name": "Tay Mingxuan Cory",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25054",
+    "name": "Lydia Tan",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25023",
+    "name": "Boon Kai Sheng",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25014",
+    "name": "Nguyen Thi Mai",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25065",
+    "name": "Dylan Koh",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25079",
+    "name": "Natasha Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Absent",
+    "reason_category": "Valid Family",
+    "remarks": "Bereavement recorded."
+  },
+  {
+    "stu_id": "25041",
+    "name": "Kumar Suresh",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25033",
+    "name": "Indira Devi",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25064",
+    "name": "Amy Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25092",
+    "name": "Chen Wei Li",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25049",
+    "name": "Sara Tay",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Absent",
+    "reason_category": "Valid Family",
+    "remarks": "Urgent Errand recorded."
+  },
+  {
+    "stu_id": "25024",
+    "name": "Tanisha Pillai",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25096",
+    "name": "Yu Hao Ming",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25076",
+    "name": "Aaron Loh",
+    "civics_class": "25S02X",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25089",
+    "name": "Arun Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25071",
+    "name": "Sophia Nguyen",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25095",
+    "name": "Joshua Ong",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25055",
+    "name": "Pravin Nair",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25093",
+    "name": "Cheryl Teo",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25027",
+    "name": "Rahul Reddy",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25097",
+    "name": "Thida Saravuth",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25081",
+    "name": "Zhang Wei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25099",
+    "name": "Chai Ying Xuan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25084",
+    "name": "Sri Rani",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25085",
+    "name": "Tran Minh Quang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25047",
+    "name": "Liu Ying",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25042",
+    "name": "Siti Aisyah",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25063",
+    "name": "Lim Wei Xiang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25036",
+    "name": "Sukanya Prasad",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25037",
+    "name": "Lisa Lim",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25044",
+    "name": "Rajesh Varma",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "National Representation recorded."
+  },
+  {
+    "stu_id": "25068",
+    "name": "Nguyen Van Binh",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25073",
+    "name": "Boon Kai Jie",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "National Representation recorded."
+  },
+  {
+    "stu_id": "25056",
+    "name": "Pierre Gonzales",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25053",
+    "name": "Kwan Li Mei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25030",
+    "name": "Vivian Tan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25057",
+    "name": "Nishant Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25061",
+    "name": "Chutima Nopparat",
+    "civics_class": "25S02Y",
+    "date": "2024-04-14",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25031",
+    "name": "Nguyen Hoang",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25025",
+    "name": "Sim Wen Jie",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25087",
+    "name": "Mohammad Rizwan",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25022",
+    "name": "Kim Choon Yee",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25018",
+    "name": "Anh Tran",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25050",
+    "name": "Siti Nurhaliza",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25058",
+    "name": "Philippe de la Cruz",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25021",
+    "name": "Tan Yu Wei",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25039",
+    "name": "Lee Xue Ying",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25088",
+    "name": "Prakash Ravi",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "National Representation recorded."
+  },
+  {
+    "stu_id": "25067",
+    "name": "Rina Ong",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25032",
+    "name": "Ali Faisal",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25082",
+    "name": "Tay Mingxuan Cory",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25054",
+    "name": "Lydia Tan",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25023",
+    "name": "Boon Kai Sheng",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25014",
+    "name": "Nguyen Thi Mai",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25065",
+    "name": "Dylan Koh",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Absent",
+    "reason_category": "Valid Family",
+    "remarks": "Bereavement recorded."
+  },
+  {
+    "stu_id": "25079",
+    "name": "Natasha Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25041",
+    "name": "Kumar Suresh",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25033",
+    "name": "Indira Devi",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25064",
+    "name": "Amy Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25092",
+    "name": "Chen Wei Li",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25049",
+    "name": "Sara Tay",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25024",
+    "name": "Tanisha Pillai",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25096",
+    "name": "Yu Hao Ming",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25076",
+    "name": "Aaron Loh",
+    "civics_class": "25S02X",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25089",
+    "name": "Arun Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25071",
+    "name": "Sophia Nguyen",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25095",
+    "name": "Joshua Ong",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25055",
+    "name": "Pravin Nair",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25093",
+    "name": "Cheryl Teo",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25027",
+    "name": "Rahul Reddy",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25097",
+    "name": "Thida Saravuth",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25081",
+    "name": "Zhang Wei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25099",
+    "name": "Chai Ying Xuan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25084",
+    "name": "Sri Rani",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Absent",
+    "reason_category": "Medical",
+    "remarks": "Parent Letter recorded."
+  },
+  {
+    "stu_id": "25085",
+    "name": "Tran Minh Quang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25047",
+    "name": "Liu Ying",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25042",
+    "name": "Siti Aisyah",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25063",
+    "name": "Lim Wei Xiang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25036",
+    "name": "Sukanya Prasad",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25037",
+    "name": "Lisa Lim",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25044",
+    "name": "Rajesh Varma",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "National Representation recorded."
+  },
+  {
+    "stu_id": "25068",
+    "name": "Nguyen Van Binh",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25073",
+    "name": "Boon Kai Jie",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25056",
+    "name": "Pierre Gonzales",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25053",
+    "name": "Kwan Li Mei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25030",
+    "name": "Vivian Tan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25057",
+    "name": "Nishant Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25061",
+    "name": "Chutima Nopparat",
+    "civics_class": "25S02Y",
+    "date": "2024-04-15",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25031",
+    "name": "Nguyen Hoang",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25025",
+    "name": "Sim Wen Jie",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25087",
+    "name": "Mohammad Rizwan",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25022",
+    "name": "Kim Choon Yee",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25018",
+    "name": "Anh Tran",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25050",
+    "name": "Siti Nurhaliza",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25058",
+    "name": "Philippe de la Cruz",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25021",
+    "name": "Tan Yu Wei",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25039",
+    "name": "Lee Xue Ying",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25088",
+    "name": "Prakash Ravi",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25067",
+    "name": "Rina Ong",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25032",
+    "name": "Ali Faisal",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25082",
+    "name": "Tay Mingxuan Cory",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25054",
+    "name": "Lydia Tan",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25023",
+    "name": "Boon Kai Sheng",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25014",
+    "name": "Nguyen Thi Mai",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25065",
+    "name": "Dylan Koh",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25079",
+    "name": "Natasha Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25041",
+    "name": "Kumar Suresh",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25033",
+    "name": "Indira Devi",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25064",
+    "name": "Amy Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25092",
+    "name": "Chen Wei Li",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "National Representation recorded."
+  },
+  {
+    "stu_id": "25049",
+    "name": "Sara Tay",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25024",
+    "name": "Tanisha Pillai",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25096",
+    "name": "Yu Hao Ming",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25076",
+    "name": "Aaron Loh",
+    "civics_class": "25S02X",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25089",
+    "name": "Arun Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25071",
+    "name": "Sophia Nguyen",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25095",
+    "name": "Joshua Ong",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25055",
+    "name": "Pravin Nair",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25093",
+    "name": "Cheryl Teo",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25027",
+    "name": "Rahul Reddy",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25097",
+    "name": "Thida Saravuth",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25081",
+    "name": "Zhang Wei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25099",
+    "name": "Chai Ying Xuan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25084",
+    "name": "Sri Rani",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25085",
+    "name": "Tran Minh Quang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25047",
+    "name": "Liu Ying",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25042",
+    "name": "Siti Aisyah",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25063",
+    "name": "Lim Wei Xiang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25036",
+    "name": "Sukanya Prasad",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25037",
+    "name": "Lisa Lim",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25044",
+    "name": "Rajesh Varma",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Absent",
+    "reason_category": "Valid Family",
+    "remarks": "Bereavement recorded."
+  },
+  {
+    "stu_id": "25068",
+    "name": "Nguyen Van Binh",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25073",
+    "name": "Boon Kai Jie",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25056",
+    "name": "Pierre Gonzales",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25053",
+    "name": "Kwan Li Mei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25030",
+    "name": "Vivian Tan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25057",
+    "name": "Nishant Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25061",
+    "name": "Chutima Nopparat",
+    "civics_class": "25S02Y",
+    "date": "2024-04-16",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25031",
+    "name": "Nguyen Hoang",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25025",
+    "name": "Sim Wen Jie",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25087",
+    "name": "Mohammad Rizwan",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25022",
+    "name": "Kim Choon Yee",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25018",
+    "name": "Anh Tran",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25050",
+    "name": "Siti Nurhaliza",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25058",
+    "name": "Philippe de la Cruz",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25021",
+    "name": "Tan Yu Wei",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25039",
+    "name": "Lee Xue Ying",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25088",
+    "name": "Prakash Ravi",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25067",
+    "name": "Rina Ong",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25032",
+    "name": "Ali Faisal",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25082",
+    "name": "Tay Mingxuan Cory",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25054",
+    "name": "Lydia Tan",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25023",
+    "name": "Boon Kai Sheng",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25014",
+    "name": "Nguyen Thi Mai",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25065",
+    "name": "Dylan Koh",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25079",
+    "name": "Natasha Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25041",
+    "name": "Kumar Suresh",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25033",
+    "name": "Indira Devi",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25064",
+    "name": "Amy Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25092",
+    "name": "Chen Wei Li",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25049",
+    "name": "Sara Tay",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25024",
+    "name": "Tanisha Pillai",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25096",
+    "name": "Yu Hao Ming",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Absent",
+    "reason_category": "Valid Family",
+    "remarks": "Urgent Errand recorded."
+  },
+  {
+    "stu_id": "25076",
+    "name": "Aaron Loh",
+    "civics_class": "25S02X",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25089",
+    "name": "Arun Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25071",
+    "name": "Sophia Nguyen",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25095",
+    "name": "Joshua Ong",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25055",
+    "name": "Pravin Nair",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25093",
+    "name": "Cheryl Teo",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25027",
+    "name": "Rahul Reddy",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25097",
+    "name": "Thida Saravuth",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25081",
+    "name": "Zhang Wei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25099",
+    "name": "Chai Ying Xuan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25084",
+    "name": "Sri Rani",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25085",
+    "name": "Tran Minh Quang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25047",
+    "name": "Liu Ying",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25042",
+    "name": "Siti Aisyah",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25063",
+    "name": "Lim Wei Xiang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Absent",
+    "reason_category": "Medical",
+    "remarks": "MC recorded.",
+    "evidence_link": "25032_MC_Apr17.jpg"
+  },
+  {
+    "stu_id": "25036",
+    "name": "Sukanya Prasad",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25037",
+    "name": "Lisa Lim",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25044",
+    "name": "Rajesh Varma",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25068",
+    "name": "Nguyen Van Binh",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25073",
+    "name": "Boon Kai Jie",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25056",
+    "name": "Pierre Gonzales",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25053",
+    "name": "Kwan Li Mei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25030",
+    "name": "Vivian Tan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25057",
+    "name": "Nishant Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25061",
+    "name": "Chutima Nopparat",
+    "civics_class": "25S02Y",
+    "date": "2024-04-17",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25031",
+    "name": "Nguyen Hoang",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25025",
+    "name": "Sim Wen Jie",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25087",
+    "name": "Mohammad Rizwan",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25022",
+    "name": "Kim Choon Yee",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25018",
+    "name": "Anh Tran",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25050",
+    "name": "Siti Nurhaliza",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25058",
+    "name": "Philippe de la Cruz",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25021",
+    "name": "Tan Yu Wei",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25039",
+    "name": "Lee Xue Ying",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25088",
+    "name": "Prakash Ravi",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25067",
+    "name": "Rina Ong",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25032",
+    "name": "Ali Faisal",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25082",
+    "name": "Tay Mingxuan Cory",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25054",
+    "name": "Lydia Tan",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25023",
+    "name": "Boon Kai Sheng",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25014",
+    "name": "Nguyen Thi Mai",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25065",
+    "name": "Dylan Koh",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25079",
+    "name": "Natasha Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25041",
+    "name": "Kumar Suresh",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25033",
+    "name": "Indira Devi",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25064",
+    "name": "Amy Lim",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25092",
+    "name": "Chen Wei Li",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25049",
+    "name": "Sara Tay",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Absent",
+    "remarks": "Missed Bus recorded."
+  },
+  {
+    "stu_id": "25024",
+    "name": "Tanisha Pillai",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25096",
+    "name": "Yu Hao Ming",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25076",
+    "name": "Aaron Loh",
+    "civics_class": "25S02X",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25089",
+    "name": "Arun Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25071",
+    "name": "Sophia Nguyen",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25095",
+    "name": "Joshua Ong",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "School Competition recorded."
+  },
+  {
+    "stu_id": "25055",
+    "name": "Pravin Nair",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25093",
+    "name": "Cheryl Teo",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25027",
+    "name": "Rahul Reddy",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25097",
+    "name": "Thida Saravuth",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25081",
+    "name": "Zhang Wei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25099",
+    "name": "Chai Ying Xuan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25084",
+    "name": "Sri Rani",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25085",
+    "name": "Tran Minh Quang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25047",
+    "name": "Liu Ying",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25042",
+    "name": "Siti Aisyah",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25063",
+    "name": "Lim Wei Xiang",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Absent",
+    "reason_category": "Valid Family",
+    "remarks": "Urgent Errand recorded."
+  },
+  {
+    "stu_id": "25036",
+    "name": "Sukanya Prasad",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25037",
+    "name": "Lisa Lim",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25044",
+    "name": "Rajesh Varma",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25068",
+    "name": "Nguyen Van Binh",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25073",
+    "name": "Boon Kai Jie",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25056",
+    "name": "Pierre Gonzales",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25053",
+    "name": "Kwan Li Mei",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25030",
+    "name": "Vivian Tan",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25057",
+    "name": "Nishant Kumar",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Present"
+  },
+  {
+    "stu_id": "25061",
+    "name": "Chutima Nopparat",
+    "civics_class": "25S02Y",
+    "date": "2024-04-18",
+    "status": "Absent",
+    "reason_category": "Official Event",
+    "remarks": "National Representation recorded."
+  }
+]

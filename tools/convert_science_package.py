@@ -176,6 +176,9 @@ def convert_pdf(
     return "converted"
 
 
+SKIP_DIR_PARTS = {"origin", "_audit_near_dupes", "_incoming_arranged", "_scan_work"}
+
+
 def iter_pdfs(raw_root: Path, subjects: Iterable[str]) -> list[Path]:
     pdfs: list[Path] = []
     for subject in subjects:
@@ -183,7 +186,11 @@ def iter_pdfs(raw_root: Path, subjects: Iterable[str]) -> list[Path]:
         if not subject_dir.is_dir():
             print(f"SKIP missing subject dir: {subject_dir}")
             continue
-        pdfs.extend(sorted(subject_dir.rglob("*.pdf")))
+        for pdf in sorted(subject_dir.rglob("*.pdf")):
+            parts = set(pdf.relative_to(subject_dir).parts)
+            if parts & SKIP_DIR_PARTS:
+                continue
+            pdfs.append(pdf)
     return pdfs
 
 

@@ -1,0 +1,232 @@
+Date,Student_ID,Reason
+2024-07-01,25049,Alarm clock did not ring
+2024-07-01,25057,Bus arrived late
+2024-07-01,24976,Bus arrived late
+2024-07-02,25039,Heavy traffic
+2024-07-02,25076,Missed the bus
+2024-07-02,24734,Alarm clock did not ring
+2024-07-03,25065,Overslept
+2024-07-03,25092,Missed the bus
+2024-07-03,24893,Missed the bus
+2024-07-04,25036,Alarm clock did not ring
+2024-07-04,25087,Public transport delay
+2024-07-04,24958,Heavy traffic
+2024-07-05,25014,Bus broke down
+2024-07-05,24872,Public transport delay
+2024-07-07,25097,Missed the bus
+2024-07-07,24691,Alarm clock did not ring
+2024-07-08,25018,Alarm clock did not ring
+2024-07-08,25081,Heavy traffic
+2024-07-08,24804,Bus broke down
+2024-07-09,25033,Missed the bus
+2024-07-09,25042,Public transport delay
+2024-07-09,24987,Overslept
+2024-07-10,25030,Bus arrived late
+2024-07-10,25068,Overslept
+2024-07-10,24632,Missed the bus
+2024-07-11,25027,Public transport delay
+2024-07-11,25084,Missed the bus
+2024-07-11,24911,Heavy traffic
+2024-07-12,25041,Bus broke down
+2024-07-12,25063,Heavy traffic
+2024-07-12,24833,Public transport delay
+2024-07-14,25050,Alarm clock did not ring
+2024-07-14,24990,Alarm clock did not ring
+2024-07-15,25031,Missed the bus
+2024-07-15,25088,Overslept
+2024-07-15,25092,Missed the bus
+2024-07-15,24785,Missed the bus
+2024-07-16,25096,Public transport delay
+2024-07-16,25099,Bus arrived late
+2024-07-16,24679,Bus arrived late
+2024-07-17,25032,Missed the bus
+2024-07-17,25044,Heavy traffic
+2024-07-17,24904,Heavy traffic
+2024-07-18,25024,Public transport delay
+2024-07-18,25093,Bus broke down
+2024-07-18,24746,Public transport delay
+2024-07-19,25058,Missed the bus
+2024-07-19,25085,Alarm clock did not ring
+2024-07-19,24953,Alarm clock did not ring
+2024-07-21,25056,Public transport delay
+2024-07-21,24723,Bus broke down
+2024-07-22,25023,Heavy traffic
+2024-07-22,25079,Bus arrived late
+2024-07-22,24896,Overslept
+2024-07-23,25047,Overslept
+2024-07-23,25054,Alarm clock did not ring
+2024-07-23,25092,Missed the bus
+2024-07-23,24902,Missed the bus
+2024-07-24,25053,Bus broke down
+2024-07-24,25089,Missed the bus
+2024-07-24,24658,Heavy traffic
+2024-07-25,25037,Public transport delay
+2024-07-25,25095,Bus arrived late
+2024-07-25,24973,Public transport delay
+2024-07-26,25041,Overslept
+2024-07-26,25071,Alarm clock did not ring
+2024-07-26,24844,Alarm clock did not ring
+2024-07-28,25014,Bus broke down
+2024-07-28,24689,Missed the bus
+2024-07-29,25033,Public transport delay
+2024-07-29,25087,Heavy traffic
+2024-07-29,24931,Bus arrived late
+2024-07-30,25018,Bus arrived late
+2024-07-30,25036,Missed the bus
+2024-07-30,24865,Heavy traffic
+2024-07-31,25063,Heavy traffic
+2024-07-31,25082,Alarm clock did not ring
+2024-07-31,24795,Public transport delay
+2024-08-01,25050,Public transport delay
+2024-08-01,25094,Bus broke down
+2024-08-01,25092,Missed the bus
+2024-08-01,24981,Bus broke down
+2024-08-02,25085,Bus arrived late
+2024-08-02,25093,Missed the bus
+2024-08-02,24829,Alarm clock did not ring
+2024-08-04,25022,Alarm clock did not ring
+2024-08-04,24999,Missed the bus
+2024-08-05,25056,Public transport delay
+2024-08-05,25058,Heavy traffic
+2024-08-05,24819,Heavy traffic
+2024-08-06,25032,Bus arrived late
+2024-08-06,25054,Missed the bus
+2024-08-06,24927,Public transport delay
+2024-08-07,25068,Heavy traffic
+2024-08-07,25081,Alarm clock did not ring
+2024-08-07,25095,Overslept
+2024-08-07,24935,Alarm clock did not ring
+2024-08-08,25047,Bus broke down
+2024-08-08,25055,Overslept
+2024-08-08,25071,Missed the bus
+2024-08-08,25073,Overslept
+2024-08-08,25079,Public transport delay
+2024-08-08,24781,Missed the bus
+2024-08-08,24854,Heavy traffic
+2024-08-11,25037,Public transport delay
+2024-08-11,24921,Public transport delay
+2024-08-12,25057,Alarm clock did not ring
+2024-08-12,25099,Bus arrived late
+2024-08-12,24983,Bus broke down
+2024-08-13,25031,Missed the bus
+2024-08-13,25036,Heavy traffic
+2024-08-13,25047,Missed the bus
+2024-08-13,25073,Overslept
+2024-08-13,24897,Alarm clock did not ring
+2024-08-14,25022,Bus broke down
+2024-08-14,25073,Overslept
+2024-08-14,25076,Public transport delay
+2024-08-14,24693,Missed the bus
+2024-08-15,25033,Overslept
+2024-08-15,25073,Overslept
+2024-08-15,25089,Missed the bus
+2024-08-15,25095,Diarrhea
+2024-08-15,24965,Heavy traffic
+2024-08-16,25063,Public transport delay
+2024-08-16,25095,Bus arrived late
+2024-08-16,24832,Public transport delay
+2024-08-18,25041,Heavy traffic
+2024-08-18,25073,Overslept
+2024-08-18,24679,Alarm clock did not ring
+2024-08-19,25014,Bus broke down
+2024-08-19,25050,Missed the bus
+2024-08-19,24978,Missed the bus
+2024-08-20,25023,Public transport delay
+2024-08-20,25044,Overslept
+2024-08-20,24821,Heavy traffic
+2024-08-21,25073,Overslept
+2024-08-21,25084,Heavy traffic
+2024-08-21,25088,Bus arrived late
+2024-08-21,25092,Missed the bus
+2024-08-21,24999,Public transport delay
+2024-08-22,25018,Alarm clock did not ring
+2024-08-22,25082,Missed the bus
+2024-08-22,24985,Bus broke down
+2024-08-23,25053,Public transport delay
+2024-08-23,25065,Heavy traffic
+2024-08-23,24754,Alarm clock did not ring
+2024-08-25,25093,Missed the bus
+2024-08-25,24683,Missed the bus
+2024-08-26,25024,Bus arrived late
+2024-08-26,25049,Public transport delay
+2024-08-26,24927,Heavy traffic
+2024-08-27,25064,Heavy traffic
+2024-08-27,25068,Missed the bus
+2024-08-27,25073,Overslept
+2024-08-27,24746,Public transport delay
+2024-08-28,25095,Bus broke down
+2024-08-28,25099,Public transport delay
+2024-08-28,24839,Bus broke down
+2024-08-29,25081,Missed the bus
+2024-08-29,25085,Alarm clock did not ring
+2024-08-29,24912,Alarm clock did not ring
+2024-08-30,25027,Bus arrived late
+2024-08-30,25037,Heavy traffic
+2024-08-30,24901,Missed the bus
+2024-09-08,25050,Missed the bus
+2024-09-08,25073,Overslept
+2024-09-08,24849,Alarm clock did not ring
+2024-09-09,25033,Public transport delay
+2024-09-09,25071,Bus arrived late
+2024-09-09,24974,Bus broke down
+2024-09-10,25036,Missed the bus
+2024-09-10,25085,Heavy traffic
+2024-09-10,25092,Missed the bus
+2024-09-10,24699,Missed the bus
+2024-09-11,25041,Public transport delay
+2024-09-11,25042,Bus arrived late
+2024-09-11,24934,Heavy traffic
+2024-09-12,25056,Missed the bus
+2024-09-12,25095,Bus broke down
+2024-09-12,24727,Public transport delay
+2024-09-13,25031,Public transport delay
+2024-09-13,25093,Heavy traffic
+2024-09-13,24953,Alarm clock did not ring
+2024-09-15,25023,Alarm clock did not ring
+2024-09-15,24872,Missed the bus
+2024-09-16,25079,Missed the bus
+2024-09-16,25088,Bus arrived late
+2024-09-16,24683,Bus arrived late
+2024-09-17,25014,Public transport delay
+2024-09-17,25092,Bus broke down
+2024-09-17,24928,Heavy traffic
+2024-09-18,25018,Alarm clock did not ring
+2024-09-18,25063,Missed the bus
+2024-09-18,24964,Public transport delay
+2024-09-19,25044,Heavy traffic
+2024-09-19,25073,Overslept
+2024-09-19,25099,Public transport delay
+2024-09-19,24792,Bus broke down
+2024-09-20,25047,Missed the bus
+2024-09-20,25064,Bus arrived late
+2024-09-20,24856,Alarm clock did not ring
+2024-09-22,25027,Alarm clock did not ring
+2024-09-22,25047,Missed the bus
+2024-09-22,25095,Overslept
+2024-09-22,24918,Missed the bus
+2024-09-23,25047,Missed the bus
+2024-09-23,25057,Bus arrived late
+2024-09-23,24671,Heavy traffic
+2024-09-24,25039,Missed the bus
+2024-09-24,25047,Missed the bus
+2024-09-24,25049,Alarm clock did not ring
+2024-09-24,24937,Public transport delay
+2024-09-25,25081,Bus broke down
+2024-09-25,25084,Public transport delay
+2024-09-25,24890,Bus broke down
+2024-09-26,25047,Missed the bus
+2024-09-26,25053,Missed the bus
+2024-09-26,25065,Heavy traffic
+2024-09-26,24752,Alarm clock did not ring
+2024-09-27,25033,Bus arrived late
+2024-09-27,25073,Overslept
+2024-09-27,25087,Public transport delay
+2024-09-27,24698,Missed the bus
+2024-09-29,25047,Missed the bus
+2024-09-29,25085,Alarm clock did not ring
+2024-09-29,24837,Heavy traffic
+2024-09-30,25047,Missed the bus
+2024-09-30,25058,Heavy traffic
+2024-09-30,25095,Diarrhea
+2024-09-30,25099,Public transport delay
+2024-09-30,24979,Public transport delay

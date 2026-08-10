@@ -1,0 +1,9 @@
+employees = EmployeeLinkedList()
+
+# Adding employees
+employees.AddEmployee("B22", "Tham Song", 60000)
+employees.AddEmployee("A11", "Sam Hay", 50000)
+employees.AddEmployee("D44", "Van Lim", 55000)
+employees.AddEmployee("K66", "Krishnan", 65000)
+employees.AddEmployee("E55", "Wen Bin", 70000)
+employees.AddEmployee("M88", "Yusuf", 80000)

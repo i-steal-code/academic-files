@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transactions</title>
+</head>
+<body>
+    <h1>Transactions</h1>
+    <table border="1">
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+        </tr>
+        {% for transaction in transactions %}
+        <tr>
+            <td>{{ transaction[0] }}</td>
+            <td>{{ transaction[1] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
