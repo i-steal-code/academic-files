@@ -8,9 +8,9 @@ Main package covers (Guardians / Homecoming / Endgame) are discarded.
 
 ```text
 Chap N {Title}/
-  Revision Package 1.pdf   # only for chapters 12–20
-  Revision Package 2.pdf   # only for chapters 1–11
-  Revision Package 3.pdf   # all chapters (second full pass)
+  Chap N Revision Package 1.pdf   # only for chapters 12–20
+  Chap N Revision Package 2.pdf   # only for chapters 1–11
+  Chap N Revision Package 3.pdf   # all chapters (second full pass)
 Data and Formulae Booklet.pdf
 ```
 

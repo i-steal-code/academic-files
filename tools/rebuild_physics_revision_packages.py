@@ -331,7 +331,7 @@ def main() -> int:
         primary = 2 if ch <= 11 else 1
         for pkg in (primary, 3):
             parts = assembled[pkg].get(ch, [])
-            dest = folder / f"Revision Package {pkg}.pdf"
+            dest = folder / f"Chap {ch} Revision Package {pkg}.pdf"
             if not parts:
                 missing.append(f"Chap {ch} missing RP{pkg}")
                 continue

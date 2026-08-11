@@ -22,7 +22,7 @@ Each subject under `raw files/` has a **working tree** (canonical, named, LLM-fa
 **Per-subject working layout**
 
 - **H2 math:** `TYS QP|ANS`, `prelim QP|ANS`, `revision packages/`, `origin/` (A-level / prelim / revision scan bundles)
-- **H2 physics:** `exam papers/{TYS,prelim} {QP|ANS}`, `exam papers/misc/` (TP/CT), `base syllabus/{lect notes,tutorials,tut soln}/`, `revision packages/Chap N …/{Revision Package 1|2, Revision Package 3}.pdf` (+ data booklet), `origin/` (revision scan bundles)
+- **H2 physics:** `exam papers/{TYS,prelim} {QP|ANS}`, `exam papers/misc/` (TP/CT), `base syllabus/{lect notes,tutorials,tut soln}/`, `revision packages/Chap N …/Chap N Revision Package {1|2|3}.pdf` (+ data booklet), `origin/` (revision scan bundles)
 - **H2 computing:** `TYS QP/`, `prelim QP/` — P1 is a single PDF; P2 is a **package** (`…P2…/` with the PDF + `resource files/`). Timed practice under `misc/`. Imports under `origin/`
 - **H1 GP:** `exam papers/{TYS,prelim,promo} {ANS|QP|IN}`, plus `essay resources/`, `topics + case studies/`, `notes/`, `misc/`, `origin/`
 
@@ -99,7 +99,7 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 3. RI prelim 2024 entire; RI P4 QP gaps where only ANS exists; HCI prelim QP+ANS 2021–2025
 4. Optional: spot-check thin chapters (e.g. RP3 Currents is short in source)
 
-**have:** TYS ANS year-bundles 2016–2024; RI prelim QP+ANS for 2021–2023 + 2025; RI TP/CT under `exam papers/misc/`; base syllabus lect notes + tut soln Chap 1–20; `revision packages/Chap N …/` each with **two** sets (`Revision Package 2` for Ch1–11 / `Revision Package 1` for Ch12–20, plus `Revision Package 3`), data booklet at folder root. Rebuild via `tools/rebuild_physics_revision_packages.py`. Originals in `origin/`.
+**have:** TYS ANS year-bundles 2016–2024; RI prelim QP+ANS for 2021–2023 + 2025; RI TP/CT under `exam papers/misc/`; base syllabus lect notes + tut soln Chap 1–20; `revision packages/Chap N …/` each with **two** sets (`Chap N Revision Package 2` for Ch1–11 / `Chap N Revision Package 1` for Ch12–20, plus `Chap N Revision Package 3`), data booklet at folder root. Rebuild via `tools/rebuild_physics_revision_packages.py`. Originals in `origin/`.
 
 ### H2 computing
 
