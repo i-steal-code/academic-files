@@ -3,13 +3,13 @@ File database for LLM qualitative analysis.
 
 ## Resource management overview
 
-Each subject under `raw files/` has a **working tree** (canonical, named, LLM-facing) plus an **`origin/`** vault for original imports.
+Each subject under `raw files/` has a **working tree** (canonical, named, LLM-facing) plus an **`origin/`** vault for original imports. These are the only files that physical humans need to download and read.
 
 | Layer | Role |
 |--------|------|
 | Working folders (`TYS QP` / `TYS ANS`, `prelim QP` / `prelim ANS`, `revision packages`, `exam papers/…`, `base syllabus/…`, `misc/`) | Normalised filenames; what you study and convert |
 | `origin/` | Untouched import bundles (combined scans, Y6 dumps, practical resource zips as received). Not converted |
-| `converted packages/` | LLM indexes mirroring the working tree (not `origin/`) |
+| `converted packages/` | LLM indexes mirroring the working tree. preferred reference documents for all agents working on paper analysis, content retrivial, etc. only refer to raw files in the event that the converted package is insufficient for the task. (not `origin/`) |
 
 **Bookkeeping rules**
 
@@ -23,7 +23,7 @@ Each subject under `raw files/` has a **working tree** (canonical, named, LLM-fa
 
 - **H2 math:** `TYS QP|ANS`, `prelim QP|ANS`, `revision packages/`, `origin/` (A-level / prelim / revision scan bundles)
 - **H2 physics:** `exam papers/{TYS,prelim} {QP|ANS}`, `exam papers/misc/` (TP/CT), `base syllabus/{lect notes,tutorials,tut soln}/`, `revision packages/Chap N …/Chap N Revision Package {1|2|3}.pdf` (+ data booklet), `origin/` (revision scan bundles)
-- **H2 computing:** `TYS QP/`, `prelim QP/` — P1 is a single PDF; P2 is a **package** (`…P2…/` with the PDF + `resource files/`). Timed practice under `misc/`. Imports under `origin/`
+- **H2 computing:** `base syllabus/S1–S4/` contains theory notes and lesson resources; `TYS QP/` and `prelim QP/` use a flat P1 PDF and a P2 **package** (PDF + `resource files/`); other-school CT/MYE/prelim sets are under `Past Exam Papers from Other Schools/`; references are under `base syllabus/reference documents/`; timed practice is under `misc/`; imports are under `origin/`
 - **H1 GP:** `exam papers/{TYS,prelim,promo} {ANS|QP|IN}`, plus `essay resources/`, `topics + case studies/`, `notes/`, `misc/`, `origin/`
 
 Reorg / dedupe helper: `python tools/reorg_subjects_origin_dedupe.py`
@@ -103,10 +103,10 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H2 computing
 
-1. TYS ANS 2020–2025; prelim ANS; HCI prelims; RI prelim 2021–2022
+1. TYS ANS 2020–2025; prelim ANS; HCI prelim 2025; RI prelim 2021–2022
 2. Practical resource fidelity vs origin dumps if you re-import
 
-**have:** TYS QP 2020–2025 (P1 PDF + P2 packages with resources); RI prelim QP 2023–2025 (same shape); timed practice under `misc/`; imports under `origin/`
+**have:** complete S1–S4 theory notes/resources under `base syllabus/`; pseudocode + quick-reference documents under `base syllabus/reference documents/`; TYS QP 2020–2025 (P1 PDF + P2 packages with resources); RI prelim QP 2023–2025 and HCI prelim QP 2023–2024 (same shape); normalized other-school papers for 2022 and 2025; timed practice under `misc/`; imports under `origin/`
 
 ### H1 GP
 
@@ -120,3 +120,7 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 ## Some thoughts
 
 Due to the sheer volume of the A levels (230 marks for physics over 9.5h, 200 for math over 6h, 200 for computing over 6h — 700+ marks over ~24.5h), specialising in whole papers is not feasible for the sciences. Prefer topical mastery of hard/widely applicable topics, adaptation training, and exam strategy with high turnover and disciplined pacing.
+
+## instruction to all agents
+
+STOP wasting tokens by looking at the pdf. USE THE CONVERTED PACKAGES. SAVE TOKENS AND GET BETTER UNDERSTANDING of the content by USING THE CONVERTED PACKAGES. Longer context using the pdfs leads to higher probability of hallucination. 

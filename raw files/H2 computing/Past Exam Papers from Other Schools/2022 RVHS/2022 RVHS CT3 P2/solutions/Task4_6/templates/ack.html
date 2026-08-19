@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Acknowledgement Page</title>
+</head>
+
+<body>
+    <h1>Acknowledgement Page</h1>
+    <p>
+        Dear customer, here are the details of your product:
+    </p>
+    <table width="100%" border="1px">
+        <tr>
+            <th>SerialNo</th>
+            <th>ModelNo</th>
+            <th>ScreenSize</th>
+            <th>Resolution</th>
+            <th>OrderDate</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            {% for item in record %}
+            <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+    </table>
+    <form action="{{url_for('warranty_form')}}" method="POST">
+        <p>
+            Serial No.:
+            <input name="serial_no" value="{{serial_no}}" readonly="True">
+        </p>
+        <p>
+            Please provide us additional details of your request:
+
+        </p>
+        <p>
+            <textarea name="request_message" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+Amanda,45
+Bala,28
+Charlie,33
+Devi,29
+Elon, 51
+Frank, 38

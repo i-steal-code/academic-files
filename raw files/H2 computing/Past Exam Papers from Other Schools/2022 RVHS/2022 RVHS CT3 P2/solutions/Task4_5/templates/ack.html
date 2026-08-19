@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Acknowledgement Page</title>
+</head>
+
+<body>
+    <h1>Acknowledgement Page</h1>
+    <p>
+        Dear customer, we have received your warranty request for the following product. Our friendly customer officer
+        will contact you within 3 working days.
+    </p>
+    <table width="100%" border="1px">
+        <tr>
+            <th>SerialNo</th>
+            <th>ModelNo</th>
+            <th>ScreenSize</th>
+            <th>Resolution</th>
+            <th>OrderDate</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            {% for item in record %}
+            <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+    </table>
+</body>
+
+</html>

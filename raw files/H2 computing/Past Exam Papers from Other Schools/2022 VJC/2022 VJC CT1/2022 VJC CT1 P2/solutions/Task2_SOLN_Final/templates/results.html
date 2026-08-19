@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+	<h1>Results:</h1>
+	<table>
+		<tr>
+			<th>Carpet ID</th>
+			<th>Country of Origin</th>
+			<th>Design Style</th>
+			<th>Price</th>
+		</tr>
+		{% for result in results %}
+		<tr>
+			<td>{{ result[0] }}</td>
+			<td>{{ result[1] }}</td>
+			<td>{{ result[2] }}</td>
+			<td>${{ result[3] }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+	
+	<br>
+	<a href="{{ url_for('filter') }}">Back</a>
+{% endblock %}

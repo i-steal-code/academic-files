@@ -1,33 +1,27 @@
 <!doctype html>
 <html>
 <head>
-<title> web app title </title>
-<link rel='stylesheet' href="{{url_for('static', filename='style.css')}}">
+<title>latecoming search</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-<div class='container'>
-<h1> header 1: latecoming search </h1>
-<!-- error handling: server-side error occured -->
+<div class="container">
+<h1>latecoming search</h1>
 {% if error %}
-<p> {{error}} </p>
-{% endif%}
-<!-- 
-form sending POST request to home function through '/' route
-request.form has 'category' key and 'name' key that 
-point to the entries in the form and can be accessed in app.py
--->
-<form method='POST' action='/'>
-<label> Reason for latecoming: </label>
-<select name='category'>
-<option value='medical'> medical </option>
-<option value='family'> family </option>
-<option value='other'> other </option>
-<option value='Heavy traffic'> Heavy traffic </option>
+<p class="error">{{ error }}</p>
+{% endif %}
+<!-- POST to home; request.form keys match name= on inputs -->
+<form method="POST" action="/">
+<label>reason</label>
+<select name="category">
+<option value="Heavy traffic">Heavy traffic</option>
+<option value="Missed the bus">Missed the bus</option>
+<option value="Overslept">Overslept</option>
+<option value="Alarm clock did not ring">Alarm clock did not ring</option>
 </select>
-
-<label> student name: </label>
-<input type='text' name='name'> 
-<input type='submit' value='submit'>
+<label>student name</label>
+<input type="text" name="name">
+<input type="submit" value="search">
 </form>
 </div>
 </body>

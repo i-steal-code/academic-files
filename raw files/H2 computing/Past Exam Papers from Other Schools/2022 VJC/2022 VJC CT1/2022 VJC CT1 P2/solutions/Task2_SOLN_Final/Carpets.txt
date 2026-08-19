@@ -1,0 +1,11 @@
+1,1100.60,Pakistan,Modern,3
+2,450,Turkey,Contemporary,1
+3,3200.80,Pakistan,Modern,2
+4,5300.88,Turkey,Modern,2
+5,2245.70,Turkey,Traditional,3
+6,768,Pakistan,Modern,1
+7,1000,Afghanistan,Modern,1
+8,890.56,Pakistan,Traditional,2
+9,4900,Turkey,Contemporary,3
+10,1100,Afghanistan,Contemporary,1
+11,500,Pakistan,Traditional,3

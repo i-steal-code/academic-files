@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Confirmation Page</title>
+</head>
+
+<body>
+    <h1>Confirmation Page</h1>
+    <p>
+        Dear customer, we have received your request. Our customer officer will contact you within 3 working days. Thank
+        you!
+    </p>
+    <table width="100%" border="1px">
+        <tr>
+            <th>SerialNo:</th>
+            <td>{{ serial_no }}</td>
+        </tr>
+        <tr>
+            <th>Request Message:</th>
+            <td>{{ request_message }}</td>
+        </tr>
+        <tr>
+            <th>Request Date:</th>
+            <td>{{ date }}</td>
+        </tr>
+    </table>
+</body>
+
+</html>

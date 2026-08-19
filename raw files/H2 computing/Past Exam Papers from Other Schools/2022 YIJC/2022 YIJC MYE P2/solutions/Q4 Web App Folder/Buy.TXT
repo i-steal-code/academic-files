@@ -1,0 +1,12 @@
+SchoolCode,ProductID,Qty,Status
+7612,4,5,Complete
+1292,3,4,Complete
+5252,6,7,Complete
+2245,1,9,Enroute
+3760,2,3,Enroute
+7612,5,2,Enroute
+7612,3,4,Enroute
+7612,2,3,Enroute
+5252,2,2,Pending
+1292,1,2,Pending
+3760,4,8,Pending

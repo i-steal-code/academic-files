@@ -1,0 +1,276 @@
+Code,Course_Title ,Faculty,Level,Full_Time
+AG-AB-1,Agricultural Business Management,Agriculture,BSc,1
+AG-AG-1,Agriculture,Agriculture,BSc,1
+AG-AS-3,Animal Science,Agriculture,BSc,1
+AR-AA-2,Art,Arts,BA,1
+AR-AE-1,Art & English Literature,Arts,BA,1
+AR-AF-3,Art & Film and Theatre,Arts,BA,1
+AR-AH-2,Art & History of Art,Arts,BA,1
+AR-AP-2,Art & Philosophy,Arts,BA,1
+AR-AS-2,Art & Psychology,Arts,BA,1
+AR-AA-3,Ancient Art,Arts,MA,1
+AR-FT-4,Film & Theatre,Arts,BA,1
+AR-TT-3,Film Theatre or Television,Arts,MA,1
+AR-FA-1,Fine Art,Arts,BA,1
+AR-GC-3,Graphic Communication,Arts,BA,1
+AR-TA-1,Theatre Arts Education and Deaf Studies,Arts,BA,1
+CO-AC-3,Applied Computer Science,Computing,BSc,1
+CO-AB-3,Applied Informatics - Biodiversity Informatics,Computing,MSc,1
+CO-CI-4,Applied Informatics - Construction Informatics,Computing,MSc,1
+CO-AT-4,Applied Information Technology,Computing,BSc,1
+CO-AI-2,Artificial Intelligence and Cybernetics,Computing,BSc,1
+CO-AC-4,Artificial Intelligence and Cybernetics,Computing,MEng,1
+CO-CS-2,Computer Science,Computing,BSc,1
+CO-CY-2,Cybernetics,Computing,MEng,1
+CO-CZ-3,Cybernetics,Computing,MSc,1
+CO-DS-3,Digital Signal Processing and Communications,Computing,MSc,1
+CO-EE-3,Electronic Engineering,Computing,BEng,1
+CO-EF-3,Electronic Engineering,Computing,MEng,1
+CO-IA-4,Informatics ,Computing,MSc,0
+CO-IR-3,Informatics by Research,Computing,MSc,1
+CO-ID-4,Information Design,Computing,MA,1
+CO-IM-3,Information Management and Systems,Computing,MSc,1
+CO-IT-1,Information Technology,Computing,BSc,1
+CO-IB-3,Intelligent Buildings,Computing,MSc,1
+CO-PM-2,Project Management,Computing,MSc,1
+CO-PN-1,Project Management,Computing,MSc,0
+CO-RO-3,Robotics,Computing,BSc,1
+CO-RP-1,Robotics,Computing,MEng,1
+CO-BS-3,Building Surveying,Construction,BSc,1
+CO-BE-4,Built Environment Management,Construction,BSc,1
+CO-CC-1,Construction Cost Management,Construction,MSc,1
+CO-CM-3,Construction Management,Construction,BSc,1
+CO-CN-3,Construction Management,Construction,MSc,1
+CO-QS-4,Quantity Surveying,Construction,BSc,1
+EC-AB-4,Accounting and Business,Economics,BA,1
+EC-AE-3,Accounting and Economics,Economics,BA,1
+EC-AE-2,Accounting and Economics ,Economics,BSc,1
+EC-AF-1,Accounting and Financial Management,Economics,MSc,1
+EC-AM-4,Accounting and Management,Economics,BA,1
+EC-BW-4,Banking and Finance in Emerging Economies,Economics,MSc,1
+EC-BX-3,Banking and Financial Systems in the Global Economy,Economics,MSc,1
+EC-BA-3,Business Analysis,Economics,MSc,1
+EC-BR-1,Business and Management Research,Economics,MSc,1
+EC-BM-3,Business and Management,Economics,BA,1
+EC-BN-1,Business and Management,Economics,BA,0
+EC-BO-4,Business and Management in Emerging Markets,Economics,MA,1
+EC-BE-4,Business Economics,Economics,BA,1
+EC-BF-2,Business Economics,Economics,BSc,1
+EC-BG-1,Business Economics,Economics,MSc,1
+EC-BI-2,Business Information Management,Economics,MSc,1
+EC-BS-1,Business Statistics and Marketing,Economics,BSc,1
+EC-BT-2,Business Technology Consulting,Economics,MSc,1
+EC-CF-1,Consumer Behaviour & marketing,Economics,BSc,1
+EC-CP-2,Corporate Finance,Economics,MSc,1
+EC-DF-2,Development Finance,Economics,MSc,1
+EC-DP-2,Development Planning,Economics,MSc,1
+EC-DQ-4,Development Policy Practice and Process,Economics,MSc,1
+EC-DR-4,Developmental Psychopathology,Economics,MA,1
+EC-ED-3,Economic Development in Emerging markets,Economics,MSc,1
+EC-EA-3,Economics,Economics,BA,1
+EC-EB-1,Economics,Economics,BSc,1
+EC-EE-3,Economics & Econometrics,Economics,BSc,1
+EC-FI-2,Finance and Investment banking,Economics,BSc,1
+EC-FE-4,Financial Engineering,Economics,MSc,1
+EC-FR-1,Financial Research,Economics,MSc,1
+EC-FM-2,Financial Risk Management,Economics,MSc,1
+EC-FF-4,Food Economics and marketing,Economics,MSc,1
+EC-FB-4,Food marketing & Business Economics,Economics,BSc,1
+EC-IF-1,International Banking and Financial Services,Economics,MSc,1
+EC-IB-3,International Business,Economics,MSc,1
+EC-IE-2,International Business and Economic Development,Economics,MSc,1
+EC-IG-1,International Business and Finance,Economics,MSc,1
+EC-ID-2,International Economic Development,Economics,MSc,1
+EC-IH-2,International Finance and Economic Development,Economics,MSc,1
+EC-IM-2,International Management and Accounting,Economics,MSc,1
+EC-IR-4,International Relations & Economics,Economics,BA,1
+EC-IS-3,International Securities Investment and banking,Economics,MSc,1
+EC-IT-3,International Shipping and Finance,Economics,MSc,1
+EC-IP-3,Investment and Finance in Property,Economics,BSc,1
+EC-II-1,Investment banking and Islamic Finance,Economics,MSc,1
+EC-IN-3,Investment Management,Economics,MSc,1
+EC-MI-4,Management with Information Technology,Economics,BSc,1
+EC-MM-3,Marketing and International Management,Economics,MSc,1
+EC-RE-1,Real Estate,Economics,BSc,1
+EC-RF-1,Real Estate,Economics,MSc,1
+EC-RG-3,Real Estate,Economics,MSc,1
+EC-RH-4,Real Estate Economics,Economics,MSc,1
+EC-RI-4,Real Estate Finance,Economics,MSc,1
+EC-RJ-3,Real Estate Finance & Investment,Economics,MSc,1
+EC-RK-2,Real Estate Investment & Finance,Economics,MSc,1
+EC-RL-1,Rural Land and Business Management,Economics,MSc,1
+EC-SD-4,Social Development and Sustainable Livelihoods,Economics,MA,1
+EC-EI-1,Economics of International Business and Finance,Economics,MSc,1
+EN-EA-4,English,English,BA,0
+EN-EB-1,English,English,MA,1
+EN-EL-4,English Language,English,BA,1
+EN-EM-2,English Language,English,BA,0
+EN-EN-1,English Language and Literature,English,BA,1
+EN-ET-1,English Language Teaching,English,MA,1
+EN-EO-2,English Literature,English,BA,1
+EN-EE-4,English Literature and European Literature and Culture,English,BA,1
+EN-EF-3,English Literature and Film & Theatre,English,BA,1
+EN-EG-4,English Literature and German,English,BA,1
+EN-ER-1,English Literature and International Relations,English,BA,1
+EN-EI-2,English Literature and Italian,English,BA,1
+EN-EP-2,English Literature and Politics,English,BA,1
+EN-EF-4,English Literature with French,English,BA,1
+EN-MC-1,Modern and Contemporary Writing,English,MA,1
+FR-FE-2,French and Economics,French,BA,1
+FR-FN-3,French and English Literature,French,BA,1
+FR-FG-1,French and German,French,BA,1
+FR-FH-2,French and History,French,BA,1
+FR-FA-3,French and History of Art,French,BA,1
+FR-FR-2,French and International Relations,French,BA,1
+FR-FI-2,French and Italian,French,BA,1
+FR-FM-3,French and Management Studies,French,BA,1
+FR-FS-1,French Studies,French,BA,1
+FR-FT-2,French Studies,French,BA,0
+FR-FL-3,French Studies and English Language,French,BA,1
+FR-FP-1,French Studies and Politics,French,BA,1
+GE-CC-2,Climate Change and Development,Geography,MSc,1
+GE-GE-1,Geoarchaeology,Geography,MSc,1
+GE-GF-1,Geography and Economics,Geography,BSc,1
+GE-HP-4,Human and Physical Geography,Geography,BSc,1
+GE-HG-4,Human Geography,Geography,BSc,1
+GE-MC-1,Meteorology and Climate,Geography,BSc,1
+GE-PG-4,Physical Geography,Geography,BSc,1
+GE-UP-4,Urban Planning and Development,Geography,BSc,1
+GE-GR-3,German & International Relations,German,BA,1
+GE-GE-2,German and Economics,German,BA,1
+GE-GH-4,German and History,German,BA,1
+GE-GA-1,German and History of Art,German,BA,1
+GE-GI-2,German and Italian,German,BA,1
+GE-GP-3,German and Politics,German,BA,1
+GE-GM-3,German and Management Studies,German,BA,1
+GE-GS-1,German Studies,German,BA,1
+GE-GT-2,German Studies,German,BA,0
+GE-GE-3,German Studies and English Language,German,BA,1
+HI-AH-4,Ancient History,History,BA,1
+HI-AA-4,Ancient History & Archaeology,History,BA,1
+HI-HA-3,Ancient History and History,History,BA,1
+HI-AW-3,Archaeology,History,BA,1
+HI-AX-3,Archaeology,History,BA,0
+HI-AY-4,Archaeology,History,BSc,1
+HI-AZ-1,Archaeology,History,MA,1
+HI-AC-4,Archaeology & Classical Studies,History,BA,1
+HI-AH-2,Archaeology & History,History,BA,1
+HI-AI-3,Archaeology & Italian,History,BA,1
+HI-CR-2,City of Rome,History,MA,1
+HI-CM-3,Classical and Medieval Studies,History,BA,1
+HI-CS-1,Classical Studies,History,BA,1
+HI-CE-1,Classical Studies and English Literature,History,BA,1
+HI-CA-2,Classical Studies and History of Art,History,BA,1
+HI-CT-2,Classical Tradition,History,MA,1
+HI-CB-2,Classics,History,BA,1
+HI-CC-4,Classics,History,BA,1
+HI-CD-4,Classics,History,MA,1
+HI-EC-4,European Cultures and Histories,History,BA,1
+HI-HX-2,History,History,BA,1
+HI-HY-4,History,History,BA,1
+HI-HE-2,History and Economics,History,BA,1
+HI-HL-4,History and English Literature,History,BA,1
+HI-HI-2,History and International Relations,History,BA,1
+HI-HH-2,History and Philosophy,History,BA,1
+HI-HP-3,History and Politics,History,BA,1
+HI-HA-1,History of Art,History,BA,1
+HI-HB-1,History of Art,History,BA,1
+HI-HC-3,History of Art & English Literature,History,BA,1
+HI-HD-4,History of Art and Architecture,History,MA,1
+HI-HH-3,History of Art and History,History,BA,1
+HI-MA-3,Medieval Archaeology,History,MA,1
+HI-MS-4,Medieval Studies,History,MA,1
+HI-MT-1,Medieval Studies,History,MA,1
+HI-MH-3,Military History and Strategic Studies,History,MA,1
+HI-MI-1,Modern History,History,MA,1
+HI-MJ-2,Modern History,History,MA,0
+HI-MK-1,Modern History,History,MSc,0
+HI-ML-2,Modern Italian History,History,MA,1
+HI-NC-4,NineteentH-Century Literature and Culture,History,MA,1
+HI-RA-3,Research in Archaeology,History,MA,1
+IT-IC-3,Italian and Classical Studies,Italian,BA,1
+IT-IE-1,Italian and Econmics,Italian,BA,1
+IT-IH-3,Italian and History,Italian,BA,1
+IT-IA-2,Italian and History of Art,Italian,BA,1
+IT-II-1,Italian and International Relations,Italian,BA,1
+IT-IP-3,Italian and Politics,Italian,BA,1
+IT-IM-4,Italian and Management Studies,Italian,BA,1
+IT-IS-3,Italian Studies,Italian,BA,1
+IT-IT-1,Italian Studies,Italian,BA,0
+IT-IL-4,Italian Studies and English Language,Italian,BA,1
+LA-AL-3,Advanced Legal Studies,Law,LLM,1
+LA-EU-2,European Union Law,Law,LLM,1
+LA-IC-3,International Commercial Law,Law,LLM,1
+LA-IF-2,International Corporate Finance,Law,LLM,1
+LA-IR-4,International Financial Regulation,Law,LLM,1
+LA-IL-3,International Law and World Order,Law,LLM,1
+LA-LA-2,Law,Law,LLB,1
+LA-LL-4,Law with Legal Studies in Europe,Law,LLB,1
+MA-CM-2,Computational mathematics,Mathematics,BSc,1
+MA-MA-4,Mathematics,Mathematics,MMath,1
+MA-MB-3,Mathematics,Mathematics,BSc,1
+MA-MC-4,Mathematics,Mathematics,MMath,0
+MA-MP-4,Mathematics and Psychology,Mathematics,BSc,1
+MA-MS-2,Mathematics and Statistics mathematics and Applied Statistics,Mathematics,BSc,1
+MA-SA-2,Statistics / Applied Statistics,Mathematics,BSc,1
+PH-EV-2,Ethics Value & Philosophy,Philosophy,BA,1
+PH-PX-4,Philosophy,Philosophy,BA,1
+PH-PY-3,Philosophy,Philosophy,BA,0
+PH-PZ-3,Philosophy,Philosophy,MA,1
+PH-PC-4,Philosophy and Classical Studies,Philosophy,BA,1
+PH-PE-4,Philosophy and English Literature,Philosophy,BA,1
+PH-PF-1,Philosophy and French,Philosophy,BA,1
+PH-PG-3,Philosophy and German,Philosophy,BA,1
+PH-PR-4,Philosophy and International Relations,Philosophy,BA,1
+PH-PI-2,Philosophy and Italian,Philosophy,BA,1
+PH-PP-1,Philosophy and Politics,Philosophy,BA,1
+PO-PE-1,Politics & Economics,Politics,BA,1
+PO-PR-1,Politics & International Relations,Politics,BA,1
+PS-PS-2,Psychology,Psychology,BSc,1
+PS-PB-4,Psychology & Biology,Psychology,BSc,1
+PS-PP-4,Psychology and Philosophy,Psychology,BA,1
+PS-PC-1,Psychology Childhood and Ageing,Psychology,BSc,1
+PS-PM-2,Psychology Mental and Physical Health,Psychology,BSc,1
+PS-RP-4,Research Methods in Psychology,Psychology,MSc,1
+SC-AD-4,Agricultural Development Economics,Science,MSc,1
+SC-AE-1,Agricultural Economics,Science,MSc,1
+SC-AD-3,Agriculture and Development,Science,MSc,1
+SC-BC-1,Biochemistry,Science,BSc,1
+SC-BS-3,Biological Sciences,Science,BSc,1
+SC-BI-3,Biological Sciences with Industrial Experience,Science,BSc,1
+SC-BT-2,Biomedical Sciences,Science,BSc,1
+SC-BX-3,Biometry,Science,MSc,1
+SC-CR-2,Chemical Research,Science,MSc,1
+SC-CA-4,Chemistry,Science,BSc,1
+SC-CB-4,Chemistry,Science,MChem,1
+SC-CC-1,Chemistry with a Year in Industry,Science,BSc,1
+SC-CD-2,Chemistry with a Year in Industry,Science,MChem,1
+SC-CE-4,Chemistry with Education,Science,BSc,1
+SC-CF-1,Chemistry with Forensic Analysis,Science,BSc,1
+SC-CG-4,Chemistry with Forensic Analysis,Science,MChem,1
+SC-CM-1,Chemistry with Medicinal Chemistry ,Science,MChem,1
+SC-CN-1,Cognitive Neuroscience,Science,MA,1
+SC-DA-2,Data Assimilation and Inverse Modelling in Geosciences,Science,MA,1
+SC-EC-3,Environmental and Countryside Management,Science,BSc,1
+SC-EP-4,Environmental Pollution,Science,MSc,1
+SC-ES-2,Environmental Science,Science,MEnvSci,0
+SC-ET-1,Environmental Science ,Science,MEnvSci,1
+SC-EE-4,Environmental Science with Professional Experience,Science,BSc,1
+SC-FS-3,Food Science,Science,BSc,1
+SC-FT-2,Food Science,Science,MSc,1
+SC-FB-2,Food Science with Business,Science,BSc,1
+SC-FT-3,Food Technology and Bioprocessing,Science,BSc,1
+SC-HO-2,Horticulture,Science,MSc,1
+SC-LM-3,Land Management,Science,BSc,1
+SC-MI-2,Microbiology,Science,BSc,1
+SC-NL-2,Neuroscience of Language,Science,MSc,1
+SC-NF-3,Nutrition and Food Science,Science,BSc,1
+SC-NC-2,Nutrition with Food Consumer Sciences,Science,BSc,1
+SC-PH-2,Pharmacy,Science,MPharm,1
+SC-PD-1,Plant Diversity,Science,MSc,1
+SC-RE-3,Renewable Energy,Science,MSc,1
+SC-RA-4,Research Agricultural and Food Economics,Science,MSc,1
+SC-SE-2,Soils and Environmental Pollution,Science,MSc,1
+SC-SI-4,Species Identification and Survey Skills,Science,MSc,1
+SC-WM-2,Wildlife Management and Conservation,Science,MSc,1
+SC-ZO-4,Zoology,Science,BSc,1

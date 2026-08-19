@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>add late record</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>add late record</h1>
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+<form method="POST" action="{{ url_for('add_late') }}">
+<label>student id</label>
+<input type="text" name="stu_id">
+<label>date (YYYY-MM-DD)</label>
+<input type="text" name="date">
+<label>reason</label>
+<input type="text" name="reason">
+<input type="submit" value="add">
+</form>
+<a href="{{ url_for('home') }}">back</a>
+</div>
+</body>
+</html>

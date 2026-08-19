@@ -1,0 +1,49 @@
+<html>
+<head><title>StoreSG</title></head>
+
+<body>
+<h1> StoreSG: Product Order Form </h1>
+
+<fieldset>
+<legend>Available Products:</legend>
+<table border=1>
+<tr>
+<th>Product ID</th><th>Product Name</th><th>Unit Cost</th>
+</tr>
+
+{% for product in products %}
+<tr>
+<td>{{product[0]}}</td><td>{{product[1]}}</td><td>{{product[2]}}</td>
+</tr>
+{% endfor %}
+
+</table>
+</fieldset>
+
+<form action={{ url_for('ordering') }} method="POST">
+
+<fieldset>
+<legend>Place your order:</legend>
+<label>School Code: </label>
+<input type="text" name="SchoolCode">
+<br>
+<label>Product ID: </label>
+<input type="number" name="ProductID">
+<br>
+<label>Quantity: </label>
+<input type="number" name="Quantity">
+<br>
+<input type="submit" value="Submit">
+</fieldset>
+
+</form>
+</body>
+</html>
+
+<!-- Task 4.3 [1] able to list products by html, table or li  -->
+<!-- Task 4.3 [1] correct jinja code for loop/endfor braces, elements  -->
+
+<!-- Task 4.4 [1] H1 title StoreSG: Product Order Form  -->
+<!-- Task 4.4 [1] correct route/correct POST method stated in question  -->
+<!-- Task 4.4 [1] suitable inputs for schoolcode productid and quantity with var name -->
+<!-- Task 4.4 [1] submit button  -->

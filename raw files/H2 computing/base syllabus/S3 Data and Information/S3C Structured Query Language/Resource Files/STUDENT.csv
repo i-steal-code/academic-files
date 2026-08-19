@@ -1,0 +1,266 @@
+Student_ID,First_Name,Last_Name,Address1,Address2,District,Zip_Code,Telephone,Birth_Date,Course_Code,Tutor_Code
+11Y05132,Julie,Andrews,14 Acacia Avenue,Hilltop,Tawara,4305,545231544,12/8/1993,EC-AB-4,CTY
+13A00261,Annie,Rennie,21 Eaves Hall,Central,Appleton,4314,555123489,1/1/1992,LA-IL-3,CTY
+33A05447,Tracy,Royle,6 Eaves Hall,Central,Appleton,4314,555123489,12/3/1993,EN-MC-1,VPA
+34P01083,Summer,Kacaratchi,14 Eaves Hall,Central,Appleton,4314,555123489,22/1/1993,EC-FB-4,LBR
+35V04147,Karoline,Strauss,38 Eaves Hall,Central,Appleton,4314,555123489,9/3/1993,CO-CY-2,SCO
+36T04790,Sandra,Cooper,9 Eaves Hall,Central,Appleton,4314,555123489,11/2/1993,AR-AA-2,FJO
+37V05103,Stuart,Davies,20 Eaves Hall,Central,Appleton,4314,555123489,14/1/1993,HI-AC-4,BMO
+38Y00915,Jens,Maloi,7 Eaves Hall,Central,Appleton,4314,555123489,30/5/1993,AR-GC-3,SKA
+39P00090,Claire,Turner,37 Eaves Hall,Central,Appleton,4314,555123489,28/6/1993,EC-DP-2,CTY
+40X03763,Karla,Maier,17 Eaves Hall,Central,Appleton,4314,555123489,24/5/1993,AR-AA-3,CMO
+41F04870,Amy,Nichols,40 Eaves Hall,Central,Appleton,4314,555123489,14/2/1993,AG-AG-1,CNO
+42A09200,Antonio,Rangel,28 Eaves Hall,Central,Appleton,4314,555123489,13/7/1993,HI-HH-3,TMI
+43K05732,Dietmar,Strauss,40 Eaves Hall,Central,Appleton,4314,555123489,22/2/1993,FR-FM-3,CNO
+44V06392,Graham,White,1 Eaves Hall,Central,Appleton,4314,555123489,4/3/1985,HI-HA-1,YLO
+112P05295,Kratika,Gupta,12 Eaves Hall,Central,Appleton,4314,555123489,24/7/1993,EN-EO-2,XYU
+132T05424,Didier,Watson,34 Eaves Hall,Central,Appleton,4314,555123489,26/6/1993,AR-AA-2,PHO
+133A05967,Olga,Schneider,4 Eaves Hall,Central,Appleton,4314,555123489,17/7/1993,HI-HB-1,XYU
+134X00364,Peter,Perfection,1 Eaves Hall,Central,Appleton,4314,555123489,9/8/1993,GE-PG-4,YLO
+135X01441,Tomas,Jacobs,40 Eaves Hall,Central,Appleton,4314,555123489,18/7/1993,CO-CY-2,PHO
+136F05362,Elliot,Cotterill,34 Eaves Hall,Central,Appleton,4314,555123489,30/6/1993,AR-AS-2,CCI
+137A01759,Siddharth,Gad,14 Eaves Hall,Central,Appleton,4314,555123489,2/8/1993,HI-AC-4,LBR
+138Y03126,Holly,Chase,12 Eaves Hall,Central,Appleton,4314,555123489,30/6/1993,AR-GC-3,HSC
+139P02384,Peter,Kelly,35 Eaves Hall,Central,Appleton,4314,555123489,23/2/1993,HI-HA-3,AMA
+140K03239,Pat,Pushing,25 Eaves Hall,Central,Appleton,4314,555123489,4/5/1993,HI-MJ-2,CCI
+141Y00092,Louis,Claes,22 Eaves Hall,Central,Appleton,4314,555123489,23/4/1993,CO-ID-4,PHO
+142T04900,Kratika,Dhiman,42 Barn Hall Avenue,Dunes,Appleton,4314,555875634,22/3/1993,MA-MP-4,AVI
+143V03151,Lydia,Blenkinsop,17 Seaview Road,Coastal,Appleton,4314,555871124,11/3/1993,FR-FS-1,LAL
+12X07177,Fatima,Hegde,1 White Knights,,Dunescroft,4303,555124436,19/5/1993,LA-LA-2,BMO
+59P00794,Friederike,Trommler,10 White Knights,,Dunescroft,4303,555127640,12/3/1987,CO-IB-3,BMO
+60K04652,Friedhelm,Beyer,11 White Knights,,Dunescroft,4303,555121034,29/6/1962,HI-AC-4,CTY
+61F02741,Evert,Bayer,7 White Knights,,Dunescroft,4303,555122955,18/3/1993,AR-GC-3,LBR
+62T02818,Pilar,Pagan,12 White Knights,,Dunescroft,4303,555121396,12/2/1993,MA-MS-2,SCO
+63A09613,Nikos,Nicolaides,8 White Knights,,Dunescroft,4303,555127210,27/2/1993,EN-MC-1,CNO
+64Y07794,Suzanne,Miller,13 White Knights,,Dunescroft,4303,555129880,29/6/1993,HI-AC-4,YLO
+65P04861,Toni,Fernandez,15 White Knights,,Dunescroft,4303,555128416,21/2/1993,AR-GC-3,BMO
+66F04539,Jeremy,Pinoir,17 White Knights,,Dunescroft,4303,555124260,11/7/1993,CO-EF-3,VPA
+67F06024,Pablo,Garrido,18 White Knights,,Dunescroft,4303,555124778,24/3/1993,HI-MJ-2,FJO
+68F03780,Holly,Jenkinson,19 White Knights,,Dunescroft,4303,555124293,8/1/1993,IT-IE-1,TMI
+69F06480,Eugenio,Lopez,21 White Knights,,Dunescroft,4303,555126450,10/4/1993,HI-HB-1,CMO
+70A04190,Dawid,Jones,22 White Knights,,Dunescroft,4303,555128123,2/7/1984,LA-IF-2,CMO
+71A04328,Oral,Strauss,25 White Knights,,Dunescroft,4303,555129371,2/3/1993,CO-DS-3,BMO
+72F05992,Gunther,Schmitt,30 White Knights,,Dunescroft,4303,555123745,11/5/1993,CO-EF-3,FJO
+111Y06205,Gerhardt,Weissmuller,3 White Knights,,Dunescroft,4303,555124466,12/6/1993,GE-GE-1,ATS
+158Y05279,Karl,Roth,31 White Knights,,Dunescroft,4303,555127686,16/2/1993,CO-PN-1,VPA
+159K03271,Maria,Schiffer,32 White Knights,,Dunescroft,4303,555127830,29/3/1993,EC-BN-1,YLO
+160A03175,Jim,Roberts,36 White Knights,,Dunescroft,4303,555126517,10/5/1993,AR-AA-3,CMO
+161P01315,Michael,Royle,42 White Knights,,Dunescroft,4303,555121087,6/5/1993,EN-EL-4,VPA
+162K09219,Victor,Castro,37 White Knights,,Dunescroft,4303,555124580,1/2/1993,HI-MS-4,LAL
+163K02256,Traugott,Wexler,39 White Knights,,Dunescroft,4303,555128529,12/2/1965,AG-AG-1,XYU
+164A09361,Rafael,Lopez,40 White Knights,,Dunescroft,4303,555121756,19/1/1993,PH-PC-4,MOL
+165X00314,Juan,Suarez,6 White Knights,,Dunescroft,4303,555123424,12/7/1993,GE-GH-4,VPA
+166X06872,Sharon,Jolley, Sibley Hall,,Dunescroft,4303,555122961,26/7/1993,EC-DF-2,DGE
+167T04853,Lasse,Viren, Sibley Hall,,Dunescroft,4303,555127524,26/2/1993,HI-AC-4,CNO
+168K02721,Tizzy,Oldham, Sibley Hall,,Dunescroft,4303,555125375,7/4/1989,AR-GC-3,AVI
+169F03228,Dewy,Williams, Sibley Hall,,Dunescroft,4303,555127960,10/7/1993,FR-FP-1,CNO
+170F06912,Ray,Floyd, Sibley Hall,,Dunescroft,4303,555128404,12/1/1993,EC-IR-4,AVI
+171A09477,Teresa,Lopez, Sibley Hall,,Dunescroft,4303,555129952,31/1/1993,HI-HP-3,AVI
+51F04496,Karthilene,Platt,43 Gilberd Road,,Dunholme,4303,555122898,5/2/1993,HI-MA-3,XYU
+150T09462,Maria,Petrioni,16 High Street,,Dunholme,4303,555127750,6/2/1993,AR-AP-2,HSC
+104V01645,Jorge,Vega,14 Main Street,Grovecourt,Eccleshill,4303,5551275236,29/4/1993,IT-IH-3,YLO
+91P08776,Amy,Grainger,Manley Hall,Manley,Eccleshill,4303,5551245975,27/1/1993,EC-BO-4,SCO
+16X00269,Patricia,Gunnarson,56 Green Lane,,Littleton,4254,5551128835,5/6/1993,FR-FA-3,TMI
+19P08294,Carmen,Schulze,14 Green Lane,,Littleton,4254,5551168431,20/7/1993,EN-EM-2,CNO
+115A06265,Paul,Clarke,15 Cavendish Avenue,,Littleton,4254,5551179542,2/6/1993,CO-QS-4,PHO
+118F05582,Adelina,Sanger,1 Waterloo Road,,Littleton,4254,5551115145,22/6/1993,HI-HE-2,HSC
+17X04099,Thomas,Vermeulen,35 Dilbridge Road,Dockside,Port Peppard,4302,5551193140,27/4/1989,CO-AC-4,ATS
+26V04290,Lu,Wang,36 Dilbridge Road,Dockside,Port Peppard,4302,5551193503,7/7/1993,EC-MI-4,XYU
+27Y06840,Sergie,Anaya,46 Dilbridge Road,Dockside,Port Peppard,4302,5551277615,31/1/1993,FR-FS-1,CTY
+28F03772,Holly,White,40 Dilbridge Road,Dockside,Port Peppard,4302,5551186911,13/2/1993,HI-MH-3,CTY
+29A03735,Michael,Dribble,40 Dilbridge Road,Dockside,Port Peppard,4302,5551236107,2/5/1993,EC-FR-1,CTY
+30V07319,Pablo,Ramirez,40 Dilbridge Road,Dockside,Port Peppard,4302,5551249212,1/6/1993,IT-IM-4,ATS
+31V03909,Heine,Weissmuller,41 Dilbridge Road,Dockside,Port Peppard,4302,5551183156,20/7/1993,EN-EL-4,VPA
+116X05180,Otmar,Weber,42 Dilbridge Road,Dockside,Port Peppard,4302,5551226362,21/4/1993,HI-AC-4,FJO
+125F03088,Dhruv,Dev,46 Dilbridge Road,Dockside,Port Peppard,4302,5551185486,21/1/1993,AR-GC-3,MOL
+126V05707,Aditya,Jain,44 Dilbridge Road,Dockside,Port Peppard,4302,5551135855,4/7/1993,AR-FT-4,AMA
+127A03076,Bobby,Green,40 Dilbridge Road,Dockside,Port Peppard,4302,5551153518,28/4/1993,CO-CN-3,ATS
+128P01063,Thora,Weissmuller,46 Dilbridge Road,Dockside,Port Peppard,4302,5551224490,14/7/1993,HI-HX-2,CNO
+129V04601,Steffen,Johnson,46 Dilbridge Road,Dockside,Port Peppard,4302,5551175856,1/4/1985,CO-IA-4,BMO
+130Y00327,Michael,Green,40 Dilbridge Road,Dockside,Port Peppard,4302,5551170083,7/2/1993,IT-IS-3,TMI
+14V08817,Karin,Nacht,12 Surfers Lodge,,Stannerley,4297,5551139252,9/5/1993,IT-IS-3,PHO
+52P06128,Peggy,Hedges,3 Surfers Lodge,,Stannerley,4297,5551225769,23/5/1993,EN-EF-4,ATS
+53F02263,Nadine,Ross,14 Surfers Lodge,,Stannerley,4297,5551290136,19/3/1993,AG-AS-3,SKA
+54K08443,Peter,Damji,15 Surfers Lodge,,Stannerley,4297,5551100788,4/3/1993,FR-FL-3,CNO
+55F05873,Angelina,Reliant,16 Surfers Lodge,,Stannerley,4297,5551138457,22/4/1993,CO-EE-3,HSC
+56V05772,Tracy,Cushing,17 Surfers Lodge,,Stannerley,4297,5551175394,20/7/1993,PH-PI-2,CTY
+57F06321,Liontin,Arrowsmith,8 Surfers Lodge,,Stannerley,4297,5551175401,28/3/1993,HI-AH-4,MOL
+58Y04850,Taran,Hafez,35 Surfers Lodge,,Stannerley,4297,5551245046,22/7/1993,HI-AC-4,XYU
+113Y04852,Des,Coupland,20 Surfers Lodge,,Stannerley,4297,5551179139,1/4/1993,AR-GC-3,AMA
+151X02936,Fritz,Bumgarner,21 Surfers Lodge,,Stannerley,4297,5551299395,18/6/1993,EC-IT-3,BMO
+152T07040,Greg,Maury,22 Surfers Lodge,,Stannerley,4297,5551273282,7/4/1993,CO-CS-2,FJO
+153T02734,Dave,Exley,1 Surfers Lodge,,Stannerley,4297,5551230066,31/7/1993,EC-BE-4,YLO
+154F07602,Tracy,Black,24 Surfers Lodge,,Stannerley,4297,5551291298,17/3/1993,GE-GM-3,FJO
+155A06940,Steve,Miller,25 Surfers Lodge,,Stannerley,4297,5551106540,3/4/1993,EN-EN-1,MOL
+156V08362,Jonas,Verdonk,45 Surfers Lodge,,Stannerley,4297,5551110583,6/4/1993,EN-EN-1,VPA
+157T05009,Karsten,Vogel,27 Surfers Lodge,,Stannerley,4297,5551236098,8/6/1993,FR-FG-1,AVI
+92K06180,Siddharth,Afana,73 Letsby Avenue,Blacklane End,Tawara,4308,5551226673,8/7/1993,HI-HC-3,PHO
+99T00433,Emie,McGrew,2 High Street,Blacklane End,Tawara,4308,5551148012,17/3/1973,PH-PR-4,LBR
+100Y04454,Gertrud,Scherer,Cobblers Corner,Blacklane End,Tawara,4308,5551152747,3/2/1993,EN-EF-3,AVI
+101V04579,Uttara,Gharib,14 Vampion Road,Blacklane End,Tawara,4308,5551263497,18/2/1993,FR-FA-3,BMO
+102P01432,Peter,Schuhmacher,13 Christchurch Avenue,Blacklane End,Tawara,4308,5551198787,27/4/1993,EN-EM-2,XYU
+103A00249,Ferdi,Strauss,2 Canberra Way,Blacklane End,Tawara,4308,5551146145,28/7/1993,CO-QS-4,CCI
+105P06958,Dhruv,Anand,1 Canterbury Way,Blacklane End,Tawara,4308,5551294535,30/1/1993,HI-HE-2,AVI
+106V05479,Torsten ,Schulze,Cobblers Corner,Blacklane End,Tawara,4308,5551248945,15/1/1993,CO-AC-4,CCI
+107P07419,Dorothea,Vogel,562 York Street,Blacklane End,Tawara,4308,5551251917,3/5/1993,EC-BF-2,CTY
+108Y05394,Anna,Foster,14 Bluebell Way,Blacklane End,Tawara,4308,5551272587,29/7/1993,EC-ID-2,CCI
+109T08576,Ritu,Avatar,51 Adelaide Close,Blacklane End,Tawara,4308,5551170398,26/5/1993,HI-HH-2,YLO
+110A01933,Kevin,Sgro,12 Adelaide Close,Blacklane End,Tawara,4308,5551235777,21/6/1993,EN-EF-3,MOL
+271X02457,William,Bird,108 East Hall,Campus,Tawara,4309,555124293,5/8/1993,PH-PY-3,MOL
+186X07003,Carla,Black,156 Denley Hall,Campus,Tawara,4309,5551131159,8/8/1993,FR-FP-1,CNO
+194T02718,Eli,Mej?,162 Denley Hall,Campus,Tawara,4309,5551171060,20/3/1993,FR-FA-3,MOL
+199K03696,Jorge,Toledo,164 Broughton Halls,Campus,Tawara,4309,5551225873,14/5/1993,EN-EM-2,TMI
+172T03990,Petra,Maier,165 Denley Hall,Campus,Tawara,4309,5551151531,4/2/1993,CO-QS-4,AVI
+193P00048,Michelle,Simioni,167 Denley Hall,Campus,Tawara,4309,5551218449,28/1/1993,HI-HE-2,VPA
+252V09429,Sandra,Royle,170 Broughton Halls,Campus,Tawara,4309,5551238997,4/4/1993,CO-AC-4,BMO
+225V05467,Pablo,Ramos,189 Broughton Halls,Campus,Tawara,4309,5551145667,8/8/1993,HI-CC-4,CCI
+268A01002,Peter,Ryder,195 East Hall,Campus,Tawara,4309,5551280721,3/6/1993,FR-FL-3,AMA
+183T08244,Chevon,Brownwell,204 Denley Hall,Campus,Tawara,4309,5551258151,6/7/1993,EC-IT-3,AMA
+219F09236,Anna,Taylor,207 Broughton Halls,Campus,Tawara,4309,5551127612,19/7/1993,EC-IB-3,XYU
+191K02938,Mike,Evans,21 Denley Hall,Campus,Tawara,4309,5551161089,6/7/1983,HI-MJ-2,CNO
+262V05152,Don,Govahi,21 East Hall,Campus,Tawara,4309,5551160116,19/6/1993,IT-IH-3,AVI
+180X03459,Antonio,Raya,210 Denley Hall,Campus,Tawara,4309,5551198880,6/7/1989,CO-IT-1,PHO
+260F09973,Anju,Morales,211 East Hall,Campus,Tawara,4309,5551292613,20/5/1993,EC-BI-2,SKA
+253V06495,Sergio,Sisneros,213 Broughton Halls,Campus,Tawara,4309,5551263272,7/6/1993,CO-BS-3,LAL
+251F04018,Vinet,Anand,227 Broughton Halls,Campus,Tawara,4309,5551248657,8/4/1993,HI-HA-1,AMA
+189F00486,Pablo,Sarabia,236 Denley Hall,Campus,Tawara,4309,5551158476,25/5/1993,FR-FA-3,TMI
+250X09840,Peter,Schulze,239 Broughton Halls,Campus,Tawara,4309,5551215594,25/1/1993,EN-EM-2,CNO
+176F03408,Nikos,Georgiardou,257 Denley Hall,Campus,Tawara,4309,5551238283,3/8/1993,CO-QS-4,CNO
+259F09464,Gert,Vogel,267 East Hall,Campus,Tawara,4309,5551138850,11/1/1993,HI-HE-2,BMO
+217T08286,Mauro,Ricciotti,288 Broughton Halls,Campus,Tawara,4309,5551186772,11/1/1993,CO-AC-4,FJO
+234X06810,Liam,OLeary,292 Broughton Halls,Campus,Tawara,4309,5551292281,8/8/1993,MA-MB-3,YLO
+206F03559,Lynda,McPhee,297 Broughton Halls,Campus,Tawara,4309,5551133614,18/1/1993,EC-BS-1,LAL
+254A01997,Ishmael,Contreras,299 Broughton Halls,Campus,Tawara,4309,5551285200,25/6/1993,EC-MI-4,SCO
+226T04601,Anna,Carter,302 Broughton Halls,Campus,Tawara,4309,5551297473,21/3/1993,EC-AF-1,CCI
+185K00097,Sue,Sparks,304 Denley Hall,Campus,Tawara,4309,5551296439,8/2/1993,EC-RH-4,CCI
+247T05949,Dave,Brown,33 Broughton Halls,Campus,Tawara,4309,5551179880,11/1/1993,EN-ET-1,BMO
+239Y02993,Kaneesha,Banker,336 Broughton Halls,Campus,Tawara,4309,5551254375,23/6/1993,EC-SD-4,CMO
+216K01289,Shashank,Ashwani,345 Broughton Halls,Campus,Tawara,4309,5551244759,1/7/1993,AR-AP-2,SKA
+261K06587,Tina,Pratt,347 East Hall,Campus,Tawara,4309,5551243901,22/7/1993,HI-MI-1,TMI
+198X02120,Michael,Ross,354 Denley Hall,Campus,Tawara,4309,5551205530,6/2/1993,FR-FA-3,CCI
+192T08527,Leo,Quattrone,360 Denley Hall,Campus,Tawara,4309,5551222252,4/6/1993,EN-EM-2,BMO
+203K07088,Mohamed,Bansal,361 Broughton Halls,Campus,Tawara,4309,5551107473,13/1/1993,CO-QS-4,CNO
+246A09550,Helen,Cooper,380 Broughton Halls,Campus,Tawara,4309,5551148949,21/7/1993,HI-HE-2,ATS
+237X04288,Duarte,Lopez,382 Broughton Halls,Campus,Tawara,4309,5551239674,6/3/1993,CO-AC-4,XYU
+267X02422,Nicola,Reeves,385 East Hall,Campus,Tawara,4309,5551275256,28/2/1993,MA-SA-2,CNO
+256X04462,Juan,Crespo,395 East Hall,Campus,Tawara,4309,5551201136,29/5/1993,CO-ID-4,LAL
+244K01003,John,Wainwright,4 Broughton Halls,Campus,Tawara,4309,5551231572,9/1/1993,CO-AB-3,CNO
+269Y06547,David,Jones,412 East Hall,Campus,Tawara,4309,5551195064,3/1/1993,HI-NC-4,PHO
+196Y09641,Ludmila,Neto,416 Denley Hall,Campus,Tawara,4309,5551106307,31/5/1993,EN-ER-1,AVI
+228F05681,Dietrich,Saenger,422 Broughton Halls,Campus,Tawara,4309,5551259872,15/2/1993,LA-LL-4,YLO
+213Y03569,Dewang,Gupta,429 Broughton Halls,Campus,Tawara,4309,5551191537,7/1/1993,EN-EE-4,CCI
+210Y09259,Maria,Sisneros,436 Broughton Halls,Campus,Tawara,4309,5551299049,23/1/1993,LA-EU-2,YLO
+195A07888,Rick,Royle,457 Denley Hall,Campus,Tawara,4309,5551273959,9/6/1993,HI-HA-1,CCI
+230F02348,Simon,Jones,47 Broughton Halls,Campus,Tawara,4309,5551182306,5/3/1993,GE-GA-1,MOL
+229V04250,Karla,Browning,477 Broughton Halls,Campus,Tawara,4309,5551183198,9/6/1993,FR-FA-3,XYU
+177P08315,Dietrich,Pfaff,48 Denley Hall,Campus,Tawara,4309,5551130394,13/5/1993,LA-LL-4,TMI
+243K06981,Adone,Francisco Javier,485 Broughton Halls,Campus,Tawara,4309,5551215137,15/4/1993,FR-FA-3,CNO
+236T06473,Ebba,Peeters,496 Broughton Halls,Campus,Tawara,4309,5551129355,27/3/1993,HI-HE-2,CMO
+204X06460,Tim,Cock,503 Broughton Halls,Campus,Tawara,4309,5551258229,9/7/1993,CO-AC-4,SKA
+238P05438,Roberto,Rossignior,503 Broughton Halls,Campus,Tawara,4309,5551153960,23/5/1993,EC-II-1,YLO
+255A05506,Miguel,Valles,511 Broughton Halls,Campus,Tawara,4309,5551243572,13/6/1993,PH-PP-1,LBR
+200X00867,Jorg,Maier,522 Broughton Halls,Campus,Tawara,4309,5551228731,4/8/1993,HI-MI-1,SKA
+202F07359,Jorge,Lugo,53 Broughton Halls,Campus,Tawara,4309,5551153781,8/5/1993,PH-PE-4,CNO
+212P07913,Ankur,Drond,541 Broughton Halls,Campus,Tawara,4309,5551230882,23/3/1993,LA-LL-4,SKA
+270T00313,Billy,Mc Arthur,550 East Hall,Campus,Tawara,4309,5551209440,18/5/1993,FR-FL-3,TMI
+197F06139,Abigail,Richter,563 Denley Hall,Campus,Tawara,4309,5551150541,14/6/1993,LA-LL-4,ATS
+187V08960,Nina,Weiss,573 Denley Hall,Campus,Tawara,4309,5551242316,1/1/1993,PH-PG-3,LBR
+264V09182,Ingrid,Oldham,573 East Hall,Campus,Tawara,4309,5551156452,7/1/1993,EC-RH-4,LAL
+220V02163,Peter,White,581 Broughton Halls,Campus,Tawara,4309,5551145138,25/7/1993,GE-GA-1,LAL
+190X08166,Adheesh,Agrawal,592 Denley Hall,Campus,Tawara,4309,5551164870,20/6/1993,AG-AG-1,PHO
+173F09797,Jorge,Huerta,600 Denley Hall,Campus,Tawara,4309,5551147933,13/4/1993,HI-CT-2,LAL
+223K04165,Chin,Tao,612 Broughton Halls,Campus,Tawara,4309,5551205766,7/1/1980,LA-LL-4,LAL
+222F04552,Francisco Javier,Ramirez,625 Broughton Halls,Campus,Tawara,4309,5551182586,10/3/1993,FR-FA-3,YLO
+227P09971,Sharon,Halfpenny,651 Broughton Halls,Campus,Tawara,4309,5551275433,18/4/1993,GE-GE-3,FJO
+208F06603,Adelina,Mondrag?,669 Broughton Halls,Campus,Tawara,4309,5551162800,8/3/1993,EC-RG-3,VPA
+211K07739,Linda,Morrissey,682 Broughton Halls,Campus,Tawara,4309,5551111727,9/4/1993,HI-HE-2,SCO
+249X04209,Christal,Tello,702 Broughton Halls,Campus,Tawara,4309,5551185772,19/4/1993,AR-AA-2,XYU
+209V05926,Chintu,Singh,703 Broughton Halls,Campus,Tawara,4309,5551167231,10/8/1993,CO-AT-4,LAL
+245Y09917,Anna,Nicolaides,716 Broughton Halls,Campus,Tawara,4309,5551217414,24/4/1993,EC-II-1,FJO
+179A01503,Tomas,Cordero,718 Denley Hall,Campus,Tawara,4309,5551167730,14/3/1993,EC-RH-4,HSC
+215F08311,Luigi,Brown,733 Broughton Halls,Campus,Tawara,4309,5551114477,27/7/1993,HI-HY-4,CNO
+201K01941,Elena,Smith,734 Broughton Halls,Campus,Tawara,4309,5551274926,31/3/1993,EC-FE-4,AMA
+214K02651,Adam,Strauss,756 Broughton Halls,Campus,Tawara,4309,5551126507,2/1/1993,EC-ED-3,BMO
+174Y05314,Pedro,Lopez,761 Denley Hall,Campus,Tawara,4309,5551180281,3/3/1993,EC-FR-1,CTY
+181X06960,Sascha,Metzger,761 Denley Hall,Campus,Tawara,4309,5551101708,8/3/1993,LA-AL-3,SKA
+221A09459,Antonio,Toledo,78 Broughton Halls,Campus,Tawara,4309,5551168759,9/4/1993,EN-EG-4,CTY
+242P01811,Felicity,Oldham,783 Broughton Halls,Campus,Tawara,4309,5551189723,25/2/1993,HI-CT-2,XYU
+231F04281,Peter,Jones,793 Broughton Halls,Campus,Tawara,4309,5551265984,16/1/1993,HI-MJ-2,BMO
+218F08269,Michael,Bresnan,806 Broughton Halls,Campus,Tawara,4309,5551142962,9/4/1993,EC-BM-3,SKA
+258F02201,Robert,Springett,824 East Hall,Campus,Tawara,4309,5551236681,26/4/1993,EC-II-1,VPA
+232K06468,Mohammed,Ahktar,825 Broughton Halls,Campus,Tawara,4309,5551149854,27/6/1993,CO-CM-3,LAL
+273F01396,Ben,Brownlow,839 East Hall,Campus,Tawara,4309,5551278560,17/5/1993,EN-ER-1,SCO
+272X07411,Theresa,Bird,850 East Hall,Campus,Tawara,4309,5551165128,12/3/1993,EC-MI-4,YLO
+233Y07565,Azie,Antonios,86 Broughton Halls,Campus,Tawara,4309,5551157428,15/6/1993,AR-FA-1,MOL
+241T00814,Georgie,Tanner,860 Broughton Halls,Campus,Tawara,4309,5551101007,23/7/1993,EC-IF-1,AVI
+266T09841,Dietrich,Schuhmacher,867 East Hall,Campus,Tawara,4309,5551174778,7/8/1993,HI-CM-3,AMA
+207V02046,Jose,Rasco,889 Broughton Halls,Campus,Tawara,4309,5551283615,28/5/1993,EN-EG-4,SCO
+257P08956,Tanya,Smith,890 East Hall,Campus,Tawara,4309,5551149400,10/2/1993,PH-PI-2,HSC
+224X08994,Fritz,Roth,897 Broughton Halls,Campus,Tawara,4309,5551291982,11/8/1993,EC-IE-2,ATS
+184Y05993,Mathias,Adler,909 Denley Hall,Campus,Tawara,4309,5551100975,4/2/1980,HI-MJ-2,YLO
+248V08435,Tomas,Ghandi,916 Broughton Halls,Campus,Tawara,4309,5551118283,12/2/1990,EC-FR-1,CNO
+265V01499,Shruti,Di Vizio,922 East Hall,Campus,Tawara,4309,5551136238,1/8/1993,HI-MT-1,XYU
+274Y02979,Gillian,Song,923 East Hall,Campus,Tawara,4309,5551168052,15/7/1993,EN-MC-1,CCI
+188X08858,Akshay,Banjarat,926 Denley Hall,Campus,Tawara,4309,5551248114,11/6/1993,LA-IC-3,SKA
+175Y05904,Tia,Tang,929 Denley Hall,Campus,Tawara,4309,5551120034,7/3/1993,FR-FG-1,SKA
+11A03665,Jenny,Kwong,93 East Hall,Campus,Tawara,4309,5551206344,2/7/1993,HI-MI-1,LAL
+263K09850,Suzanne,Hibble,946 East Hall,Campus,Tawara,4309,5551103087,15/5/1993,CO-BS-3,HSC
+235T07219,John,Bailiol,968 Broughton Halls,Campus,Tawara,4309,5551190977,22/5/1993,HI-HY-4,YLO
+182T02433,Susan,Bland,977 Denley Hall,Campus,Tawara,4309,5551268972,3/3/1960,CO-RO-3,CNO
+178Y01575,Michael,Smith,979 Denley Hall,Campus,Tawara,4309,5551171156,20/2/1993,IT-IH-3,BMO
+205A04785,Govind,Dhrahid,994 Broughton Halls,Campus,Tawara,4309,5551102920,6/8/1993,EN-EP-2,CMO
+240V07817,Petr,Vidic,996 Broughton Halls,Campus,Tawara,4309,5551244917,3/7/1993,EC-CF-1,CTY
+45Y05658,Pablo,Bravo,21 Sibley Hall,Eastgates,Tawara,4306,545231544,26/1/1993,HI-HA-3,LBR
+46T01564,Felix,Sankt,14 Sibley Hall,Eastgates,Tawara,4306,545231544,12/12/1988,HI-AW-3,AMA
+47X08379,Juana,Rangel,8 Sibley Hall,Eastgates,Tawara,4306,545231544,17/2/1993,FR-FE-2,YLO
+48T09852,Juan Carlos,Vega,16 Sibley Hall,Eastgates,Tawara,4306,545231544,7/5/1993,HI-HC-3,VPA
+49P04033,Josef,Ritter,12 Sibley Hall,Eastgates,Tawara,4306,880112112,9/2/1993,IT-IM-4,ATS
+50V02805,Agathe,Thalberg,32 Sibley Hall,Eastgates,Tawara,4306,545231544,24/1/1993,CO-EE-3,CMO
+93K08012,Pedro,Garrido,32 Sibley Hall,Eastgates,Tawara,4306,545231544,1/3/1993,PH-PZ-3,LBR
+94V07232,Jennifer,Walker,29 Sibley Hall,Eastgates,Tawara,4306,545231544,17/6/1993,GE-GS-1,BMO
+95T04948,Greg,Garrido,17 Sibley Hall,Eastgates,Tawara,4306,545231544,11/4/1993,HI-AX-3,MOL
+96V08335,Steve,Kaznica,3 Sibley Hall,Eastgates,Tawara,4306,545231544,30/3/1993,GE-GS-1,PTY
+97X06167,Rish,Joshi,17 Sibley Hall,Eastgates,Tawara,4306,545231544,12/4/1993,EC-BG-1,CNO
+98K09191,Laura,Bennett,29 Sibley Hall,Eastgates,Tawara,4306,545231544,3/2/1975,EC-IF-1,XYU
+23X05662,Oliver,Maurer,29 Driffield Road,Portside,Tawara,4306,5551243749,30/4/1993,EN-EE-4,CTY
+24F08085,Soren,Nadel,4 Ahtabs Nape,Portside,Tawara,4306,5551174434,2/1/1982,EC-RL-1,BMO
+25T05595,Lola,Oldham,1 Pine Close,Portside,Tawara,4306,5551220756,4/4/1977,GE-GE-3,LAL
+80T01198,Sagar,Gupta,3 Green Lane,Portside,Tawara,4306,5551129816,2/4/1993,LA-LA-2,CTY
+81K05263,Kate,Gerard,Blandley House,Portside,Tawara,4306,5551148772,13/3/1993,FR-FI-2,AMA
+82T07871,Peter,ODriscoll,1 Beauchamp Road,Portside,Tawara,4306,5551180750,12/5/1993,EC-FI-2,FJO
+83X03982,Yuliana,Song,24 Trafford Walk,Portside,Tawara,4306,5551143340,10/4/1984,HI-AH-2,FJO
+84V07555,Dave,Morris,29 Driffield Road,Portside,Tawara,4306,5551243749,26/3/1993,EN-EN-1,CCI
+85K05632,Dhruv,Hirasaka,2 Trafford Walk,Portside,Tawara,4306,5551176241,13/7/1992,EC-BT-2,CTY
+86T02791,Pedro,Lopez,422 Bluebell Way,Portside,Tawara,4306,5551127700,17/1/1993,HI-AC-4,XYU
+87F03352,Dianne,Turner,Blandley House,Portside,Tawara,4306,5551148772,20/1/1993,EC-IH-2,CMO
+88F08344,Pablo,Castro,17 Beauchamp Road,Portside,Tawara,4306,5551246326,27/5/1993,MA-MP-4,VPA
+89Y06756,Steven,Turner,29 Driffield Road,Portside,Tawara,4306,5551243749,2/3/1980,EC-RI-4,XYU
+90X05036,Peter,Goodyear,29 Driffield Road,Portside,Tawara,4306,5551243749,1/5/1993,CO-RP-1,CTY
+145P02493,Laura,Black,Cheedle Hill,Portside,Tawara,4307,5551175314,17/4/1993,CO-IT-1,CMO
+146P01012,Reinhild,Pfeffer,17 Anchor Lane,Portside,Tawara,4307,5551286029,24/6/1993,AR-AP-2,CMO
+147Y06794,Tiffany,Cox,14 Nippers Alley,Portside,Tawara,4307,5551239314,5/4/1993,HI-NC-4,ATS
+148A08733,Josefine,Barth,42 Driffield Road,Portside,Tawara,4307,5551247057,4/1/1993,HI-HP-3,MOL
+149P02576,Priya,McTaggart,12 The Dreys,Portside,Tawara,4307,5551157518,25/3/1993,MA-MA-4,ATS
+15A00686,Jorge,Lopez,16 Parrs Road,Hilltop,Tawara,4307,5551297291,18/2/1991,CO-DS-3,DGE
+18K00080,Patrick,Oldfield,32 The Crescent,Hilltop,Tawara,4307,5551206698,10/1/1993,FR-FE-2,CTY
+20T08787,Matthias,ONeil,14 Acacia Avenue,Hilltop,Tawara,4305,5551197198,6/1/1993,IT-IA-2,YLO
+21P06241,Alfonso,Irizarry,14 Acacia Avenue,Hilltop,Tawara,4305,5551298600,15/3/1993,EC-AM-4,MOL
+22X02614,Tracy,Smith,14 Acacia Avenue,Hilltop,Tawara,4305,5551185003,19/2/1993,GE-GE-1,PHO
+32T05855,Gertrude,Fischer,27 Acacia Avenue,Hilltop,Tawara,4305,5551261292,16/6/1993,CO-PN-1,CCI
+73F06274,Tanjung,Lu,27 Acacia Avenue,Hilltop,Tawara,4305,5551176876,30/7/1993,LA-IR-4,LBR
+74T01833,Marcus,Adams,27 Acacia Avenue,Hilltop,Tawara,4305,5551153453,25/4/1993,MA-SA-2,CMO
+75A04160,Francisco,Cruz,27 Acacia Avenue,Hilltop,Tawara,4305,5551221652,16/3/1993,FR-FL-3,YLO
+76K02937,Salvador,Garrido,44 Acacia Avenue,Hilltop,Tawara,4305,5551132442,20/4/1993,EC-DR-4,VPA
+77A09339,Carrie,Khan,44 Acacia Avenue,Hilltop,Tawara,4305,5551242919,5/7/1993,EC-IE-2,AVI
+78X02512,David,Tobin,16 Oak Court,Lowwoods,Tawara,4302,5551232201,6/6/1993,EN-EI-2,XYU
+79A00043,Steffi,Beckenbauer,12 Acacia Court,Lowwoods,Tawara,4302,5551253459,14/4/1993,FR-FG-1,PHO
+114K00234,David,Irizarry,32 Ash Court,Lowwoods,Tawara,4302,5551185251,2/2/1993,IT-IS-3,CTY
+117X00059,Angie,White,1 Oak Court,Lowwoods,Tawara,4302,5551169396,5/7/1993,AR-TT-3,BMO
+119T06086,Karl,Seiler,7 Sycamore Court,Lowwoods,Tawara,4302,5551239619,5/1/1993,CO-IM-3,HSC
+120P03952,Dietmar,Pabst,17 Ash Court,Lowwoods,Tawara,4302,5551191874,21/5/1993,LA-AL-3,TMI
+121Y00025,Robin,Tan,12 Maple Court,Lowwoods,Tawara,4302,5551171152,16/7/1993,PH-PI-2,HSC
+122P05671,Teng,Dev,12 Elm Court,Lowwoods,Tawara,4302,5551299987,29/1/1993,EC-BN-1,PTY
+123Y08513,Ana,Mena,2 Sycamore Court,Lowwoods,Tawara,4302,5551249887,24/2/1993,AR-AA-2,VPA
+124A09519,Kiera,Watson,19 Maple Court,Lowwoods,Tawara,4302,5551182064,20/4/1993,LA-AL-3,LAL
+131T09049,Ina,Kaspirov,4 Sycamore Court,Lowwoods,Tawara,4302,5551277696,16/5/1993,HI-MH-3,DGE
+144V04274,Sagar,Dhiman,32 Ash Court,Lowwoods,Tawara,4302,5551185251,5/5/1993,PH-PX-4,PHO

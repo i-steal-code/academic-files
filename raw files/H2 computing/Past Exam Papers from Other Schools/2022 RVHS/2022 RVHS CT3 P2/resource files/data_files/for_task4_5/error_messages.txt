@@ -1,0 +1,30 @@
+Presence Check
+Input: [Empty]
+Error Message:
+Presence check failed. Please enter the serial no. of the product.
+
+Length Check
+Input: abc
+Error Message:
+Length check failed. Please make sure the serial no. has 14 characters.
+
+Format Check1
+Input: SPEK1EHFLK7ECP
+Error Message:
+Format check failed. Please make sure the serial no. starts with "SPEC".
+
+Format Check2
+Input: SPEK1EHFLK7]CP
+Error Message:
+Format check failed. Please make sure the serial no. contains only alphanumeric values.
+
+Check Digit Check
+Input: SPEC1EHFLK7ECJ
+Error Message:
+Check digit failed. Please make sure the serial no. is valid.
+
+
+Valid Input: SPEC1EHFLK7ECP
+
+Acknowledgement Message:
+Dear customer, we have received your warranty request for the following product. Our friendly customer officer will contact you within 3 working days.

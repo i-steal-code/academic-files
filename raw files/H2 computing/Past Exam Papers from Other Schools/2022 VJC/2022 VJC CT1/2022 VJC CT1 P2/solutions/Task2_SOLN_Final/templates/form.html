@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>Filter Carpets</h1>
+    <form name="filter" action="{{ url_for('filter') }}" method="POST">
+		{% if error != None %}
+			<h3 style="color: red;">{{error}}</h3>
+		{% endif %}
+		<br>
+
+		Country:
+		<select name="COUNTRY">
+			{% for country in COUNTRY %}
+				<option value="{{ country }}">{{ country }}</option>
+			{% endfor %}
+		</select>
+		
+		Style:
+		<select name="STYLE">
+			{% for style in STYLE %}
+				<option value="{{ style }}">{{ style }}</option>
+			{% endfor %}
+		</select>
+		<br>
+		<br>
+		<label for="MINPRICE">Minimum Price: $</label>
+		<input type="text" id="MINPRICE" name="MINPRICE"><br>
+		<label for="MAXPRICE">Maximum Price: $</label>
+		<input type="text" id="MAXPRICE" name="MAXPRICE">
+		<br><br>
+        <input type="submit">
+		<br>
+    </form>
+{% endblock %}

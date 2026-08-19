@@ -1,0 +1,142 @@
+[
+  {
+    "product_id": "P111",
+    "name": "Smartphone X",
+    "category": "Electronics",
+    "price": 799.99,
+    "stock": 100
+  },
+  {
+    "product_id": "P222",
+    "name": "Laptop Pro",
+    "category": "Computers",
+    "price": 1299.99,
+    "stock": 50
+  },
+  {
+    "product_id": "P333",
+    "name": "Smart TV Ultra",
+    "category": "TVs",
+    "price": 899.99,
+    "stock": 30
+  },
+  {
+    "product_id": "P444",
+    "name": "Wireless Earbuds",
+    "category": "Audio",
+    "price": 129.99,
+    "stock": 200
+  },
+  {
+    "product_id": "P555",
+    "name": "Tablet Pro",
+    "category": "Electronics",
+    "price": 499.99,
+    "stock": 80
+  },
+  {
+    "product_id": "P666",
+    "name": "Gaming Console Elite",
+    "category": "Gaming",
+    "price": 399.99,
+    "stock": 40
+  },
+  {
+    "product_id": "P777",
+    "name": "4K Camera",
+    "category": "Cameras",
+    "price": 899.99,
+    "stock": 25
+  },
+  {
+    "product_id": "P888",
+    "name": "Smartwatch Pro",
+    "category": "Wearables",
+    "price": 249.99,
+    "stock": 150
+  },
+  {
+    "product_id": "P999",
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "price": 79.99,
+    "stock": 120
+  },
+  {
+    "product_id": "P1010",
+    "name": "Home Theater System",
+    "category": "Audio",
+    "price": 599.99,
+    "stock": 15
+  },
+  {
+    "product_id": "P1011",
+    "name": "UltraWide Monitor",
+    "category": "Computers",
+    "price": 499.99,
+    "stock": 35
+  },
+  {
+    "product_id": "P1012",
+    "name": "Drone Pro",
+    "category": "Cameras",
+    "price": 699.99,
+    "stock": 10
+  },
+  {
+    "product_id": "P1013",
+    "name": "Fitness Tracker",
+    "category": "Wearables",
+    "price": 129.99,
+    "stock": 100
+  },
+  {
+    "product_id": "P1014",
+    "name": "External Hard Drive",
+    "category": "Computers",
+    "price": 89.99,
+    "stock": 50
+  },
+  {
+    "product_id": "P1015",
+    "name": "Robot Vacuum",
+    "category": "Home Appliances",
+    "price": 299.99,
+    "stock": 20
+  },
+  {
+    "product_id": "P1016",
+    "name": "Digital Camera Kit",
+    "category": "Cameras",
+    "price": 499.99,
+    "stock": 15
+  },
+  {
+    "product_id": "P1017",
+    "name": "Wireless Charging Pad",
+    "category": "Accessories",
+    "price": -29.99,
+    "stock": 80
+  },
+  {
+    "product_id": "P1018",
+    "name": "Smart Home Hub",
+    "category": "Home Automation",
+    "price": 159.99,
+    "stock": 25
+  },
+  {
+    "product_id": "P1019",
+    "name": "Electric Scooter",
+    "category": "Outdoor",
+    "price": 499.99,
+    "stock": 10
+  },
+  {
+    "product_id": "P1020",
+    "name": "Wireless Gaming Mouse",
+    "category": "Gaming",
+    "price": 59.99,
+    "stock": 60
+  }
+]

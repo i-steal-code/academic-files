@@ -1,0 +1,134 @@
+[
+  {
+    "customer_id": "C201",
+    "name": "Wei Chen",
+    "email": "wei.chen@example.com",
+    "address": "123 Main Street"
+  },
+  {
+    "customer_id": "C301",
+    "name": "Li Mei",
+    "email": "li.mei@example.com",
+    "address": "456 Oak Avenue"
+  },
+  {
+    "customer_id": "C401",
+    "name": "Kwok Ho",
+    "email": "kwok.ho@example.com",
+    "address": "789 Pine Road"
+  },
+  {
+    "customer_id": "C501",
+    "name": "Siti Aminah",
+    "email": "siti.aminah@example.com",
+    "address": "101 Cedar Lane"
+  },
+  {
+    "customer_id": "C601",
+    "name": "Rahul Raj",
+    "email": "rahul.raj@example.com",
+    "address": "202 Elm Street"
+  },
+  {
+    "customer_id": "C701",
+    "name": "Yuan Zhang",
+    "email": "yuan.zhang@example.com",
+    "address": "303 Bamboo Lane"
+  },
+  {
+    "customer_id": "C801",
+    "name": "Hsin Liu",
+    "email": "hsin.liu@example.com",
+    "address": "504 Orchid Street"
+  },
+  {
+    "customer_id": "C901",
+    "name": "Wai Yee Ng",
+    "email": "wai.yee.ng@example.com",
+    "address": "707 Lotus Avenue"
+  },
+  {
+    "customer_id": "C202",
+    "name": "Wei Jie Tan",
+    "email": "wei.jie.tan@example.com",
+    "address": "909 Jade Road"
+  },
+  {
+    "customer_id": "C302",
+    "name": "Aisyah Binti Abdullah",
+    "email": "aisyah.abdullah@example.com",
+    "address": "101 Palm Lane"
+  },
+  {
+    "customer_id": "C402",
+    "name": "Budi Santoso",
+    "email": "budi.santoso@example.com",
+    "address": "202 Teak Street"
+  },
+  {
+    "customer_id": "C502",
+    "name": "Xiao Ming",
+    "email": "xiao.ming@example.com",
+    "address": "12 Maple Lane"
+  },
+  {
+    "customer_id": "C602",
+    "name": "Chia-Hui Wu",
+    "email": "chia.hui.wu@example.com",
+    "address": "23 Pine Street"
+  },
+  {
+    "customer_id": "C702",
+    "name": "Kai Yip",
+    "email": "kai.yip@example.com",
+    "address": "34 Bamboo Road"
+  },
+  {
+    "customer_id": "C802",
+    "name": "Siti Nurhaliza",
+    "email": "siti.nurhaliza@example.com",
+    "address": "45 Jasmine Avenue"
+  },
+  {
+    "customer_id": "C902",
+    "name": "Subramaniam Raju",
+    "email": "subramaniam.raju@example.com",
+    "address": "56 Orchid Lane"
+  },
+  {
+    "customer_id": "C203",
+    "name": "Adinda Putri",
+    "email": "adinda.putri@example.com",
+    "address": "67 Rose Street"
+  },
+  {
+    "customer_id": "C303",
+    "name": "Hong Sheng",
+    "email": "hong.sheng@example.com",
+    "address": "78 Cherry Road"
+  },
+  {
+    "customer_id": "C403",
+    "name": "Mei Xiu",
+    "email": "mei.xiu@example.com",
+    "address": "89 Plum Avenue"
+  },
+  {
+    "customer_id": "C503",
+    "name": "Ahmad Hakim",
+    "email": "ahmad.hakim@example.com",
+    "address": "90 Oak Lane"
+  },
+  {
+    "customer_id": "C603",
+    "name": "Wei Chen Too",
+    "email": "wei.chen@example.com",
+    "address": "123 Main Street"
+  },
+  {
+    "customer_id": "C703",
+    "name": "Siti Two",
+    "email": "siti.nurhaliza@example.com",
+    "address": "45 Jasmine Avenue"
+  }
+]
