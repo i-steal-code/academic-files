@@ -1,0 +1,144 @@
+MONKEYTYPE BOILERPLATE DRILLS - H2 Computing 9569 Paper 2
+Ordered by regurgitation value DESC. Copy ONE block at a time into
+Monkeytype custom text. Do block 1 until it is reflex, then move down.
+
+Turn OFF punctuation and numbers in Monkeytype (the text supplies its own).
+If line breaks paste badly, use the one-liner under each block.
+
+================================================================
+1. DB OPEN  --  every single database task starts here
+================================================================
+import sqlite3, csv
+conn = sqlite3.connect("data.db")
+conn.row_factory = sqlite3.Row
+cur = conn.cursor()
+
+one-liner:
+import sqlite3, csv conn = sqlite3.connect("data.db") conn.row_factory = sqlite3.Row cur = conn.cursor()
+
+
+================================================================
+2. QUERY + FETCH LOOP  --  the trailing comma is the whole point
+================================================================
+cur.execute("SELECT name, date FROM Late WHERE stu_id = ?", (value,))
+for row in cur.fetchall():
+    print(row["name"], row["date"])
+
+one-liner:
+cur.execute("SELECT name, date FROM Late WHERE stu_id = ?", (value,)) for row in cur.fetchall(): print(row["name"], row["date"])
+
+
+================================================================
+3. FLASK SPINE  --  the four lines that start every web task
+================================================================
+from flask import Flask, render_template, request, redirect, url_for
+import sqlite3
+app = Flask(__name__)
+
+one-liner:
+from flask import Flask, render_template, request, redirect, url_for import sqlite3 app = Flask(__name__)
+
+
+================================================================
+4. GET/POST ROUTE  --  explicit if, and RETURN the redirect
+================================================================
+@app.route("/", methods=["GET", "POST"])
+def home():
+    error = None
+    if request.method == "POST":
+        name = request.form.get("name", "").strip()
+        if not name:
+            error = "Please fill in all fields"
+        else:
+            return redirect(url_for("results", name=name))
+    return render_template("home.html", error=error)
+
+
+================================================================
+5. CSV SEED LOOP  --  the compact form you said to memorise
+================================================================
+with open("STUDENT.csv") as f:
+    reader = csv.reader(f)
+    next(reader)
+    for row in reader:
+        cur.execute("INSERT OR IGNORE INTO Student VALUES (?,?,?,?)", row)
+conn.commit()
+
+one-liner:
+with open("STUDENT.csv") as f: reader = csv.reader(f) next(reader) for row in reader: cur.execute("INSERT OR IGNORE INTO Student VALUES (?,?,?,?)", row) conn.commit()
+
+
+================================================================
+6. JOIN + GROUP BY + HAVING  --  aggregates filter with HAVING
+================================================================
+SELECT Student.name, COUNT(*) AS total
+FROM Student INNER JOIN Late ON Student.stu_id = Late.stu_id
+WHERE Late.reason LIKE ?
+GROUP BY Student.stu_id
+HAVING COUNT(*) >= 2
+ORDER BY total DESC
+
+one-liner:
+SELECT Student.name, COUNT(*) AS total FROM Student INNER JOIN Late ON Student.stu_id = Late.stu_id WHERE Late.reason LIKE ? GROUP BY Student.stu_id HAVING COUNT(*) >= 2 ORDER BY total DESC
+
+
+================================================================
+7. VARIABLE ROUTE + OWN CONNECTION
+================================================================
+@app.route("/results/<category>/<name>")
+def results(category, name):
+    conn = sqlite3.connect("data.db")
+    conn.row_factory = sqlite3.Row
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM Late WHERE reason = ?", (category,))
+    data = cur.fetchall()
+    conn.close()
+    return render_template("results.html", results=data, name=name)
+
+
+================================================================
+8. INSERT ROUTE  --  name must match url_for in the template
+================================================================
+@app.route("/add", methods=["GET", "POST"])
+def add_late():
+    if request.method == "POST":
+        stu_id = request.form.get("stu_id", "").strip()
+        if stu_id:
+            cur.execute("INSERT INTO Late VALUES (?,?,?)", (date, stu_id, reason))
+            conn.commit()
+            return redirect(url_for("home"))
+    return render_template("add.html")
+
+
+================================================================
+9. LEFT JOIN  --  rows with no match on the right
+================================================================
+SELECT Student.name
+FROM Student LEFT OUTER JOIN Late ON Student.stu_id = Late.stu_id
+WHERE Late.stu_id IS NULL AND Student.civicsclass = ?
+
+one-liner:
+SELECT Student.name FROM Student LEFT OUTER JOIN Late ON Student.stu_id = Late.stu_id WHERE Late.stu_id IS NULL AND Student.civicsclass = ?
+
+
+================================================================
+10. SERVER START + JINJA LOOP
+================================================================
+if __name__ == "__main__":
+    app.run(port=5000)
+
+{% for row in results %}<tr><td>{{ row["name"] }}</td></tr>{% endfor %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+================================================================
+ERROR-PRONE FRAGMENTS  --  short, high-frequency, type these last
+================================================================
+(value,)
+("%" + name + "%",)
+conn.row_factory = sqlite3.Row
+methods=["GET", "POST"]
+return redirect(url_for("home"))
+request.form.get("name", "").strip()
+HAVING COUNT(*) >= 2
+WHERE Late.stu_id IS NULL
