@@ -66,6 +66,27 @@ def classify(name: str) -> tuple[str, str]:
     stem = clean_stem(name)
     low = stem.lower()
 
+    # RI/HCI Y6 prelims sometimes arrive labelled "A-level"
+    if ("full set" in low or "y6" in low or "preliminary" in low) and re.search(
+        r"\b(ri|hci|njc)\b", low
+    ):
+        year_m = re.search(r"(20\d{2})", stem)
+        year = year_m.group(1) if year_m else ""
+        school = "HCI" if "hci" in low else "NJC" if "njc" in low else "RI"
+        paper = "P1" if ("p1" in low or "paper 1" in low) else "P2"
+        if "insert" in low:
+            role = "IN"
+        elif any(k in low for k in ("ms", "ans", "answer", "full set")):
+            role = "ANS" if "full set" not in low else "QP"
+        elif "qp" in low:
+            role = "QP"
+        else:
+            role = "QP"
+        if "full set" in low:
+            return "exam papers/misc", f"{year} {school} {paper} prelim H1 GP FULL SET{ext}"
+        if year:
+            return f"exam papers/prelim {role}", f"{year} {school} {paper} prelim H1 GP{ext}"
+
     # --- Official A-Level / TYS ---
     if re.search(r"\b(a[\s-]?level|gce)\b", low) or re.match(r"202[45]\s+a\s*level", low):
         year_m = re.search(r"(20\d{2})", stem)
@@ -79,15 +100,31 @@ def classify(name: str) -> tuple[str, str]:
             return "exam papers/TYS QP", f"{year} P1 A-level H1 GP{ext}".strip()
         if "paper 2" in low and "qp" in low:
             return "exam papers/TYS QP", f"{year} P2 A-level H1 GP{ext}".strip()
-        if re.search(r"paper\s*2$", low):
-            # Unlabelled Paper 2 companion (not QP/IN/ANS) — keep in misc with clear name
-            return "exam papers/misc", f"{year} P2 A-level H1 GP (unlabelled){ext}".strip()
+        if "full set" in low:
+            return "exam papers/misc", f"{year} P2 A-level H1 GP FULL SET{ext}".strip()
+        if re.search(r"paper\s*2$", low) or "unlabelled" in low:
+            # Combined or unlabelled national P2 — TYS QP, not misc
+            return "exam papers/TYS QP", f"{year} P2 A-level H1 GP{ext}".strip()
         return "exam papers/misc", f"{stem}{ext}"
 
-    # --- Named prelims (unknown school → misc unless clearly school) ---
+    # --- Named-school prelims → prelim folders; unknown school stays misc ---
     if "prelim" in low:
         year_m = re.search(r"(20\d{2})", stem)
         year = year_m.group(1) if year_m else ""
+        school = None
+        for s in ("HCI", "NJC", "ACJC", "VJC", "EJC", "CJC", "SAJC", "TJC", "NYJC", "JPJC", "TMJC", "DHS", "RVHS", "ASRJC", "RI"):
+            if re.search(rf"\b{s.lower()}\b", low) or (s == "RI" and re.search(r"\bri\b", low)):
+                school = s
+                break
+        paper = "P1" if ("p1" in low or "paper 1" in low) else "P2"
+        if "insert" in low or (re.search(r"\bin\b", low) and "qp" not in low):
+            role = "IN"
+        elif any(k in low for k in ("ms", "ans", "answer")):
+            role = "ANS"
+        else:
+            role = "QP"
+        if school and year:
+            return f"exam papers/prelim {role}", f"{year} {school} {paper} prelim H1 GP{ext}"
         if "insert" in low or re.search(r"\bin\b", low):
             return "exam papers/misc", f"{year} Prelim P2 IN A-level H1 GP{ext}".strip() if year else f"{stem}{ext}"
         if "p1" in low or "paper 1" in low:

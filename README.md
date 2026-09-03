@@ -77,8 +77,8 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 ## Naming
 
 - TYS: `YYYY PX A-level H2 {subject}.pdf` (physics TYS ANS currently year-bundled: `YYYY A-level H2 physics.pdf`)
-- Prelims: `YYYY {RI|HCI} PX prelim H2 {subject}.pdf` (GP: `YYYY {RI|HCI} PX prelim H1 GP.pdf`) — use **prelim**, not `A-level`, so these are not confused with national papers
-- Promo (GP extras): keep `YYYY {RI|HCI} PX A-level H1 GP.pdf` under `promo *` folders (folder already marks promo)
+- Prelims: `YYYY {RI|HCI} PX prelim H2 {subject}.pdf` (GP: `YYYY {school} PX prelim H1 GP.pdf`) — use **prelim**, not `A-level`, so these are not confused with national papers
+- Promo (GP extras): keep `YYYY {RI|HCI} PX A-level H1 GP.pdf` under `promo *` folders (folder already marks promo). Pre-8881 (8807) papers live under `exam papers/misc/not 8881/`
 - Folder holds ANS vs QP (not repeated in filename); GP P2 also uses `prelim IN` / `promo IN` for comprehension inserts
 - Computing P2 working units are folders: `YYYY [RI ]P2 prelim H2 computing/` (or TYS `… A-level …`) containing the PDF + `resource files/`
 - GP essay models keep readable titles under `essay resources/` (`essay - {question}.pdf`); periodicals as `YYYY KS Bull Issue N.pdf`
@@ -110,12 +110,20 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H1 GP
 
-1. TYS entire (P1 essay + P2 compre, QP + ANS + P2 IN) — folders empty
-2. P1 essay prelims RI + HCI 2021–2025 — none in prelim folders
-3. P2 compre prelims: RI 2021–2023, 2025 split set (have 2024 RI QP+ANS+IN; 2025 RI only as FULL SET in misc); HCI 2021–2023 (have 2024–2025 HCI QP+ANS+IN)
-4. Promo sets are extras: have RI Y5 Promo 2024–2025 QP+ANS+IN
+8881 started with the 2024 A-level. Count sittings (year + school/national + P1/P2), not loose files.
 
-**have:** normalised under `raw files/H1 GP/` as above. Tuition dump previously unpacked via `tools/reorg_gp_tuition.py`. Markdown mirrors: `python tools/convert_gp_package.py` (skips files >40MB, e.g. gitignored 2020 KS Bull Issue 1).
+1. TYS ANS 2024 P2; 2025 P2 ANS is SAQ/summary/NIT only (`(no AQ)`). Also missing 2024 P1 QP
+2. P1 essay prelims as full sittings — none (multi-school 2025 question list is under `essay resources/`, not a paper)
+3. P2 compre prelims: RI 2021–2022; HCI 2021–2023; other schools except 2024 NJC
+
+**have:**
+- TYS: 2024 P2 QP+IN; 2025 P1 QP; 2025 P2 QP+IN; 2025 P2 ANS (no AQ)
+- Prelim P2 complete (QP+IN+ANS): 2024 HCI, 2024 RI, 2024 NJC, 2025 HCI, 2025 RI
+- Promo P2 complete: 2024–2025 RI Y5
+- 8807 / pre-8881: `exam papers/misc/not 8881/` (2023 RI P2; 2017 DHS Arts; 2023 TMJC JC1 Parental Guidance)
+- 8881 practice P2 packs remain under `exam papers/misc/` (Comedy, Rules, Democracy, …)
+
+Tuition dump previously unpacked via `tools/reorg_gp_tuition.py`. Markdown mirrors: `python tools/convert_gp_package.py` (skips files >40MB, e.g. gitignored 2020 KS Bull Issue 1).
 
 ## Some thoughts
 
