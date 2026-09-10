@@ -109,7 +109,7 @@ changing area changes magnetic flux and leads to there being d(phi)
 using formula for phi, d(phi) and for induced emf to solve
 
 rotating coil in B: flux and emf vs t
-rotating coil in B changes theta so flux linkage changes in a wave motion. use formula 
+rotating coil in B changes theta so flux linkage changes in a wave motion. use formula of flux linkage to 
 
 rod on rails / sliding bar: motional emf; steady speed on a slope
 
