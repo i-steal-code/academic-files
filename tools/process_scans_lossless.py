@@ -672,7 +672,27 @@ def process_math_revision(pdf: Path, report: Report, flags: list[Flag]):
 
 
 def process_math_prelim(pdf: Path, report: Report, flags: list[Flag]):
-    """Light cover/footer split for RI prelim compilation — lossless copy."""
+    """DEPRECATED for production use.
+
+    Prior OCR/ink cover detection dropped front pages (boundaries drifted).
+    Use tools/resplit_math_ri_prelims.py with verified cover indices instead.
+    """
+    flags.append(
+        Flag(
+            pdf.name,
+            0,
+            "deprecated_math_prelim_splitter",
+            "Use tools/resplit_math_ri_prelims.py --apply",
+        )
+    )
+    print(
+        "ERROR: process_math_prelim is deprecated (missing-front-page bug). "
+        "Run: python tools/resplit_math_ri_prelims.py --apply",
+        flush=True,
+    )
+    return
+
+    # --- legacy body retained below for reference (unreachable) ---
     print(f"\n== MATH PRELIM {pdf.name} (lossless)", flush=True)
     doc = fitz.open(pdf)
     n = doc.page_count

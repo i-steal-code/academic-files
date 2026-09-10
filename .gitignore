@@ -15,3 +15,7 @@ __pycache__/
 # Exceeds GitHub 100MB limit; keep local only
 raw files/H1 GP/essay resources/2020 KS Bull Issue 1.pdf
 
+
+# Scan/re-split work products (local only)
+tools/_scan_work/
+
