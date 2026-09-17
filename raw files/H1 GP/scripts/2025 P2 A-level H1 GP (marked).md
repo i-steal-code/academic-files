@@ -1,7 +1,7 @@
 # 2025 P2 A-level H1 GP — marked script (En Ping)
 
 Paper: 8881/02 2025 national (AI). Done **before** J2 Set 19 Traditional Family.
-Source dump: `raw files/H1 GP/GP 2025 A lvl paper en ping.md` (removed after filing).
+Source dump was filed into this script and removed from `raw files/H1 GP/` (one-off import, not a living note).
 National QP/IN in repo are image-only; scoring uses the **model** column in the import plus house SAQ rules.
 AQ body: not in the import.
 

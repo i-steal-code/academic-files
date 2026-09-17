@@ -6,25 +6,25 @@
 ch 19 quantum
 
 photon energy and momentum; E = hf = hc/lambda
-
+speed of light is c so E = hf. This uses concept of debroglie wavelength to calculate energy of a photon using planck's constant and a bunch of other things
 
 photoelectric: work function, threshold f, max KE; what intensity does / does not
 
 
 why photon excitation is all-or-nothing vs electron bombardment with leftover KE
-
+photon excitation needs to match the excitement energy to the amount of energy delivered by the photon as the quantum of photon energy has no continuous value of energy to have leftover KE like with electrons. 
 
 hydrogen / atom energy levels: emission vs absorption; find lambda from delta E
-
+hydrogen energy levels are negative, with each energy level representing how much energy is needed to separate all sub-atomic particles to infinity. when the energy level goes down, energy is emmitted via photons as EM radiation. 
 
 infinite well: En formula; probability density |psi|^2; mean position by symmetry
-
+infinite well ensures that the particle will always exist within the space of x=0 to x=L as it cannot gain infinite energy to escape the infinite potential well. This keeps probability function as 1 (particle can definitely be found in the space). probability density function follows sqrt(2/L) sin^2(nm/L) (i think) and has a sine wave that have probabilities that add up to 1. ends of the walls are nodes for this sine wave. the mean position of the particle can be found by symmetry (L/2) because of the properties of the wave function, and sometimes the mean position can be a position that has a 0 probability on the wavefunction (because its a mean). 
 
 Heisenberg: delta x delta p; order-of-magnitude estimates
-
+product of uncertainty of position and uncertainty of momentum gives a larger than approximate value for planck's constant; the more certain the position, the more uncetain the momentum
 
 wave-particle evidence: name one wave and one particle phenomenon
-
+wave phenomenon observed in YDSE and particle phenomenon in photo-electric effect; light is both a particle and a wave at the same time (later on we figured its acually more so a quantum of energy)
 
 ch 20 nuclear
 

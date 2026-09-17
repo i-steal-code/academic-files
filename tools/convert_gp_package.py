@@ -63,7 +63,7 @@ def load_manifest(path: Path) -> dict | None:
     if not path.is_file():
         return None
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError):
         return None
 

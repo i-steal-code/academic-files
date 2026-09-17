@@ -9,11 +9,12 @@ Pick **one** spine. The other case is **one cousin sentence**, not a second dump
 | Paper 1 flavour | Spine | Cousin (one sentence) |
 |---|---|---|
 | Democracy / polarisation / populism / truth | US 2024 | COVID mandate wars trained the distrust |
+| Governance / state vs capital / corruption | US 2024 + §H (rich→state / state→rich / state-is-rich) | KR chaebol or CN common prosperity as **one** cousin |
 | War / IR / UN / hypocrisy / alliances | US 2024 + two wars | COVID vaccine nationalism = earlier “us first” |
 | Media / short-form / protest | US 2024 + Gaza feeds | COVID infodemic |
 | Science / health / ethics of medicine | COVID | US as vaccine-nationalist great power |
-| Education / youth / childhood | COVID learning loss | US youth + Gaza / TikTok politics |
-| Inequality / class / migrant labour | COVID (dorms + Zoom) | US inflation revolt |
+| Education / youth / childhood / meritocracy | Education (`07`) — pressure cooker or leaking vessel | COVID learning loss; or US youth + feeds as cousin |
+| Inequality / class / migrant labour | COVID (dorms + Zoom) | US inflation revolt; or Education (`07`) zip code / hagwon |
 | Work / technology / digitalisation | COVID pull-forward | US AI/deepfake election |
 | Environment | COVID emissions dip (careful) | Ukraine energy shock |
 | Arts / “non-essential” culture | COVID theatres | Gaza cultural boycotts |

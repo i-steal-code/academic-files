@@ -109,9 +109,10 @@ changing area changes magnetic flux and leads to there being d(phi)
 using formula for phi, d(phi) and for induced emf to solve
 
 rotating coil in B: flux and emf vs t
-rotating coil in B changes theta so flux linkage changes in a wave motion. use formula of flux linkage to 
+rotating coil in B changes theta so flux linkage changes in a wave motion. use formula of flux linkage to calculate
 
 rod on rails / sliding bar: motional emf; steady speed on a slope
-
+use current flow + B-field to determine direction of motion, and various formula above to determine magnitude of force. steady speed, downward force is neutralised by back emf that counters downward force, resulting in net 0 force at a certain point, so N1L and constant velocity. similar logic applies for going up, moving rails induces back emf to oppose and neutralise force.
 
 eddy currents: heating or damping qualitative
+eddy currents induced by change in magnetic flux can become I^2R joule heating, or in some contexts (magnet falling through conductive pipe) induce an emf that in turn produces its own magnetic field which opposes the field of the magnet falling, creating a damping effect for the free-fall of the magnet in the conductive pipe. 
