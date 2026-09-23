@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>directory hits</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>matches</h1>
+<ul>
+{% for row in people %}
+<li>{{ row.surname }}, {{ row.given }} — {{ row.department }} ({{ row.staff_id }})</li>
+{% else %}
+<li>none</li>
+{% endfor %}
+</ul>
+<p><a href="{{ url_for('desk') }}">back</a></p>
+</div>
+</body>
+</html>

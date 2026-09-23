@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>log absence</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>log absence</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="POST" action="{{ url_for('log_absence') }}">
+<label>member id</label>
+<input type="text" name="mid">
+<label>date (YYYY-MM-DD)</label>
+<input type="text" name="when">
+<label>session</label>
+<select name="sess">
+<option value="Training">Training</option>
+<option value="Match">Match</option>
+</select>
+<input type="submit" value="save">
+</form>
+<p><a href="{{ url_for('portal') }}">back</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>staff directory</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>staff directory</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="POST" action="{{ url_for('desk') }}">
+<label>department</label>
+<input type="text" name="dept_query">
+<label>surname contains</label>
+<input type="text" name="surname_query">
+<input type="submit" value="find">
+</form>
+<p><a href="{{ url_for('hire') }}">add staff</a></p>
+</div>
+</body>
+</html>

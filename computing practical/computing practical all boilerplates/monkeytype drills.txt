@@ -1,144 +1,36 @@
-MONKEYTYPE BOILERPLATE DRILLS - H2 Computing 9569 Paper 2
-Ordered by regurgitation value DESC. Copy ONE block at a time into
-Monkeytype custom text. Do block 1 until it is reflex, then move down.
+EPOCH 3 — paste ONE section block. Literal \t and \n are control chars.
+Comments are the lesson (understanding > WPM). Readable: monkeytype drills epoch3 source.py
+Dropped: linear, bubble, iterative-as-separate, S&S Hash, crumb spam, flask-mongo.
+Order: R1 → S1-S4 → A1-A4 → P1 → D1-D3 → F1 → O1 → K1
 
-Turn OFF punctuation and numbers in Monkeytype (the text supplies its own).
-If line breaks paste badly, use the one-liner under each block.
+# R1 recursion patterns (S&S misc)\ndef Fact(n):\n\t# factorial: n! = n * (n-1) * ... * 1\n\t# base case stops the stack — without it, Fact keeps calling forever (overflow)\n\tif n <= 1:\n\t\treturn 1\n\t# recursive case: one multiply + a smaller Fact; stack unwinds after base returns\n\treturn n * Fact(n - 1)\n\ndef Sum1toN(n):\n\t# same shape as Fact: combine current n with answer for n-1\n\t# base: nothing left to add\n\tif n <= 0:\n\t\treturn 0\n\treturn n + Sum1toN(n - 1)\n\ndef ReverseString(s):\n\t# build reversed string from the outside in\n\t# base: empty or one character is already reversed\n\tif len(s) <= 1:\n\t\treturn s\n\t# last char sits at the front; recurse on the prefix s[:-1]\n\treturn s[-1] + ReverseString(s[:-1])
 
-================================================================
-1. DB OPEN  --  every single database task starts here
-================================================================
-import sqlite3, csv
-conn = sqlite3.connect("data.db")
-conn.row_factory = sqlite3.Row
-cur = conn.cursor()
+# S1 binary search (recursive is the form to type; iterative = same logic)\n# recursive binary search — sorted Arr only\ndef BinarySearch(Arr, FindValue, Low, High):\n\t# invariant: if FindValue exists, it lies in Arr[Low..High] inclusive\n\t# empty window (bounds crossed) => absent — check this BEFORE using middle\n\tif Low > High:\n\t\treturn -1\n\t# mid index of the current window (integer divide)\n\tmiddle = (Low + High) // 2\n\tif Arr[middle] == FindValue:\n\t\treturn middle  # hit\n\telif FindValue < Arr[middle]:\n\t\t# target is left of middle — discard middle and everything to its right\n\t\t# MUST return the recursive call; High = middle-1 so the window shrinks\n\t\treturn BinarySearch(Arr, FindValue, Low, middle - 1)\n\telse:\n\t\t# target is right of middle — discard middle and everything to its left\n\t\t# Low = middle+1; using bare middle would infinite-loop on the same window\n\t\treturn BinarySearch(Arr, FindValue, middle + 1, High)\n# ±1 drops middle because it was already tested and is not in the remaining region\n#\n# iterative twin (do not paste separately): replace recursion with\n#   while Low <= High:  ... High = middle-1 or Low = middle+1 ...\n# same comparisons; no call stack; return -1 when the while ends
 
-one-liner:
-import sqlite3, csv conn = sqlite3.connect("data.db") conn.row_factory = sqlite3.Row cur = conn.cursor()
+# S2 insertion sort\ndef InsertionSort(Arr):\n\t# Arr[0..i-1] is already sorted; i walks through the unsorted tail\n\tfor i in range(1, len(Arr)):\n\t\tcurrent = Arr[i]  # card pulled from the unsorted portion\n\t\tj = i - 1\n\t\t# walk left through the sorted prefix; shift anything bigger than current right\n\t\t# (do NOT pop() the last element into a fake prefix — that breaks the sort)\n\t\twhile j >= 0 and Arr[j] > current:\n\t\t\tArr[j + 1] = Arr[j]  # shift right; leaves a hole behind\n\t\t\tj -= 1  # step left\n\t\t# loop ends one index PAST the insertion spot, so the hole is at j+1\n\t\tArr[j + 1] = current  # drop current into the sorted portion\n\treturn Arr
 
+# S3 partition + quicksort\ndef partition(arr, first, last):\n\t# Hoare-style school partition: first element is the pivot\n\tpivotvalue = arr[first]\n\tleftmark = first + 1  # starts just after pivot\n\trightmark = last  # starts at the right end of this slice\n\tdone = False\n\twhile not done:  # keep going until the marks cross\n\t\t# IMPORTANT: test bounds BEFORE arr[leftmark] or you get IndexError\n\t\twhile leftmark <= rightmark and arr[leftmark] <= pivotvalue:\n\t\t\t# still <= pivot — keep moving right\n\t\t\tleftmark += 1\n\t\twhile rightmark >= leftmark and arr[rightmark] >= pivotvalue:\n\t\t\t# still >= pivot — keep moving left\n\t\t\trightmark -= 1\n\t\tif rightmark < leftmark:\n\t\t\t# marks crossed — no more pair swaps\n\t\t\tdone = True\n\t\telse:\n\t\t\t# both marks found something on the wrong side — swap them\n\t\t\ttemp = arr[leftmark]\n\t\t\tarr[leftmark] = arr[rightmark]\n\t\t\tarr[rightmark] = temp\n\t# final step: park pivot at rightmark — THIS is its final sorted index\n\t# (stopping after the mid-swaps without this step leaves the pivot wrong)\n\tarr[first] = arr[rightmark]\n\tarr[rightmark] = pivotvalue\n\treturn rightmark  # split point for the two recursive halves\n\ndef quickSort(array, first, last):\n\t# one or zero elements: already sorted — stop\n\tif first < last:\n\t\tsplit = partition(array, first, last)  # one pivot fixed forever at split\n\t\tquickSort(array, first, split - 1)  # sort left of pivot\n\t\tquickSort(array, split + 1, last)  # sort right of pivot\n\treturn array
 
-================================================================
-2. QUERY + FETCH LOOP  --  the trailing comma is the whole point
-================================================================
-cur.execute("SELECT name, date FROM Late WHERE stu_id = ?", (value,))
-for row in cur.fetchall():
-    print(row["name"], row["date"])
+# S4 merge + mergesort\ndef merge(array, low, mid, high):\n\t# copy the two halves out — array[low..mid] and array[mid+1..high]\n\tleft = array[low : mid + 1]\n\tright = array[mid + 1 : high + 1]\n\t# after divide-and-conquer, left and right are already sorted runs\n\t# using copies means this merge is NOT an in-place algorithm\n\tl = 0  # read head of left\n\tr = 0  # read head of right\n\ta = low  # write position back into the original array\n\t# repeatedly take the smaller head until one run is empty\n\twhile l < len(left) and r < len(right):\n\t\tif left[l] <= right[r]:\n\t\t\tarray[a] = left[l]\n\t\t\tl += 1\n\t\telse:\n\t\t\tarray[a] = right[r]\n\t\t\tr += 1\n\t\ta += 1\n\t# drain whichever run still has leftovers (only one of these loops runs)\n\twhile l < len(left):\n\t\tarray[a] = left[l]\n\t\tl += 1\n\t\ta += 1\n\twhile r < len(right):\n\t\tarray[a] = right[r]\n\t\tr += 1\n\t\ta += 1\n\treturn array  # range [low..high] is now one sorted run\n\ndef mergeSort(array, low, high):\n\t# single element is trivially sorted\n\tif low < high:\n\t\t# divide — same mid idea as binary search\n\t\tmid = (low + high) // 2\n\t\tmergeSort(array, low, mid)  # sort left half (keeps splitting)\n\t\tmergeSort(array, mid + 1, high)  # sort right half\n\t\t# conquer — as the call stack unwinds, merge sorted halves back together\n\t\tmerge(array, low, mid, high)\n\treturn array  # same list object throughout; sorted in-range
 
-one-liner:
-cur.execute("SELECT name, date FROM Late WHERE stu_id = ?", (value,)) for row in cur.fetchall(): print(row["name"], row["date"])
+# A1 node\nclass Node:\n\tdef __init__(self, data=None):\n\t\t# double-underscore = name-mangled "private"; outside code uses getters/setters\n\t\tself.__data = data  # payload stored in this node\n\t\tself.__right = None  # link to next node; None means end of chain\n\n\tdef get_data(self):\n\t\t# read access without touching __data from outside the class\n\t\treturn self.__data\n\n\tdef set_data(self, data):\n\t\t# write access — keeps encapsulation even for a simple field\n\t\tself.__data = data\n\n\tdef get_right(self):\n\t\t# follow the chain one step; None ⇒ you are on the tail\n\t\treturn self.__right\n\n\tdef set_right(self, right):\n\t\t# rewire the link (insert / delete both end here)\n\t\tself.__right = right
 
+# A2 linked list core (ADT.ipynb)\n# LinkedList shell assumed: __start = None, is_empty() → __start is None\n# (typing the shell alone is low EV once you know the pattern)\ndef insert_end(self, data):\n\tnew = Node()\n\tnew.set_data(data)\n\t# empty list: new node becomes the head\n\t# no sentinel node; never use a mutable default like Node() in a signature\n\tif self.is_empty():\n\t\tself.__start = new\n\telse:\n\t\t# walk to the last node (its right link is None)\n\t\tcurrent = self.__start\n\t\twhile current.get_right() is not None:\n\t\t\tcurrent = current.get_right()\n\t\tcurrent.set_right(new)  # hook new onto the tail\n\ndef search(self, data):\n\t# linear scan along the chain — same idea as LinearSearch, but on links not indexes\n\tcurrent = self.__start\n\t# loop on the NODE itself — testing get_right() in the while would skip the tail\n\twhile current is not None and current.get_data() != data:\n\t\tcurrent = current.get_right()\n\treturn current  # Node if found, else None\n\ndef delete(self, data):\n\tif self.is_empty():\n\t\treturn\n\t# HEAD case: there is no previous node — just move start forward\n\t# (calling previous.set_right here would crash; bare except would hide the bug)\n\tif self.__start.get_data() == data:\n\t\tself.__start = self.__start.get_right()\n\t\treturn\n\tprevious = None\n\tcurrent = self.__start\n\twhile current is not None and current.get_data() != data:\n\t\tprevious = current\n\t\tcurrent = current.get_right()\n\tif current is None:\n\t\treturn  # not found — leave list unchanged\n\t# bypass current: previous now points at current's successor\n\tprevious.set_right(current.get_right())
 
-================================================================
-3. FLASK SPINE  --  the four lines that start every web task
-================================================================
-from flask import Flask, render_template, request, redirect, url_for
-import sqlite3
-app = Flask(__name__)
+# A3 BST insert + traversals\n# TreeNode = Node with get_left/set_left + get_right/set_right (same encapsulation idea)\ndef insert(self, data):\n\tnew = TreeNode(data)\n\t# empty tree: first insert becomes the root\n\tif self.__root is None:\n\t\tself.__root = new\n\t\treturn\n\tcurrent = self.__root\n\twhile current:\n\t\t# BST rule: <= goes left, > goes right (duplicates allowed on left here)\n\t\tif data <= current.get_data():\n\t\t\tif current.get_left() is None:\n\t\t\t\tcurrent.set_left(new)  # found the empty child slot\n\t\t\t\treturn\n\t\t\tcurrent = current.get_left()  # keep walking left\n\t\telse:\n\t\t\tif current.get_right() is None:\n\t\t\t\tcurrent.set_right(new)\n\t\t\t\treturn\n\t\t\tcurrent = current.get_right()\n\ndef in_order(self, node):\n\t# MUST take a node so recursion can walk subtrees (do not hardcode self.__root only)\n\t# left → visit → right  ⇒  keys come out in ascending order\n\tif node is not None:\n\t\tself.in_order(node.get_left())\n\t\tprint(node.get_data())\n\t\tself.in_order(node.get_right())\n\ndef pre_order(self, node):\n\t# same recursion skeleton; visit moved to the FRONT\n\t# visit → left → right  ⇒  root first (useful for copying / prefix forms)\n\tif node is not None:\n\t\tprint(node.get_data())\n\t\tself.pre_order(node.get_left())\n\t\tself.pre_order(node.get_right())\n\ndef post_order(self, node):\n\t# visit moved to the END\n\t# left → right → visit  ⇒  children before parent (useful for deleting / postfix)\n\tif node is not None:\n\t\tself.post_order(node.get_left())\n\t\tself.post_order(node.get_right())\n\t\tprint(node.get_data())
 
-one-liner:
-from flask import Flask, render_template, request, redirect, url_for import sqlite3 app = Flask(__name__)
+# A4 hash table (separate chaining)\nclass HashTable:\n\tdef __init__(self, N):\n\t\tself.__n = N  # table size = number of buckets\n\t\t# N SEPARATE LinkedLists — NEVER [LinkedList()] * N (that shares ONE list object)\n\t\t# list comprehension builds N independent chains for collisions\n\t\tself.__arr = [LinkedList() for _ in range(N)]\n\n\tdef hash_function(self, key):\n\t\t# map key → bucket index in 0 .. N-1\n\t\treturn key % self.__n\n\n\tdef insert(self, key):\n\t\t# land in one bucket, then treat that bucket as a normal linked list\n\t\tbucket = self.__arr[self.hash_function(key)]\n\t\t# skip if already in this chain (search returns Node or None)\n\t\tif bucket.search(key) is None:\n\t\t\tbucket.insert_front(key)  # insert_front lives on LinkedList — not typed alone\n\n\tdef search(self, key):\n\t\t# use self.__arr (not bare arr); convert Node/None into a bool for the caller\n\t\treturn self.__arr[self.hash_function(key)].search(key) is not None
 
+# P1 JSON files (POOP misc)\nimport json\n\ndef load_json(filename):\n\t# open text file → json.load → Python list or dict (depends on the file's top-level shape)\n\t# encoding matters on Windows; always pass utf-8 for exam-style data files\n\twith open(filename, encoding="utf-8") as f:\n\t\treturn json.load(f)\n\ndef save_json(filename, data):\n\t# reverse path: Python object → JSON text on disk\n\t# "w" truncates/creates; indent=2 is for humans (optional in exams)\n\twith open(filename, "w", encoding="utf-8") as f:\n\t\tjson.dump(data, f, indent=2)
 
-================================================================
-4. GET/POST ROUTE  --  explicit if, and RETURN the redirect
-================================================================
-@app.route("/", methods=["GET", "POST"])
-def home():
-    error = None
-    if request.method == "POST":
-        name = request.form.get("name", "").strip()
-        if not name:
-            error = "Please fill in all fields"
-        else:
-            return redirect(url_for("results", name=name))
-    return render_template("home.html", error=error)
+# D1 db open + csv seed (DB.ipynb spine)\nimport sqlite3, csv\n\nconn = sqlite3.connect("college.db")\n# Row lets you use row["name"] instead of tuple indexes\nconn.row_factory = sqlite3.Row\ncur = conn.cursor()\n\nwith open("STUDENT.csv") as file:\n\treader = csv.reader(file)\n\tnext(reader)  # skip header row\n\tfor row in reader:\n\t\t# ? placeholders — never splice user input into the SQL string\n\t\tcur.execute("""\n\t\t\tINSERT OR IGNORE INTO Student(stu_id, name, civics_class, handphone)\n\t\t\tVALUES (?,?,?,?)\n\t\t""", (row[0], row[1], row[2], row[3]))\nconn.commit()
 
+# D2 parameterised CRUD (trailing comma matters)\n# (25999,) is a one-tuple — the comma is required or Python passes a bare int\n# ? placeholders bind values safely; never f-string user input into the SQL text\ncur.execute("SELECT name, civics_class FROM Student WHERE stu_id = ?", (25999,))\nrow = cur.fetchone()  # Row or None if no match — check before unpacking in real code\nfor i in row:\n\tprint(i)\n\n# UPDATE/DELETE also take a tuple of params; commit or the change never hits disk\ncur.execute("UPDATE Student SET name = ? WHERE stu_id = ?", ("Renamed Student", 25999))\ncur.execute("DELETE FROM Student WHERE stu_id = ?", (25999,))\nconn.commit()
 
-================================================================
-5. CSV SEED LOOP  --  the compact form you said to memorise
-================================================================
-with open("STUDENT.csv") as f:
-    reader = csv.reader(f)
-    next(reader)
-    for row in reader:
-        cur.execute("INSERT OR IGNORE INTO Student VALUES (?,?,?,?)", row)
-conn.commit()
+# D3 JOIN / HAVING / LIKE / never-late\n# INNER JOIN: only students who have at least one matching Late row\ncur.execute("""\nSELECT Student.name, Late.date, Late.reason\nFROM Student INNER JOIN Late ON Student.stu_id = Late.stu_id\nWHERE Student.civics_class = ?\nORDER BY Late.date\n""", ("25S02X",))\nfor row in cur.fetchall():\n\tprint(row['name'], row['date'], row['reason'])\n\n# WHERE filters rows BEFORE grouping; HAVING filters groups AFTER COUNT\n# aggregates like COUNT(*) must not go in WHERE\ncur.execute("""\nSELECT Student.civics_class, COUNT(*) AS total\nFROM Student INNER JOIN Late ON Student.stu_id = Late.stu_id\nGROUP BY Student.civics_class\nHAVING COUNT(*) >= 3;\n""")\nfor row in cur.fetchall():\n\tprint(row['civics_class'], row['total'])\n\n# LIKE wildcards live in the Python tuple, not glued into the SQL text\ncur.execute("SELECT name FROM Student WHERE name LIKE ?", ("%Li%",))\n\n# never-late: keep all students (LEFT JOIN); no Late row ⇒ Late.stu_id IS NULL\ncur.execute("""\nSELECT Student.name\nFROM Student LEFT OUTER JOIN Late ON Student.stu_id = Late.stu_id\nWHERE Late.stu_id IS NULL AND Student.civics_class = ?\n""", (c,))
 
-one-liner:
-with open("STUDENT.csv") as f: reader = csv.reader(f) next(reader) for row in reader: cur.execute("INSERT OR IGNORE INTO Student VALUES (?,?,?,?)", row) conn.commit()
+# F1 flask wiring (WEB DEV.ipynb)\nfrom flask import Flask, render_template, request, redirect, url_for\nimport sqlite3, csv\n\napp = Flask(__name__)\n\ndef get_db():\n\tconn = sqlite3.connect("database.db")\n\tconn.row_factory = sqlite3.Row\n\treturn conn\n\n@app.route("/", methods=["GET", "POST"])\ndef home():\n\terror = None\n\tif request.method == "POST":\n\t\t# keys must match HTML name="category" / name="name" exactly (typos fail silently)\n\t\tcategory = request.form.get("category", "").strip()\n\t\tname = request.form.get("name", "").strip()\n\t\tif name and category:\n\t\t\t# MUST return redirect — constructing the object alone does nothing\n\t\t\treturn redirect(url_for("results", category=category, name=name))\n\t\terror = "Please fill in all fields"\n\treturn render_template("home.html", error=error)\n\n@app.route("/results/<category>/<name>")\ndef results(category, name):\n\t# function name "results" must match url_for("results", ...)\n\tconn = get_db()\n\tcur = conn.cursor()\n\tcur.execute("""\n\t\tSELECT student.Student_Name, student.Class_Group, late.Date, late.Reason\n\t\tFROM student INNER JOIN late ON student.Student_ID = late.Student_ID\n\t\tWHERE student.Student_Name LIKE ? AND late.Reason = ?\n\t""", (f"%{name}%", category))\n\tdata = cur.fetchall()\n\tconn.close()\n\treturn render_template("results.html", results=data, category=category, name=name)\n\n@app.route("/add", methods=["GET", "POST"])\ndef add_late():\n\t# template uses url_for('add_late') — this def name is not optional\n\terror = None\n\tif request.method == "POST":\n\t\tstu_id = request.form.get("stu_id", "").strip()\n\t\tdate = request.form.get("date", "").strip()\n\t\treason = request.form.get("reason", "").strip()\n\t\tif not (stu_id and date and reason):\n\t\t\terror = "Please fill in all fields"\n\t\telse:\n\t\t\tconn = get_db()\n\t\t\tcur = conn.cursor()\n\t\t\tcur.execute("INSERT INTO late VALUES (?,?,?)", (date, stu_id, reason))\n\t\t\tconn.commit()\n\t\t\tconn.close()\n\t\t\treturn redirect(url_for("home"))\n\treturn render_template("add.html", error=error)\n\nif __name__ == "__main__":\n\tapp.run(port=5000)
 
+# O1 OOP (POOP.ipynb)\nclass Resource:\n\tdef __init__(self, ID, title):\n\t\tself.__id = ID  # private — outside code uses getters\n\t\tself.__title = title\n\n\tdef get_id(self):\n\t\treturn self.__id\n\n\tdef get_title(self):\n\t\treturn self.__title\n\n\tdef set_title(self, title):\n\t\tself.__title = title\n\n\tdef describe(self):\n\t\treturn f"Resource {self.__id}: {self.__title}"\n\nclass DigitalResource(Resource):\n\tdef __init__(self, ID, title, filesize):\n\t\t# chain parent constructor first (inheritance setup)\n\t\tsuper().__init__(ID, title)\n\t\tself.__filesize = int(filesize)\n\n\tdef describe(self):\n\t\t# override — polymorphism: same method name, child behaviour\n\t\t# use getters for parent privates; do not touch parent __attrs directly\n\t\treturn f"Digital Resource {self.get_id()}: {self.get_title()} ({self.__filesize} MB)"
 
-================================================================
-6. JOIN + GROUP BY + HAVING  --  aggregates filter with HAVING
-================================================================
-SELECT Student.name, COUNT(*) AS total
-FROM Student INNER JOIN Late ON Student.stu_id = Late.stu_id
-WHERE Late.reason LIKE ?
-GROUP BY Student.stu_id
-HAVING COUNT(*) >= 2
-ORDER BY total DESC
-
-one-liner:
-SELECT Student.name, COUNT(*) AS total FROM Student INNER JOIN Late ON Student.stu_id = Late.stu_id WHERE Late.reason LIKE ? GROUP BY Student.stu_id HAVING COUNT(*) >= 2 ORDER BY total DESC
-
-
-================================================================
-7. VARIABLE ROUTE + OWN CONNECTION
-================================================================
-@app.route("/results/<category>/<name>")
-def results(category, name):
-    conn = sqlite3.connect("data.db")
-    conn.row_factory = sqlite3.Row
-    cur = conn.cursor()
-    cur.execute("SELECT * FROM Late WHERE reason = ?", (category,))
-    data = cur.fetchall()
-    conn.close()
-    return render_template("results.html", results=data, name=name)
-
-
-================================================================
-8. INSERT ROUTE  --  name must match url_for in the template
-================================================================
-@app.route("/add", methods=["GET", "POST"])
-def add_late():
-    if request.method == "POST":
-        stu_id = request.form.get("stu_id", "").strip()
-        if stu_id:
-            cur.execute("INSERT INTO Late VALUES (?,?,?)", (date, stu_id, reason))
-            conn.commit()
-            return redirect(url_for("home"))
-    return render_template("add.html")
-
-
-================================================================
-9. LEFT JOIN  --  rows with no match on the right
-================================================================
-SELECT Student.name
-FROM Student LEFT OUTER JOIN Late ON Student.stu_id = Late.stu_id
-WHERE Late.stu_id IS NULL AND Student.civicsclass = ?
-
-one-liner:
-SELECT Student.name FROM Student LEFT OUTER JOIN Late ON Student.stu_id = Late.stu_id WHERE Late.stu_id IS NULL AND Student.civicsclass = ?
-
-
-================================================================
-10. SERVER START + JINJA LOOP
-================================================================
-if __name__ == "__main__":
-    app.run(port=5000)
-
-{% for row in results %}<tr><td>{{ row["name"] }}</td></tr>{% endfor %}
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
-
-================================================================
-ERROR-PRONE FRAGMENTS  --  short, high-frequency, type these last
-================================================================
-(value,)
-("%" + name + "%",)
-conn.row_factory = sqlite3.Row
-methods=["GET", "POST"]
-return redirect(url_for("home"))
-request.form.get("name", "").strip()
-HAVING COUNT(*) >= 2
-WHERE Late.stu_id IS NULL
+# K1 sockets brush-up (SOCKETS.ipynb)\ndef recv_line(sock):\n\t# TCP gives a byte stream, not messages — recv(1024) may be partial or combined\n\t# keep reading until a newline delimiter arrives (or the peer closes)\n\tdata = b""\n\twhile b"\n" not in data:\n\t\tchunk = sock.recv(1024)\n\t\tif not chunk:\n\t\t\tbreak  # peer closed; return whatever we have so far\n\t\tdata += chunk\n\treturn data.decode("utf-8").strip()\n\n# server spine: socket() → bind → listen → accept → loop recv_line / sendall → close\n# client spine: socket() → connect → sendall((line+"\n").encode()) → recv → close\n# always encode before send / decode after recv (utf-8); P2 usually needs one client at a time\n# sendall, not send — send may write only part of the buffer

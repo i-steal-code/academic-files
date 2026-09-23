@@ -9,15 +9,16 @@ Each subject under `raw files/` has a **working tree** (canonical, named, LLM-fa
 |--------|------|
 | Working folders (`TYS QP` / `TYS ANS`, `prelim QP` / `prelim ANS`, `revision packages`, `exam papers/…`, `base syllabus/…`, `misc/`) | Normalised filenames; what you study and convert |
 | `origin/` | Untouched import bundles (combined scans, Y6 dumps, practical resource zips as received). Not converted |
+| `unfiled/` | **Local inbox** (gitignored): cache new documents here before filing into a subject library |
 | `converted packages/` | LLM indexes mirroring the working tree. preferred reference documents for all agents working on paper analysis, content retrivial, etc. only refer to raw files in the event that the converted package is insufficient for the task. (not `origin/`) |
 
 **Bookkeeping rules**
 
-1. New dumps go into `origin/` first (or stay there after split).
-2. Split / rename into the working tree with the naming scheme below.
+1. New documents to format into the library land in `raw files/unfiled/` first (gitignored cache).
+2. File / rename into the subject working tree (or park originals under that subject's `origin/` when keeping an untouched bundle).
 3. Bitwise-identical duplicates are deleted; keep the canonical path.
 4. Near-duplicates (same paper, different bytes) are resolved by hand — **born-digital / text-layer editions always beat scans** of the same paper.
-5. Converters skip `origin/` and (by default with `-SkipMisc`) archived `misc/` practice.
+5. Converters skip `origin/`, `unfiled/`, and (by default with `-SkipMisc`) archived `misc/` practice.
 6. Scan re-splits must not overwrite a working-tree PDF that already has a real text layer (`tools/resplit_math_ri_prelims.py` enforces this).
 
 **Per-subject working layout**

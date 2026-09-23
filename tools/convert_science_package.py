@@ -176,7 +176,7 @@ def convert_pdf(
     return "converted"
 
 
-SKIP_DIR_PARTS = {"origin", "_audit_near_dupes", "_incoming_arranged", "_scan_work"}
+SKIP_DIR_PARTS = {"origin", "_audit_near_dupes", "_incoming_arranged", "_scan_work", "unfiled"}
 
 
 def iter_pdfs(raw_root: Path, subjects: Iterable[str]) -> list[Path]:

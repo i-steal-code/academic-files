@@ -1,0 +1,45 @@
+---
+description: Keep Jupyter .ipynb notebooks nbformat-valid when editing
+globs: "**/*.ipynb"
+alwaysApply: false
+---
+
+# Jupyter notebook edits (9569 practical boilerplates)
+
+Recurring Cursor/IDE validation failures on these notebooks:
+1. `stream` outputs missing required `"name"` (must be `"stdout"` or `"stderr"`)
+2. Cells missing `"id"` (nbformat warning → future hard error)
+
+## After any notebook edit in this session
+
+Run:
+
+```bash
+py -3 tools/fix_ipynb.py "<path-to-edited.ipynb>"
+```
+
+Or for all practical boilerplates:
+
+```bash
+py -3 tools/fix_ipynb.py
+```
+
+Do not leave the turn until that command prints `OK` for the files you touched.
+
+## When writing/editing notebook JSON yourself
+
+- Every `code` cell must have: `cell_type`, `metadata`, `source` (list of strings), `outputs` (list), `execution_count` (number or `null`), and an `id`.
+- Prefer **clearing outputs** (`outputs: []`, `execution_count: null`) on cells you rewrite, instead of leaving half-broken output blobs.
+- If you keep a stream output, it must look like:
+
+```json
+{
+  "output_type": "stream",
+  "name": "stdout",
+  "text": ["...\n"]
+}
+```
+
+## EditNotebook tool
+
+After `EditNotebook` / bulk Python notebook rewrites, always run `tools/fix_ipynb.py` on that file. Do not assume the tool preserves valid output schema.

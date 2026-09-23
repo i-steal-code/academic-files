@@ -171,7 +171,7 @@ def convert_one(
     return "converted"
 
 
-SKIP_DIR_PARTS = {"origin", "_audit_near_dupes", "_incoming_arranged"}
+SKIP_DIR_PARTS = {"origin", "_audit_near_dupes", "_incoming_arranged", "unfiled"}
 
 
 def iter_sources(gp_root: Path, *, include_oversized: bool = False) -> list[Path]:

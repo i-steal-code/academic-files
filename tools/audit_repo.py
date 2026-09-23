@@ -32,6 +32,7 @@ SKIP_DIR_PARTS = {
     "_audit_near_dupes",
     "_incoming_arranged",
     "tuition material",
+    "unfiled",
 }
 # Converted by policy only when explicitly requested (convert_one.ps1 -SkipMisc default)
 POLICY_SKIP_DIR_NAMES = {"misc"}

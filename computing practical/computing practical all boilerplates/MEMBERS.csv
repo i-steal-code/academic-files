@@ -1,0 +1,19 @@
+member_id,name,house,year
+1001,Ada Tan,East,5
+1002,Ben Koh,West,5
+1003,Cara Lim,East,6
+1004,Dan Ong,North,5
+1005,Eve Raj,South,6
+1006,Finn Yap,West,5
+1007,Gina Ho,East,5
+1008,Hugo Ng,North,6
+1009,Ivy Chua,South,5
+1010,Jay Teo,West,6
+1011,Kai Wong,East,5
+1012,Lia Tan,North,5
+1013,,South,5
+1014,Max Koh,West,99
+BAD,Nora Lim,East,5
+1016,Omar Ali,East,6
+1017,Pam Goh,South,5
+1018,Qin Wei,North,6

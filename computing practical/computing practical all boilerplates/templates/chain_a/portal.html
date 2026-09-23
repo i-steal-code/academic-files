@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>club attendance search</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>club attendance search</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="POST" action="{{ url_for('portal') }}">
+<label>session type</label>
+<select name="session_type">
+<option value="Training">Training</option>
+<option value="Match">Match</option>
+</select>
+<label>member name</label>
+<input type="text" name="member_name">
+<input type="submit" value="search">
+</form>
+<p><a href="{{ url_for('log_absence') }}">log an absence</a></p>
+</div>
+</body>
+</html>
