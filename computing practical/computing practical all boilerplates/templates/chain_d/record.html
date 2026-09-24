@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>add attendance</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>add attendance</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="POST" action="{{ url_for('record') }}">
+<label>member id</label>
+<input type="text" name="in_mid">
+<label>date</label>
+<input type="text" name="in_date">
+<label>session</label>
+<select name="in_session">
+<option value="Training">Training</option>
+<option value="Match">Match</option>
+</select>
+<input type="submit" value="save">
+</form>
+<p><a href="{{ url_for('front') }}">back</a></p>
+</div>
+</body>
+</html>

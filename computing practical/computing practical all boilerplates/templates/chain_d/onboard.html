@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>onboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>onboard</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form method="POST" action="{{ url_for('onboard') }}">
+<label>id</label>
+<input type="text" name="f_sid">
+<label>surname</label>
+<input type="text" name="f_surname">
+<label>given</label>
+<input type="text" name="f_given">
+<label>department</label>
+<input type="text" name="f_dept">
+<input type="submit" value="save">
+</form>
+<p><a href="{{ url_for('lobby') }}">back</a></p>
+</div>
+</body>
+</html>

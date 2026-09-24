@@ -1,31 +1,26 @@
 # practical session log
 
 # closed-book mega-chain · checkpoint · traps only · no code dumps
-# chains: A attendance · B library · C directory
+# chains: A attendance · B library · C directory · D reds (last sockets = D5)
 
 ---
 
 ## Session 1 · date 2026-09-23
 
-- Chain / part: **A1–A4** (full Chain A)
-- Checkpoint: PASS (assumed — finished)
-- Time box used (min): —
+- Chain / part: **A1–A4**
+- Checkpoint: structural PASS; A4 wiring marksheet-red (see remake)
 
-### Traps (real fails only)
+---
 
-- (none logged)
+## Session 2 · date ~2026-09-24
+
+- Chain / part: **B**, **C**
+- Rubric remake: A SQL banked; B S&S strong / ADT weak; C mongo OK / Flask+sockets weak
 
 ### Next
 
-- [x] Chain A complete
-- [ ] **B1** OOP hierarchy (start Chain B)
-- [ ] Always-bank: one A3-style JOIN or HAVING from memory
-
-### Gates you can tick (if all A checkpoints were cold PASS)
-
-- Gate 1 ← A2 + A3
-- Gate 4 ← A4
-- Gate 5 (partial) ← A1; finish with B5 later
+- [ ] **Chain D** (`P2 CHAIN D - reds.ipynb`): D1 → D2 → D3 → D4 → D5
+- [ ] After D5: **sockets leave rotation permanently**
 
 ---
 

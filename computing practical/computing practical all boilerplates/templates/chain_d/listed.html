@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title>staff list</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>list</h1>
+<ul>
+{% for p in people %}
+<li>{{ p.surname }}, {{ p.given }} — {{ p.department }}</li>
+{% else %}
+<li>none</li>
+{% endfor %}
+</ul>
+<p><a href="{{ url_for('lobby') }}">back</a></p>
+</div>
+</body>
+</html>
