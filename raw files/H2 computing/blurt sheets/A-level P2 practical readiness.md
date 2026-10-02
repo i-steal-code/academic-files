@@ -1,114 +1,88 @@
 # A-level Computing 9569 — Paper 2 practical readiness
 
-# method: monkeytype → mega-chain part → checkpoint PASS (marksheet lens) → tick cold only
+# method: finish a stem's own test → checkpoint → only then a full paper
 
-**Now:** Chain **D** reds + Gate 7 papers. Cleared work is packed at the bottom — do not re-open it unless a paper leaks that gate.
+**Now:** TAPER T1–T3 passed on 2026-10-02. Next is the 45-minute keep-warm (web, one JOIN, one parent/child), then the timed paper is 2021 A-level P2.
 
 ---
 
-## Active focus
+## What the exam actually does, in order
 
-### Open now — Chain D
+1. The stem names the function, the return, the test, and the file that must show the output.
+2. The next subtask calls that function. It does not get a fresh hardcoded list.
+3. The mark lines for "empty", "not found", and "first position" are separate from the happy path.
+4. Web and class tasks pay the identifiers written in that paper, including the saved page.
 
-| Part | Gate | Pass when |
-|------|------|-----------|
-| **D1** | 4 | Flask↔sqlite `front`/`show`/`record` + `LIKE` + return redirect · port 5003 · manual evidence |
-| **D2** | 3 | LL of **ids** · insert_end / search / **head delete** |
-| **D3** | 3 | `ht`+`bst` built from catalogue · in/pre/post (pre/post call themselves) |
-| **D4** | 6 | Flask↔mongo `lobby`/`listed`/`onboard` · port 5004 · once |
-| **D5** | 6 | `recv_line` only — **last sockets visit**, then permanent ban |
+A part that stops at a signature, a sketch, or a typo in the only test call scores the lines with no evidence. That is the 2026 result (25/100): Task 4 was carried far enough to run; Tasks 1.2–1.4 and 2.1–2.4 were not; Task 3 never became the `.py` and saved pages the stem asked for.
 
-Notebook: `P2 CHAIN D - reds.ipynb` · answers: `_archive/P2 CHAIN D - answers.ipynb` · templates: `templates/chain_d/`  
-Needs `chain_a.db` for D1.
+## What changes in practice
 
-### Still open — Gate 7
+- A drill part is finished only when its test has been executed and the output is still in the notebook.
+- Write the empty, miss, and first-item case before the middle case.
+- Copy this stem's identifiers. Do not reuse names from the previous notebook.
+- The next part must call the previous function. No stand-in data.
+- Pillars stay the A-level ones: file, sort/search, ADT, SQL, one web page with a saved result. Prelim intensity means a dependent chain and strict cases, not a warehouse, maze, or socket task.
+- Sockets stay closed. Mongo is not next.
 
-- [ ] Timed TYS P2 A (2020–22 bias)
-- [ ] Timed TYS P2 B (2020–22 bias)
-- [ ] Contrast paper (2023–25 or RI)
-- [ ] After each: failed gate → redo that **D-part / always-bank** only
+## Open now — TAPER drill
 
-### Daily card (while D open)
+Closed-book. One notebook, three parts. The checkpoint uses reversed data, the last index, an empty list, a head delete, a last-node delete, and a second database connection.
 
-**Always-bank**
-- [ ] One A3-shaped JOIN *or* HAVING from memory (keep Gate 1 warm)
-- [ ] Narrate D1 name path: `q_session`/`q_name` → `front` → `show`
+| Part | Behaviour | Done when |
+|------|-----------|-----------|
+| **T1** | Insertion sort ascending and bubble sort descending. Equal scores keep earlier order. Empty and one-item lists return themselves. | Checkpoint prints `T1: PASS`, and `batch` is still in its original order |
+| **T2** | Add to an empty rack, in front of the first, and after the last. Duplicate prints `Duplicate`. Remove the first, the last, a missing number, and from an empty rack. | Checkpoint prints `T2: PASS` |
+| **T3** | `MarkDone` changes one row and commits. `Cancel` deletes exactly two ids, with the column named on both sides of `OR`, and commits. | Checkpoint prints `T3: PASS` |
 
-**Session pick (one primary)**
-- [ ] D1 · D2 · D3 in order if climbing; else the part that last FAILed
-- [ ] D4 only after D1–D3 cold; D5 once then never again
-- [ ] Optional: 1 epoch-3 monkeytype block (not K1)
+Notebook: `computing practical/Boilerplates/TAPER drill.ipynb`. Answers: `_archive/TAPER - answers.ipynb`.
 
-**Ban**
-- [ ] Sockets after D5 · re-reading cleared chains for “comfort” · opening answers early · new niches · master-sheet sprawl
+T1 and T2 are the gate. T3 is in the same sitting because an uncommitted change and a bare `OR ?` have both already dropped marks. The next timed paper stays closed until all three print PASS.
+
+### Keep warm — web, SQL reads, OOP
+
+These are holding. They get a short closed-book pass after the taper, not a new chain and not a paper.
+
+One 45-minute session, once, before the timed paper:
+
+- **Web, 15 min.** From memory: one POST field, `return redirect`, one page you write yourself with a table row. Open `WEB DEV.ipynb` only after five minutes stuck.
+- **SQL read, 10 min.** One `JOIN` with `?` placeholders, then print the rows. Schema design and Mongo stay closed.
+- **OOP, 15 min.** A parent with a private field, a setter that rejects an empty value, and a child that reaches the parent through `super()` and a getter. Print the rejected value.
+
+If one of those prints is wrong, fix that cell only. Do not open a new paper to revise it.
+
+### After the taper is cold
+
+Timed paper: **2021 A-level P2**. It is insertion sort, quicksort, a linked list with a subclass, then SQL and a saved page. That is the first real reading of distance from 70.
 
 ### Tired rule
 
-Only **D1** or **D2**. Nothing else.
+T1 and its four prints only.
+
+### Ban
+
+Resitting 2026. Resitting 2024 HCI. Drilling the warehouse task. Sockets. A new mega-chain. Opening the answer notebook before the checkpoint. Sitting 2021 before T1–T3 PASS.
 
 ---
 
 ## Quick pointers
 
-- Live: `P2 CHAIN D - reds.ipynb` (primary) · A/B/C = history  
-- Voice refs (marking only): `S&S` · `ADT` · `DB` · `WEB DEV` · `POOP`  
-- Typing: `monkeytype drills.txt` (epoch 3)  
-- Log: `practical session log.md`  
-- Trails: delete/drop practice DB/JSON/mongo when done; close DB Browser  
+- Live: `TAPER drill.ipynb`
+- History, not the next session: Chains A–D, LINK, 2024 HCI, the three untimed prelim tasks
+- Voice refs when marking: `S&S` · `ADT` · `DB` · `WEB DEV` · `POOP`
+- Typing: `monkeytype drills.txt` (epoch 3)
+- Log: `practical session log.md`
 
 ---
 
-## Dialogue (active reds only)
+## Banked
 
-1. Trace `q_session`/`q_name` → form → `url_for("show")` → route → `LIKE ?` tuple.  
-2. What if `redirect` has no `return`?  
-3. Head delete — which line must move `__start`?  
-4. Why `[LinkedList()] * N` fails; fix.  
-5. pre_order calling `in_order` on children — what marksheet line dies?
+| Gate | Status | Note |
+|------|--------|------|
+| Web page, SQL read, basic class | holding | 2024 HCI: form, redirect, join, saved page, `TaskNode` |
+| Quicksort on a real print | holding | brightness order on that paper |
+| Insertion and bubble, last index | cleared | T1 PASS, 2026-10-02 |
+| Linked-list head, last, empty | cleared | T2 PASS, 2026-10-02 |
+| SQL UPDATE / DELETE + commit | cleared | T3 PASS, second connection saw both changes |
+| sockets | closed | absent from TYS 2020–2025 |
 
----
-
-## Banked / cleared (do not cluster practice here)
-
-Packed from Chains A–C + rubric remake. Revisit only if Gate 7 post-mortem names that leak.
-
-| Gate | Status | Evidence / note |
-|------|--------|-----------------|
-| **0** floor | **cleared** | B1 OOP · A1 validate · A2 seed smoke |
-| **1** sqlite | **cleared** | A2+A3 cold PASS; keep warm via daily JOIN/HAVING only |
-| **2** S&S | **cleared** | B4 partition + recursive binary strong; merge = stretch only |
-| **5** files/JSON | **cleared** | A1 + B5; mod-11 only if a paper stem needs it |
-| **C1–C2** | **cleared** | Staff/Directory · mongo seed/find/update evidence |
-| **A4 / C3 / B2–B3** | **superseded** | Marksheet reds → practice via **D1 / D4 / D2–D3**, not redoing A/B/C |
-| **Sockets (TYS)** | **deprioritised** | 0 hits in TYS P2 2020–25 in repo; close after **D5** |
-
-Archive attempts (no peek for fresh reps): `_archive/2026-09 SS-ADT PRACTICE` · `_archive/2026-09 WEB-SQL PRACTICE` · Chain A/B/C notebooks · `_archive/*answers*`
-
-### Score map
-
-| Green through | Secured |
-|---------------|---------|
-| 0–1 | sqlite bank |
-| 0–2 | + S&S |
-| 0–3 | + ADT (needs D2–D3) |
-| 0–4 | + Flask sqlite wiring (needs D1) |
-| 0–5 | + files/JSON (banked) |
-| 0–6 | + mongo once; sockets closed |
-| 0–7 | full-paper pacing |
-
-**Target:** D1–D3 green → D4 once → D5 close sockets → Gate 7. Do not put Gate 6 ahead of 3–4.
-
-### Final week (when D closed)
-
-1. JOIN + HAVING  
-2. Binary + insertion *or* partition final swap  
-3. LL head delete  
-4. Narrate `front`→`show` wiring (run if shaky)  
-5. Sleep > mongo/sockets  
-
----
-
-## Protocol
-
-Log in `practical session log.md`: chain/part · PASS/FAIL · traps · next.  
-Do not rewrite this sheet after one bad day — only move a row between Active ↔ Banked when cold PASS is real.
+**Target:** T1–T3 PASS, one keep-warm session, then 2021 A-level P2. Do not add topics from the 2026 pillar mix.

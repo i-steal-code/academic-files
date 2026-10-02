@@ -1,0 +1,30 @@
+---
+description: 8881 P2 gold sittings are locked — do not harvest into practice banks
+alwaysApply: true
+---
+
+# GP 8881 P2 — locked sittings
+
+Canonical list: `raw files/H1 GP/exam papers/LOCKED SITS.md`
+
+These sittings are reserved for the user's real timed papers. They exist in both `raw files/` and `converted packages/`.
+
+**Locked:** 2024 and 2025 A-level P2; 8881 Specimen P2; RI P2 2024 prelim, 2025 prelim, 2024 promo, 2025 TP; HCI P2 2024 prelim, 2025 prelim.
+
+**Spent (do not resit, do not harvest):** 2025 RI promo P2 — sat 2025, **33/50**; summary 20 min for 6/8; last 20 min rushed AQ 7/12. Files remain under `promo *` / `2025 RI P2 A-level H1 GP`.
+
+## Agents must not
+
+- Pull SAQ, summary, NIT, AQ, or insert extracts from a locked sitting into a new practice bank, drill, worksheet, or "accuracy" set
+- Rewrite, slim, or remix a locked paper as practice
+- Use a locked insert as the source passage for a homemade question
+
+## Allowed
+
+- The user names a locked sitting and asks to sit, mark, or review **that paper as a whole**
+- Citing examples **already** in `H1 GP master document.md` (e.g. 2024 RI climate IOP)
+- Items **already** in `P2 accuracy bank (Tue).md` — do not add more from locked sittings
+
+## Where practice may be drawn
+
+Overflow 8881 only (other-school prelims, tuition packs). Prefer hard SAQ language-use and rare real P3s. Never NIT/IOP from papers whose P3 writes the NIT. Never 8807, 2-passage, or P1-essay files.

@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<!-- no css needed? what a blessing -->
+<title> index </title>
+</head>
+<body>
+<h1> home page </h1>
+<p> displaying all records from workshop in ascending order of title: </p>
+{% for workshop in workshops %}
+<p> {{ workshop[0] }} {{ workshop[1] }} {{ workshop[2] }} {{ workshop[3] }} </p>
+<a href='/REGISTER'>register page</a>
+<a href='/REPORT'>report page</a>
+</body>
+</html>

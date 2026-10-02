@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<title> search page </title>
+</head>
+<body>
+<h1> search page </h1>
+{% if error %}
+<p> {{ error }} </p>
+{% endif %}
+<form action = '/' method = 'POST'>
+<label> key in bus stop code </label>
+<input type = 'text' name = 'bus_code'>
+<input type = 'submit' value = 'submit'>
+</form>
+</body>
+</html>

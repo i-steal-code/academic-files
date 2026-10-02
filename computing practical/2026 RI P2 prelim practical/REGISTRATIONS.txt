@@ -1,0 +1,458 @@
+CS201,Data Structures and Algorithms,Nicole Lim,1
+CS105,Database Systems,Yi Xuan Lim,2
+CS105,Database Systems,Shawn Chan,2
+CS105,Database Systems,Amelia Chua,3
+CS201,Data Structures and Algorithms,Xin Yi Neo,3
+CS203,Software Engineering,Xin Yi Ong,3
+CS301,Artificial Intelligence,Kai Jie Koh,2
+CS201,Data Structures and Algorithms,Yi Xuan Chew,3
+CS301,Artificial Intelligence,Priya Nair,1
+CS201,Data Structures and Algorithms,Cheryl Koh,2
+CS104,Web Development,Karthik Raman,1
+CS302,Cyber Security,Ethan Teo,1
+CS105,Database Systems,Ahmad Faiz Bin Salleh,3
+CS101,Introduction to Programming,Sneha Krishnan,2
+CS203,Software Engineering,Xin Yi Ng,3
+CS104,Web Development,Divya Raj,2
+CS301,Artificial Intelligence,Cheryl Ng,3
+CS301,Artificial Intelligence,Sean Tan,1
+CS203,Software Engineering,Sean Lim,1
+CS103,Discrete Mathematics,Hakim Bin Yusof,2
+CS203,Software Engineering,Melvin Ong,1
+CS302,Cyber Security,Denise Ng,2
+CS102,Computer Systems,Anjali Menon,3
+CS201,Data Structures and Algorithms,Cheryl Chua,3
+CS102,Computer Systems,Darren Toh,2
+CS201,Data Structures and Algorithms,Keith Koh,2
+CS302,Cyber Security,Melvin Lim,2
+CS302,Cyber Security,Xin Yi Chan,3
+CS102,Computer Systems,Amelia Chew,2
+CS202,Computer Networks,Muhammad Danish Bin Ismail,2
+CS301,Artificial Intelligence,Xin Yi Tan,1
+CS102,Computer Systems,Jia Hui Lee,1
+CS101,Introduction to Programming,Bryan Low,1
+CS201,Data Structures and Algorithms,Karthik Raman,1
+CS201,Data Structures and Algorithms,Muhammad Danish Bin Ismail,2
+CS103,Discrete Mathematics,Yi Xuan Teo,1
+CS201,Data Structures and Algorithms,Jolene Lee,1
+CS201,Data Structures and Algorithms,Hakim Bin Yusof,2
+CS202,Computer Networks,Wei Ming Ong,1
+CS201,Data Structures and Algorithms,Darren Teo,3
+CS104,Web Development,Anjali Menon,3
+CS105,Database Systems,Muhammad Danish Bin Ismail,2
+CS103,Discrete Mathematics,Keith Goh,2
+CS105,Database Systems,Hakim Bin Yusof,2
+CS105,Database Systems,Denise Yeo,3
+CS302,Cyber Security,Rachel Toh,3
+CS203,Software Engineering,Jolene Toh,1
+CS102,Computer Systems,Jun Hao Ong,2
+CS104,Web Development,Sean Neo,2
+CS101,Introduction to Programming,Nurul Syafiqah Binte Osman,1
+CS201,Data Structures and Algorithms,Jun Hao Teo,1
+CS301,Artificial Intelligence,Marcus Ng,1
+CS301,Artificial Intelligence,Amelia Ng,1
+CS202,Computer Networks,Darren Goh,3
+CS103,Discrete Mathematics,Sean Ong,1
+CS103,Discrete Mathematics,Xin Yi Chua,3
+CS104,Web Development,Gerald Teo,2
+CS203,Software Engineering,Ain Binte Rahim,1
+CS203,Software Engineering,Jolene Chan,2
+CS301,Artificial Intelligence,Wei Ming Koh,1
+CS301,Artificial Intelligence,Keith Chua,1
+CS301,Artificial Intelligence,Alicia Lee,3
+CS105,Database Systems,Jia Hui Chan,3
+CS103,Discrete Mathematics,Muhammad Danish Bin Ismail,2
+CS104,Web Development,Nicole Ng,1
+CS301,Artificial Intelligence,Keith Yeo,2
+CS203,Software Engineering,Rahul Iyer,2
+CS302,Cyber Security,Jia Hui Teo,2
+CS101,Introduction to Programming,Sean Ng,1
+CS202,Computer Networks,Hui Min Koh,2
+CS102,Computer Systems,Jun Hao Lee,3
+CS301,Artificial Intelligence,Wei Ming Teo,1
+CS301,Artificial Intelligence,Hakim Bin Yusof,2
+CS302,Cyber Security,Jolene Teo,2
+CS102,Computer Systems,Yi Xuan Yeo,2
+CS103,Discrete Mathematics,Jia Hui Tan,2
+CS301,Artificial Intelligence,Hui Min Ng,2
+CS101,Introduction to Programming,Kai Jie Ong,2
+CS203,Software Engineering,Clarence Teo,3
+CS203,Software Engineering,Bryan Tan,2
+CS103,Discrete Mathematics,Gerald Lim,1
+CS301,Artificial Intelligence,Hui Min Yeo,1
+CS104,Web Development,Jun Hao Chan,1
+CS101,Introduction to Programming,Melvin Goh,1
+CS105,Database Systems,Alicia Goh,3
+CS302,Cyber Security,Denise Lim,1
+CS105,Database Systems,Nicole Low,1
+CS105,Database Systems,Arun Kumar,3
+CS102,Computer Systems,Shawn Ong,3
+CS202,Computer Networks,Divya Raj,2
+CS104,Web Development,Clarence Ng,3
+CS302,Cyber Security,Jun Hao Koh,1
+CS302,Cyber Security,Jolene Neo,3
+CS104,Web Development,Kai Jie Chew,2
+CS301,Artificial Intelligence,Hui Min Chan,3
+CS201,Data Structures and Algorithms,Denise Teo,1
+CS102,Computer Systems,Bryan Chan,2
+CS202,Computer Networks,Ahmad Faiz Bin Salleh,3
+CS102,Computer Systems,Wei Ming Tan,1
+CS105,Database Systems,Nicole Chua,1
+CS104,Web Development,Jun Hao Ng,3
+CS301,Artificial Intelligence,Sneha Krishnan,2
+CS201,Data Structures and Algorithms,Xin Yi Lim,1
+CS102,Computer Systems,Yi Xuan Tan,1
+CS104,Web Development,Cheryl Teo,2
+CS104,Web Development,Alicia Ng,2
+CS103,Discrete Mathematics,Nur Aisyah Binte Hassan,1
+CS104,Web Development,Sean Chan,3
+CS101,Introduction to Programming,Shawn Neo,3
+CS301,Artificial Intelligence,Rachel Low,1
+CS101,Introduction to Programming,Jolene Goh,1
+CS101,Introduction to Programming,Jia Hui Tan,2
+CS202,Computer Networks,Sneha Krishnan,2
+CS302,Cyber Security,Siti Nur Hidayah Binte Ali,3
+CS203,Software Engineering,Keith Lim,1
+CS201,Data Structures and Algorithms,Shawn Tan,1
+CS104,Web Development,Nicole Koh,2
+CS101,Introduction to Programming,Hui Min Goh,1
+CS301,Artificial Intelligence,Jun Hao Chua,3
+CS202,Computer Networks,Bryan Lim,1
+CS103,Discrete Mathematics,Xin Yi Lee,3
+CS105,Database Systems,Denise Chew,2
+CS102,Computer Systems,Jia Hui Ng,1
+CS301,Artificial Intelligence,Nurul Syafiqah Binte Osman,1
+CS101,Introduction to Programming,Marcus Chua,1
+CS105,Database Systems,Melvin Chua,1
+CS201,Data Structures and Algorithms,Bryan Toh,1
+CS301,Artificial Intelligence,Kai Jie Tan,1
+CS102,Computer Systems,Siti Nur Hidayah Binte Ali,3
+CS104,Web Development,Hui Min Teo,2
+CS203,Software Engineering,Priya Nair,1
+CS301,Artificial Intelligence,Nicole Neo,3
+CS202,Computer Networks,Alicia Koh,1
+CS202,Computer Networks,Ethan Ng,3
+CS103,Discrete Mathematics,Marcus Goh,1
+CS301,Artificial Intelligence,Nur Aisyah Binte Hassan,1
+CS104,Web Development,Rachel Lim,3
+CS201,Data Structures and Algorithms,Darren Ng,2
+CS104,Web Development,Jun Hao Yeo,3
+CS102,Computer Systems,Cheryl Ong,1
+CS105,Database Systems,Valerie Ng,2
+CS101,Introduction to Programming,Siti Nur Hidayah Binte Ali,3
+CS102,Computer Systems,Hui Min Toh,2
+CS203,Software Engineering,Rachel Yeo,2
+CS201,Data Structures and Algorithms,Muhammad Firdaus Bin Rahman,1
+CS102,Computer Systems,Clarence Low,3
+CS101,Introduction to Programming,Karthik Raman,1
+CS102,Computer Systems,Keith Teo,1
+CS201,Data Structures and Algorithms,Jolene Lim,3
+CS202,Computer Networks,Nurul Syafiqah Binte Osman,1
+CS201,Data Structures and Algorithms,Marcus Chan,1
+CS301,Artificial Intelligence,Jia Hui Toh,1
+CS104,Web Development,Xin Yi Yeo,3
+CS105,Database Systems,Denise Koh,2
+CS302,Cyber Security,Nurul Syafiqah Binte Osman,1
+CS103,Discrete Mathematics,Clarence Chan,2
+CS102,Computer Systems,Gerald Chew,3
+CS301,Artificial Intelligence,Sean Lee,2
+CS101,Introduction to Programming,Shawn Toh,1
+CS301,Artificial Intelligence,Marcus Tan,2
+CS104,Web Development,Clarence Goh,2
+CS202,Computer Networks,Alicia Neo,1
+CS302,Cyber Security,Cheryl Goh,1
+CS105,Database Systems,Bryan Goh,2
+CS101,Introduction to Programming,Cheryl Toh,2
+CS203,Software Engineering,Gerald Koh,2
+CS202,Computer Networks,Jia Hui Chua,3
+CS201,Data Structures and Algorithms,Anjali Menon,3
+CS102,Computer Systems,Nicole Toh,2
+CS202,Computer Networks,Cheryl Chew,1
+CS101,Introduction to Programming,Keith Ng,3
+CS104,Web Development,Rachel Chew,1
+CS203,Software Engineering,Jia Hui Lim,2
+CS301,Artificial Intelligence,Cheryl Lee,3
+CS105,Database Systems,Denise Ong,1
+CS202,Computer Networks,Ethan Chan,3
+CS102,Computer Systems,Jolene Chew,3
+CS202,Computer Networks,Jia Hui Tan,2
+CS301,Artificial Intelligence,Clarence Yeo,2
+CS102,Computer Systems,Melvin Teo,3
+CS104,Web Development,Hui Min Chew,1
+CS301,Artificial Intelligence,Sean Chua,1
+CS105,Database Systems,Wei Ming Toh,1
+CS102,Computer Systems,Xin Yi Goh,3
+CS101,Introduction to Programming,Denise Lee,1
+CS102,Computer Systems,Melvin Chew,2
+CS104,Web Development,Jolene Yeo,1
+CS203,Software Engineering,Denise Chan,3
+CS203,Software Engineering,Nicole Yeo,2
+CS201,Data Structures and Algorithms,Rachel Ng,1
+CS202,Computer Networks,Marcus Chew,1
+CS105,Database Systems,Nurul Syafiqah Binte Osman,1
+CS103,Discrete Mathematics,Valerie Goh,2
+CS101,Introduction to Programming,Ain Binte Rahim,1
+CS201,Data Structures and Algorithms,Clarence Chua,2
+CS301,Artificial Intelligence,Kai Jie Toh,1
+CS105,Database Systems,Wei Ming Goh,2
+CS101,Introduction to Programming,Gerald Neo,1
+CS102,Computer Systems,Nicole Teo,1
+CS201,Data Structures and Algorithms,Ethan Neo,2
+CS101,Introduction to Programming,Amelia Koh,1
+CS203,Software Engineering,Amelia Low,1
+CS104,Web Development,Ahmad Faiz Bin Salleh,3
+CS103,Discrete Mathematics,Melvin Koh,2
+CS104,Web Development,Ethan Yeo,1
+CS203,Software Engineering,Jia Hui Chew,1
+CS302,Cyber Security,Valerie Tan,3
+CS102,Computer Systems,Amelia Toh,3
+CS105,Database Systems,Sean Chew,3
+CS102,Computer Systems,Wei Ming Chua,1
+CS202,Computer Networks,Shawn Lim,1
+CS102,Computer Systems,Gerald Ng,2
+CS103,Discrete Mathematics,Rachel Lee,2
+CS102,Computer Systems,Keith Chan,1
+CS102,Computer Systems,Alicia Yeo,3
+CS103,Discrete Mathematics,Bryan Ong,2
+CS103,Discrete Mathematics,Yi Xuan Ng,2
+CS104,Web Development,Clarence Tan,3
+CS104,Web Development,Muhammad Danish Bin Ismail,2
+CS103,Discrete Mathematics,Muhammad Firdaus Bin Rahman,1
+CS103,Discrete Mathematics,Ain Binte Rahim,1
+CS202,Computer Networks,Nur Aisyah Binte Hassan,1
+CS105,Database Systems,Jolene Koh,2
+CS202,Computer Networks,Jolene Ng,3
+CS104,Web Development,Siti Nur Hidayah Binte Ali,3
+CS301,Artificial Intelligence,Bryan Chew,1
+CS302,Cyber Security,Hui Min Neo,1
+CS105,Database Systems,Karthik Raman,1
+CS203,Software Engineering,Xin Yi Tan,1
+CS105,Database Systems,Rachel Neo,3
+CS301,Artificial Intelligence,Valerie Koh,2
+CS104,Web Development,Bryan Chua,1
+CS302,Cyber Security,Kai Jie Chan,3
+CS105,Database Systems,Valerie Chua,1
+CS302,Cyber Security,Clarence Koh,1
+CS104,Web Development,Yi Xuan Neo,1
+CS301,Artificial Intelligence,Ahmad Faiz Bin Salleh,3
+CS302,Cyber Security,Denise Neo,2
+CS201,Data Structures and Algorithms,Kai Jie Lim,1
+CS104,Web Development,Kai Jie Chua,3
+CS301,Artificial Intelligence,Kai Jie Low,3
+CS203,Software Engineering,Gerald Chan,1
+CS103,Discrete Mathematics,Arun Kumar,3
+CS203,Software Engineering,Melvin Neo,3
+CS301,Artificial Intelligence,Kai Jie Teo,1
+CS203,Software Engineering,Amelia Ong,2
+CS202,Computer Networks,Bryan Neo,1
+CS203,Software Engineering,Amelia Chan,2
+CS301,Artificial Intelligence,Jia Hui Goh,1
+CS302,Cyber Security,Jia Hui Low,2
+CS203,Software Engineering,Amelia Goh,2
+CS302,Cyber Security,Priya Nair,1
+CS104,Web Development,Ethan Lim,1
+CS201,Data Structures and Algorithms,Cheryl Chan,1
+CS103,Discrete Mathematics,Shawn Goh,2
+CS302,Cyber Security,Amelia Lim,3
+CS101,Introduction to Programming,Darren Lim,1
+CS301,Artificial Intelligence,Hui Min Low,2
+CS102,Computer Systems,Jun Hao Neo,2
+CS203,Software Engineering,Ethan Low,2
+CS302,Cyber Security,Sean Koh,2
+CS104,Web Development,Yi Xuan Koh,1
+CS103,Discrete Mathematics,Gerald Yeo,2
+CS202,Computer Networks,Rachel Tan,1
+CS101,Introduction to Programming,Bryan Yeo,3
+CS203,Software Engineering,Ahmad Faiz Bin Salleh,3
+CS202,Computer Networks,Amelia Neo,2
+CS201,Data Structures and Algorithms,Melvin Tan,2
+CS105,Database Systems,Siti Nur Hidayah Binte Ali,3
+CS102,Computer Systems,Cheryl Neo,2
+CS302,Cyber Security,Marcus Yeo,1
+CS101,Introduction to Programming,Darren Neo,3
+CS104,Web Development,Jolene Low,1
+CS302,Cyber Security,Kai Jie Yeo,3
+CS301,Artificial Intelligence,Sean Yeo,2
+CS102,Computer Systems,Muhammad Danish Bin Ismail,2
+CS105,Database Systems,Keith Neo,2
+CS105,Database Systems,Rachel Koh,2
+CS102,Computer Systems,Jun Hao Lim,1
+CS301,Artificial Intelligence,Ethan Tan,2
+CS105,Database Systems,Rachel Goh,1
+CS302,Cyber Security,Jun Hao Tan,1
+CS104,Web Development,Nur Aisyah Binte Hassan,1
+CS302,Cyber Security,Nur Aisyah Binte Hassan,1
+CS201,Data Structures and Algorithms,Arun Kumar,3
+CS104,Web Development,Hui Min Tan,3
+CS203,Software Engineering,Marcus Lee,2
+CS101,Introduction to Programming,Muhammad Danish Bin Ismail,2
+CS202,Computer Networks,Arun Kumar,3
+CS101,Introduction to Programming,Xin Yi Toh,3
+CS102,Computer Systems,Amelia Lee,3
+CS201,Data Structures and Algorithms,Clarence Lee,3
+CS105,Database Systems,Xin Yi Low,2
+CS105,Database Systems,Jun Hao Tan,1
+CS202,Computer Networks,Melvin Chan,1
+CS105,Database Systems,Wei Ming Ng,1
+CS102,Computer Systems,Sean Goh,1
+CS203,Software Engineering,Nur Aisyah Binte Hassan,1
+CS105,Database Systems,Alicia Ong,2
+CS201,Data Structures and Algorithms,Marcus Ong,3
+CS102,Computer Systems,Ethan Chew,2
+CS301,Artificial Intelligence,Alicia Lim,1
+CS102,Computer Systems,Yi Xuan Ong,1
+CS201,Data Structures and Algorithms,Divya Raj,2
+CS105,Database Systems,Shawn Lee,3
+CS101,Introduction to Programming,Clarence Ong,2
+CS201,Data Structures and Algorithms,Gerald Goh,2
+CS102,Computer Systems,Priya Nair,1
+CS101,Introduction to Programming,Alicia Tan,3
+CS201,Data Structures and Algorithms,Yi Xuan Chan,2
+CS104,Web Development,Ethan Ong,2
+CS203,Software Engineering,Nurul Syafiqah Binte Osman,1
+CS203,Software Engineering,Marcus Toh,1
+CS202,Computer Networks,Darren Lee,1
+CS105,Database Systems,Amelia Teo,2
+CS102,Computer Systems,Marcus Lim,2
+CS105,Database Systems,Xin Yi Chew,1
+CS102,Computer Systems,Alicia Chua,1
+CS101,Introduction to Programming,Alicia Toh,1
+CS202,Computer Networks,Shawn Low,3
+CS103,Discrete Mathematics,Jia Hui Yeo,1
+CS102,Computer Systems,Jolene Ong,2
+CS103,Discrete Mathematics,Yi Xuan Toh,2
+CS201,Data Structures and Algorithms,Amelia Tan,2
+CS302,Cyber Security,Sean Teo,3
+CS102,Computer Systems,Ethan Koh,2
+CS301,Artificial Intelligence,Rachel Chan,3
+CS104,Web Development,Wei Ming Neo,1
+CS103,Discrete Mathematics,Wei Ming Lee,2
+CS104,Web Development,Alicia Low,2
+CS102,Computer Systems,Nur Aisyah Binte Hassan,1
+CS301,Artificial Intelligence,Kai Jie Ng,3
+CS104,Web Development,Wei Ming Chan,1
+CS103,Discrete Mathematics,Shawn Koh,2
+CS104,Web Development,Sean Low,1
+CS104,Web Development,Shawn Chua,1
+CS302,Cyber Security,Denise Chua,2
+CS103,Discrete Mathematics,Keith Lee,1
+CS101,Introduction to Programming,Wei Ming Chew,1
+CS203,Software Engineering,Gerald Ong,1
+CS302,Cyber Security,Anjali Menon,3
+CS104,Web Development,Jia Hui Neo,1
+CS102,Computer Systems,Yi Xuan Goh,2
+CS202,Computer Networks,Keith Tan,1
+CS102,Computer Systems,Denise Tan,1
+CS301,Artificial Intelligence,Valerie Lee,3
+CS102,Computer Systems,Bryan Lee,2
+CS105,Database Systems,Bryan Koh,2
+CS104,Web Development,Cheryl Low,2
+CS103,Discrete Mathematics,Kai Jie Goh,1
+CS203,Software Engineering,Wei Ming Tan,1
+CS301,Artificial Intelligence,Darren Yeo,2
+CS302,Cyber Security,Divya Raj,2
+CS103,Discrete Mathematics,Cheryl Lim,2
+CS202,Computer Networks,Marcus Low,2
+CS301,Artificial Intelligence,Hui Min Ong,3
+CS202,Computer Networks,Darren Chan,1
+CS102,Computer Systems,Muhammad Firdaus Bin Rahman,1
+CS101,Introduction to Programming,Darren Chew,3
+CS103,Discrete Mathematics,Sneha Krishnan,2
+CS201,Data Structures and Algorithms,Darren Tan,1
+CS301,Artificial Intelligence,Amelia Yeo,2
+CS202,Computer Networks,Keith Ong,1
+CS202,Computer Networks,Yi Xuan Lee,1
+CS104,Web Development,Rachel Chua,1
+CS201,Data Structures and Algorithms,Jun Hao Low,1
+CS202,Computer Networks,Clarence Chew,1
+CS302,Cyber Security,Bryan Teo,1
+CS203,Software Engineering,Muhammad Firdaus Bin Rahman,1
+CS301,Artificial Intelligence,Keith Low,3
+CS203,Software Engineering,Hui Min Chua,1
+CS202,Computer Networks,Cheryl Yeo,2
+CS101,Introduction to Programming,Hui Min Lee,3
+CS202,Computer Networks,Clarence Neo,2
+CS102,Computer Systems,Alicia Teo,2
+CS301,Artificial Intelligence,Cheryl Tan,1
+CS103,Discrete Mathematics,Rahul Iyer,2
+CS104,Web Development,Kai Jie Tan,1
+CS203,Software Engineering,Arun Kumar,3
+CS201,Data Structures and Algorithms,Alicia Chew,1
+CS101,Introduction to Programming,Xin Yi Koh,2
+CS103,Discrete Mathematics,Gerald Low,1
+CS301,Artificial Intelligence,Muhammad Firdaus Bin Rahman,1
+CS203,Software Engineering,Valerie Low,1
+CS104,Web Development,Rachel Ong,1
+CS202,Computer Networks,Priya Nair,1
+CS302,Cyber Security,Melvin Lee,1
+CS101,Introduction to Programming,Hui Min Lim,3
+CS102,Computer Systems,Shawn Yeo,2
+CS101,Introduction to Programming,Ethan Lee,2
+CS201,Data Structures and Algorithms,Ahmad Faiz Bin Salleh,3
+CS101,Introduction to Programming,Denise Goh,3
+CS103,Discrete Mathematics,Ahmad Faiz Bin Salleh,3
+CS102,Computer Systems,Nurul Syafiqah Binte Osman,1
+CS203,Software Engineering,Valerie Yeo,2
+CS102,Computer Systems,Marcus Teo,2
+CS301,Artificial Intelligence,Bryan Ng,3
+CS201,Data Structures and Algorithms,Shawn Teo,1
+CS103,Discrete Mathematics,Marcus Neo,2
+CS202,Computer Networks,Valerie Neo,2
+CS104,Web Development,Darren Chua,1
+CS202,Computer Networks,Jun Hao Chew,1
+CS302,Cyber Security,Muhammad Firdaus Bin Rahman,1
+CS201,Data Structures and Algorithms,Jia Hui Ong,2
+CS104,Web Development,Shawn Ng,1
+CS104,Web Development,Darren Koh,2
+CS202,Computer Networks,Nicole Goh,2
+CS301,Artificial Intelligence,Valerie Lim,2
+CS105,Database Systems,Nicole Lee,3
+CS101,Introduction to Programming,Jolene Chua,3
+CS103,Discrete Mathematics,Valerie Chew,3
+CS101,Introduction to Programming,Nicole Tan,2
+CS104,Web Development,Wei Ming Yeo,2
+CS101,Introduction to Programming,Ahmad Faiz Bin Salleh,3
+CS201,Data Structures and Algorithms,Ethan Goh,1
+CS105,Database Systems,Gerald Tan,3
+CS102,Computer Systems,Yi Xuan Low,1
+CS104,Web Development,Clarence Lim,3
+CS203,Software Engineering,Valerie Chan,2
+CS103,Discrete Mathematics,Gerald Lee,2
+CS302,Cyber Security,Hakim Bin Yusof,2
+CS301,Artificial Intelligence,Denise Low,2
+CS102,Computer Systems,Arun Kumar,3
+CS302,Cyber Security,Melvin Low,3
+CS301,Artificial Intelligence,Xin Yi Teo,1
+CS302,Cyber Security,Nicole Chan,1
+CS104,Web Development,Melvin Ng,2
+CS201,Data Structures and Algorithms,Wei Ming Low,3
+CS301,Artificial Intelligence,Darren Ong,1
+CS103,Discrete Mathematics,Yi Xuan Chua,3
+CS105,Database Systems,Divya Raj,2
+CS202,Computer Networks,Nicole Ong,3
+CS203,Software Engineering,Siti Nur Hidayah Binte Ali,3
+CS203,Software Engineering,Hakim Bin Yusof,2
+CS103,Discrete Mathematics,Valerie Teo,3
+CS201,Data Structures and Algorithms,Rahul Iyer,2
+CS102,Computer Systems,Kai Jie Neo,1
+CS102,Computer Systems,Rahul Iyer,2
+CS201,Data Structures and Algorithms,Alicia Chan,2
+CS102,Computer Systems,Wei Ming Lim,3
+CS302,Cyber Security,Ain Binte Rahim,1
+CS103,Discrete Mathematics,Jun Hao Toh,1
+CS101,Introduction to Programming,Shawn Chew,2
+CS202,Computer Networks,Kai Jie Tan,1
+CS202,Computer Networks,Rachel Teo,1
+CS101,Introduction to Programming,Jia Hui Koh,2
+CS302,Cyber Security,Darren Low,1
+CS103,Discrete Mathematics,Jolene Tan,2
+CS203,Software Engineering,Jun Hao Tan,1
+CS203,Software Engineering,Ethan Toh,2
+CS301,Artificial Intelligence,Jun Hao Goh,1
+CS103,Discrete Mathematics,Keith Chew,2
+CS202,Computer Networks,Ethan Chua,3
+CS104,Web Development,Nicole Chew,2
+CS101,Introduction to Programming,Gerald Chua,1
+CS301,Artificial Intelligence,Valerie Ong,2
+CS202,Computer Networks,Kai Jie Lee,2
+CS104,Web Development,Melvin Yeo,3

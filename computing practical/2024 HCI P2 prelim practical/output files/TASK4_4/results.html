@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title> results </title>
+</head>
+<body>
+<h1> results for ticket search </h1>
+{% if result %}
+{% for row in result %}
+<p> {{row['Name']}} {{row['DepartCity']}} {{row['ArrivalCity']}} {{row['Seat']}} </p>
+{% endfor %}
+{% endif %}
+<a href="{{url_for('home')}}"> back to home page </a>
+</body>
+</html>

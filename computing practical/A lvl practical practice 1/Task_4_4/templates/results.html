@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title> results </title>
+</head>
+<body>
+<h1> results for bus stop {{bus_code}} </h1>
+{% if output %}
+{% for row in output %}
+<p> service number: {{row['ServiceNo']}} | service operator: {{row['Operator']}} </p>
+{% endfor %}
+{% endif %}
+<a href='{{url_for("home")}}'> back to home </a>
+</body>
+</html>

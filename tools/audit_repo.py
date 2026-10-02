@@ -184,7 +184,11 @@ def audit_packages() -> dict:
         if not man:
             issues["bad_manifest"].append(rel_pkg)
             continue
-        digest = sha256_file(src)
+        try:
+            digest = sha256_file(src)
+        except OSError as exc:
+            issues["unreadable_sources"].append(f"{rel_src}: {exc.strerror or exc}")
+            continue
         if man.get("source_sha256") != digest:
             issues["stale_sha"].append(
                 {
@@ -428,6 +432,7 @@ def main() -> int:
         "path_mismatch",
         "science_page_count_mismatch",
         "bad_manifest",
+        "unreadable_sources",
     ):
         serious += pkg["issue_counts"].get(key, 0)
     if not args.prune_orphans:

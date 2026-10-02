@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title> lane </title>
+<link rel='stylesheet' href='/static/style.css'>
+</head>
+<body>
+<div class = 'container'>
+<h1> berth {{ berth_code }} </h1>
+{% if rows %}
+<table>
+{% for row in rows %}
+<tr>
+<th>
+<td> {{row[0]}} </td> <td> {{row[1]}} </td> <td> {{row[2]}} </td> <td> {{row[3]}} </td>	
+</th>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
+<p><a href = '{{ url_for("desk")}}'> back to desk </a></p>
+</div>
+</body>
+</html>

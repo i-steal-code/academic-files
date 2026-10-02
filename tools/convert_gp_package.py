@@ -91,20 +91,61 @@ def prefer_docx(files: list[Path]) -> list[Path]:
     return sorted(out, key=lambda p: p.as_posix().lower())
 
 
-PDF_EXTRACT_MODE = "pdf_text_only"
+PDF_EXTRACT_MODE_TEXT = "pdf_text_only"
+PDF_EXTRACT_MODE_OCR = "pdf_ocr_tesseract"
+DEFAULT_TESSDATA_WIN = Path(r"C:\Program Files\Tesseract-OCR\tessdata")
+OCR_DPI = 150
+
+_tessdata_cache: str | None = None
 
 
-def extract_pdf_text_only(src: Path) -> str:
-    """Extract printable text from a PDF; images and image metadata are skipped."""
+def resolve_tessdata() -> str:
+    """Path to Tesseract language data for PyMuPDF OCR."""
+    global _tessdata_cache  # noqa: PLW0603
+    if _tessdata_cache is not None:
+        return _tessdata_cache
     if fitz is None:
         raise RuntimeError("pymupdf is required for PDF conversion. pip install -r tools/requirements-convert.txt")
+    try:
+        _tessdata_cache = fitz.get_tessdata(None)
+    except RuntimeError:
+        if DEFAULT_TESSDATA_WIN.is_dir():
+            _tessdata_cache = str(DEFAULT_TESSDATA_WIN)
+        else:
+            raise RuntimeError(
+                "Tesseract tessdata not found. Install Tesseract OCR or set TESSDATA_PREFIX."
+            ) from None
+    return _tessdata_cache
+
+
+def _pdf_pages_text(doc: fitz.Document, *, ocr: bool) -> list[str]:
+    tessdata = resolve_tessdata() if ocr else None
     parts: list[str] = []
-    with fitz.open(src) as doc:
-        for page in doc:
+    for page in doc:
+        if ocr:
+            tp = page.get_textpage_ocr(full=True, dpi=OCR_DPI, tessdata=tessdata)
+            text = page.get_text("text", textpage=tp).strip()
+        else:
             text = page.get_text("text").strip()
-            if text:
-                parts.append(text)
-    return "\n\n".join(parts).strip()
+        if text:
+            parts.append(text)
+    return parts
+
+
+def extract_pdf_markdown(src: Path) -> tuple[str, str]:
+    """Extract PDF as plain text; OCR image-only scans when the text layer is empty."""
+    if fitz is None:
+        raise RuntimeError("pymupdf is required for PDF conversion. pip install -r tools/requirements-convert.txt")
+    with fitz.open(src) as doc:
+        parts = _pdf_pages_text(doc, ocr=False)
+        mode = PDF_EXTRACT_MODE_TEXT
+        if not parts:
+            parts = _pdf_pages_text(doc, ocr=True)
+            mode = PDF_EXTRACT_MODE_OCR
+    text = "\n\n".join(parts).strip()
+    if not text:
+        raise RuntimeError(f"PDF has no extractable text (text layer and OCR both empty): {src.name}")
+    return text, mode
 
 
 def read_markdown_source(src: Path) -> str:
@@ -127,26 +168,30 @@ def convert_one(
     ext = src.suffix.lower()
 
     existing = load_manifest(manifest_path)
-    extract_mode = PDF_EXTRACT_MODE if ext == ".pdf" else None
+    extract_mode: str | None = None
     if (
         not force
         and existing
         and existing.get("source_sha256") == digest
         and (pkg / "content.md").is_file()
-        and (ext != ".pdf" or existing.get("extract_mode") == extract_mode)
     ):
-        return "skipped"
+        if ext != ".pdf":
+            return "skipped"
+        prior_mode = existing.get("extract_mode")
+        content = (pkg / "content.md").read_text(encoding="utf-8", errors="replace").strip()
+        if prior_mode in (PDF_EXTRACT_MODE_TEXT, PDF_EXTRACT_MODE_OCR) and len(content) >= 40:
+            return "skipped"
 
     pkg.mkdir(parents=True, exist_ok=True)
     if ext == ".md":
         md_text = read_markdown_source(src)
     elif ext == ".pdf":
-        md_text = extract_pdf_text_only(src)
+        md_text, extract_mode = extract_pdf_markdown(src)
     else:
         result = md_converter.convert(str(src))
         md_text = (result.text_content or "").strip()
     if not md_text:
-        md_text = ""
+        raise RuntimeError(f"Conversion produced no text: {source_rel}")
     (pkg / "content.md").write_text(md_text + ("\n" if md_text else ""), encoding="utf-8")
 
     quality_warn: list[str] = []
@@ -269,11 +314,18 @@ def validate_packages(
         if not manifest:
             errors.append(f"missing manifest for {rel}")
             continue
-        digest = sha256_file(src)
+        try:
+            digest = sha256_file(src)
+        except OSError as exc:
+            errors.append(f"cannot read source for {rel}: {exc}")
+            continue
         if manifest.get("source_sha256") != digest:
             errors.append(f"stale manifest for {rel}")
         if manifest.get("source_relpath") != rel:
             errors.append(f"manifest path mismatch for {rel}")
+        body = content.read_text(encoding="utf-8", errors="replace").strip()
+        if len(body) < 40:
+            errors.append(f"empty_or_tiny content.md for {rel} ({len(body)} chars)")
 
     for manifest in (out_root / "H1 GP").rglob("manifest.json"):
         pkg = manifest.parent.resolve()

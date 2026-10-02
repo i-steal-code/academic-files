@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<title> desk </title>
+<link rel='stylesheet' href='/static/style.css'>
+</head>
+<body>
+<div class = 'container'>
+<h1> desk </h1>
+{% if error %}
+<p> {{error}} </p>
+{% endif %}
+<form action = '{{url_for("desk")}}' method = 'POST'>
+<p> key in berth code </p>
+<input name = 'berth_code' type = 'text'>
+<input name = 'submit' type = 'submit' value = 'submit'>
+</form>
+</div>
+</body>
+</html>

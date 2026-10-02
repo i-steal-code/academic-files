@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workshop Report</title>
+</head>
+
+<body>
+
+<h1>Workshop Report</h1>
+
+<table>
+
+    <tr>
+        <th>WorkshopID</th>
+        <th>Title</th>
+        <th>Maximum Places</th>
+        <th>Registered</th>
+        <th>Remaining</th>
+    </tr>
+
+    {% for workshop in workshops %}
+
+    <tr>
+        <td>{{ workshop[0] }}</td>
+        <td>{{ workshop[1] }}</td>
+        <td>{{ workshop[2] }}</td>
+        <td>{{ workshop[3] }}</td>
+        <td>{{ workshop[2] - workshop[3] }}</td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+<h2>Most popular workshop(s):</h2>
+
+{% for title in most_popular_workshop %}
+    <p>{{ title }}</p>
+{% endfor %}
+
+<br><br>
+<a href="/">Back to Home</a>
+
+</body>
+</html>

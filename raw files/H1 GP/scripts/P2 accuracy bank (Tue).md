@@ -1,5 +1,7 @@
 # P2 accuracy bank — Tuesday 1 Sep
 
+Locked sittings (RI / HCI / TYS / Specimen / RI promo / RI TP): `exam papers/LOCKED SITS.md`. Items already in this bank stay. Do not take more from those papers.
+
 ## Day wrap (after G1–G5)
 
 Sat as five write/review loops, not a 90-minute paper. Eye was usually on the right region. Marks died when the **map** or the **split** did not reach the page, or when a restatement was promoted to a new number.

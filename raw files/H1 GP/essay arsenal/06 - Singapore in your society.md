@@ -174,3 +174,37 @@ There is no hinterland to fall back on. National Service and a serious defence b
 
 **Nine facts, one mechanism, three core pairs** from E (Ageing, Trampoline, Cohesion). One SIRDEC lens per practice essay. Budget 2026 stays a light proof (AI Council), not a second case.
 
+Section **K** is lookup from the AQ features pack — use when a passage needs a gap `06` only implied. Do not memorise K as a second nine-fact list.
+
+---
+
+## K. Additive from AQ features notes (use; do not replace A–E)
+
+Source: `topics + case studies/AQ Features of Singapore Society.pdf`. Half-weight where it conflicts with figures already locked above (TFR, ageing, GE2025). The gold is the **mechanism**, not the stale numbers.
+
+### What the pack adds
+
+| Lens | What to understand | Proof (name one) |
+|---|---|---|
+| **Paternalism as design** | The state treats private behaviour as a public variable. LKY, National Day Rally **1986**: accused of interfering in private lives — “If I did not… we wouldn’t be here today.” | Smoking restrictions and warnings; “Stand Up, Stacey”; Singapore Kindness Movement (from 1979); void decks built so neighbours will mix |
+| **Reservoir of trust** | The trust *gap* (`A`) sits on a trust *reservoir*: bitter pills are swallowed because of delivery. That is why competence can persist while citizens still resent being managed. | “Social compact” / reservoir-of-trust language; Shared Values below |
+| **Shared Values (1991)** | Official identity, not folk identity: (1) nation before community, society above self; (2) family as the basic unit; (3) community support and respect for the individual; (4) consensus, not conflict; (5) racial and religious harmony. | Use as the state’s answer when a passage assumes liberal individualism |
+| **Kiasu vs nudge** | Fear of losing out drives hours, tuition, status goods. The state then *nudges* civic behaviour because that temperament would otherwise fray the compact. | MOM ~**44.9** hours/week (2022); 5Cs as 1990s status, with post-COVID talk of balance — desire shifted faster than the hours |
+| **Meritocracy’s empathy hole** | Equal formal opportunity can still teach that the poor *deserve* to be behind. That is the moral injury inside the trampoline. | Streaming/PSLE history **with** ComLink+; those who fail the gate are read as undeserving, not only unlucky |
+| **Trampoline holes** | CPF assumes an employer contribution. Gig, freelance, and disability do not get that. Means tests baffle the oldest and least literate. There is no standing unemployment dole — SkillsFuture / PWM instead; COVID cash (up to $700 for three months) was the exception. | WIS (bottom ~20%, 30+); ComCare; gig CPF gap |
+| **Family still first for the old** | Filial piety is both value and policy. The state still prefers children nearby over becoming the parent. Isolation is the failure mode when families shrink. | Proximity Housing Grant; Maintenance of Parents Act (60+ can claim from children who can pay and do not); Community Care Apartments (from 2021); retirement age **65** / re-employment **70** by **2030** |
+| **Gender: opportunity ≠ care** | School and work are formally meritocratic; caregiving is still expected of women, often outsourced to a migrant domestic worker. | **s377A repealed 2022**, while the Constitution defines marriage as man–woman; unadjusted pay gap **16.3% (2018) → 14.3% (2023)**; paternity leave doubled toward **four weeks in 2024**, extra weeks on a voluntary basis; concessionary MDW levy ~$60 where there is care need |
+| **Harmony managed, not intimate** | Public order is real; private prejudice and “we don’t talk about race” are the cost. Official channels often replace messy conversation. | MRHA 1990: religious leaders barred from political comment; 2018 IPS — job-application discrimination reported far more often by Malays/Indians than the later all-race **7%** (2024) figure — different questions, same iceberg; Preetipls / brownface (2019): speech regulated when race goes public |
+| **Immigration scar** | Openness is strategy; the political memory of being “swamped” is 2013, not only Wong 2024. | Population White Paper 2013 (~**25,000** new citizens and ~**30,000** PRs a year) → Hong Lim Park protest; Fair Consideration Framework; dorms / Serangoon Gardens (2008) show low-wage migrants are wanted as labour and unwanted as neighbours |
+| **Identity is progress, not ancestry** | Young state: four official languages; a shared identity is *built* (NS, hawker food, services) and argued with ethnic inheritance and Western taste. | UNESCO hawker culture; NS as cross-race male rite; Ipsos 2020: **~85%** proud to be citizen/PR; “what is Singaporean” — multiracial society ~**3 in 5**, local food ~**57%**, world-class services ~**46%**, Singlish ~**44%**. State counters Singlish with Speak Good English |
+| **Green city, consumer life** | Engineering is serious (low-lying, no hinterland). Daily habit lags. | City in a Garden / park connectors; NEWater aimed at up to **~55%** of water by **2060**; Semakau: cut waste sent to landfill **30% by 2030**; **75%** of peak trips by public / active / shared transport by **2040**; ICE phase-out target **2040**; COE limits cars *and* prices the poor out |
+
+### Do not copy from that pack
+
+- TFR **1.05 (2022)** and “**19%** aged 65+ (2023)” — stale. Use section B (TFR **0.87** in 2025; **20.7%** of *citizens* 65+ in 2025).
+- GE2020 as the latest politics story, or “no true parliamentary opposition.” GE2025 returned PAP to **65.57%**; WP still holds seats.
+- “Authoritarian” as the topic sentence. The usable claim is **paternalist, centralised, performance-legitimate** — with a real speech and pluralism limit (POFMA, Public Order Act, ISA, FICA 2021, press constraints).
+- Ridout Road as proof ministers were guilty. CPIB still bites: former minister **Iswaran** was prosecuted. That is the clean example.
+- The pack’s line on Poh Li San as a male MP — factually wrong; do not use.
+- Gini **0.371** and “tax haven” as slogans. Low tax and Temasek/GIC stakes (SIA, Singtel, ST Engineering) already sit in the **state is rich** model (`01` §H). Inequality enters through the trampoline holes above, not a single coefficient.
+

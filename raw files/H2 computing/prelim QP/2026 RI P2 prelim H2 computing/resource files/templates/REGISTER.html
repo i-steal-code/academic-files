@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workshop Registration</title>
+</head>
+
+<body>
+
+<h1>Workshop Registration</h1>
+
+<form method="POST">
+
+    <label>Student:</label>
+
+    <select name="student_id">
+
+        {% for student in students %}
+        <option value="{{ student[0] }}">
+            {{ student[0] }} - {{ student[1] }}
+        </option>
+        {% endfor %}
+
+    </select>
+
+    <br><br>
+
+    <label>Workshop:</label>
+
+    <select name="workshop_id">
+
+        {% for workshop in workshops %}
+        <option value="{{ workshop[0] }}">
+            {{ workshop[0] }} - {{ workshop[1] }}
+        </option>
+        {% endfor %}
+
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+<p>{{ message }}</p>
+
+<br><br>
+<a href="/">Back to Home</a>
+
+</body>
+</html>

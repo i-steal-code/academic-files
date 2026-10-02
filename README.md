@@ -112,18 +112,24 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H1 GP
 
-8881 started with the 2024 A-level. Count sittings (year + school/national + P1/P2), not loose files.
+8881 started with the 2024 A-level. Count **P2 sittings** (year + school/national), not loose files.
 
-1. TYS ANS 2024 P2; 2025 P2 ANS is SAQ/summary/NIT only (`(no AQ)`). Also missing 2024 P1 QP
-2. P1 essay prelims as full sittings — none (multi-school 2025 question list is under `essay resources/`, not a paper)
-3. P2 compre prelims: RI 2021–2022; HCI 2021–2023; other schools except 2024 NJC
+P1 essay is **not** a collection gap. GP P1 can ask anything; a list of essay papers to sit is a worse use of time than the question pool already in `topics + case studies/` infopacks, `essay resources/` (KS Bulls, model essays, 2025 multi-school question list), tuition dumps, and `essay arsenal/`. Do not hunt RI/HCI P1 prelims.
 
-**have:**
-- TYS: 2024 P2 QP+IN; 2025 P1 QP; 2025 P2 QP+IN; 2025 P2 ANS (no AQ)
-- Prelim P2 complete (QP+IN+ANS): 2024 HCI, 2024 RI, 2024 NJC, 2025 HCI, 2025 RI
-- Promo P2 complete: 2024–2025 RI Y5
+Gold P2 timed sits are locked: `raw files/H1 GP/exam papers/LOCKED SITS.md` (agents: `.cursor/rules/gp-8881-locked-sits.mdc`). Spent, not locked: **2025 RI promo** (33/50). 2025 A-level P2 is locked as a paper but already sat (`scripts/2025 P2 A-level H1 GP (marked).md`).
+
+**Still missing (keys only, optional):** 2024 A-level P2 ANS; Specimen ANS; 2025 A-level AQ scheme.
+
+Image-only PDFs (no text layer) go through Tesseract OCR (`extract_mode: pdf_ocr_tesseract` in the package manifest). Converter: `python tools/convert_gp_package.py`. Job log: `tools/_scan_work/GP_CONVERT_JOB.md`.
+
+**have P2 (QP+IN+ANS unless noted):**
+- TYS: 2024 P2 QP+IN (no ANS); 2025 P2 QP+IN; 2025 P2 ANS (no AQ); 2025 P1 QP (essay paper, not a P2 sitting)
+- Specimen: IN+QP (no ANS) under `exam papers/misc/`
+- RI: prelim 2024–2025; promo 2024–2025; TP 2025 (`misc/`)
+- HCI: prelim 2024–2025
+- Other-school 8881 complete: 2024 ACJC, ASRJC, DHS, EJC, NJC, SAJC, VJC; 2025 ACJC, DHS, EJC, NJC, SAJC, TJC
 - 8807 / pre-8881: `exam papers/misc/not 8881/` (2023 RI P2; 2017 DHS Arts; 2023 TMJC JC1 Parental Guidance)
-- 8881 practice P2 packs remain under `exam papers/misc/` (Comedy, Rules, Democracy, …)
+- 8881 practice packs under `exam papers/misc/` (Comedy, Rules, Democracy, …). Not all are sit-shaped (Complaining / Gender Norms are 2-passage; some files are P1 essays)
 
 Tuition dump previously unpacked via `tools/reorg_gp_tuition.py`. Markdown mirrors: `python tools/convert_gp_package.py` (skips files >40MB, e.g. gitignored 2020 KS Bull Issue 1).
 
