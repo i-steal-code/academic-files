@@ -2,74 +2,225 @@
 
 # method: finish a stem's own test → checkpoint → only then a full paper
 
-**Now:** TAPER T1–T3 passed on 2026-10-02. Next is the 45-minute keep-warm (web, one JOIN, one parent/child), then the timed paper is 2021 A-level P2.
+**Now:** 2025 A-level P2 sat Mon 5 Oct in 3h under exam conditions. Building finished at 2h 25m, then 35 minutes of sweep, which found and fixed the linear-probing wrap in 4.3. About 90/100 (strict ~87), the best paper this cycle. The one real loss is `find_record`: it returns whatever is in the hash slot without checking the key, so searching for 475 printed `key: 175 | data: heavy`. No more papers. Taper to Wed 7 Oct, report 07:30, paper 08:00–11:00.
+
+**Goal:** the highest mark on the day. On the day nobody marks your work before 11:00, so the last 30 minutes must find the errors as well as fix them.
 
 ---
 
-## What the exam actually does, in order
+## Score history
 
-1. The stem names the function, the return, the test, and the file that must show the output.
-2. The next subtask calls that function. It does not get a fresh hardcoded list.
-3. The mark lines for "empty", "not found", and "first position" are separate from the happy path.
-4. Web and class tasks pay the identifiers written in that paper, including the saved page.
+| Paper | Conditions | Mark |
+|-------|-----------|------|
+| 2026 RI TP | timed | 25 |
+| 2024 HCI prelim | 3h | ~60 |
+| 2021 A-level | timed, 10 min spare | ~77 (strict ~70) |
+| 2022 A-level | 2h 30m first pass | ~60 |
+| 2022 A-level | plus marked fixes, 2h 52m | ~83 |
+| 2023 Task 2 only | 38 min, poor conditions | ~16–18 / ~25 |
+| 2024 A-level | 3h 00m, no sweep | ~57 |
+| 2024 A-level | plus evening fixes + `datetime` | ~72 |
+| 2025 A-level | 2h 25m build + own sweep | ~90 (strict ~87) |
 
-A part that stops at a signature, a sketch, or a typo in the only test call scores the lines with no evidence. That is the 2026 result (25/100): Task 4 was carried far enough to run; Tasks 1.2–1.4 and 2.1–2.4 were not; Task 3 never became the `.py` and saved pages the stem asked for.
+The range across the A-level papers is about 57 to 90. On papers where every task uses a familiar structure (2025: stack, inheritance, SQL join, hash table), you now finish with time to check. On papers with a step that looks new (2024: writing a file, adding days to a date), the stuck rule below decides the mark.
 
-## What changes in practice
+## What 2025 showed
 
-- A drill part is finished only when its test has been executed and the output is still in the notebook.
-- Write the empty, miss, and first-item case before the middle case.
-- Copy this stem's identifiers. Do not reuse names from the previous notebook.
-- The next part must call the previous function. No stand-in data.
-- Pillars stay the A-level ones: file, sort/search, ADT, SQL, one web page with a saved result. Prelim intensity means a dependent chain and strict cases, not a warehouse, maze, or socket task.
-- Sockets stay closed. Mongo is not next.
+| Task | Mark | Note |
+|------|------|------|
+| 1 Stack binary | 20 / 20 | `push` grows the list, `pop` returns the data with the pointer and `False` when empty, all three tests correct, including `46967` → `1011011101110111` |
+| 2 Room game | ~37 / 38 | All four classes, `super()`, file → objects, both input loops, all 14 test inputs reach the Finish room. The door wording differs from the stem's example ("there is door in direction N" instead of "There is a door to the North"). |
+| 3 Social DB | ~15 / 17 | Keys correct, four blocked comments correct. 3.3 is top-level code rather than the function the stem asks for. 3.2 shows no output for "Run your program". |
+| 4 Hash table | ~16 / 19 | Initialise, hash, insert with wrap and full check, `read_data` with failure message: all correct. `find_record` does not probe and does not compare keys, and returns the whole record instead of the string. |
+| Style | ~5 / 6 | |
 
-## Open now — TAPER drill
+The 4.6 output showed the mistake: you searched for 475 and it printed key 175. Item 2 of the contract check (write the expected output first) catches this in ten seconds. The sweep checked the code but not the printed output against what you asked for.
 
-Closed-book. One notebook, three parts. The checkpoint uses reversed data, the last index, an empty list, a head delete, a last-node delete, and a second database connection.
+## Recurring leaks across the cycle
 
-| Part | Behaviour | Done when |
-|------|-----------|-----------|
-| **T1** | Insertion sort ascending and bubble sort descending. Equal scores keep earlier order. Empty and one-item lists return themselves. | Checkpoint prints `T1: PASS`, and `batch` is still in its original order |
-| **T2** | Add to an empty rack, in front of the first, and after the last. Duplicate prints `Duplicate`. Remove the first, the last, a missing number, and from an empty rack. | Checkpoint prints `T2: PASS` |
-| **T3** | `MarkDone` changes one row and commits. `Cancel` deletes exactly two ids, with the column named on both sides of `OR`, and commits. | Checkpoint prints `T3: PASS` |
+| Leak | Papers | The check that catches it |
+|------|--------|---------------------------|
+| A novel rule coded from memory instead of from the stem | HCI, 2021, 2022, 2024 Task 1 (2025 Task 1 was correct) | Copy each rule bullet as a `#` comment and code under it; hand-check one example |
+| Output printed but never compared with what was asked | 2022 Caesar, 2024 4.4, 2025 4.6 | Write the expected output before running; compare the key or value you asked for |
+| Happy path only | 2021 delete, 2023 queue wrap | Call the empty, missing and wrap cases once |
+| Stuck on one unfamiliar step | 2024 3.4, 4.3 | Five-minute rule and fallback table |
+| Stem asks for a function, code is top-level | 2024 1.4, 2025 3.3 | Tick "Write a function" bullets: there must be a `def` and a call |
 
-Notebook: `computing practical/Boilerplates/TAPER drill.ipynb`. Answers: `_archive/TAPER - answers.ipynb`.
+## Raw timelines — 2024 vs 2025
 
-T1 and T2 are the gate. T3 is in the same sitting because an uncommitted change and a bare `OR ?` have both already dropped marks. The next timed paper stays closed until all three print PASS.
+### 2024 A-level · Sun 4 Oct · 13:40–16:40 · no sweep · ~57
 
-### Keep warm — web, SQL reads, OOP
+Clock times are from the first dump on the day (later evening fixes overwrote some mtimes).
 
-These are holding. They get a short closed-book pass after the taper, not a new chain and not a paper.
+| Clock | T+ | What the files show |
+|-------|-----|---------------------|
+| 13:40 | 0:00 | Start |
+| 13:40–15:13 | 0:00–1:33 | No saved artifact. Reading + building without a checkpoint save. |
+| 15:16 | 1:36 | `business.db` — Task 4 schema exists |
+| 15:50 | 2:10 | `TASK1` saved — card game done |
+| 16:35 | 2:55 | `TASK2` saved — number tree done (~45 min of clean work) |
+| 16:39–16:40 | 2:59–3:00 | `TASK3` and `TASK4` saved incomplete: no `.html`, no `Villa_Booking` rows, 4.4 stub |
 
-One 45-minute session, once, before the timed paper:
+**Order inferred:** Task 4 schema early → Task 1 → Task 2 → Task 3 and Task 4.3/4.4 left for the last five minutes.
 
-- **Web, 15 min.** From memory: one POST field, `return redirect`, one page you write yourself with a table row. Open `WEB DEV.ipynb` only after five minutes stuck.
-- **SQL read, 10 min.** One `JOIN` with `?` placeholders, then print the rows. Schema design and Mongo stay closed.
-- **OOP, 15 min.** A parent with a private field, a setter that rejects an empty value, and a child that reaches the parent through `super()` and a getter. Print the rejected value.
+**Where the paper crashed:** the last ~25 minutes of the build window were still on Task 2. Tasks 3 and 4 never got a simple running version. The curveballs (write `.html`, add days to a date) were met by searching for the “right” API instead of a fallback, and there was no sweep because building ran to the bell.
 
-If one of those prints is wrong, fix that cell only. Do not open a new paper to revise it.
+### 2025 A-level · Mon 5 Oct · 3h · build stop at 2h 25m · ~90
 
-### After the taper is cold
+Absolute start clock was not stated. From your timing: build done at 2h 25m, then 35 minutes of sweep. `database.db` at 20:16 and all notebooks batch-saved 22:38–22:39 put the sitting in the evening, ending near 22:40.
 
-Timed paper: **2021 A-level P2**. It is insertion sort, quicksort, a linked list with a subclass, then SQL and a saved page. That is the first real reading of distance from 70.
+| T+ | What happened |
+|----|----------------|
+| 0:00 | Start |
+| ~0:30–0:40 | `database.db` — Task 3 schema early (SQL banked while fresh) |
+| 0:40–2:25 | Tasks 1, 2, 4 built; Task 2 game path completed with all 14 inputs |
+| 2:25 | Last task finished. Sweep begins. |
+| 2:25–3:00 | Own sweep. Found and fixed 4.3 wrap-around probing. Did not catch `find_record` returning the wrong key (175 instead of 475). |
+| 3:00 | Notebooks saved. |
 
-### Tired rule
+**Order inferred:** Task 3 early (banked), then the ADT/OOP tasks; hash table last; deliberate sweep.
 
-T1 and its four prints only.
+**Where this paper held:** every task had a running simple version by 2h 25m. The sweep existed. One output-vs-input check was skipped.
+
+## Side-by-side
+
+| | 2024 (~57) | 2025 (~90) |
+|---|---|---|
+| Familiar structures | Tree, bubble, SQL create/load | Stack, inheritance, SQL join, hash insert |
+| Curveballs | File write + date arithmetic | None of that kind; hash find needed probing |
+| First artifact | 1h 36m | ~35 min |
+| Two tasks with output | by ~2h 55m (Task1+2) | well before 2h 25m |
+| Last 30–35 min | still building 3 and 4 | own sweep |
+| Incomplete chains | 3.4, 4.3, 4.4 | none incomplete |
+| Sweep finds | 0 (no sweep) | 1 of 2 real bugs |
+
+## What went well in both
+
+- **SQL create + load** lands early and holds when you touch it (2024 4.1/4.2, 2025 Task 3).
+- **Array / tree / OOP structures you have drilled** finish with output once started (2024 Task 2; 2025 Tasks 1 and 2).
+- **Execution counts stay low when the path is clear** (2025 Task 1: cells 1→2→3). High counts mark thrashing (2024 Task 4.3 cell ran to exec 22; 2025 Task 3.3 to exec 10).
+
+## What crashed — and what would have changed it
+
+**2024 failure mode: stuck without a simple version.**
+- At **T+2:00** you already had Task 1 and Task 4 schema. Cap for Task 2 at that point should have been ~40–45 min (it took ~45 and scored ~20). Fine.
+- At **T+2:30** Task 2 should have been force-saved. The remaining 30 minutes had to produce *something* for Task 3 and Task 4: `open(name+'.html','w')` with no edge cases, and date insert that ignores month rollover. That alone would have lifted the paper into the mid-60s/70s before any sweep.
+- Searching for `distutils` / perfect `datetime` past **five minutes** was the decision that wiped Task 3.4 and 4.3–4.4.
+
+**2025 near-miss: sweep checked code, not printed evidence.**
+- Stopping build at 2h 25m was correct. The wrap fix in 4.3 proves the sweep can find logic bugs.
+- What was missing: for 4.6, write “expect key 475 → law” before looking at the print. The print said key 175. That is a ten-second catch.
+
+## Plan for Wednesday if 2026 has curveballs
+
+You cannot remove curveballs. You can stop them from eating the dependent chain.
+
+1. **Open (5 min).** Read all four tasks. Mark each as *bank* (SQL create/load, Flask join page, sorts, stack, class+file) or *curveball* (novel rules, unfamiliar library, new ADT variant). Write a time cap at 1.6 min/mark on each.
+
+2. **Order: bank → bank → curveball → remaining.** Do your two strongest familiar tasks first until each has saved output. In this cycle that has been SQL and whichever of sort/tree/OOP/stack looks closest to drill. Leave the curveball until you have ~90–100 minutes of banked output, or until its own cap — whichever comes first.
+
+3. **Curveball rule (non-negotiable).**
+   - Minute 0–5: try the obvious API / Quick Reference.
+   - Minute 5: switch to the fallback table (`open`, month-length list or `date+timedelta`, `%`, etc.).
+   - Ship a **simple version that runs** before polishing edge cases.
+   - Write the next dependent subtask in full even if upstream data is thin.
+
+4. **Hard gates on the clock.**
+   - **09:30 (T+1:30):** at least two tasks with visible output.
+   - **10:15 (T+2:15):** every task attempted; every dependent part at least stubbed with a call and a test.
+   - **10:30 (T+2:30):** stop building. Sweep starts even if a curveball is ugly.
+
+5. **Sweep script (10:30–10:55).** For each notebook: (a) tick stem bullets against `def`s; (b) for every printed result, say out loud the input and the expected value, then look; (c) check named files exist and size > 0; (d) one empty/miss/wrap call where the stem names that case.
+
+**Strengths to play forward:** SQL schema+seed+join, OOP with `super()`, file→objects, stack/queue/hash *insert*, sorts, saving a page.  
+**Weaknesses to contain, not “solve” mid-paper:** novel Task 1 rules (copy bullets as comments), unfamiliar stdlib (5-minute fallback), find/search after probe (compare the key you asked for with the key that printed).
+
+That is the whole strategy: bank marks on known shapes first, force a running simple version on anything new by five minutes, and spend the last half hour reading outputs against inputs — the check that would have turned 2024 into a mid-70 and 2025 into the mid-90s.
+
+## Fallbacks to know cold
+
+| Stem asks | Fallback |
+|-----------|----------|
+| Write a file with a given extension | `with open(name + '.html', 'w') as f: f.write(text)` |
+| Read the lines of a file into a list | `[line.strip() for line in open(fname)]` |
+| Parse `'05-Jan'` | `day, mon = s.split('-')` and `int(day)`, or `datetime.datetime.strptime(s + '-2025', '%d-%b-%Y').date()` |
+| Add `i` days to a date | `(start + datetime.timedelta(days=i)).strftime('%d-%b')` |
+| Add days without `datetime` | month lengths `[31,28,31,30,31,30,31,31,30,31,30,31]`; add 1 to the day, and when it passes the month's length set it to 1 and add 1 to the month |
+| Hash find with linear probing | start at the hash; while the slot is not empty and fewer than `s` slots checked, compare `int(slot[0]) == int(key)`; step `(index + 1) % s` |
+| Leaf count of a full binary tree | `2 ** (levels - 1)`; total nodes `2 ** levels - 1` |
+| Sort by two keys without built-ins | compare the first key; if equal, compare the second key of **both** items |
+
+## Contract check — after every subtask, about one minute
+
+1. Tick each bullet in the stem against a line of code. "Write a function" means a `def` and a call.
+2. Run the paper's own worked examples and given test data. Write the expected output first, then compare it with what printed.
+3. For each function whose return the stem names, print `repr(result)` and `type(result)` once.
+4. For each method the driver does not call, call the head, missing, and empty case once. Leave those lines in.
+5. Turn each data warning in the stem into one query for that row.
+6. Traversals: in-order is sorted, pre-order starts with the root, post-order ends with the root.
+7. Files the stem names (`.html`, `.txt`, `.db`): check that they exist and are not empty.
+
+## Mon 5 Oct — done
+
+- 2025 full paper (~90). No more full papers. Leave 2020 and 2023 unopened.
+- Tonight: no corrections. Sleep now.
+
+## Tuesday rewrite list — blank cell, closed book, about 60 minutes, each one run
+
+1. **Hash find with probing:** rebuild the 2025 table from `records.txt`, then `find_record(475)` must return `'law'` and a missing key must return `False`.
+2. **Date expansion and availability:** Dolphin, 8 Apr, 4 days must give `08-Apr … 11-Apr`, with `10-Apr` and `11-Apr` unavailable. Use `start + timedelta(days=i)` and compare against `[row['date'] for row in rows]`.
+3. **File write:** write two `.html` files with `with open`, then check both sizes are above 0.
+4. **Two-key bubble sort:** number, then `red, green, blue`. Test equal numbers in all three colours.
+5. **Circular queue probe:** enqueue 4, dequeue 2, enqueue 2, print from `headPointer`.
+6. **Linked-list delete:** head, missing (no crash), empty.
+
+Stop at 60 minutes even if the list is unfinished. Do not open a paper.
+
+## Tuesday 6 October
+
+- 06:15 wake, to move your body clock towards an 08:00 start
+- 13:30–14:30 rewrite list
+- 14:30–14:45 read the stuck rule, the fallbacks, the contract check and the exam-room rules, once
+- afternoon: walk, rest, normal meals
+- 18:30 dinner
+- 20:30 screens off; pack the student pass, an approved calculator, water, a jacket
+- 21:45 lights out
+
+## Wednesday 7 October
+
+- 06:00 wake
+- 06:15 breakfast you eat on normal days
+- leave with the commute plus 15 minutes spare
+- 07:30 report
+- 07:30–08:00 no code. Rehearse the opening: read the whole paper, set each task's time cap, choose the fastest task first.
+- 08:00–08:05 read every task, write down each cap at 1.6 minutes per mark
+- 08:05 start the task you are fastest at; leave any task with an unfamiliar structure for last
+- about 09:30 two tasks finished, each with its output
+- 10:30 stop building. Every task has at least its simple version running.
+- 10:30–10:55 own sweep: contract check on every subtask; read each printed output against the input you gave; run each notebook from top to bottom; check the saved pages, files and file names
+- 10:55 save everything
+- 11:00 end
+
+## Exam-room rules
+
+- Open Flask as `http://127.0.0.1:<port>/`. Typing `https` gives a 400 before your route runs.
+- Name each file exactly as the stem says, before writing code in it.
+- Run the contract check after each subtask.
+- Five minutes per unfamiliar step, then use the fallback.
+- Build the simple version first. Every dependent part must be able to run.
+- When a task's cap is reached, save and move on. Come back in the sweep.
 
 ### Ban
 
-Resitting 2026. Resitting 2024 HCI. Drilling the warehouse task. Sockets. A new mega-chain. Opening the answer notebook before the checkpoint. Sitting 2021 before T1–T3 PASS.
+New topics. Any full or timed paper before Wednesday. Prelim papers. Sockets. Mongo. Coding after 15:00 on Tuesday.
 
 ---
 
 ## Quick pointers
 
-- Live: `TAPER drill.ipynb`
-- History, not the next session: Chains A–D, LINK, 2024 HCI, the three untimed prelim tasks
+- Last paper: `computing practical/2025 P2 A-level H2 computing/output files`
+- History: 2024, 2022, 2021 A-level; 2023 Task 2; Chains A–D, LINK, TAPER, 2024 HCI
 - Voice refs when marking: `S&S` · `ADT` · `DB` · `WEB DEV` · `POOP`
-- Typing: `monkeytype drills.txt` (epoch 3)
 - Log: `practical session log.md`
 
 ---
@@ -78,11 +229,24 @@ Resitting 2026. Resitting 2024 HCI. Drilling the warehouse task. Sockets. A new 
 
 | Gate | Status | Note |
 |------|--------|------|
-| Web page, SQL read, basic class | holding | 2024 HCI: form, redirect, join, saved page, `TaskNode` |
-| Quicksort on a real print | holding | brightness order on that paper |
-| Insertion and bubble, last index | cleared | T1 PASS, 2026-10-02 |
-| Linked-list head, last, empty | cleared | T2 PASS, 2026-10-02 |
-| SQL UPDATE / DELETE + commit | cleared | T3 PASS, second connection saw both changes |
+| Create tables with keys, load CSV files | holding | 2021, 2022, 2024, 2025 |
+| SQL joins and filters | holding | 2021, 2022, 2025 (blocked-user comments) |
+| Web page with saved result | holding | 2024 HCI, 2021, 2022 |
+| Stack with top-of-stack pointer | holding | 2025 Task 1, full marks |
+| OOP inheritance with `super()` and private attributes | holding | 2025 Task 2 |
+| File rows → objects of the right class | holding | 2025 Task 2.2 |
+| Input loop until valid | holding | 2025 door and answer loops; 2022 menu fixed |
+| Hash table insert with linear probing and wrap | holding | 2025 4.3, fixed in your own sweep |
+| Hash table find with probing and key compare | open | 2025 4.5: returns the hash slot without comparing keys |
+| SQL from computed data (date expansion) | holding after fix | 2024 4.3: 242 rows |
+| Availability check against expanded dates | open | 2024 4.4 |
+| Writing an output file the stem names | holding after fix | 2024 `test.html`; check size above 0 |
+| Bubble sort, merge sort, recursive binary search | holding | 2022 |
+| Two-key sort | open | 2024 1.3 compares one item with itself |
+| Array-of-nodes tree, BST traversals | holding | 2024 Task 2, 2022 Task 3 |
+| Circular queue structure | open | 2023 Task 2 wraparound print |
+| Linked-list delete | open | 2021 missing-value delete |
+| Novel spec rule in Task 1 | improving | wrong on the first pass 2021–2024; 2025 Task 1 correct |
 | sockets | closed | absent from TYS 2020–2025 |
 
-**Target:** T1–T3 PASS, one keep-warm session, then 2021 A-level P2. Do not add topics from the 2026 pillar mix.
+**Target on Wednesday:** every task has its simple version running by 10:30, and the sweep compares every printed output with the input that produced it.

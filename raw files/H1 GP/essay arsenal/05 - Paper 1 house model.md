@@ -26,7 +26,7 @@ Also mark the **question angle** (Inner Guide): value-impact, effectiveness, res
 
 | Type                                               | What you do                                                                                                                                                       |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **To what extent / how far**                       | Assume the claim has **merit**, then give **limits**. Limits ≠ exceptions.                                                                                        |
+| **To what extent / how far**                       | Assume the claim has **merit**, then give **limits**: conditions under which it stops holding, not one-off exceptions. |
 | **Absolute** (*always / only / nothing more than*) | Give the merit of the assumption, then **refute the absoluteness**.                                                                                               |
 | **Effectiveness / enough**                         | State a **yardstick** first (awareness < behaviour change < sustained change < **alleviation of the problem**). GP has **no “solutions”** — do not list measures. |
 | **Comparative** (A vs B, more curse than blessing) | Compare **like with like**. Use **SIT**: scale, impact, time.                                                                                                     |
@@ -117,7 +117,7 @@ They overlap. Markers do not want a separate “insight paragraph.” They want 
 - Weak models in the repo list many names and never extract the principle. Do not copy that habit even when the essay is long.
 
 **Paired-example pattern (gold) — use arsenal cases, not a new country to memorise:**  
-Circuit Breaker showed a state that can shut a city; the dormitory outbreak showed whose crowding that growth model had already priced in. Principle: competence and inequality can be the same policy. Compare *conditions* (housing, class), not a second pathogen.
+Circuit Breaker showed a state able to shut down a whole city. The dormitory outbreak showed that Singapore’s growth had long depended on housing migrant workers in crowded dormitories — a cost the public had accepted without looking at it. Principle: the same policy can show a state’s competence and expose inequality at once, because identical lockdown rules meant very different risks in a dormitory than in an HDB flat. Compare *conditions* (housing, class), not a second disease.
 
 ---
 

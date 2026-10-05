@@ -2,7 +2,7 @@
 
 **Engine:** Singapore is a resource-poor island that chose to live by trade, with a state strong enough to plan and a social compact that helps people bounce rather than be carried. Most “your society” answers turn on that constraint and that compact, not on a list of scheme names.
 
-**Use this file when** the title says *in your society* / *your country*, or when AQ asks you to apply a passage to Singapore. A global case (US 2024, COVID) belongs in **one** sentence as weather arriving from outside — then return to a feature below.
+**Use this file when** the title says *in your society* / *your country*, or when AQ asks you to apply a passage to Singapore. A global case (US 2024, COVID) belongs in **one** sentence, as a pressure arriving in Singapore from outside — then return to a feature below.
 
 **Weighting:** Dr Chan (AQ FAQs, Inner Guide) first. Budget and topic packs for proof. Half-weight notes only when they add and do not contradict.
 
@@ -30,7 +30,7 @@ Markers want to know **why Singapore is unlike the passage’s default society**
 ## B. Nine facts
 
 1. **Housing:** About **77%** of resident households live in **HDB** flats (2025); **owner-occupation** is about **91%**. Public housing is the main wealth and mixing tool, not a residual welfare estate.
-2. **Island → hub:** With little of its own to sell from the ground, Singapore stays a trading and investment node. Global shocks (COVID, energy after Ukraine, US–China rivalry) arrive as prices, jobs and security weather.
+2. **Island as hub:** With little of its own to sell from the ground, Singapore stays a trading and investment node. Global shocks (COVID, energy after Ukraine, US–China rivalry) reach Singapore as changes in prices, jobs and security risks.
 3. **Ageing as the price of long life:** Life expectancy is among the world’s highest (about **85** at birth in recent Budget materials). **20.7%** of citizens were **65+** in June 2025; about **one in four** by **2030**. Longevity is a policy success that creates care demand.
 4. **TFR:** Resident total fertility rate **0.97** (2024) → **0.87** (2025, record low). Births alone will not reverse ageing (Singstat / COS 2026).
 5. **Harmony (IPS 2024, n=4,000):** **65.4%** rate racial and religious harmony high or very high; about **53%** have a close friend of another race. Acceptance is higher for colleagues than for in-laws.
@@ -45,7 +45,7 @@ Markers want to know **why Singapore is unlike the passage’s default society**
 
 **Paper 1.** Mark which feature makes the global claim land differently. Two Singapore examples, then the principle. End on Insight → Qualifier → Implication, tied to a feature. For *effective / enough*, use SIRDEC before you praise a scheme.
 
-**AQ.** No introduction. Name **Singapore** in the first line. Nuanced stand = a real concern **and** a judgement. SV: two layered local examples pointing at one iceberg. OV + rebuttal, each with at least one example. Overseas material only if it sharpens Singapore.
+**AQ.** No introduction. Name **Singapore** in the first line. A nuanced stand states a real concern **and** a judgement on it. SV: two local examples, layered so that both reveal the same underlying issue. OV + rebuttal, each with at least one example. Overseas material only if it sharpens Singapore.
 
 ---
 
@@ -67,7 +67,7 @@ Scarcity made openness a strategy: a port and a headquarters market, or a stagna
 
 The other half of the bargain is the trampoline: **Workfare**, the **Progressive Wage Model** and **SkillsFuture** try to raise the local core rather than warehouse it. “Fewer foreigners” is only realistic where productivity and births close the gap. Until then the trade-off is competitiveness against crowding and identity.
 
-**Pair:** Wong’s controlled openness (2024) **with** Workfare / PWM. Openness without bounce looks like replacement; bounce without openness cannot staff hospitals, yards or a hub.
+**Pair:** Wong’s controlled openness (2024) **with** Workfare / PWM. Openness without support for local workers looks, to citizens, like being replaced by foreigners; support for local workers without openness cannot staff hospitals, shipyards or a regional business hub.
 
 ### Family, youth, the elderly
 
@@ -101,7 +101,7 @@ A pragmatic, exam-driven, high-cost society is slow to treat the arts as necessa
 
 There is no hinterland to fall back on. National Service and a serious defence budget are the price of remaining a sovereign trading island rather than a protected harbour. Diplomacy is not optional: wars and elections Singapore did not vote in still set energy prices, shipping risk, and the mood of a multiracial street. Neutrality is usefulness to several sides, not withdrawal.
 
-**Pair:** NS / defence as the cost of sovereignty **with** imported prices after Ukraine or imported heat from overseas identity conflicts. The island did not start the weather. It still pays.
+**Pair:** NS / defence as the cost of sovereignty **with** higher prices after the Ukraine war, or tensions over overseas religious and ethnic conflicts spreading into Singapore. Singapore did not cause these crises, but it still bears their costs.
 
 ---
 
@@ -111,13 +111,13 @@ There is no hinterland to fall back on. National Service and a serious defence b
 
 | | EG1 | EG2 | Principle |
 |---|---|---|---|
-| **Ageing** | 20.7% of citizens 65+ (2025); LE ~85 | TFR 0.87 (2025) | Long life without replacement is a **structure** — unless immigration and productivity fill the gap |
-| **Trampoline** | Workfare / SkillsFuture | Silver Support / long-term ComCare | Bounce assumes you can still work; the net is for those who cannot |
-| **Cohesion** | IPS: 65.4% high harmony | Lower acceptance of other races as in-laws | Public mixing ≠ private intimacy |
-| Inequality | PWM + Workfare | IPS: 7% workplace discrimination (2024) | Institutions lift wages faster than attitudes move |
-| Housing | HDB + CPF | Grants that also bid up resale | Subsidy eases entry **while** land stays scarce |
-| Speech | POFMA / Public Order Act | Pink Dot 2017 (120 local sponsors) | Regulate ≠ convince |
-| COVID | Circuit Breaker | Migrant dorm clusters | Same rules, unequal rooms — already in `02`; do not double-memorise |
+| **Ageing** | 20.7% of citizens 65+ (2025); LE ~85 | TFR 0.87 (2025) | Because people live longer while too few children are born, ageing is built into the population’s **structure**; only immigration and higher productivity can offset it |
+| **Trampoline** | Workfare / SkillsFuture | Silver Support / long-term ComCare | Trampoline schemes assume the person can still work; the net exists for those who cannot |
+| **Cohesion** | IPS: 65.4% high harmony | Lower acceptance of other races as in-laws | Singaporeans accept other races as neighbours and colleagues more readily than as family; public harmony does not mean private closeness |
+| Inequality | PWM + Workfare | IPS: 7% workplace discrimination (2024) | Policy can raise low wages faster than it can change employers’ prejudices |
+| Housing | HDB + CPF | Grants that also push up resale prices | Grants help buyers into the market, but **because** land is scarce, extra buying power also pushes resale prices up |
+| Speech | POFMA / Public Order Act | Pink Dot 2017 (120 local sponsors) | A law can stop a view from being expressed in public without persuading anyone to give it up |
+| COVID | Circuit Breaker | Migrant dormitory clusters | The same lockdown rules meant very different risks in a crowded dormitory than in a flat — already in `02`; do not memorise twice |
 
 ---
 
@@ -161,8 +161,8 @@ There is no hinterland to fall back on. National Service and a serious defence b
 
 | Habit | Fix |
 |---|---|
-| Scheme names without a feature | Constraint first; policy proves it |
-| “Singapore is a developed country” | Too thin — pick the island, the trampoline, or the compact |
+| Scheme names without a feature | State the Singapore constraint first, then use the policy as evidence of it |
+| “Singapore is a developed country” | Too thin — name the specific feature: the resource-scarce island, the trampoline design of welfare, or the multiracial compact |
 | AQ that tours the world | Singapore first |
 | “The government always succeeds” | SIRDEC, then IPS or the group that cannot bounce |
 | Three policies in one paragraph | Two examples, compare, extract the principle |
@@ -186,16 +186,16 @@ Source: `topics + case studies/AQ Features of Singapore Society.pdf`. Half-weigh
 
 | Lens | What to understand | Proof (name one) |
 |---|---|---|
-| **Paternalism as design** | The state treats private behaviour as a public variable. LKY, National Day Rally **1986**: accused of interfering in private lives — “If I did not… we wouldn’t be here today.” | Smoking restrictions and warnings; “Stand Up, Stacey”; Singapore Kindness Movement (from 1979); void decks built so neighbours will mix |
-| **Reservoir of trust** | The trust *gap* (`A`) sits on a trust *reservoir*: bitter pills are swallowed because of delivery. That is why competence can persist while citizens still resent being managed. | “Social compact” / reservoir-of-trust language; Shared Values below |
+| **Paternalism as design** | The state treats private behaviour — smoking, manners, diet, whether neighbours mix — as its business, because it judges that the public cost of leaving that behaviour alone is too high. LKY, National Day Rally **1986**: accused of interfering in private lives — “If I did not… we wouldn’t be here today.” | Smoking restrictions and warnings; “Stand Up, Stacey”; Singapore Kindness Movement (from 1979); void decks built so neighbours will mix. **Diet:** the state began with a voluntary Healthier Choice Symbol (**2001**), declared a War on Diabetes in **2016** (~1 million diabetics projected by 2050 if nothing changed), then made Nutri-Grade A–D labels mandatory on packaged drinks (**30 Dec 2022**) and freshly made drinks (**30 Dec 2023**). Sugary drinks stay legal; the state changes what buyers see so that the less healthy choice looks worse |
+| **Reservoir of trust** | Beneath the trust *gap* (`A`) lies a stock of trust built up over decades: citizens accept unpopular policies because the government has a record of delivering results. That is why the state can keep governing effectively even while citizens resent being managed. | “Social compact” / reservoir-of-trust language; Shared Values below |
 | **Shared Values (1991)** | Official identity, not folk identity: (1) nation before community, society above self; (2) family as the basic unit; (3) community support and respect for the individual; (4) consensus, not conflict; (5) racial and religious harmony. | Use as the state’s answer when a passage assumes liberal individualism |
-| **Kiasu vs nudge** | Fear of losing out drives hours, tuition, status goods. The state then *nudges* civic behaviour because that temperament would otherwise fray the compact. | MOM ~**44.9** hours/week (2022); 5Cs as 1990s status, with post-COVID talk of balance — desire shifted faster than the hours |
-| **Meritocracy’s empathy hole** | Equal formal opportunity can still teach that the poor *deserve* to be behind. That is the moral injury inside the trampoline. | Streaming/PSLE history **with** ComLink+; those who fail the gate are read as undeserving, not only unlucky |
+| **Kiasu vs nudge** | Fear of losing out drives long working hours, tuition spending and status purchases. Left alone, that competitiveness would weaken civic behaviour such as courtesy and mutual help, so the state *nudges* it — through campaigns and the design of choices — rather than relying on people to cooperate unprompted. | MOM ~**44.9** hours/week (2022); the “5Cs” (cash, car, credit card, condominium, country club) as 1990s status symbols. After COVID people talk more about work–life balance, but working hours have not fallen as fast as attitudes have changed |
+| **Meritocracy’s empathy hole** | Formal equal opportunity can teach people that those who end up poor *deserve* to be behind. This is the moral cost of a welfare design built on self-reliance. | Streaming/PSLE history **with** ComLink+; students who fail the exam are seen as undeserving, not merely unlucky |
 | **Trampoline holes** | CPF assumes an employer contribution. Gig, freelance, and disability do not get that. Means tests baffle the oldest and least literate. There is no standing unemployment dole — SkillsFuture / PWM instead; COVID cash (up to $700 for three months) was the exception. | WIS (bottom ~20%, 30+); ComCare; gig CPF gap |
 | **Family still first for the old** | Filial piety is both value and policy. The state still prefers children nearby over becoming the parent. Isolation is the failure mode when families shrink. | Proximity Housing Grant; Maintenance of Parents Act (60+ can claim from children who can pay and do not); Community Care Apartments (from 2021); retirement age **65** / re-employment **70** by **2030** |
-| **Gender: opportunity ≠ care** | School and work are formally meritocratic; caregiving is still expected of women, often outsourced to a migrant domestic worker. | **s377A repealed 2022**, while the Constitution defines marriage as man–woman; unadjusted pay gap **16.3% (2018) → 14.3% (2023)**; paternity leave doubled toward **four weeks in 2024**, extra weeks on a voluntary basis; concessionary MDW levy ~$60 where there is care need |
+| **Gender: equal opportunity, unequal care** | School and work are formally meritocratic; caregiving is still expected of women, often outsourced to a migrant domestic worker. | **s377A repealed 2022**, while the Constitution defines marriage as man–woman; unadjusted pay gap **16.3% (2018) → 14.3% (2023)**; paternity leave doubled toward **four weeks in 2024**, extra weeks on a voluntary basis; concessionary MDW levy ~$60 where there is care need |
 | **Harmony managed, not intimate** | Public order is real; private prejudice and “we don’t talk about race” are the cost. Official channels often replace messy conversation. | MRHA 1990: religious leaders barred from political comment; 2018 IPS — job-application discrimination reported far more often by Malays/Indians than the later all-race **7%** (2024) figure — different questions, same iceberg; Preetipls / brownface (2019): speech regulated when race goes public |
-| **Immigration scar** | Openness is strategy; the political memory of being “swamped” is 2013, not only Wong 2024. | Population White Paper 2013 (~**25,000** new citizens and ~**30,000** PRs a year) → Hong Lim Park protest; Fair Consideration Framework; dorms / Serangoon Gardens (2008) show low-wage migrants are wanted as labour and unwanted as neighbours |
+| **Immigration scar** | Openness is strategy; the political memory of being “swamped” is 2013, not only Wong 2024. | Population White Paper 2013 (~**25,000** new citizens and ~**30,000** PRs a year), which provoked a protest at Hong Lim Park; Fair Consideration Framework; dorms / Serangoon Gardens (2008) show low-wage migrants are wanted as labour and unwanted as neighbours |
 | **Identity is progress, not ancestry** | Young state: four official languages; a shared identity is *built* (NS, hawker food, services) and argued with ethnic inheritance and Western taste. | UNESCO hawker culture; NS as cross-race male rite; Ipsos 2020: **~85%** proud to be citizen/PR; “what is Singaporean” — multiracial society ~**3 in 5**, local food ~**57%**, world-class services ~**46%**, Singlish ~**44%**. State counters Singlish with Speak Good English |
 | **Green city, consumer life** | Engineering is serious (low-lying, no hinterland). Daily habit lags. | City in a Garden / park connectors; NEWater aimed at up to **~55%** of water by **2060**; Semakau: cut waste sent to landfill **30% by 2030**; **75%** of peak trips by public / active / shared transport by **2040**; ICE phase-out target **2040**; COE limits cars *and* prices the poor out |
 

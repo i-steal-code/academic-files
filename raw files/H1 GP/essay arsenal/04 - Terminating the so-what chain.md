@@ -37,7 +37,7 @@ If (1) and (2) are done, stop even if you can imagine a worse world.
 - **Link 2 — near consequence:** what we already see.
 - **Landing:** so this *is* the harm/value in the title.
 
-Illegal fourth link: “and then democracy dies.” Bigger scale = **new paragraph**, new 2+1.
+Illegal fourth link: “and then democracy dies.” A bigger scale needs a **new paragraph** with its own 2+1.
 
 **Slope vs warrant:** a slope treats possibles as necessaries, or skips *because*.  
 Weak: “this will lead to…” / “people will inevitably…”  
@@ -63,7 +63,7 @@ If the drafted tail lacks the key word, keep the example; change the tail.
 
 ---
 
-## 5. Four stop-questions (first yes that also meets §2 = exit)
+## 5. Four stop-questions (stop at the first “yes” that also meets §2)
 
 1. Does this already name the title’s good/harm?
 2. Would a fair opponent still say “yes, and?” If no, you have landed.
@@ -84,11 +84,11 @@ Do not stack all three. That restarts the loop in the marker’s head.
 
 ## 7. Worked contrast (short-form)
 
-**Slope (do not write):** algorithm → dopamine → indoctrination → clash → elites capture the masses → ruined life.
+**Slope (do not write):** “The algorithm gives dopamine hits, which leads to indoctrination, which leads to clashes, which lets elites capture the masses, which ruins lives.” Each “leads to” is asserted, not shown.
 
-**Legal 2+1:** feeds reward agreement → people inhabit one-sided information worlds we already observe → they lose the everyday capacity to change their mind, which is part of a self-directed life.
+**Legal 2+1:** Social-media feeds show users more of what they already agree with. We can already observe the result: people living in one-sided information worlds. So they lose the everyday habit of changing their minds, which is part of directing one’s own life.
 
-Need civic scale? **New** paragraph: same architecture at population scale → 2024 electorates occupying incompatible ‘facts’ → shared self-government becomes theatre.
+Need civic scale? **New** paragraph: the same feed design, applied across a whole population, produced 2024 electorates who believed incompatible facts. Citizens who cannot agree on basic facts cannot deliberate and govern together, so elections continue in form while losing their purpose.
 
 ---
 
@@ -98,10 +98,10 @@ Need civic scale? **New** paragraph: same architecture at population scale → 2
 
 ---
 
-## 9. Arsenal terminals (observed crack + named good)
+## 9. Arsenal terminals (an observed weakness + a named good)
 
 | Case | Fake terminal | Real terminal |
 |---|---|---|
-| US 2024 | “dictatorship, then the world ends” | Voters traded institutional risk for kitchen-table relief; trust is the scarce resource |
-| Ukraine/Gaza via US | WW3 | Other people’s survival sat on an electorate’s ballot; law without enforcement is optional for friends |
-| COVID | “lockdown forever” | The shock published inequality/trust cracks; the hangover is still the weather |
+| US 2024 | “dictatorship, then the world ends” | Voters accepted a risk to democratic institutions in exchange for the hope of lower living costs, because they no longer trusted those institutions’ defenders to deliver for them |
+| Ukraine/Gaza via US | WW3 | The safety of Ukrainians and Gazans depended partly on how American voters cast their ballots; and international law that no one enforces becomes optional for a superpower’s allies |
+| COVID | “lockdown forever” | The pandemic exposed inequalities and weak public trust that already existed; its after-effects (distrust, inflation, learning loss) still shape politics today |

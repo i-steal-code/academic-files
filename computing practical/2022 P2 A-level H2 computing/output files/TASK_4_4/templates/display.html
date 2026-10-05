@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title> display </title>
+</head>
+<body>
+<h1> displaying data for books that have not been returned </h1>
+{% if results %}
+<table>
+{% for row in results %}
+<tr>
+<td> {{row['FamilyName']}} </td> <td> {{row['GivenName']}} </td> <td> {{row['Title']}} </td>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
+</body>
+</html>

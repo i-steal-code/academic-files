@@ -1,0 +1,14 @@
+Start,3,1,-1,-1,Welcome to the room game. Are you ready to begin?
+Normal,4,2,-1,0,What is 10 + 20?,30
+Normal,5,-1,-1,1,How many is a dozen?,12
+Normal,-1,4,0,-1,What is the largest 2-digit hexadecimal number?,FF
+Normal,7,-1,-1,3,What is the smallest denary number that can be represented in 10 bits?,0
+Normal,8,6,2,-1,What is 11111111 in denary?,255
+Normal,-1,-1,-1,5,What is 7 in 3-bit binary?,111
+Normal,10,-1,4,-1,What is the hexadecimal number AA in denary?,170
+Normal,-1,9,5,-1,What is the hexadecimal number 23 in denary?,35
+Normal,-1,8,-1,-1,What is the largest denary number that can be represented in 16 bits?,65535
+Normal,-1,11,7,-1,What is the smallest denary number that can be represented in 24 bits?,0
+Normal,12,-1,10,-1,How many different numbers can be represented in 1 bit?,2
+Normal,-1,13,11,-1,How many different numbers can be represented in 2 bits?,4
+Finish,-1,-1,-1,-1,Congratulations on escaping the room game

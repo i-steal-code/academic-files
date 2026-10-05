@@ -1,46 +1,46 @@
 # Case 1 — US 2024 (and the two wars it was already funding)
 
-**Engine:** Americans voted on prices, borders, and elites — while US power still decided two wars other countries were fighting.
+**Engine:** In 2024 American voters decided mainly on prices, immigration and their distrust of political elites. Because the US is the main backer of both Ukraine and Israel, that domestic vote also shaped two wars whose participants had no say in it.
 
 **Use for:** democracy, polarisation, media, truth, populism, youth, inequality, leadership, IR, war, alliances, hypocrisy, small states, globalisation, governance models, state vs capital, corruption, industrial policy.
 
-**Memorise:** 9 facts, 1 mechanism, **3 pairs** (section D). East Asia state–capital map (section H) = **one extra lens**, not a second case dump.
+**Memorise:** 9 facts, 1 mechanism, **3 pairs** (section D). Section H (how wealth and state power relate in the US and East Asia) is **one extra lens**, not a second case to memorise.
 
 ---
 
 ## A. Plot
 
-Biden’s June 2024 debate collapse ended his run. Harris inherited the nomination without a competitive primary. Trump — convicted 30 May 2024 on **34 counts of falsifying business records** (the New York case about concealing a hush-money payment; the charge is records-falsification, not “hush-money offence”) — survived a July assassination attempt in Pennsylvania, then won the presidency, the popular vote, and both houses. He took the Democratic “Blue Wall”: Pennsylvania, Michigan, Wisconsin.
+Biden’s June 2024 debate collapse ended his run. Harris inherited the nomination without a competitive primary. Trump — convicted 30 May 2024 on **34 counts of falsifying business records** (the New York case about concealing a hush-money payment; the charge is records-falsification, not “hush-money offence”) — survived a July assassination attempt in Pennsylvania, then won the presidency, the popular vote, and both houses. He took the three states Democrats had long relied on, the “Blue Wall”: Pennsylvania, Michigan, Wisconsin.
 
-Kitchen-table issues drove the vote. Foreign policy entered through the back: 2022 energy shock after Russia invaded Ukraine; Gaza split Democrats on camera.
+Household costs drove the vote: food, rent and energy, and for many voters, immigration. Foreign policy reached voters through those costs and through social media. Russia’s 2022 invasion of Ukraine raised energy prices worldwide, and the war in Gaza split Democratic voters in public.
 
-**Mechanism:** Material insecurity makes voters punish incumbents and discount “save the institutions.” Polarised media then makes the other side look illegitimate, not wrong. A superpower election therefore sets other countries’ wars without those countries voting.
+**Mechanism:** When households feel poorer, voters punish the party in power and give less weight to warnings that the other candidate threatens democratic institutions. Because each side gets its news from different partisan sources, voters come to see the other side as illegitimate, not merely mistaken. And because the US funds and arms other countries’ wars, an American election changes the course of those wars even though the people living through them cannot vote in it.
 
 ---
 
 ## B. Nine facts
 
-1. 2024: Biden out after the debate; Harris in; Trump wins presidency + both houses.
+1. 2024: Biden withdrew after the debate; Harris replaced him; Trump won the presidency and both houses.
 2. First person **elected** US president after a felony conviction (34 counts of falsifying business records, May 2024; under appeal).
 3. Assassination attempt, Pennsylvania, July 2024.
-4. Blue Wall falls: Pennsylvania, Michigan, Wisconsin.
-5. Domestic drivers: inflation (food, rent, energy), immigration, distrust.
-6. Russia–Ukraine (from Feb 2022): US = Ukraine’s main military/financial backer; NATO’s spine.
-7. Israel–Gaza (from 7 Oct 2023): US = Israel’s main arms and diplomatic shield, including UN vetoes.
+4. Trump won the “Blue Wall” states: Pennsylvania, Michigan, Wisconsin.
+5. Domestic drivers: inflation (food, rent, energy), immigration, and distrust of politicians, experts and the media.
+6. Russia–Ukraine (from Feb 2022): the US is Ukraine’s main military and financial backer and the largest military power in NATO, which the alliance depends on.
+7. Israel–Gaza (from 7 Oct 2023): the US is Israel’s main supplier of arms and its main diplomatic protector, including through vetoes at the UN Security Council.
 8. **Law, not verdicts:** ICJ **Jan 2024** ordered **provisional measures** in South Africa’s case against Israel — not a finding of genocide. ICC **21 Nov 2024** issued **arrest warrants** (not convictions) for Netanyahu, Gallant, and Hamas commander Mohammed Deif. (Deif’s warrant was later withdrawn after his death was confirmed; the 2024 fact is that warrants were issued.)
-9. Campaign split: Trump sceptical of open-ended Ukraine aid; Democrats split over Gaza, which cost them young/progressive energy.
+9. Campaign split: Trump was sceptical of open-ended aid to Ukraine; Democrats were divided over Gaza, which cost them enthusiasm and turnout among young and progressive voters.
 
 ---
 
 ## C. The wars are US politics
 
-Do not learn Ukraine and Gaza as two extra current-affairs topics. They are how US 2024 reached the rest of the world.
+Do not learn Ukraine and Gaza as two extra current-affairs topics. They are the route by which the US election affected people outside the US.
 
-**Ukraine.** US funding, weapons, intelligence. If that aid becomes slow or transactional, Europe must arm itself or watch the front move. Alliances are bets that a patron stays interested.
+**Ukraine.** The US supplies funding, weapons and intelligence. If that aid slows or comes with conditions, European states must either rearm quickly or accept Russian gains on the front line. An alliance with a great power is only as reliable as that power’s domestic willingness to keep paying for it.
 
-**Gaza.** US munitions and diplomatic cover. In 2024 the war was also a US cleavage: campuses vs party leadership, young vs older, “rules-based order” vs “our ally.” You cannot lecture Moscow on law and shrug at The Hague.
+**Gaza.** The US supplies munitions and shields Israel diplomatically. In 2024 the war also divided Americans: student protesters against party leaders, younger voters against older ones, and those who wanted the US to apply international law consistently against those who put loyalty to an ally first. The US cannot credibly condemn Russia for breaking international law while dismissing the ICJ and ICC when they act against Israel.
 
-**One image:** the US was patron of two wars it could neither win nor drop. Most voters were not voting on those wars as abstractions; they sat inside the till (energy) and the feed (Gaza).
+**The core point:** the US was the main backer of two wars it could neither win itself nor walk away from. Most voters did not judge those wars as foreign-policy questions. They felt Ukraine through higher energy bills and Gaza through what they saw on social media.
 
 ---
 
@@ -48,9 +48,9 @@ Do not learn Ukraine and Gaza as two extra current-affairs topics. They are how 
 
 | Pair | EG1 | EG2 | Principle |
 |---|---|---|---|
-| Polarised knowledge | 2024: mutually unintelligible short-form feeds | COVID infodemic: official uncertainty walked back, then treated as betrayal | More media ≠ shared facts — **when** platforms maximise engagement |
-| Patron wars | Ukraine lives on US munitions/NATO | Gaza: US arms + UN vetoes while ICJ/ICC move | A superpower's democracy decides other people’s security — **when** voters treat aid as optional |
-| Kitchen table | Lived inflation (partly post-Ukraine energy) | Gaza split Democrats; “democracy on the ballot” did not bind the median voter | Material insecurity outranks norm-talk — **for** median voters, not campus activists |
+| Polarised knowledge | In 2024, voters on different short-form video platforms received incompatible accounts of the same events | During COVID, health authorities changed their guidance (on masks, on airborne spread), and many people read the changes as deception rather than updated science | More media does not produce shared facts **when** platforms are built to maximise engagement, because engagement rewards content that confirms what each group already believes |
+| Wars that depend on a patron | Ukraine depends on US weapons and money, and on NATO, which the US leads | Israel relies on US arms and US vetoes at the UN, even as the ICJ and ICC act against it | When a superpower pays for other countries’ security, its voters effectively decide that security — **especially when** they come to treat foreign aid as optional spending |
+| Cost of living over principle | Inflation, partly caused by the energy shock after Russia invaded Ukraine, dominated voters’ concerns | Democrats’ warning that “democracy is on the ballot” did not outweigh prices for the median voter, and Gaza divided their own base | **For** median voters, though not for committed activists, immediate household costs outweigh arguments about protecting institutions |
 
 Do not write WW3, “dictatorship then the world ends,” or “ICJ found genocide.”
 
@@ -60,128 +60,129 @@ Do not write WW3, “dictatorship then the world ends,” or “ICJ found genoci
 
 | Topic | Land here |
 |---|---|
-| Democracy / leadership | Delivery beat norms. Strength-as-theatre ≠ state capacity. |
-| Media / truth | Same country, different fact-sets. Seeing a video is not understanding it. Felony + assassination still did not settle legitimacy. |
-| Youth | Not apathetic: Gaza + online culture. Young men rightward is usable; apathy is the wrong word. |
-| Inequality | GDP can look fine while rent does not. “Why Kyiv not Flint?” was crude and electorally real. |
-| Tech | Deepfakes attack “seeing is believing.” Chips/AI/China: industrial policy is security. |
-| Environment | Ukraine = energy shock; security beat climate when people freeze. One sentence unless the title is environmental. |
-| Arts / speech | Campus encampments and boycotts: culture as proxy for Gaza. |
-| Ethics | Ukraine: sovereignty vs nuclear escalation. Gaza: 7 Oct was an atrocity; Gaza’s civilians are not Hamas. Binary feeds punished saying both. |
-| Singapore | No vote; still the bill (energy, shipping, chips). Imported identity conflict hits a multiracial public. If the US treats ICJ/ICC as optional, small states lose their favourite field. Hedge: trade, defence, ASEAN, still-China. For governance titles: SG is not “rich control the state” — see **H** (*state is rich*). |
-| State vs capital / corruption | US campaign finance + KR chaebol (parallel). CN common-prosperity / party cells in firms (contrast). SG Temasek–GIC–reserves (outlier). |
-| Industrial policy | US chips/AI = late industrial policy. KR/JP developmental lineages. CN party-directed capital. SG = state as investor, not chaebol captive. |
+| Democracy / leadership | Voters chose the candidate they believed would lower prices and control the border over the one defending democratic norms. Projecting strength is not the same as being able to govern effectively. |
+| Media / truth | Americans living in the same country held incompatible versions of basic facts. Watching a video of an event is not the same as understanding its context. Each side read both the felony conviction and the assassination attempt to fit what it already believed, so neither event changed many minds. |
+| Youth | Young people were not apathetic: many were mobilised by Gaza and by online political culture. The shift of young men toward Trump is usable evidence; “apathy” is the wrong word. |
+| Inequality | National GDP growth can look healthy while rent becomes unaffordable for ordinary households. The complaint “why fund Kyiv when Flint still lacks clean water?” was crude, but it moved votes. |
+| Tech | Deepfakes undermine the assumption that video is proof. US restrictions on chips and AI exports to China show that industrial policy is now treated as national security. |
+| Environment | The Ukraine war raised energy prices, and governments put a secure energy supply ahead of climate targets when households faced cold winters. Give this one sentence unless the title is about the environment. |
+| Arts / speech | Campus encampments and cultural boycotts turned universities and arts institutions into places where the Gaza conflict was fought out by proxy. |
+| Ethics | Ukraine: defending a country’s sovereignty against the risk of nuclear escalation. Gaza: the 7 October attack was an atrocity, and Gaza’s civilians are not Hamas. Polarised social media punished people who said both. |
+| Singapore | Singapore had no vote in the US election but still pays its consequences through energy prices, shipping costs and chip supply. Overseas conflicts that spread through social media can inflame a multiracial public. If the US treats the ICJ and ICC as optional, small states lose the international law they rely on for protection. Singapore’s response is to hedge: trade widely, keep a credible defence, work through ASEAN, and maintain ties with China. For governance titles, Singapore is not a case of the rich controlling the state — see **H** (the state is itself rich). |
+| State vs capital / corruption | US campaign finance and Korea’s chaebol show wealth influencing government (parallel). China’s “common prosperity” campaign and Party committees inside private firms show the state disciplining wealth (contrast). Singapore’s reserves, managed through Temasek and GIC, show the state as a major owner of wealth (outlier). |
+| Industrial policy | US subsidies for chips and AI are a late turn to state-directed industry. Korea and Japan built their economies through earlier state-led development. China’s Party directs where capital goes. Singapore invests as a state owner rather than being captured by conglomerates. |
 
 ---
 
-## F. COVID → 2024 (one table)
+## F. How COVID shaped 2024 (one table)
 
-| COVID left… | 2024 spent it as… |
+| What COVID left behind | How it showed up in the 2024 election |
 |---|---|
-| Inflation after stimulus + bottlenecks | “I can’t afford this” |
-| Distrust in experts/media | distrust in courts/elections |
-| Mandate culture wars | us-vs-them tribalism, now extended to actual wars |
-| Fatigue with global emergency | fatigue with funding distant wars |
-| Life on screens | election inside short-form |
+| Inflation, caused by stimulus spending combined with supply-chain bottlenecks | Voters’ anger that they could no longer afford ordinary goods |
+| Distrust of public-health experts and the media | The same distrust extended to courts and elections |
+| Fights over mask and vaccine mandates | Us-versus-them politics, which by 2024 also divided voters over Ukraine and Gaza |
+| Fatigue with global emergencies | Reluctance to keep funding distant wars |
+| Social life moving onto screens | A campaign fought largely through short-form video |
 
-Join line: the pandemic trained emergency, distrust, and screens; 2024 spent that training on a country still underwriting two wars.
+Join line: the pandemic got voters used to emergency rules, to distrusting official sources, and to getting their information from screens; in 2024 those habits shaped how they judged a government that was still funding two wars.
 
 ---
 
 ## H. East Asia map — who controls whom (parallel / contrast / outlier)
 
-**Theme for evaluation:** three governmental models of wealth and power. US 2024 is the spine; Big 4 are cousins that sharpen *who rules whom*.
+**Theme for evaluation:** three ways a government can relate to wealth. US 2024 is the main case; the four East Asian societies are comparisons that sharpen the question of who controls whom.
 
 | Model | Societies | One-line meaning |
 |---|---|---|
-| **The rich control the state** | **US**, **South Korea** (strong parallel); **Japan** (softer parallel) | Private / organised wealth converts into political leverage — donations, capture, faction finance, revolving doors — so policy bends toward capital even when voters punish incumbents |
-| **The state controls the rich** | **China** (**contrast**) | Party-state sits above private capital; billionaires exist on licence; discipline and “common prosperity” remind firms who is sovereign |
-| **The state is rich** | **Singapore** (**outlier**) | The state *is* a major capitalist — reserves, GLCs, Temasek/GIC — so “capture by the rich” is the wrong frame; the fight is competence, cohesion, and openness, not oligarchs buying the cabinet |
+| **The rich control the state** | **US**, **South Korea** (strong parallel); **Japan** (softer parallel) | Private or organised wealth turns into political influence — through donations, lobbying, faction finance and officials moving between government and business — so policy leans toward large firms even when voters punish incumbents |
+| **The state controls the rich** | **China** (**contrast**) | The Party-state stands above private capital; billionaires exist only as long as the state permits, and campaigns such as “common prosperity” remind firms who is in charge |
+| **The state is rich** | **Singapore** (**outlier**) | The state is itself a major owner and investor — through reserves, government-linked companies (GLCs), Temasek and GIC — so “capture by the rich” is the wrong frame; the real questions are whether the state governs competently, holds a diverse society together and stays open, not whether tycoons are buying ministers |
 
-Do not collapse Japan into China, or Singapore into Korea. One cousin sentence per paragraph.
+Do not merge Japan into China, or Singapore into Korea. Use one comparison sentence per paragraph.
 
-### H1. Parallel — United States ↔ South Korea (*rich control the state*)
+### H1. Parallel — United States ↔ South Korea (*the rich control the state*)
 
-**US mechanism (2024):** Campaign finance, Super PACs, platform billionaires as political actors, and a kitchen-table electorate that still lives inside markets shaped by concentrated capital. Voters can punish a party; they cannot easily dismantle the money architecture. “Drain the swamp” rhetoric coexists with donor dependence. Tech elites do not need to *own* the state formally — they own the **distribution layer** (feeds, cloud, chips) that politics now runs through.
+**US mechanism (2024):** Campaign finance, Super PACs, tech billionaires acting as political players, and voters whose daily costs are set by markets dominated by a few large firms. Voters can punish a party, but they cannot easily change how money funds politics. Trump’s promise to “drain the swamp” coexisted with dependence on donors. Tech leaders do not need formal power in government: they own the platforms through which political information now reaches voters, and the cloud and chip infrastructure the economy runs on.
 
-**KR parallel:** Developmental-state origins (state *created* chaebol) flipped over time toward **chaebol structural power**. Samsung, SK, Hyundai, LG = a huge share of GDP and employment; politics needs them as much as they need politics. Campaign funds, contracts, and presidential-era corruption scandals are the recurring form. Single-term presidency intensifies end-of-term lame-duck vulnerability to business leverage. Post-1997 reforms weakened some state tools without dissolving conglomerate power — autonomy migrated to capital.
+**Korean parallel:** The state originally built the chaebol to drive development. Over time the balance shifted until the chaebol held power the state could not easily override. Samsung, SK, Hyundai and LG account for a large share of GDP and employment, so politicians need them as much as they need politicians. Campaign funds, government contracts and corruption scandals involving successive presidents are the recurring pattern. Because presidents serve a single five-year term, they lose influence toward the end of it, which leaves them more exposed to business pressure. Reforms after the 1997 financial crisis removed some state tools without reducing conglomerate power, so control shifted further toward business.
 
-**Shared principle:** Where private conglomerates or platforms are too big to discipline, democracy’s formal equality (one person, one vote) sits on top of **unequal voice**. 2024 US anger at “elites” and Korean anger at chaebol politics are cousins: voters feel the state answers to balance sheets before ballots.
+**Shared principle:** Where conglomerates or platforms are too big for the state to discipline, the formal equality of one person, one vote sits on top of unequal influence, because wealth buys access that votes do not. American anger at “elites” in 2024 and Korean anger at chaebol politics share a cause: voters feel the state serves big business before it serves them.
 
-**Limit (do not overclaim):** Neither is a pure oligarchy. Both still hold competitive elections; both can jail or investigate tycoons episodically. The claim is **structural bias**, not “elections are fake.”
+**Limit (do not overclaim):** Neither is a pure oligarchy. Both still hold competitive elections, and both sometimes investigate or jail tycoons. The claim is that the system is **structurally biased** toward wealth, not that elections are fake.
 
 ### H2. Parallel — United States ↔ Japan (*money politics, softer capture*)
 
-**JP parallel (not identical to KR):** Long LDP dominance historically rested on faction finance, personal-vote costs, and organised interests (business, agriculture, construction) feeding the party machine. Bureaucracy (ex-MITI lineage) coordinated capital; it did not abolish business influence. The **2023–24 LDP slush-fund** scandal (under-reported fundraising; factions dissolved under pressure) shows money politics as an institutional habit, not a one-off. 2026 faction-like “political groups” re-clustering around old networks = the architecture trying to return.
+**Japanese parallel (not identical to Korea):** The LDP’s long dominance rested on faction finance, the high cost of individual campaigns, and organised interests (business, agriculture, construction) funding the party. The bureaucracy, especially the former trade ministry (MITI), coordinated business but did not stop business from influencing politics. The **2023–24 LDP slush-fund scandal** (factions under-reported fundraising income and were dissolved under public pressure) shows money politics as a long-standing habit, not a one-off. In 2026, new “policy groups” forming around the old faction networks suggest the same system reassembling under a different name.
 
-**With US:** Both are liberal democracies where **organised money** is a permanent player. Difference of degree: US = more open market for influence (PACs, Super PACs, tech platforms); Japan = more party–bureaucracy–interest-group triangulation, less chaebol presidential theatre than Korea.
+**Compared with the US:** In both liberal democracies, **organised money** is a permanent political player. The difference is one of degree: the US has a more open market for influence (PACs, Super PACs, tech platforms); Japan works more through bargaining among party, bureaucracy and interest groups, with fewer of the presidency-and-conglomerate scandals seen in Korea.
 
-**Usable join:** US 2024 “elites vs people” and Japan’s money-politics scandals both ask whether elections change *personnel* more than *who funds the machine*.
+**Usable link:** American anger at elites in 2024 and Japan’s money-politics scandals both raise the question of whether elections change *who governs* more than *who funds the people governing*.
 
-### H3. Parallel — United States ↔ Singapore? Only at the surface — then **outlier**
+### H3. United States ↔ Singapore: similar on the surface, then **outlier**
 
-**Surface parallel (do not stop here):** Both are open trading hubs; both fear capital flight; both court FDI and talent; both debate foreigners and cost of living. US 2024 kitchen-table rage and SG cost-of-living politics share a *symptom*: open economies import price and identity shocks.
+**Surface similarity (do not stop here):** Both are open trading economies; both fear capital leaving; both compete for foreign investment and talent; both argue over foreigners and the cost of living. US anger over living costs in 2024 and Singapore’s cost-of-living politics share a symptom: because both economies are open, global price rises and identity conflicts arrive in them from outside.
 
-**Structural contrast (the point):** Singapore is **not** “the rich control the state” in the US/KR sense.
-- **Reserves and GLCs:** Temasek, GIC, and a dense GLC sector mean the **state is itself a major owner and investor**. Surpluses and the balanced-budget rule over the term of government treat fiscal strength as survival (`06`: spend within means; “no one owes Singapore a living”).
-- **High state capacity:** Circuit Breaker, industrial policy, immigration tiers — the state *moves first*. Private capital operates inside rules; it does not routinely buy the cabinet.
-- **Technocratic trust gap** (`06`): citizens may resent being managed — that is not the same as oligarchic capture. The complaint is often *over*-state, not *sold*-state.
+**Structural contrast (the point):** Singapore is **not** a case of the rich controlling the state in the US or Korean sense.
+- **Reserves and GLCs:** Temasek, GIC and a large GLC sector mean the **state is itself a major owner and investor**. Running surpluses and balancing the budget over each term of government treat fiscal strength as a matter of survival (`06`: spend within means; “no one owes Singapore a living”).
+- **High state capacity:** In the Circuit Breaker, in industrial policy, and in tiered immigration rules, the state acts first. Private capital operates within its rules; it does not routinely buy ministers.
+- **Technocratic trust gap** (`06`): citizens may resent being managed, but that is different from the state being captured by oligarchs. The usual complaint is that the state controls too much, not that it has been bought.
 
-**Outlier label — “the state is rich”:** Wealth is concentrated in **public and quasi-public** hands as a deliberate developmental design for a resource-scarce island. Elitism is the usual objection (meritocratic class, not chaebol presidents). Prefer Wong 2024 on controlled openness; Lee as continuity.
+**Outlier label — “the state is rich”:** Wealth is concentrated in **public and quasi-public** hands, a deliberate design for an island with no natural resources. The usual objection is elitism — a meritocratic ruling class — not conglomerate presidents. Prefer Wong (2024) on controlled openness; use Lee as continuity.
 
-**Wrong essay move:** “Singapore = Asian America.” Right move: “US/KR ask who captured the state; Singapore asks whether a rich, capable state still serves those who cannot keep up.”
+**Wrong essay move:** “Singapore is an Asian America.” **Right move:** “The US and Korea ask who has captured the state; Singapore asks whether a rich, capable state still serves the people who cannot keep up.”
 
-### H4. Contrast — United States ↔ China (*state controls the rich*)
+### H4. Contrast — United States ↔ China (*the state controls the rich*)
 
-**Almost opposite political scene:**
+**Almost the opposite political arrangement:**
+
 | | US 2024 | China |
 |---|---|---|
-| Sovereignty over capital | Contested; capital funds politics | Party-state claims final say |
-| Billionaires | Political donors, media owners, platform governors | Exist **on sufferance**; anti-corruption / common-prosperity cycles discipline |
-| Media / truth | Polarised commercial + algorithmic feeds | Party propaganda + censorship + platform compliance |
-| Opposition | Competitive elections, even if money-skewed | No alternative party for capital or labour |
-| Industrial policy | Partial, late, interest-group bargained (chips/AI) | Party-directed; private firms get party cells / political demand |
+| Who has the final say over capital | Contested: wealthy donors fund politics | The Party-state claims the final say |
+| Billionaires | Act as political donors, media owners and controllers of platforms | Are tolerated only while they serve state goals; anti-corruption and “common prosperity” campaigns periodically bring them into line |
+| Media / truth | Commercial media and algorithmic feeds divided along party lines | Party propaganda, censorship, and platforms that comply with the state |
+| Opposition | Competitive elections, even though money skews them | No opposition party through which business or workers can challenge the government |
+| Industrial policy | Partial and late, bargained among interest groups (chips, AI) | Directed by the Party; private firms must host Party committees and follow political priorities |
 
-**CN model:** Private wealth is allowed as an instrument of national power, not as a rival sovereign. Jack Ma–era tech discipline, “common prosperity,” and party presence in private firms are one mechanism: **the licence can be revised**. SOEs remain the commanding heights; private giants are national champions until they are not.
+**The Chinese model:** Private wealth is allowed as a tool of national power, not as a rival to the state. The disciplining of tech firms after Jack Ma’s criticism of regulators, the “common prosperity” campaign, and Party committees inside private firms all show the same mechanism: **the state can withdraw its tolerance at any time**. State-owned enterprises still dominate strategic sectors; private giants are favoured as national champions until the state decides otherwise.
 
-**US contrast:** 2024 showed a democracy where capital and platforms shape the information environment and campaign war-chests, while voters punish kitchen-table failure. The state can regulate (antitrust talk, chip export controls) but does not *own* the rich as a class. Trump’s felony conviction and return to power sit inside a system where legal process and money politics **coexist** — neither extinguishes the other.
+**The US contrast:** 2024 showed a democracy in which wealthy donors and platforms shape the information voters see and fund the campaigns, while voters still punish governments that fail on living costs. The state can regulate (antitrust cases, chip export controls) but does not control the wealthy as a class. Trump’s felony conviction and return to power show legal process and money politics **operating side by side** — neither cancels the other.
 
-**Exam precision:** Do not write “China has no rich people.” Write: **the rich do not control the state; the state sets the terms on which richness is allowed.**
+**Exam precision:** Do not write “China has no rich people.” Write: **the rich do not control the state; the state sets the terms on which people are allowed to be rich.**
 
 ### H5. Three-model evaluation table (use in EV / CU)
 
-| Question the title asks | Rich → state (US / KR; JP softer) | State → rich (CN) | State is rich (SG) |
+| Question the title asks | Rich control the state (US / KR; JP softer) | State controls the rich (CN) | State is rich (SG) |
 |---|---|---|---|
-| Who is accountable? | Voters *and* donors/platforms; donors often win the quiet game | Party centre; capital answers upward | Elected government + performance legitimacy; capital is partner under rules |
-| Typical failure | Policy for the balance sheet; polarisation as product | Over-control; innovation fear; no electoral exit | Technocratic deafness; elitism; trust gap |
-| Typical strength | Voice, exit, creative destruction | Capacity to redirect capital fast | Capacity + reserves; long-horizon investment |
-| 2024 join | US election as kitchen-table revolt *inside* money politics | CN is the foil: no equivalent revolt at the ballot | SG pays US/CN weather (chips, shipping) without importing US capture model |
+| Who is the government accountable to? | Voters, but also donors and platforms, which often have more influence between elections | The Party leadership; business answers to the state | An elected government whose legitimacy rests on delivering results; business is a partner operating under state rules |
+| Typical failure | Policy favours large donors; platforms profit from polarisation | The state over-controls, firms fear to innovate, and voters cannot remove the government | The government stops listening, a meritocratic elite hardens, and trust erodes |
+| Typical strength | Citizens can protest and vote governments out; failing firms are replaced by new ones | The state can redirect investment quickly toward its priorities | The state has the capacity and reserves to invest for the long term |
+| Link to 2024 | Voters revolted over living costs within a system still heavily funded by wealthy donors | China is the foil: voters have no comparable chance to remove the government at the ballot box | Singapore bears the costs of US–China rivalry (chips, shipping) without adopting the US pattern of wealth capturing politics |
 
 ### H6. Extra pairs (lookup — do not replace section D’s three)
 
 | Pair | EG1 | EG2 | Principle |
 |---|---|---|---|
-| Capture cousins | US Super PAC / platform politics | KR chaebol–presidency nexus | Formal democracy + structural capital voice |
-| Soft vs hard money politics | US open donor market | JP LDP faction / slush-fund habit | Organised money persists under different institutional skins |
-| Opposite sovereigns | US capital funds politics | CN party disciplines capital | Same word “billionaire,” opposite hierarchy |
-| Outlier | US/KR “who bought the state?” | SG Temasek–GIC–reserves + GLCs | State as owner ≠ state as captive |
+| Similar forms of capture | US Super PAC and platform politics | Korean links between chaebol and presidents | Elections remain competitive, but big business has built-in influence over policy |
+| Open vs embedded money politics | The US open market for donations | Japan’s LDP faction finance and slush-fund scandal | Organised money keeps its influence even when the institutions it works through differ |
+| Opposite hierarchies | In the US, wealthy donors fund politics | In China, the Party disciplines business | Billionaires exist in both, but in the US they influence the state, while in China the state controls them |
+| Outlier | The US and Korea, where the question is who has bought the state | Singapore’s Temasek, GIC, reserves and GLCs | A state that owns wealth is not the same as a state controlled by the wealthy |
 
-### H7. Terminals (I→Q→I for this lens)
+### H7. Terminals (Insight → Qualifier → Implication for this lens)
 
-> Wealth and power are arranged differently **because** each society solved development under different constraints, **so long as** you do not treat “Asia” as one model; **therefore** US 2024 shows rich→state tension inside a voting public, China shows state→rich hierarchy, and Singapore shows a third path where the **state’s own wealth** is the developmental instrument — which changes what “elite control” even means.
+> Wealth and power are arranged differently **because** each society developed under different constraints, **so long as** you do not treat “Asia” as one model; **therefore** US 2024 shows voters pushing against wealthy interests that influence the state, China shows a state that controls its wealthy, and Singapore shows a third arrangement in which the **state’s own wealth** funds development — which changes what “elite control” means there.
 
-**Fake terminals:** “All Asian countries are authoritarian.” “Singapore is socialist.” “US is a dictatorship of billionaires” (overclaim — use *structural bias*). “China has no markets.”
+**Fake terminals:** “All Asian countries are authoritarian.” “Singapore is socialist.” “The US is a dictatorship of billionaires” (overclaim — say *structural bias*). “China has no markets.”
 
 ---
 
 ## I. Exam mistakes
 
 - Narrating the campaign instead of answering the title.
-- Death-toll tennis. Use structure (patron, law, cameras).
-- Calling ICJ a genocide verdict. **Provisional measures.** ICC warrant ≠ conviction.
-- Treating Trump as the inventor of isolationism. He harvested older fatigue.
+- Trading casualty figures between sides as if the numbers were the argument. Analyse the structure instead: who funds the war, which laws apply, and how the war is seen on camera.
+- Calling the ICJ ruling a genocide verdict. It ordered **provisional measures**. An ICC warrant is not a conviction.
+- Treating Trump as the inventor of isolationism. He drew on American fatigue with foreign wars that predated him.
 - A US politics essay that never reaches Singapore.
-- Collapsing SG/KR/JP/CN into one “Asian model.”
-- Calling SG “rich control the state” — wrong model; use **state is rich**.
-- Equating CN “state controls the rich” with “no private sector.”
-- Using H as a five-country tour. Spine US 2024 + **one** cousin model.
+- Merging Singapore, Korea, Japan and China into one “Asian model.”
+- Describing Singapore as a case of the rich controlling the state — wrong model; use **the state is rich**.
+- Equating “the state controls the rich” in China with “China has no private sector.”
+- Using section H as a five-country tour. Keep US 2024 as the main case plus **one** comparison model.

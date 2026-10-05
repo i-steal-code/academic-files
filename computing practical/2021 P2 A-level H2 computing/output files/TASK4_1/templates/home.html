@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title> home page </title>
+</head>
+<body>
+<h1> menu </h1>
+<a href='{{url_for("display", rounds = 1)}}'> Round 1 scores </a>
+<br>
+<a href='{{url_for("display", rounds = 2)}}'> Round 2 scores </a>
+<br>
+<a href='{{url_for("display", rounds = 3)}}'> Round 3 scores </a>
+<br>
+<a href='{{url_for("display", rounds = "mean")}}'> Mean scores </a>
+<br>
+<a href='{{url_for("display", rounds = "qualifiers")}}'> Qualifiers </a>
+</body>
+</html>

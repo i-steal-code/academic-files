@@ -1,0 +1,33 @@
+---
+description: Writing standard for GP essay and analytical content — concise but coherent; no buzzword compression
+alwaysApply: true
+---
+
+# GP writing standard: coherent, not compressed
+
+Applies to everything essay-related: `raw files/H1 GP/essay arsenal/`, `essay planning/`, P1 and AQ notes, and analytical answers in chat (contrast tables, examples, links to Singapore features). Short is good only when the meaning survives.
+
+## The test
+
+Before keeping any sentence, table cell or label, ask: could a reader who never saw this conversation reconstruct the full claim from these words alone — **who acted, what they did, who was affected, and why**? If not, rewrite it.
+
+## Banned patterns
+
+- **Coined compounds standing in for a causal chain** — "private sugar", "class geography", "laptops vs lungs", "the till", "growth stored in crowding". Write out the chain they compress.
+- **Arrow chains and symbol slogans** (`A → B → C`, `X ≠ Y`, `X = Y`) used in place of sentences. Use *because*, *so*, *which means*, *is not the same as … because*. Arrows are acceptable only for a fixed order of steps (e.g. paragraph structure TS → EX → EGs), never to assert cause.
+- **Metaphors doing the work of an argument** — "the weather", "the hangover", "the feed", "kitchen table", "load-bearing wall", "eating its young". A metaphor may follow a literal statement of the claim; it never replaces one.
+- **Fragment cells in tables.** Each analytical cell is a complete clause with a subject and a verb. If the explanation will not fit, move it into prose.
+- **Labels used before they are defined.** Arsenal labels (trampoline, pressure cooker, selection gate, cousin) must be defined in plain words in the `00` glossary or where first used.
+
+## Examples
+
+- ❌ "Explicit: private sugar → public cost → redesigned choice"
+- ✅ "Explicit: drinks companies sell high-sugar products and consumers buy them; the diabetes that follows is treated in a publicly subsidised health system; so the state redesigns what shoppers see (Nutri-Grade A–D labels) to steer them toward less sugar."
+- ❌ "Laptops vs lungs."
+- ✅ "Professionals kept their incomes and their health by working from home; workers who had to turn up in person caught the virus."
+- ❌ "Regulate ≠ convince."
+- ✅ "A law can stop a view from being expressed in public without persuading anyone to give it up."
+
+## Concise is not the same as compressed
+
+Cut whole claims that do not serve the title. Do not cut the words that carry the causal link: the actor, the affected group, *because*. A longer sentence understood on first reading beats a short one the reader has to decode.
