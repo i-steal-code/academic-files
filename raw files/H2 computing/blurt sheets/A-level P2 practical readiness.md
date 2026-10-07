@@ -111,31 +111,44 @@ Absolute start clock was not stated. From your timing: build done at 2h 25m, the
 - Stopping build at 2h 25m was correct. The wrap fix in 4.3 proves the sweep can find logic bugs.
 - What was missing: for 4.6, write “expect key 475 → law” before looking at the print. The print said key 175. That is a ten-second catch.
 
-## Plan for Wednesday if 2026 has curveballs
+## Default path vs salvage mode — the breaking point
 
-You cannot remove curveballs. You can stop them from eating the dependent chain.
+**Default path** (2025): bank two familiar tasks → finish every task with a real attempt → stop building at 2h 30m → sweep. Use this whenever the paper is behaving.
 
-1. **Open (5 min).** Read all four tasks. Mark each as *bank* (SQL create/load, Flask join page, sorts, stack, class+file) or *curveball* (novel rules, unfamiliar library, new ADT variant). Write a time cap at 1.6 min/mark on each.
+**Salvage mode** (what 2024 needed): stop polishing. For every unfinished task, ship a running simple version only (fallback APIs, ignore edge cases), write dependent parts in full, then sweep what exists. Target: mid-60s to mid-70s instead of a 50s crash.
 
-2. **Order: bank → bank → curveball → remaining.** Do your two strongest familiar tasks first until each has saved output. In this cycle that has been SQL and whichever of sort/tree/OOP/stack looks closest to drill. Leave the curveball until you have ~90–100 minutes of banked output, or until its own cap — whichever comes first.
+### You are still on the default path while all of these are true
 
-3. **Curveball rule (non-negotiable).**
-   - Minute 0–5: try the obvious API / Quick Reference.
-   - Minute 5: switch to the fallback table (`open`, month-length list or `date+timedelta`, `%`, etc.).
-   - Ship a **simple version that runs** before polishing edge cases.
-   - Write the next dependent subtask in full even if upstream data is thin.
+1. At **T+1:00**, at least one task has saved output.
+2. At **T+1:30**, two tasks have saved output.
+3. No single subtask has eaten more than **25 minutes** without a passing run of its own test.
+4. You are not more than **15 minutes past** a task’s time cap with nothing printable.
 
-4. **Hard gates on the clock.**
-   - **09:30 (T+1:30):** at least two tasks with visible output.
-   - **10:15 (T+2:15):** every task attempted; every dependent part at least stubbed with a call and a test.
-   - **10:30 (T+2:30):** stop building. Sweep starts even if a curveball is ugly.
+### Flip to salvage the moment any one of these fires
 
-5. **Sweep script (10:30–10:55).** For each notebook: (a) tick stem bullets against `def`s; (b) for every printed result, say out loud the input and the expected value, then look; (c) check named files exist and size > 0; (d) one empty/miss/wrap call where the stem names that case.
+| Trigger | Why it means 2024, not 2025 |
+|---------|------------------------------|
+| **T+1:30** and fewer than two tasks have output | You are already behind the 2025 pace that left 35 min to sweep |
+| **T+2:00** and a whole task has not been opened | That task will die in the last half hour, as 3 and 4 did in 2024 |
+| One curveball subtask hits **5 minutes** with no running simple version | Further search buys nothing; fallback now |
+| One subtask hits **25 minutes** with no stem test passing | Thrashing (2024 Task 4.3-style). Save whatever runs, move on |
+| **T+2:15** and any task still has zero cells that produce the stem’s required output | Last 15 min of build must create simple versions, not perfect ones |
+| Clock hits **T+2:30** | Salvage is automatic: building ends, sweep starts |
 
-**Strengths to play forward:** SQL schema+seed+join, OOP with `super()`, file→objects, stack/queue/hash *insert*, sorts, saving a page.  
-**Weaknesses to contain, not “solve” mid-paper:** novel Task 1 rules (copy bullets as comments), unfamiliar stdlib (5-minute fallback), find/search after probe (compare the key you asked for with the key that printed).
+### What salvage means in the room (do in order)
 
-That is the whole strategy: bank marks on known shapes first, force a running simple version on anything new by five minutes, and spend the last half hour reading outputs against inputs — the check that would have turned 2024 into a mid-70 and 2025 into the mid-90s.
+1. **List the holes** on scratch paper: which subtasks have no output / no file / no return.
+2. For each hole, write the **shortest code that can run** (fallback table; skip month rollover, fancy messages, perfect wording).
+3. **Wire the next part** even if upstream is thin — full `def` + stem test call, leave errors in the notebook.
+4. Do **not** return to a polished version of an earlier task until every task has at least one stem-shaped output.
+5. At **T+2:30**, sweep: expected-vs-printed for every test you did run; file sizes; named returns.
+
+### Worked against the two papers
+
+- **2024 at T+1:30:** only schema/Task 1 in progress → salvage trigger already. At T+2:00 Task 2 still owning the clock → force-save Task 2, open Task 3 and 4 with `open(...'.html')` and date-insert-without-rollover. That is the mid-60s/70s path.
+- **2025 at T+1:30:** Task 3 banked, others moving → all four default-path checks green → stay default, keep the 2h 25m build stop, sweep.
+
+**One-line rule:** if by **T+1:30** you do not have two tasks with output, or if any curveball is still broken at **5 minutes**, you are in salvage — ship simple versions for every remaining hole before you polish anything.
 
 ## Fallbacks to know cold
 
@@ -167,6 +180,8 @@ That is the whole strategy: bank marks on known shapes first, force a running si
 
 ## Tuesday rewrite list — blank cell, closed book, about 60 minutes, each one run
 
+Live notebook: `computing practical/A lvl practical practice 3/FINAL TAPER rewrite.ipynb`. It includes `records.txt` and checkpoints for all six rewrites.
+
 1. **Hash find with probing:** rebuild the 2025 table from `records.txt`, then `find_record(475)` must return `'law'` and a missing key must return `False`.
 2. **Date expansion and availability:** Dolphin, 8 Apr, 4 days must give `08-Apr … 11-Apr`, with `10-Apr` and `11-Apr` unavailable. Use `start + timedelta(days=i)` and compare against `[row['date'] for row in rows]`.
 3. **File write:** write two `.html` files with `with open`, then check both sizes are above 0.
@@ -176,11 +191,14 @@ That is the whole strategy: bank marks on known shapes first, force a running si
 
 Stop at 60 minutes even if the list is unfinished. Do not open a paper.
 
+Optional reading after the rewrite: `computing practical/A lvl practical practice 3/TODAY reading plan.md`. Read only; maximum 40 minutes; stop by 15:00.
+
 ## Tuesday 6 October
 
 - 06:15 wake, to move your body clock towards an 08:00 start
 - 13:30–14:30 rewrite list
-- 14:30–14:45 read the stuck rule, the fallbacks, the contract check and the exam-room rules, once
+- 14:30–14:45 core boilerplate reread, then read the stuck rule, fallbacks, contract check and exam-room rules once
+- 14:45–15:00 optional boilerplate reread only if fresh
 - afternoon: walk, rest, normal meals
 - 18:30 dinner
 - 20:30 screens off; pack the student pass, an approved calculator, water, a jacket
