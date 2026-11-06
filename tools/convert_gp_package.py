@@ -160,12 +160,24 @@ def convert_one(
     out_root: Path,
     md_converter: MarkItDown,
     force: bool,
+    full_corpus: bool = False,
 ) -> str:
+    tools_dir = Path(__file__).resolve().parent
+    if str(tools_dir) not in sys.path:
+        sys.path.insert(0, str(tools_dir))
+    from slim_agent_context import extract_index_lines, is_bulk_package
+
     pkg = package_dir_for(src, raw_root, out_root)
     manifest_path = pkg / "manifest.json"
     source_rel = rel_to(src, repo_root)
     digest = sha256_file(src)
     ext = src.suffix.lower()
+    try:
+        gp_rel_parts = src.resolve().relative_to((raw_root / "H1 GP").resolve()).parts
+    except ValueError:
+        gp_rel_parts = ()
+    bulk = is_bulk_package(src.stem, rel_parts=gp_rel_parts)
+    want_index = bulk and not full_corpus
 
     existing = load_manifest(manifest_path)
     extract_mode: str | None = None
@@ -175,12 +187,17 @@ def convert_one(
         and existing.get("source_sha256") == digest
         and (pkg / "content.md").is_file()
     ):
-        if ext != ".pdf":
+        prior_corpus = existing.get("corpus_mode")
+        # Stay on index for bulk unless caller asked for a full dump.
+        if want_index and prior_corpus == "index":
             return "skipped"
-        prior_mode = existing.get("extract_mode")
-        content = (pkg / "content.md").read_text(encoding="utf-8", errors="replace").strip()
-        if prior_mode in (PDF_EXTRACT_MODE_TEXT, PDF_EXTRACT_MODE_OCR) and len(content) >= 40:
-            return "skipped"
+        if not want_index and prior_corpus != "index":
+            if ext != ".pdf":
+                return "skipped"
+            prior_mode = existing.get("extract_mode")
+            content = (pkg / "content.md").read_text(encoding="utf-8", errors="replace").strip()
+            if prior_mode in (PDF_EXTRACT_MODE_TEXT, PDF_EXTRACT_MODE_OCR) and len(content) >= 40:
+                return "skipped"
 
     pkg.mkdir(parents=True, exist_ok=True)
     if ext == ".md":
@@ -192,9 +209,34 @@ def convert_one(
         md_text = (result.text_content or "").strip()
     if not md_text:
         raise RuntimeError(f"Conversion produced no text: {source_rel}")
-    (pkg / "content.md").write_text(md_text + ("\n" if md_text else ""), encoding="utf-8")
 
     quality_warn: list[str] = []
+    corpus_mode = "full"
+    if want_index:
+        index = extract_index_lines(md_text)
+        body_lines = [
+            "<!-- agent-corpus: index — full OCR dump omitted to protect context window -->",
+            f"# Index: {src.stem}",
+            "",
+            "Bulk periodical / infopack / long guide. Do not load a full OCR dump into context.",
+            f"- Raw source: `{source_rel}`",
+            "- Full text: `python tools/convert_gp_package.py --full-corpus --force` "
+            "(or open the raw file for a named essay/topic only).",
+            "",
+            "## Titles / headings",
+            "",
+        ]
+        if index:
+            body_lines.extend(f"- {line}" for line in index)
+        else:
+            body_lines.append("_No clean title list; open the raw file._")
+        body_lines.append("")
+        md_text = "\n".join(body_lines)
+        corpus_mode = "index"
+        quality_warn.append("bulk_corpus_index")
+
+    (pkg / "content.md").write_text(md_text + ("\n" if md_text else ""), encoding="utf-8")
+
     if len(md_text) < 40:
         quality_warn.append("empty_or_tiny_md")
 
@@ -205,6 +247,7 @@ def convert_one(
         "kind": "gp-markdown",
         "markitdown_version": MARKITDOWN_VERSION,
         "converted_at": datetime.now(timezone.utc).isoformat(),
+        "corpus_mode": corpus_mode,
         "quality": {"chars": len(md_text), "warn": quality_warn},
     }
     if extract_mode:
@@ -324,7 +367,10 @@ def validate_packages(
         if manifest.get("source_relpath") != rel:
             errors.append(f"manifest path mismatch for {rel}")
         body = content.read_text(encoding="utf-8", errors="replace").strip()
-        if len(body) < 40:
+        if manifest.get("corpus_mode") == "index":
+            if "agent-corpus: index" not in body and len(body) < 40:
+                errors.append(f"broken bulk index for {rel} ({len(body)} chars)")
+        elif len(body) < 40:
             errors.append(f"empty_or_tiny content.md for {rel} ({len(body)} chars)")
 
     for manifest in (out_root / "H1 GP").rglob("manifest.json"):
@@ -361,6 +407,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--prune", action="store_true", help="Remove converted packages with no raw source")
     ap.add_argument("--validate", action="store_true", help="Check raw/converted parity and exit")
+    ap.add_argument(
+        "--full-corpus",
+        action="store_true",
+        help=(
+            "Write full OCR/markdown for bulk periodicals/infopacks. "
+            "Default keeps those packages as title indexes only (agent context hygiene)."
+        ),
+    )
     args = ap.parse_args(argv)
 
     repo_root = args.repo.resolve()
@@ -412,6 +466,7 @@ def main(argv: list[str] | None = None) -> int:
                 out_root=out_root,
                 md_converter=md_converter,
                 force=args.force,
+                full_corpus=args.full_corpus,
             )
             counts[status] += 1
             print(f"  -> {status}")

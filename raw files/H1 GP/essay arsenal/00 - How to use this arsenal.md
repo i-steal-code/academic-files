@@ -1,5 +1,7 @@
 # How to use this arsenal
 
+> **ARCHIVED — season closed 2026-11-04.** Both papers are over. Do not run the exam workflow below as an active practice loop. This file stays as the frozen map of the arsenal. See `raw files/H1 GP/ARCHIVED.md` and `agents/gp.md`.
+
 A few deeply understood examples beat many shallow facts. The arsenal has three layers: one file on how to write, one file of sixteen memorised anchors, and seven pillars that hold the depth behind those anchors. Read this file first; every other file is reached from here.
 
 ---
@@ -9,7 +11,7 @@ A few deeply understood examples beat many shallow facts. The arsenal has three 
 | File | What it holds | When to open it |
 |---|---|---|
 | `00` How to use this arsenal | This map, the workflow, the glossary and the writing rule | First, and whenever a label is unclear |
-| `01` Essay craft | The single standard for choosing, planning and writing: the exam clock, unpacking, architecture, topic sentences, use of examples, endings, the planning sheet and what markers reward | Before every timed essay, and when a plan feels wrong |
+| `01` Essay craft | The single standard for choosing, planning and writing: the exam clock, unpacking (including the six-question routine and title tags), architecture, topic sentences, use of examples, endings, the planning sheet and what markers reward | Before every timed essay, and when a plan feels wrong |
 | `02` Anchor bank | Sixteen anchors (hook, three facts, what each proves, where it stops, topic sentences), the category chooser and the range check | Daily for memorising; in the exam's three-minute selection |
 | `03` Politics and power | US 2024 and the wars it funds, 2025–26 ceasefires, who controls whom (the state and private wealth), Myanmar and ASEAN, limit cases | Democracy, leadership, governance, international relations, state and business |
 | `04` Economy, corporations and the race | War, oil and the AI selloff; involution from the top (Beijing, carmakers, AI giants, the global tax race) and from below (lying flat) | Economy, globalisation, competition, corporations, work, youth |
@@ -25,13 +27,15 @@ The anchors are numbered by pillar (A1–A3 in `03`, A4–A6 in `04`, A7 in `05`
 
 ## Workflow
 
+> Frozen record of the sitting-cycle routine. Do not schedule new timed plans from this section unless GP practice is explicitly reopened.
+
 **Before the exam.** Memorise the anchors in `02` pillar by pillar, using the recall order at the top of that file. Read the pillars for the categories you expect to choose; their facts are depth, not a second memorisation load. Write one timed plan a week from a random prelim title, using `01` §7.
 
 **In the exam.**
 
 1. **Select (three minutes).** Cross out the technology and media titles first, then apply the selection rule in `01` §1: a keyword trap, an anchor whose "proves" line answers it, and a counter-example for the rebuttal. The chooser in `02` gives the anchors for each category.
-2. **Unpack (two minutes).** SALT, question angle and keyword traps (`01` §2).
-3. **Stand.** Write a conditional stand, not a degree (`01` §3).
+2. **Unpack (two minutes).** Tag the title (`01` §2), then answer the six questions in order (`01` §2); also run SALT, the question angle and keyword traps.
+3. **Stand.** Write a conditional stand, not a degree (`01` §3). The six-question answers fill the stand's *however*, the rebuttal, the *because*, the *for whom* and the conclusion's moral.
 4. **Write the introduction and OV straight**, then plan R, SV1 and SV2 on the sheet (`01` §7), *therefore* lines first.
 5. **Build each SV** from one anchor plus a second example, compared with one move from `01` §5.1, and end with one of the endings in `01` §6.
 6. **Range and Singapore check.** Global titles need at least three contexts; "your society" titles stay rooted in Singapore features (`09` §A), with at most one foreign contrast (`01` §5.4–5.6).
@@ -55,6 +59,7 @@ The memorised load is the sixteen anchors in `02` and the eight Singapore featur
 | **OV, R, SV** (`01` §3) | Opposing view; the rebuttal that breaks the OV's absolute word; supporting views that build your own case |
 | **Insight, Qualifier, Implication** (`01` §6.3) | The default ending: *X drives Y because Z, so long as [condition]; therefore [implication for the title's keyword]* |
 | **SALT** (`01` §2) | Unpacking checklist: stakeholders, aspects, levels, time |
+| **Six-question routine** (`01` §2) | Fixed unpacking order: benchmark, mechanism, who pays, form or substance, where it stops, what would change it; each answer has a fixed slot on the plan |
 | **SIRDEC** (`09` §F) | Checklist for judging whether a policy works: situation, intent, resources, distribution, effectiveness, coherence |
 | **Yardstick** (`01` §2) | The standard a policy is judged against: awareness, behaviour change, sustained change, or alleviation of the problem |
 | **Trampoline and net** (`09`, A15) | Singapore's help is designed to restore people's ability to work, learn and own a home (a trampoline); a net supports those who can no longer work |

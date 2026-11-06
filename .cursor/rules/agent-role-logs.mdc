@@ -1,0 +1,33 @@
+---
+description: Role agents log permanent context into agents/<role>.md; chats are disposable
+alwaysApply: true
+---
+
+# Role agents — permanent log, disposable chat
+
+Canonical protocol: `agents/README.md`. Role files live under `agents/<role>.md`.
+
+## Model
+
+- The **chat** is a disposable computer: long tool traces and digressions die with the session.
+- The role’s **`agents/<role>.md`** is the permanent thumbdrive: primary function, rules, habits, and decision log that the next agent in that role must read and extend.
+
+## At session start
+
+1. Identify the role (user names it, or infer from the task — see role table in `agents/README.md`).
+2. Read that role’s `agents/<role>.md` before large exploration.
+3. Do not paste prior chat transcripts into context when the role file already holds the decisions.
+
+## During / at session end
+
+Before finishing a turn that changed infrastructure, conventions, or role habits, **append a dated log entry** to the matching `agents/<role>.md`:
+
+- What was decided (who/what/why — full claim, not slogans)
+- Files or tools touched
+- Open follow-ups for the next holder of the role
+
+Do not dump raw tool output or full OCR into the role file. Keep entries short and recoverable.
+
+## Jurisdiction
+
+Stay inside the role’s primary function. Hand off or refuse work that belongs to another role’s file (e.g. build does not rewrite computing syllabus content; computing does not redesign library conversion policy).

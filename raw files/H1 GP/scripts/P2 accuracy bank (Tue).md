@@ -1,5 +1,7 @@
 # P2 accuracy bank — Tuesday 1 Sep
 
+> **CLOSED — season archived 2026-11-04.** Do not add items. Do not schedule another accuracy day. See `raw files/H1 GP/ARCHIVED.md`.
+
 Locked sittings (RI / HCI / TYS / Specimen / RI promo / RI TP): `exam papers/LOCKED SITS.md`. Items already in this bank stay. Do not take more from those papers.
 
 ## Day wrap (after G1–G5)

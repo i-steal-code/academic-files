@@ -46,6 +46,30 @@ Sources, in order of weight: Dr Chan's October 2026 notes (*Why Essays are in B3
 | Comparative (*A rather than B*, *more curse than blessing*) | Compare like with like on the same scale, impact and time (SIT), and ask whether A acts independently of B or through B. |
 | Your society | Argue from a Singapore feature (`09` §A), not from a list of scheme names. |
 
+### The routine: six questions, always in this order
+
+| # | Question | Source | Where the answer goes |
+|---|---|---|---|
+| 1 | **Benchmark:** what would *enough*, *too much* or *successful* look like? | Dr Chan's key terms and pitfalls; `01` §2 yardstick | The introduction's definition |
+| 2 | **Mechanism:** who acts, and why can't they act differently? | Each anchor's "Proves" line; `04` §H | SV1's *because* |
+| 3 | **Who pays:** who gains, and who bears the cost? | Dr Chan's perspectives list; `01` §5.1 "who bears it" | The *for whom* qualifier |
+| 4 | **Form or substance:** is the visible thing the real thing? | Dr Chan's rebuttals; SIRDEC | The rebuttal: "Yet X is not the same as Y, because..." |
+| 5 | **Where it stops:** in which context does the claim fail? | Each anchor's "Stops" line; Dr Chan's "not universally" | The stand's *however* clause, and SV2 |
+| 6 | **What would change it:** who holds the lever, or what rule would bind everyone? | `04` §H, "What ends the race" | The conclusion's moral |
+
+### Tag the question first (ten seconds)
+
+| Words in the title | Dr Chan's label | Lead with | What the essay must do |
+|---|---|---|---|
+| *too, enough, full, adequate* | Insufficiency or excess | Q1 | State the benchmark before any example |
+| *A rather than B, more than* | Two-factor comparison | Q2 | Compare like with like, and test whether A acts through B |
+| *successful, effective* | Effectiveness | Q4 | Judge by which rung was reached (awareness, behaviour, sustained change, alleviation) |
+| *warranted, justified* | Justification | Q4 | Widespread fear shows people are afraid, not that the fear is well founded (*Why Essays are in B3 Content*) |
+| *necessarily, always, only* | Absolute or causal | Q5 | One case where the cause runs and the effect does not follow |
+| *increasingly, today, becoming* | Trend over time | Q5 | Name the earlier baseline, then say what changed |
+| *should, take precedence* | Normative priority | Q5 | Name the conditions under which the priority flips |
+| *your society* | Your society | Q3 | Use a Singapore feature, and name the group it misses |
+
 ---
 
 ## 3. Stand and architecture

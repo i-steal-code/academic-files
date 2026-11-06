@@ -1,5 +1,7 @@
 # Essay planning practice (prelim push)
 
+> **ARCHIVED — season closed 2026-11-04.** Do not start the priority queue below. Plans and the audit essay stay as records. See `raw files/H1 GP/ARCHIVED.md`.
+
 **Method and clock:** all craft (the hybrid plan, the ninety-minute clock, the planning sheet for R and the SVs, the pre-flight check) now lives in `essay arsenal/01 - Essay craft.md`. Start every plan from `essay arsenal/00 - How to use this arsenal.md`.
 
 | # | Topic | Question | Status | File |
@@ -10,7 +12,9 @@
 | Prelim | Politics / society | *'Countries should always welcome migrants.' How far do you agree?* | Sat 31 Aug, post-mortem | `prelim - countries welcome migrants.md` |
 | Audit | Economy / politics | *'Corporations, rather than governments, shape the world.' To what extent do you agree with this view?* | Worked essay | `04 - Audit essay (corporations and governments).md` |
 
-## Practice queue (highest priority first)
+## Practice queue (highest priority first) — FROZEN, do not sit
+
+The blank worksheet is `scripts/P1 practice queue (Oct 2026).md`. It was never started as a season queue; leave it blank.
 
 Chosen from the 2025–26 titles in the prelim compilation. Technology and media titles are left out (crossed out by default, `01` §1), as are titles already planned above. Priority weighs the category's share of questions, a question type not yet practised, and an arsenal weakness the plan would expose.
 

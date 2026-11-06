@@ -1,0 +1,35 @@
+# Agent context hygiene — do not auto-ingest these into Claude Code.
+# Open a path explicitly only when the task names that paper/resource.
+
+# Local envs / operator dumps
+.venv-convert/
+tools/_scan_work/
+ops/cursor-memory/
+_tmp_exec.txt
+**/__pycache__/
+.ipynb_checkpoints/
+
+# Inbox + untouched import vaults
+raw files/unfiled/
+**/origin/
+
+# Binary / page rasters (use raw PDF or open one named page on demand)
+**/*.pdf
+**/*.docx
+**/*.doc
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+converted packages/**/pages/
+
+# Bulk sample / fixture data (not syllabus reasoning)
+**/restaurants.json
+**/Route.csv
+**/Stop.csv
+**/*WAREHOUSE*.txt
+**/REGISTRATIONS.txt
+
+# Gemini / chat export dumps if any reappear
+**/essay instance*.json
+**/*chat*.jsonl

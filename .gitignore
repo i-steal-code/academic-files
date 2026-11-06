@@ -25,3 +25,6 @@ raw files/unfiled/
 # Scan/re-split work products (local only)
 tools/_scan_work/
 
+# Cursor → Claude Code memory export (chat PII / local-only)
+ops/cursor-memory/
+

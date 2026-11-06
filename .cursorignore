@@ -1,0 +1,30 @@
+﻿# Mirror of .claudeignore — keep Cursor indexing off bulk / binary noise.
+# See AGENTS.md for what to open by default.
+
+.venv-convert/
+tools/_scan_work/
+ops/cursor-memory/
+_tmp_exec.txt
+**/__pycache__/
+.ipynb_checkpoints/
+
+raw files/unfiled/
+**/origin/
+
+**/*.pdf
+**/*.docx
+**/*.doc
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+converted packages/**/pages/
+
+**/restaurants.json
+**/Route.csv
+**/Stop.csv
+**/*WAREHOUSE*.txt
+**/REGISTRATIONS.txt
+
+**/essay instance*.json
+**/*chat*.jsonl

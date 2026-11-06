@@ -1,6 +1,6 @@
 # Locked 8881 P2 sittings
 
-Do not open these until a real timed paper. Do not harvest them into practice banks.
+**Season archived 2026-11-04** — see `raw files/H1 GP/ARCHIVED.md`. These are not an upcoming sit queue. Do not schedule them. Do not harvest them into practice banks. Files stay as the intensity record.
 
 Intensity floor: master + RI + HCI + national + Specimen. Agents are bound by `.cursor/rules/gp-8881-locked-sits.mdc`.
 
@@ -28,4 +28,4 @@ Files stay in the tree. These are not unused gold sits.
 
 Already spent as bank items (do not spend again): a few items from 2024 RI prelim, 2024 RI promo, 2024 HCI, 2025 HCI are in `raw files/H1 GP/scripts/P2 accuracy bank (Tue).md`. Leave them. Do not take more from those papers.
 
-Practice harvest lives everywhere else that is still 8881-shaped. See the cull: other-school prelims and tuition packs are overflow, not this list.
+Other-school 8881 prelims and tuition packs remain in the library as overflow **material**, not as an active harvest or sit list, while the season stays archived.

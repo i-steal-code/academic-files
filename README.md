@@ -33,9 +33,12 @@ Reorg / dedupe helper: `python tools/reorg_subjects_origin_dedupe.py`
 ## Conversion policy
 
 - **H1 GP:** markdown-only packages under `converted packages/H1 GP/` (prefer `.docx` → md when both exist for the same stem; PDF only if no DOCX). Run `python tools/convert_gp_package.py`.
+- **GP bulk corpora** (KS Bull, Kaleidoscope, REHEARSE, Infopacks, IPS papers, long guides, and all `topics + case studies` packs): convert stores a **title index only** by default so agents are not drowned in OCR dumps. Curated model essays / question lists under `essay resources/` stay full-text. Open the raw PDF for a named pack, or rebuild a full dump with `python tools/convert_gp_package.py --full-corpus --force`. Re-slim with `python tools/slim_agent_context.py`.
 - **Cheatsheets / living notes:** keep as ordinary files under `notes/`. Prefer infrequent manual drops over live API sync. Experimental Google Docs hourly sync lives on archived branch `archive/google-integration`.
 - **H2 math / physics / computing:** hybrid packages — raw PDF stays canonical; MarkItDown `content.md` is a lossy text index; `pages/page-NNN.png` preserves visual fidelity for equations/figures.
 - Never treat science `content.md` as exam-accurate alone. Prefer md for search/chunking; open `pages/` or the raw PDF when math or diagrams matter.
+
+**Agent context:** see `AGENTS.md`. `.claudeignore` / `.cursorignore` exclude binaries, page rasters, sample datasets, `origin/`, and operator dumps.
 
 how to deal with math content (syllabus):
 some minor changes in qns, mark out portions of questions that are not tested in the 2026 H2 math syllabus.
@@ -112,13 +115,15 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H1 GP
 
+**Season archived 2026-11-04** (both papers over). Freeze notice: `raw files/H1 GP/ARCHIVED.md`. Role: `agents/gp.md`. Do not run sit queues or extend accuracy banks unless GP is explicitly reopened.
+
 8881 started with the 2024 A-level. Count **P2 sittings** (year + school/national), not loose files.
 
-P1 essay is **not** a collection gap. GP P1 can ask anything; a list of essay papers to sit is a worse use of time than the question pool already in `topics + case studies/` infopacks, `essay resources/` (KS Bulls, model essays, 2025 multi-school question list), tuition dumps, and `essay arsenal/`. Do not hunt RI/HCI P1 prelims.
+P1 essay is **not** a collection gap. The question pool already lived in `topics + case studies/` infopacks, `essay resources/`, tuition dumps, and `essay arsenal/`. Do not hunt RI/HCI P1 prelims.
 
-Gold P2 timed sits are locked: `raw files/H1 GP/exam papers/LOCKED SITS.md` (agents: `.cursor/rules/gp-8881-locked-sits.mdc`). Spent, not locked: **2025 RI promo** (33/50). 2025 A-level P2 is locked as a paper but already sat (`scripts/2025 P2 A-level H1 GP (marked).md`).
+Gold P2 timed sits are locked as intensity record: `raw files/H1 GP/exam papers/LOCKED SITS.md` (agents: `.cursor/rules/gp-8881-locked-sits.mdc`). Spent, not locked: **2025 RI promo** (33/50). 2025 A-level P2 was sat (`scripts/2025 P2 A-level H1 GP (marked).md`).
 
-**Still missing (keys only, optional):** 2024 A-level P2 ANS; Specimen ANS; 2025 A-level AQ scheme.
+**Still missing (keys only, optional library gaps — not practice tasks):** 2024 A-level P2 ANS; Specimen ANS; 2025 A-level AQ scheme.
 
 Image-only PDFs (no text layer) go through Tesseract OCR (`extract_mode: pdf_ocr_tesseract` in the package manifest). Converter: `python tools/convert_gp_package.py`. Job log: `tools/_scan_work/GP_CONVERT_JOB.md`.
 
