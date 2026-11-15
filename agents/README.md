@@ -7,7 +7,7 @@ Chat context is disposable. Each **role** keeps a durable markdown file that the
 | Role file | Primary function |
 | --- | --- |
 | [`build.md`](build.md) | Workspace infrastructure: library layout, conversion, ignore/slim hygiene, agent portability, tooling under `tools/` / `ops/`, repo conventions |
-| [`computing.md`](computing.md) | H2 computing content and practice: syllabus notes, papers, practicals, blurt sheets, computing-specific marking and drills |
+| [`computing.md`](computing.md) | H2 computing **archived** (both papers done, 2026-11-11): freeze steward only — see `raw files/H2 computing/ARCHIVED.md` |
 | [`gp.md`](gp.md) | H1 GP **archived** (season closed): freeze steward only — see `raw files/H1 GP/ARCHIVED.md` |
 | [`math.md`](math.md) | H2 math content and practice: topical sets, prelims/TYS, readiness canvases, syllabus cuts |
 | [`physics.md`](physics.md) | H2 physics content and practice: chapters, revision packages, prelims, blurt sheets |

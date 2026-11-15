@@ -1,0 +1,332 @@
+<title>H2 Physics Readiness</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: lab-notebook ledger. Summary strip, mastery spread, leaks, then one chapter table grouped by pillar. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --ink: #17202b;
+  --muted: #5b6573;
+  --rule: #dde2e8;
+  --accent: #2851a3;
+  --l0: #c9cfd7;
+  --l1: #c2413a;
+  --l2: #c98a1b;
+  --l3: #3b8f8a;
+  --l4: #2f7d32;
+  --up: #2f7d32;
+  --down: #c2413a;
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161d; --surface: #182029; --ink: #e6eaf0; --muted: #98a3b2; --rule: #2a3440;
+    --accent: #8fb0f0; --l0: #3a4552; --l1: #e0716a; --l2: #e0b04f; --l3: #5fb8b2; --l4: #6cc070;
+    --up: #6cc070; --down: #e0716a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161d; --surface: #182029; --ink: #e6eaf0; --muted: #98a3b2; --rule: #2a3440;
+  --accent: #8fb0f0; --l0: #3a4552; --l1: #e0716a; --l2: #e0b04f; --l3: #5fb8b2; --l4: #6cc070;
+  --up: #6cc070; --down: #e0716a; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 28px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
+h1, h2 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: 30px; letter-spacing: 0.01em; }
+h2 { font-size: 19px; }
+.eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.sub { color: var(--muted); max-width: 65ch; margin: 6px 0 0; }
+.num { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+header { display: grid; gap: 4px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.stat { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; min-width: 0; }
+.stat .v { font-family: var(--font-data); font-size: 28px; font-weight: 500; }
+.stat .l { font-size: 13px; color: var(--muted); }
+.delta.up { color: var(--up); } .delta.down { color: var(--down); }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: inherit; font-size: 13px; padding: 6px 12px; background: var(--surface); color: var(--ink); border: 0; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.note { font-size: 13px; color: var(--muted); }
+
+.two { display: grid; grid-template-columns: 3fr 2fr; gap: 20px; }
+@media (max-width: 720px) { .two { grid-template-columns: 1fr; } }
+section { display: grid; gap: 10px; min-width: 0; align-content: start; }
+
+.spread { display: flex; height: 26px; border-radius: 4px; overflow: hidden; border: 1px solid var(--rule); }
+.spread div { display: flex; align-items: center; justify-content: center; font-family: var(--font-data); font-size: 12px; color: var(--surface); min-width: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.lowest { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; font-size: 14px; }
+
+.leaks { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.leaks li { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; }
+.leaks .bar { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: var(--rule); overflow: hidden; }
+.leaks .bar i { display: block; height: 100%; background: var(--accent); }
+.leaks small { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+
+.tablebox { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 640px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 500; }
+tr.pillar td { background: var(--bg); font-family: var(--font-display); font-weight: 600; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+td.r, th.r { text-align: right; }
+.meter { display: inline-flex; gap: 3px; vertical-align: middle; }
+.meter i { width: 12px; height: 12px; border-radius: 2px; background: var(--l0); display: block; }
+.lvl { display: inline-flex; align-items: center; gap: 8px; }
+.chip { font-size: 12px; padding: 1px 8px; border-radius: 10px; border: 1px solid var(--rule); color: var(--muted); }
+.chip.done { border-color: var(--accent); color: var(--accent); }
+.chg.up { color: var(--up); } .chg.down { color: var(--down); }
+footer { font-size: 13px; color: var(--muted); display: grid; gap: 6px; max-width: 75ch; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">H2 Physics 9478 · P2 Fri 13 Nov · P3 Tue 17 Nov</div>
+    <h1>H2 Physics Readiness</h1>
+    <p class="sub" id="asof"></p>
+  </header>
+
+  <div class="toolbar">
+    <span class="note">Rating rule</span>
+    <div class="seg" role="group" aria-label="Rating rule">
+      <button type="button" id="rule-content" aria-pressed="true">Content only</button>
+      <button type="button" id="rule-all" aria-pressed="false">All marks</button>
+    </div>
+    <span class="note" id="rulenote"></span>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="two">
+    <section>
+      <h2>Mastery spread</h2>
+      <div class="spread" id="spread" aria-label="Chapters at each rating"></div>
+      <div class="legend" id="legend"></div>
+      <div class="note">Lowest-rated chapters</div>
+      <ul class="lowest" id="lowest"></ul>
+    </section>
+    <section>
+      <h2>Skill leaks</h2>
+      <ul class="leaks" id="leaks"></ul>
+    </section>
+  </div>
+
+  <section>
+    <h2>Chapters</h2>
+    <div class="tablebox">
+      <table>
+        <thead>
+          <tr><th class="r">Ch</th><th>Chapter</th><th>Before taper</th><th>Now</th><th class="r">Taper mark</th><th class="r">Lowball</th><th>Status</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <div>Predicted mark is a lowball that blends two lowballs, weighted by the marks of evidence behind each. Papers: the worst recent full timed paper (54/75, 2025 RI P2, done with 20 min over time); "56+" for the NYJC, ACJC and RVHS P2s and P3s is taken as 56; the A-level P2 is taken as 56 (the user's 60–62, less the ~5-mark calibration). Chapters: Σ weight × chapter score, where a tested chapter scores the low end of its first cold attempt with all marks counted, and an untested chapter scores the floor of its band (85% for a 4, 65% for a 3, 40% for a 2, 10% for a 1). The papers measure real conditions (unlabelled topics, switching, the marker), so no separate penalty is applied. Every uncertainty points up from here, so a bad day should land near it. The 2026 RI prelim P2 (17/75, early October, before thermo and the topical sets) is left out as outdated.</div>
+    <div>Lucky-day ceiling: Σ weight × the top of each chapter's content-only band (100%, 84%, 64%, 39%), as if no skill leak fires and ecf and benefit of the doubt are given. Chapter weights are the Cursor canvas's figures and are not shown. The rating-rule switch changes the ratings shown, not the two predictions.</div>
+    <div>No decay. A rating holds until the taper, a theory check, topical questions or a later paper changes it. Topical: unseen prelim questions after the taper. With 8+ marks on a chapter they can raise its content rating by one level (never lower it), and their marks join the chapter lowball as extra cold evidence, in either direction. Skill leaks: Friday's P2 halves the weight of each leak that did not fire and adds each firing; weights order the habits for P3. Ratings come from first cold attempts: 85%+ is 4, 65–84% is 3, 40–64% is 2, below 40% is 1. Check: the mid-October timed sets (56+/75, about 75%) sit inside the range.</div>
+    <div>Source: raw files/H2 physics/work/P2 taper running log.md and the canvas's chapterRatings.</div>
+  </footer>
+</div>
+
+<script>
+const UPDATED = "Sat 14 Nov 2026, after the Epoch 2 Section B core";
+const LEVELS = ["Not started", "Recognise the material", "Can solve with notes open", "Can solve unaided", "Can solve unseen variants"];
+const PILLARS = ["Classical mechanics", "Wave phenomena", "Thermodynamics", "Electrical physics", "Modern physics"];
+
+// sheet = canvas rating before the taper. taper = null until attempted; content / all = rating under each rule; lo = low end of the first-attempt mark, all marks counted. of = marks attempted, when only part of the chapter was (Ch 16: capacitance); the rest keeps its band floor. tc = rating after a theory check; it replaces sheet for marks not attempted.
+const CH = [
+  { ch: 1,  t: "Quantities and measurement", p: 0, w: 3.81, d: 3, sheet: 4, total: 17, taper: { mark: "≤14", lo: 13, content: 4, all: 3 } },
+  { ch: 2,  t: "Forces and moments",          p: 0, w: 3.00, d: 3, sheet: 3, total: 18, taper: { mark: "12–14", lo: 12, content: 4, all: 3 } },
+  { ch: 3,  t: "Motion and forces",           p: 0, w: 3.54, d: 3, sheet: 3, total: 19, taper: { mark: "~15", lo: 14, content: 3, all: 3 } },
+  { ch: 4,  t: "Energy, work and power",      p: 0, w: 4.49, d: 3, sheet: 3, total: 17, taper: { mark: "~15", lo: 14, content: 4, all: 4 } },
+  { ch: 5,  t: "Projectile motion",           p: 0, w: 3.81, d: 3, sheet: 3, total: 17, taper: { mark: "12–14", lo: 12, content: 4, all: 3 } },
+  { ch: 6,  t: "Collisions",                  p: 0, w: 3.00, d: 3, sheet: 3, total: 19, taper: { mark: "17", lo: 17, content: 4, all: 4 } },
+  { ch: 7,  t: "Circular motion",             p: 0, w: 3.95, d: 3, sheet: 4, total: 16, taper: { mark: "11–12", lo: 11, content: 4, all: 3 } },
+  { ch: 8,  t: "Gravitational fields",        p: 0, w: 6.40, d: 3, sheet: 3, total: 26, taper: { mark: "15–17", lo: 15, content: 3, all: 2 } },
+  { ch: 9,  t: "Oscillations",                p: 1, w: 6.09, d: 4, sheet: 3, total: 28, taper: { mark: "22–24", lo: 22, content: 3, all: 3 } },
+  { ch: 10, t: "Wave motion",                 p: 1, w: 3.63, d: 4, sheet: 2, total: 23, taper: { mark: "12–13", lo: 12, content: 3, all: 2 } },
+  { ch: 11, t: "Superposition",               p: 1, w: 9.28, d: 4, sheet: 3, total: 32, taper: { mark: "22–24", lo: 22, content: 3, all: 3 } },
+  { ch: 12, t: "Temperature and ideal gases", p: 2, w: 2.78, d: 2, sheet: 4, tc: 3, total: 24, taper: null },
+  { ch: 13, t: "Thermodynamic systems",       p: 2, w: 5.22, d: 2, sheet: 4, tc: 3, total: 25, taper: null },
+  { ch: 14, t: "Electric fields and capacitance", p: 3, w: 7.48, d: 4, sheet: 2, total: 29, taper: { mark: "~19", lo: 18, content: 4, all: 3 } },
+  { ch: 15, t: "Currents and alternating current", p: 3, w: 3.34, d: 4, sheet: 2, total: 20, taper: { mark: "~18", lo: 18, content: 4, all: 4 } },
+  { ch: 16, t: "Circuits",                    p: 3, w: 7.62, d: 4, sheet: 3, tc: 2, total: 35, taper: { mark: "7–8", of: 11, lo: 7, content: 2, all: 2 } },
+  { ch: 17, t: "Electromagnetic forces",      p: 3, w: 4.81, d: 4, sheet: 3, tc: 3, total: 25, taper: null },
+  { ch: 18, t: "Electromagnetic induction",   p: 3, w: 5.75, d: 4, sheet: 3, tc: 2, total: 28, taper: null },
+  { ch: 19, t: "Quantum physics",             p: 4, w: 5.36, d: 3, sheet: 2, total: 52, taper: { mark: "31–36", lo: 31, content: 3, all: 2 } },
+  { ch: 20, t: "Nuclear physics",             p: 4, w: 6.64, d: 3, sheet: 3, total: 45, taper: { mark: "32–37", lo: 32, content: 3, all: 3 } },
+];
+
+const LEAKS = [
+  { name: "Marker's intent (reading comprehension)", n: 16, where: "Ch 1 ×2, Ch 2, Ch 4, Ch 5 ×4, Ch 6, Ch 7, Ch 8, Ch 10, Ch 16, Epoch 2 Ch 16, 17 ×2, 20 · the cause or named quantity not stated; a 2-mark explanation given one point; one of several observations left unexplained; a symbol the stem defines re-derived; the stem's moment (after the flash) missed", p2: 0 },
+  { name: "Command words", n: 2, where: "Ch 7, Ch 11 · determine-and-explain answered as explain only; describe-how answered without the procedure", p2: 0 },
+  { name: "Calculator entry and long chains", n: 5, where: "Ch 5, Ch 8 ×2, Ch 10, Ch 19 · typo, power-of-ten and wrong-symbol slips; P2: one long single entry (~40 s) that cannot be checked, then re-checking it", p2: 1 },
+  { name: "Stalls on unfamiliar parts", n: 4, where: "Ch 14, Ch 19 ×3 · time spent recalling a method; fix: defining relation first, move on after ~2 min", p2: 0 },
+  { name: "Units", n: 2, where: "Ch 1, Ch 20 · mass left in grams; J to MeV conversion", p2: 0 },
+  { name: "Drawings and graphs", n: 9, where: "Ch 3, Ch 6, Ch 8, Ch 16, topical Ch 10, Ch 18, Epoch 2 Ch 14, 15, 16 · tangents drawn badly; derived graphs (P–t, Q–t) not built from the given one; sketch not checked against the physics; graph value misread or not turned into the picture; P2: gradients slow, drawings left out or wrong", p2: 2 },
+  { name: "Diagrams in working", n: 2, where: "Ch 2, Ch 14 · set-up not drawn or not carried through; Ch 14 cascade cost ~8 marks", p2: 0 },
+  { name: "Method lock-in", n: 3, where: "Ch 4, Ch 14, topical Ch 14 · long method kept when a shortcut or proportionality was there; energy in a field done as totals instead of ΔKE = −qΔV", p2: 0 },
+];
+// p2 = times the leak fired in Friday's P2 (user's account after the paper); unset until then.
+// Weight = its count, halved if it did not fire in the P2, plus one for each P2 firing.
+// Weights order the habits for P3; they do not move the predictions.
+const leakW = l => (l.p2 == null ? l.n : l.n * (l.p2 === 0 ? 0.5 : 1) + l.p2);
+
+// Topical: unseen prelim questions done after the taper (redos of seen questions are not entered).
+// got = marks with every loss counted; leak = marks lost to skill leaks, added back for the content rating.
+const TOPICAL = [
+  // Epoch 1 Pass 1, Thu 12 Nov, one sitting, 2:07 against a 2:05 target. got is the low end.
+  { ch: 16, q: "YIJC P2 Q5", of: 9, got: 9, leak: 0 },
+  { ch: 8, q: "JPJC P2 Q2", of: 10, got: 6, leak: 0 },   // (a) potential: "to infinity"; (d) E ∝ −1/r → KE up → more drag work not chained
+  { ch: 18, q: "TMJC P2 Q6", of: 10, got: 9, leak: 1 },  // (b)(i) graph value to coil angle
+  { ch: 19, q: "CJC P2 Q6", of: 8, got: 8, leak: 0 },
+  { ch: 11, q: "NJC P2 Q5", of: 8, got: 6, leak: 0 },    // (a) stationary-wave features list
+  { ch: 10, q: "ASRJC P2 Q4", of: 6, got: 4, leak: 1 },  // (a) "propagation" for energy transfer; (b)(iii) graph misread
+  { ch: 20, q: "NJC P2 Q7", of: 9, got: 6, leak: 0 },    // (b) free nucleons and electrons given binding energy; (c) carried
+  { ch: 13, q: "ASRJC P2 Q3", of: 8, got: 7, leak: 0 },  // (c) U also depends on the number of molecules
+  { ch: 15, q: "JPJC P2 Q5", of: 10, got: 9, leak: 0 },  // (a) r.m.s. definition by heating effect
+  // Epoch 2 Block 1 marathon, Fri 13 Nov, one sitting, 1:56 against a 2:01 target. got is the low end.
+  { ch: 16, q: "TJC P3 Q6", of: 9, got: 7, leak: 2 },    // tangent drawn badly; CR off, R by ecf
+  { ch: 16, q: "SAJC P3 Q6", of: 9, got: 7, leak: 0 },   // (b)(ii)2 p.d. after the flash: energy left → ½CV², split over the series pair
+  { ch: 8, q: "YIJC P3 Q3", of: 10, got: 9, leak: 0 },   // (a)(ii) why φ < 0: φ = 0 at infinity not stated
+  { ch: 2, q: "JPJC P3 Q3", of: 8, got: 8, leak: 0 },
+  { ch: 14, q: "DHS P3 Q5", of: 9, got: 6, leak: 3 },    // (c) tangent, value off; (d) total-KE set-up, forgot the final EPE
+  { ch: 20, q: "VJC P3 Q7", of: 8, got: 8, leak: 0 },
+  { ch: 17, q: "YIJC P3 Q6", of: 6, got: 5, leak: 0 },   // (b)(i) force on a negative charge is against the field lines
+  { ch: 9, q: "ASRJC P3 Q4", of: 8, got: 8, leak: 0 },
+  { ch: 15, q: "VJC P3 Q6", of: 9, got: 6, leak: 3 },    // (d) P–t and (e) Q–t sketches
+  // Epoch 2 Block 2 core, Sat 14 Nov, three Section B options in one sitting: 27:48, 27:54, 24:28.
+  { ch: 20, q: "JPJC P3 Q9", of: 20, got: 17, leak: 1 }, // (c) γ photon not named, its momentum; (d)(iv) first observation not explained
+  // (c)(iv) (ln-linearising, 3 of its 4 marks lost) is left out: a P4-style data-analysis part, about 3% of oscillation marks in the analysis (user, 14 Nov).
+  { ch: 9, q: "DHS P3 Q7 excl. (c)(iv)", of: 16, got: 14, leak: 0 }, // (c)(iii) drag; (d) resonance wording
+  { ch: 17, q: "TMJC P3 Q8", of: 20, got: 17, leak: 3 }, // (b)(v) W = Fs cos θ not written; (b)(ix) σ stacked against the given definition
+];
+
+// Lowball model: every uncertainty resolves upward from here.
+// Tested chapter: the low end of its first cold attempt, all marks counted (taper.lo / total).
+// Untested chapter: the floor of its rating band. Lucky day: the top of the content-only band.
+const LOW_BAND  = [0, 0.10, 0.40, 0.65, 0.85];
+const HIGH_BAND = [0, 0.39, 0.64, 0.84, 1.00];
+// Full timed papers (P2 and P3) since the bootcamp (user's reports). "56+" is taken at its floor, 56.
+const PAPERS = [
+  { p: "2025 RI P2 (12 Oct, 20 min over time)", m: 54 },
+  { p: "2026 NYJC P2", m: 56 },
+  { p: "2026 ACJC P2", m: 56 },
+  { p: "2026 RVHS P2", m: 56 },
+  // Each October set was P2 then P3 (user, 13 Nov); every paper 56+.
+  { p: "2026 NYJC P3", m: 56 },
+  { p: "2026 ACJC P3", m: 56 },
+  { p: "2026 RVHS P3", m: 56 },
+  // User's lowball 60–62 runs at the agent's mean (user, 13 Nov), so the agent lowball is that mean less ~5 marks.
+  { p: "A-level P2, 13 Nov (user 60–62, read as the mean)", m: 56 },
+];
+const PAPER_MARKS = PAPERS.length * 75;
+const paperLow = () => (Math.min(...PAPERS.map(x => x.m)) / 75) * 100; // the worst recent paper
+const tried = c => c.taper.of ?? c.total;
+const base = c => c.tc ?? c.sheet;
+const top = c => TOPICAL.filter(t => t.ch === c.ch).reduce((a, t) => ({ of: a.of + t.of, got: a.got + t.got, con: a.con + t.got + t.leak }), { of: 0, got: 0, con: 0 });
+const topicalMarks = () => TOPICAL.reduce((a, t) => a + t.of, 0);
+const band = f => (f >= 0.85 ? 4 : f >= 0.65 ? 3 : f >= 0.40 ? 2 : 1);
+// Content rating: the taper's content rating (or the sheet / theory-check rating). With 8+ topical marks on the
+// chapter it can rise to the band of the topical content score, by at most one level, and never falls.
+const MIN_TOPICAL = 8;
+const content = c => {
+  const r = c.taper ? c.taper.content : base(c);
+  const t = top(c);
+  return t.of >= MIN_TOPICAL ? Math.max(r, Math.min(r + 1, band(t.con / t.of))) : r;
+};
+// Lowball: topical marks join the chapter's cold-attempt evidence, all marks counted, in either direction.
+const lowFrac = c => {
+  const own = c.taper ? c.taper.lo + LOW_BAND[base(c)] * (c.total - tried(c)) : LOW_BAND[base(c)] * c.total;
+  const t = top(c);
+  return (own + t.got) / (c.total + t.of);
+};
+const chapterLow = rate => CH.reduce((a, c) => a + c.w * rate(c), 0);
+const taperMarks = () => CH.filter(c => c.taper).reduce((a, c) => a + tried(c), 0) + topicalMarks();
+// Blend the two lowballs by how many marks of evidence each rests on.
+const blend = ch => (ch * taperMarks() + paperLow() * PAPER_MARKS) / (taperMarks() + PAPER_MARKS);
+const lowball = () => blend(chapterLow(lowFrac));
+const lowballBefore = () => blend(chapterLow(c => LOW_BAND[c.sheet]));
+const ceiling = () => CH.reduce((a, c) => a + c.w * HIGH_BAND[content(c)], 0);
+const P2 = pct => Math.round(pct * 0.75); // P2 is out of 75
+const LCOL = i => `var(--l${i})`;
+
+let rule = "content";
+const now = c => (rule === "content" ? content(c) : c.taper ? c.taper.all : base(c));
+
+function meter(level) {
+  return `<span class="meter" aria-hidden="true">${[1, 2, 3, 4].map(i => `<i style="background:${i <= level ? LCOL(level) : "var(--l0)"}"></i>`).join("")}</span>`;
+}
+
+function render() {
+  document.getElementById("asof").textContent = `Updated ${UPDATED}. Ratings change when the taper, a theory check or a later paper re-rates a chapter; topical questions can raise content ratings.`;
+  document.getElementById("rule-content").setAttribute("aria-pressed", rule === "content");
+  document.getElementById("rule-all").setAttribute("aria-pressed", rule === "all");
+  document.getElementById("rulenote").textContent = rule === "content"
+    ? "Ratings shown: skill-leak marks tracked separately, not charged to a chapter."
+    : "Ratings shown: every lost mark counts against its chapter.";
+
+  const before = lowballBefore();
+  const lowP = lowball();
+  const high = ceiling();
+  const diff = lowP - before;
+  const tested = CH.filter(c => c.taper).length;
+  const atThree = CH.filter(c => now(c) >= 3).length;
+  const minLevel = Math.min(...CH.map(now));
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><span class="v">${lowP.toFixed(1)}%</span><span class="l">Predicted (lowball) · about <span class="num">${P2(lowP)}/75</span> on P2. A bad day lands here. <span class="delta ${diff >= 0 ? "up" : "down"} num">${diff >= 0 ? "+" : "−"}${Math.abs(diff).toFixed(1)}</span> vs before taper (${before.toFixed(1)}%)</span></div>
+    <div class="stat"><span class="v">${high.toFixed(1)}%</span><span class="l">Lucky-day ceiling · about <span class="num">${P2(high)}/75</span>. No leaks, ecf and benefit of the doubt given.</span></div>
+    <div class="stat"><span class="v">${atThree}<span class="note"> / 20</span></span><span class="l">Chapters at 3 or above · lowest rating ${minLevel}</span></div>
+    <div class="stat"><span class="v">${PAPERS.length} + ${tested}</span><span class="l">Evidence · ${PAPERS.length} full timed papers (${PAPER_MARKS} marks, worst ${Math.min(...PAPERS.map(x => x.m))}/75) ${tested} taper chapters and ${TOPICAL.length} topical questions (${taperMarks()} marks). Chapter lowball alone: ${chapterLow(lowFrac).toFixed(1)}%</span></div>`;
+
+  const counts = [0, 0, 0, 0, 0];
+  CH.forEach(c => counts[now(c)]++);
+  document.getElementById("spread").innerHTML = counts.map((n, i) => n ? `<div style="flex:${n};background:${LCOL(i)}" title="${n} at rating ${i}">${n}</div>` : "").join("");
+  document.getElementById("legend").innerHTML = counts.map((n, i) => `<span><i class="sw" style="background:${LCOL(i)}"></i>${i} · ${LEVELS[i]} (${n})</span>`).join("");
+  const low = [...CH].sort((a, b) => now(a) - now(b) || a.ch - b.ch).filter(c => now(c) === minLevel || now(c) <= 2);
+  document.getElementById("lowest").innerHTML = low.map(c => `<li><span class="num">Ch ${c.ch}</span> ${c.t} · ${now(c)}${c.taper ? "" : c.tc ? " (theory check)" : " (not yet tested)"}</li>`).join("");
+
+  const maxLeak = Math.max(...LEAKS.map(leakW));
+  document.getElementById("leaks").innerHTML = [...LEAKS].sort((a, b) => leakW(b) - leakW(a)).map(l => `<li><span>${l.name}</span><span class="num">${l.p2 == null ? l.n : `${l.n} → ${+leakW(l).toFixed(1)}`}</span><span class="bar"><i style="width:${(leakW(l) / maxLeak) * 100}%"></i></span><small>${l.where}${l.p2 == null ? "" : ` · P2: ${l.p2 ? `fired ×${l.p2}` : "did not fire"}`}</small></li>`).join("");
+
+  let html = "";
+  PILLARS.forEach((pname, pi) => {
+    html += `<tr class="pillar"><td colspan="7">${pname}</td></tr>`;
+    CH.filter(c => c.p === pi).forEach(c => {
+      const n = now(c);
+      const chg = n - c.sheet;
+      const chgTxt = (c.taper || c.tc || top(c).of) ? (chg > 0 ? `<span class="chg up">▲ ${chg}</span>` : chg < 0 ? `<span class="chg down">▼ ${-chg}</span>` : `<span class="note">same</span>`) : "";
+      html += `<tr>
+        <td class="r num">${c.ch}</td>
+        <td>${c.t}</td>
+        <td><span class="lvl">${meter(c.sheet)}<span class="num">${c.sheet}</span></span></td>
+        <td><span class="lvl">${meter(n)}<span class="num">${n}</span>${chgTxt}</span></td>
+        <td class="r num">${c.taper ? `${c.taper.mark}/${tried(c)}` : `–/${c.total}`}${top(c).of ? ` <span class="note">+ ${top(c).got}/${top(c).of}</span>` : ""}</td>
+        <td class="r num">${Math.round(lowFrac(c) * 100)}%</td>
+        <td><span class="chip ${c.taper ? "done" : ""}">${c.taper ? (c.taper.of ? (c.tc ? "capacitance + theory" : "capacitance done") : "taper done") : c.tc ? "theory checked" : [12, 13, 17, 18].includes(c.ch) ? "theory check" : [11, 20].includes(c.ch) ? "Wed" : "today"}</span></td>
+      </tr>`;
+    });
+  });
+  document.getElementById("rows").innerHTML = html;
+}
+
+document.getElementById("rule-content").addEventListener("click", () => { rule = "content"; render(); });
+document.getElementById("rule-all").addEventListener("click", () => { rule = "all"; render(); });
+render();
+</script>

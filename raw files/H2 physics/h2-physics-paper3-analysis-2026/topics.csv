@@ -1,0 +1,18 @@
+code,name,group,in_paper3_at_all,whole_section_a_question,leads_a_section_b_option,expected_section_a_marks_of_55,tested_in_2026_paper2,alevel_hits_4plus,alevel_sittings,schools2026_hits_4plus,schools2026_sittings,p4plus_blend,p4plus_blend_smoothed,p_whole_section_a_lead_rule,p_whole_section_a_checker_strict,p_leads_section_b,exp_marks_central,exp_marks_low,exp_marks_high
+OSC,Oscillations,Very likely,over 90%,70%,about 30%,5.6,no,7,7,11,11,1.0,0.95,0.683,0.68,0.317,5.6,4.9,6.9
+CIRCUITS,D.c. circuits (with capacitors and RC),Very likely,over 90%,80%,about 20%,6.4,no,2,2,9,9,1.0,0.88,0.822,0.82,0.178,6.4,3.7,8.9
+NUCL,Nuclear physics,Very likely,about 90%,about 50%,about 45%,5.1,no,5,6,7,7,0.9,0.85,0.571,0.47,0.429,5.1,4.1,6.4
+GRAV,Gravitational fields,Very likely,about 90%,65%,about 20%,5.8,no,5,6,9,9,0.9,0.85,0.656,0.66,0.2,5.8,4.3,8.0
+EMFOR,Electromagnetic forces,Very likely,about 90%,35-65%,20-30%,3.8,no,5,5,10,12,0.933,0.87,0.647,0.33,0.22,3.8,3.2,4.7
+EFLD,Electric fields (with capacitance),Very likely,about 85%,45-65%,about 15%,4.6,no,6,7,6,7,0.857,0.81,0.657,0.41,0.143,4.6,3.3,6.9
+CURR,Currents (with a.c.),Even chance or better,50-80%,30-70%,about 5%,5.3 (fragile: 3.4-3.8 if the two Cambridge sittings are shrunk toward the schools),no,2,2,5,11,0.782,0.68,0.709,0.4,0.036,5.3,2.0,8.0
+MECH,"One general mechanics question (forces and moments, collisions, projectiles)",Even chance or better,50-60% (one general mechanics question),about 50%,15-20% (collisions most often),about 7 (5-9),yes (about 31 marks),,,,,,,,,,,,
+SUPER,Superposition,Even chance or better,about 55% (not gratings or coherence),30%,about 15%,2.9,yes,5,8,3,8,0.525,0.52,0.325,0.36,0.15,2.9,2.0,3.5
+QUANT,Quantum physics,Even chance or better,about 50% (not the particle in a box),25%,about 15%,2.5,yes,3,7,7,12,0.49,0.49,0.252,0.3,0.152,2.5,2.0,3.2
+THERM,Thermal physics (ideal gases and thermodynamics),Possible,30-40% (not the Paper 2 parts),20-40%,0 (under 10%),2.3,yes,2,3,0,8,0.4,0.4,0.4,0.3,0.0,2.3,0.0,4.0
+MEAS,Measurement,Possible,"about 25% (mostly uncertainty, often as parts)",25%,0,1.4,no,1,4,3,13,0.242,0.28,0.242,0.19,0.0,1.4,1.0,1.6
+WAVEM,Wave motion,Possible,about 20%,20%,0,2.1,no,1,7,3,12,0.186,0.22,0.186,0.18,0.0,2.1,1.3,3.9
+MOTION,"Kinematics, Newton's laws, momentum and mass flow",Unlikely,20% or less (small steps inside other questions),low,0,0.5,yes,1,3,0,5,0.2,0.26,0.0,,0.0,0.5,0.4,0.6
+ENERGY,"Work, energy and power",Unlikely,20% or less (small steps inside other questions),low,0,0.6,yes,0,6,1,7,0.057,0.12,0.0,,0.0,0.6,0.2,1.4
+EMIND,Electromagnetic induction,Unlikely,under 10%,low,about 7%,0.2,yes,0,2,1,6,0.067,0.19,0.0,,0.067,0.2,0.0,0.6
+CIRC,Circular motion,Unlikely,under 10% (used inside orbits and r = mv/Bq),low,0,0,yes,0,2,0,2,0.0,0.17,0.0,,0.0,0.0,0.0,0.0

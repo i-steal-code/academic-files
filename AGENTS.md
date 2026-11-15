@@ -2,6 +2,10 @@
 
 Prefer small, decision-bearing files. Do **not** walk bulk OCR dumps, page rasters, or sample datasets into context.
 
+## Focus lock (until the Physics P3 paper ends, 2026-11-17)
+
+Debig set this on 2026-11-07 so he can study; it overrides the rest of this file. Physics works normally to the agreed study plan. Computing's paper was on 2026-11-11 and the subject is now archived. Every other role does no work and replies in one line that points Debig back to studying. Full rule: `../hub/AGENTS.md`.
+
 ## Role agents (permanent thumbdrive)
 
 Chats are disposable. Each role keeps durable state in `agents/<role>.md` (function, rules, habits, session log). Protocol: `agents/README.md`. Always-on rule: `.cursor/rules/agent-role-logs.mdc`.
@@ -9,7 +13,7 @@ Chats are disposable. Each role keeps durable state in `agents/<role>.md` (funct
 | Role | File | Job |
 | --- | --- | --- |
 | Build | `agents/build.md` | Workspace infrastructure |
-| Computing | `agents/computing.md` | H2 computing content |
+| Computing | `agents/computing.md` | H2 computing **archived**: freeze steward only (`raw files/H2 computing/ARCHIVED.md`) |
 | GP | `agents/gp.md` | H1 GP **archived** — freeze steward only (`raw files/H1 GP/ARCHIVED.md`) |
 | Math | `agents/math.md` | H2 math content |
 | Physics | `agents/physics.md` | H2 physics content |
@@ -25,14 +29,14 @@ At session start, read your role file. Before the chat ends, append decisions th
 | `agents/<role>.md` | Your role’s permanent context |
 | `README.md` | Library layers, naming, conversion policy |
 | `.cursor/rules/` | Role-log protocol; GP archive/lock rule; writing coherence |
-| `raw files/*/blurt sheets/` | Active revision notes (math / physics / computing) |
+| `raw files/*/blurt sheets/` | Active revision notes (math / physics; computing's are archived) |
 
 ## Open only when the task names them
 
 - A specific paper under `converted packages/…/<stem>/content.md` (or its raw PDF)
 - One chapter tutorial / lect notes package
-- A computing practical `resource files/` fixture the user is solving now
 - Any `raw files/H1 GP/**` path — **season archived**; open only if the user explicitly asks about GP
+- Any `raw files/H2 computing/**` or `computing practical/**` path — **archived 2026-11-11**; open only if the user explicitly asks about computing
 
 ## Never load wholesale
 

@@ -1,0 +1,463 @@
+topic,type_id,type_name,status_9478,share_all_sources,share_2026_paper3_view,tested_in_2026_paper2,new_9478_content,marks_alevel,marks_prelims_2022_2025,marks_prelims_2026,share_alevel,share_prelims_2022_2025,share_prelims_2026,papers_with_it
+MEAS,MEA-T10,Determine a derived quantity with its actual (absolute) or percentage uncertainty by adding fractional or absolute uncertainties,in,0.2399,0.2694,,,17.0,85.0,21.5,0.281,0.1025,0.2952,47
+MEAS,MEA-T19,Linearise a proposed relation and find its constants from the gradient and intercept of a straight-line graph (or test the relation from data),in,0.1718,0.1933,,,11.33,75.17,16.17,0.1873,0.0906,0.222,56
+MEAS,MEA-T18,"Plot, fit and read a graph of data: plot the point, draw the line (or curve) of best fit, use the graph to determine a value",in,0.134,0.1455,,,10.5,115.0,3.67,0.1736,0.1386,0.0503,60
+MEAS,MEA-T21,"Reason from an unfamiliar passage or data set: suggest a reason or an advantage, or evaluate a stated claim with data",in,0.0936,0.1014,,,3.0,194.33,3.0,0.0496,0.2342,0.0412,74
+MEAS,MEA-T20,Use a ratio or empirical relation defined in a data-based passage to calculate a quantity,in,0.0682,0.0726,,,2.5,157.67,0.0,0.0413,0.19,0.0,56
+MEAS,MEA-T01,"Express a derived quantity, or an unknown constant in a given equation, in SI base units",in,0.0592,0.0,yes,,1.17,39.0,11.0,0.0193,0.047,0.151,29
+MEAS,MEA-T03,Check the homogeneity of a physical equation using SI base units,in,0.0375,0.0,yes,,3.0,8.0,3.0,0.0496,0.0096,0.0412,6
+MEAS,MEA-T02,"Prefixes, powers of ten and standard form",in,0.0362,0.0389,,,4.0,10.5,0.0,0.0661,0.0127,0.0,12
+MEAS,MEA-T08,Accuracy versus precision and the error type that limits each,in,0.0332,0.0362,,,3.0,16.67,1.0,0.0496,0.0201,0.0137,14
+MEAS,MEA-T07,Classify systematic and random errors and say how each is reduced or eliminated,in,0.0313,0.0375,,,0.0,24.17,7.0,0.0,0.0291,0.0961,20
+MEAS,MEA-T17,Quote a measured or calculated value to a justified number of significant figures or decimal places,in,0.0205,0.0222,,,1.5,21.17,0.5,0.0248,0.0255,0.0069,19
+MEAS,MEA-T12,Distinguish scalar and vector quantities and give examples,in,0.0167,0.0179,,,2.0,0.5,0.0,0.0331,0.0006,0.0,2
+MEAS,MEA-T06,Make a reasonable order-of-magnitude estimate,in,0.0161,0.0178,,,1.0,14.67,1.0,0.0165,0.0177,0.0137,13
+MEAS,MEA-T15,Resolve a vector into two perpendicular components (and recombine),in,0.0138,0.0153,,,0.5,20.83,1.0,0.0083,0.0251,0.0137,19
+MEAS,MEA-T09,Absolute and percentage uncertainty of a single measured quantity,in,0.0105,0.0124,,,0.0,12.17,2.0,0.0,0.0147,0.0275,11
+MEAS,MEA-T11,Uncertainty of a derived quantity by numerical substitution (upper-lower bound),in,0.0058,0.0068,,,0.0,8.0,1.0,0.0,0.0096,0.0137,5
+MEAS,MEA-T14,"Change in velocity in two dimensions by vector subtraction (Δv, hence the average acceleration and its direction)",in,0.0043,0.0052,,,0.0,2.83,1.0,0.0,0.0034,0.0137,3
+MEAS,MEA-T23,"Density ρ = m/V: define it, and use it with the volume of a sphere, cylinder or film (unit conversions g cm⁻³ ↔ kg m⁻³, μm) to find a mass, a volume, a thickness or the density of a body",in,0.0027,0.0029,,,0.0,9.0,0.0,0.0,0.0108,0.0,4
+MEAS,MEA-T04,Find the indices of a power-law relation by dimensional analysis,in,0.0017,0.0018,,,0.0,5.5,0.0,0.0,0.0066,0.0,3
+MEAS,MEA-T13,Resultant of two coplanar vectors by vector addition (incl. relative velocity),in,0.0015,0.0015,,,0.0,4.83,0.0,0.0,0.0058,0.0,2
+MEAS,MEA-T16,Resultant of several coplanar forces by resolving into perpendicular components,in,0.0014,0.0015,,,0.0,4.67,0.0,0.0,0.0056,0.0,3
+MEAS,MEA-T05,Evaluate an alternative set of base quantities or base-unit definitions,in,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+FORCES,FOR-T11,"Hinged or pivoted rigid body held by a cable, wire, strut or spring: the supporting force by moments about the hinge, the hinge force by resolving, and how they change",in,0.2012,0.2012,,,13.0,103.17,43.17,0.1635,0.1926,0.2852,49
+FORCES,FOR-T10,"Principle of moments with parallel forces: beam on a pivot or two supports (unknown load, distance or support force; compare support forces)",in,0.0977,0.0977,,,11.0,50.5,3.0,0.1384,0.0943,0.0198,25
+FORCES,FOR-T02,"Qualitative nature and direction of contact and fluid forces (normal, friction, upthrust, viscous)",in,0.0894,0.0894,,,8.5,46.33,8.67,0.1069,0.0865,0.0573,45
+FORCES,FOR-T15,Conditions for equilibrium and the principle of moments: state and apply in words,in,0.088,0.088,,,7.5,52.0,10.0,0.0943,0.0971,0.0661,42
+FORCES,FOR-T06,Moment of a force and torque of a couple: define and calculate,in,0.0875,0.0875,,,6.5,39.67,17.0,0.0818,0.0741,0.1123,45
+FORCES,FOR-T05,"Hooke's law in a loaded system: state the law and use F = kx for force, extension or force constant (single spring, springs combined, spring as one force in an equilibrium)",in,0.0822,0.0822,,,9.0,37.17,5.0,0.1132,0.0694,0.033,34
+FORCES,FOR-T13,Coplanar forces in equilibrium: unknown forces and angles by resolving into two perpendicular directions,in,0.0721,0.0721,,,7.0,39.0,6.0,0.0881,0.0728,0.0396,29
+FORCES,FOR-T21,"Friction, drag or other resistive force from a model or data supplied in the stem: evaluate the given law (F = ½C_DρAv², an empirical resistance law, a μ graph), read coefficients from graphs, compare with the weight and explain the consequences for the motion",in,0.0606,0.0606,,,3.0,18.67,20.0,0.0377,0.0348,0.1322,17
+FORCES,FOR-T08,Centre of gravity of a composite body by taking moments,in,0.0524,0.0524,,,7.5,9.33,0.5,0.0943,0.0174,0.0033,13
+FORCES,FOR-T04,Draw and label a free-body diagram for a body in equilibrium,changed,0.0346,0.0346,,,1.0,37.17,6.67,0.0126,0.0694,0.0441,32
+FORCES,FOR-T12,Three-force body: direction of an unknown force from concurrency of lines of action,changed,0.0342,0.0342,,,1.0,15.0,12.67,0.0126,0.028,0.0837,21
+FORCES,FOR-T16,"Body in equilibrium on an inclined surface (at rest or moving at constant speed): weight component, friction and any applied or field force by resolving along the slope",in,0.0213,0.0213,,,1.5,9.5,4.5,0.0189,0.0177,0.0297,11
+FORCES,FOR-T19,Vector triangle of forces: draw the closed triangle for a body in equilibrium and solve it (trig or scale),changed,0.0195,0.0195,,,0.0,7.5,9.67,0.0,0.014,0.0639,9
+FORCES,FOR-T17,"Force–extension (or length–load) graph: force constant from the gradient, limit of proportionality, sketch the graph",in,0.0174,0.0174,,,2.0,10.33,0.0,0.0252,0.0193,0.0,9
+FORCES,FOR-T01,"Describe the force on a mass, charge or current-carrying conductor in a field",in,0.0153,0.0153,,,0.0,20.5,3.5,0.0,0.0383,0.0231,25
+FORCES,FOR-T14,"Toppling and limiting equilibrium: critical angle, lifting-off reaction, maximum overhang",in,0.0134,0.0134,,,1.0,15.17,0.0,0.0126,0.0283,0.0,10
+FORCES,FOR-T07,"Couple: a pair of forces that produces rotation only (zero resultant force, non-zero torque)",in,0.0035,0.0035,,,0.0,4.0,1.0,0.0,0.0075,0.0066,4
+FORCES,FOR-T18,Equilibrium orientation: a body turned by two non-collinear forces (weight and a support or upthrust) until their lines of action coincide,in,0.0029,0.0029,,,0.0,6.17,0.0,0.0,0.0115,0.0,5
+FORCES,FOR-T03,Tension or compression in a member of a structure,in,0.0016,0.0016,,,0.0,3.5,0.0,0.0,0.0065,0.0,3
+FORCES,FOR-T09,Experimental determination of the centre of gravity of a lamina,in,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+MOTION,MOT-T20,Resultant force and acceleration of a single body (F = ma with a free-body diagram),in,0.1978,0.1978,,,14.17,77.83,20.17,0.2043,0.1774,0.2051,57
+MOTION,MOT-T03,Quantities from the gradient of an s-t (position-t) graph and the gradient/area of a v-t graph,in,0.0942,0.0942,,,4.0,44.83,15.67,0.0577,0.1022,0.1593,29
+MOTION,MOT-T11,"Vertical motion under gravity without air resistance (thrown up, dropped, released from a moving carrier)",in,0.0884,0.0884,,,8.0,27.17,6.0,0.1154,0.0619,0.061,20
+MOTION,MOT-T21,"Force from rate of change of momentum for a continuous mass flow (jets, rotors, rockets)",in,0.085,0.085,,,5.0,52.5,7.5,0.0721,0.1197,0.0763,21
+MOTION,MOT-T16,"Newton's third-law pairs: identify the partner force, reject false pairs, and use N3L to infer the force on the other body",in,0.0745,0.0745,,,5.5,41.0,4.5,0.0793,0.0935,0.0458,36
+MOTION,MOT-T06,"Sketch the displacement-time, velocity-time (and acceleration-time) graphs for a described motion, with values on the axes",in,0.0721,0.0721,,,7.5,22.67,2.0,0.1082,0.0517,0.0203,16
+MOTION,MOT-T08,"Uniformly accelerated motion in one stage (time, distance or speed from suvat)",in,0.0706,0.0706,,,7.0,13.0,5.0,0.101,0.0296,0.0508,17
+MOTION,MOT-T14,"Linear momentum: define and calculate p = mv (signed, vector sum for a system), including reading p from a p-t graph",in,0.0494,0.0494,,,3.0,26.5,5.0,0.0433,0.0604,0.0508,22
+MOTION,MOT-T22,Newton's first law applied: zero resultant force at rest or at constant velocity (balanced forces on a moving body),in,0.0489,0.0489,,,4.0,19.5,3.5,0.0577,0.0445,0.0356,19
+MOTION,MOT-T23,Newton's second law qualitatively: how the resultant force (and its direction) controls the acceleration of a body,in,0.0481,0.0481,,,2.0,32.33,6.0,0.0288,0.0737,0.061,30
+MOTION,MOT-T15,State Newton's laws of motion in the prescribed 9478 wording,in,0.0354,0.0354,,,2.0,14.5,5.0,0.0288,0.0331,0.0508,17
+MOTION,MOT-T13,Inertia: what mass measures; why a large force has negligible effect on a very massive body; how a loose or hanging body behaves when its carrier accelerates,in,0.03,0.03,,,4.17,0.0,0.0,0.0601,0.0,0.0,3
+MOTION,MOT-T25,"Driving-force and resistive-force curves against speed: resultant force, acceleration and maximum speed read from the graph, on the level and on a slope",in,0.0195,0.0195,,,0.0,7.5,6.0,0.0,0.0171,0.061,2
+MOTION,MOT-T18,Rope-and-pulley systems: Atwood machine and self-hoisting (bosun's chair),in,0.0152,0.0152,,,0.0,11.0,3.5,0.0,0.0251,0.0356,5
+MOTION,MOT-T19,Scale reading (apparent weight) when the body or something it holds accelerates,in,0.015,0.015,,,2.0,1.0,0.0,0.0288,0.0023,0.0,2
+MOTION,MOT-T05,"Convert one kinematics graph into another (a-t → v-t → s-t, or the reverse) with values",in,0.0126,0.0126,,,0.0,11.0,2.5,0.0,0.0251,0.0254,10
+MOTION,MOT-T10,"Two bodies on one line: meeting or catching up (same position at the same time), or the extreme separation (equal velocities)",in,0.0116,0.0116,,,0.0,9.17,2.5,0.0,0.0209,0.0254,9
+MOTION,MOT-T09,Multi-stage straight-line motion (stages joined by the speed at the change-over),in,0.0095,0.0095,,,1.0,4.0,0.0,0.0144,0.0091,0.0,2
+MOTION,MOT-T01,"Define or distinguish the kinematic quantities (position, distance, displacement, speed, velocity, acceleration)",in,0.0065,0.0065,,,0.0,7.0,1.0,0.0,0.016,0.0102,7
+MOTION,MOT-T02,Distance vs displacement and average speed vs average velocity for a described path,in,0.0054,0.0054,,,0.0,0.5,2.0,0.0,0.0011,0.0203,2
+MOTION,MOT-T04,"Qualitative reading of a kinematics graph: where the body is fastest, furthest, at rest or turning back",in,0.0044,0.0044,,,0.0,5.5,0.5,0.0,0.0125,0.0051,7
+MOTION,MOT-T07,Derive the equations of uniformly accelerated motion from the definitions of velocity and acceleration,in,0.0023,0.0023,,,0.0,4.0,0.0,0.0,0.0091,0.0,2
+MOTION,MOT-T12,Free-fall timing experiment: determine g from linearised data and evaluate the result,in,0.0018,0.0018,,,0.0,3.17,0.0,0.0,0.0072,0.0,3
+MOTION,MOT-T24,"From Newton's 2nd law to F = ma: k = 1, the newton, and the constant-mass condition",in,0.0011,0.0011,,,0.0,2.0,0.0,0.0,0.0046,0.0,1
+MOTION,MOT-T17,"Contact or coupling force between bodies accelerating together (system first, then one body)",in,0.0006,0.0006,,,0.0,1.0,0.0,0.0,0.0023,0.0,1
+ENERGY,ENE-T08,Concept of a field (state what is meant by a field of force / a gravitational field); define gravitational and electric field strength,in,0.1615,0.1615,,,11.0,49.5,12.0,0.1913,0.127,0.1364,49
+ENERGY,ENE-T22,"Energy budget of a stored-energy system from passage data: energy stored (capacity, specific energy / energy density), range or distance from stored or regenerated energy, energy per km, and storage when the source power or availability does not match the load",in,0.1341,0.1341,,,12.5,11.5,6.33,0.2174,0.0295,0.072,10
+ENERGY,ENE-T19,Efficiency of an energy transfer and implications of energy losses,in,0.1151,0.1151,,,8.0,38.5,7.33,0.1391,0.0988,0.0833,34
+ENERGY,ENE-T07,"Elastic potential energy as the area under a force–extension graph (½Fx, ½kx², non-linear and beyond the limit)",in,0.1081,0.1081,,,8.0,33.5,6.0,0.1391,0.0859,0.0682,26
+ENERGY,ENE-T17,"Mechanical power P = Fv: engine power and driving force at constant or changing speed (vehicles against resistance, belts), rate of change of kinetic energy, and speed-dependent drag",in,0.088,0.088,,,3.0,34.5,14.0,0.0522,0.0885,0.1591,23
+ENERGY,ENE-T13,"Conservation of energy for a single body with an elastic store: speed, height or extension (spring launch, bungee, multi-stage chains)",in,0.0722,0.0722,,,1.5,59.0,7.5,0.0261,0.1513,0.0852,22
+ENERGY,ENE-T04,"Work done by individual constant forces at an angle (W = Fs cos θ), including zero-work forces",in,0.0677,0.0677,,,4.0,13.67,8.5,0.0696,0.0351,0.0966,19
+ENERGY,ENE-T15,Energy with dissipative forces: E_initial + W = E_final (work against friction or air resistance),in,0.0595,0.0595,,,3.0,27.67,5.5,0.0522,0.071,0.0625,22
+ENERGY,ENE-T16,"Define power as the rate of energy transfer; average power = energy transferred / time (lifting, collisions, pulses); kW h as a unit of energy",in,0.0487,0.0487,,,2.0,23.0,5.83,0.0348,0.059,0.0663,24
+ENERGY,ENE-T09,Field-line patterns for gravitational and electric fields (uniform and radial),in,0.0477,0.0477,,,3.5,18.0,2.0,0.0609,0.0462,0.0227,19
+ENERGY,ENE-T01,Describe energy changes in a process as transfers between stores (store/pathway language),in,0.0274,0.0274,,,1.0,18.17,2.5,0.0174,0.0466,0.0284,23
+ENERGY,ENE-T20,"Power extracted from a moving or falling fluid (wind turbine, water wheel): mass flow rate ρAv and KE per second ½ρAv³",in,0.0225,0.0225,,,0.0,8.5,6.0,0.0,0.0218,0.0682,4
+ENERGY,ENE-T05,"Work done by a variable force: area under F–s graph, and kinetic energy from it",in,0.0142,0.0142,,,0.0,11.0,2.5,0.0,0.0282,0.0284,5
+ENERGY,ENE-T14,Energy conservation for a connected system (bodies linked by a string over a pulley),in,0.0099,0.0099,,,0.0,6.5,2.0,0.0,0.0167,0.0227,3
+ENERGY,ENE-T21,Equipotential surfaces and their relationship to field lines (uniform and radial fields),new,0.0088,0.0088,,,0.0,13.67,0.0,0.0,0.0351,0.0,13
+ENERGY,ENE-T18,Power to move up (or down) an incline against resistance: rate of work against friction plus rate of GPE gain,in,0.0042,0.0042,,,0.0,6.5,0.0,0.0,0.0167,0.0,3
+ENERGY,ENE-T10,Work done by the field equals −ΔU: sign reasoning for a mass or charge moved in a field,changed,0.0036,0.0036,,,0.0,5.67,0.0,0.0,0.0145,0.0,6
+ENERGY,ENE-T11,Force from the potential-energy gradient (F = −dU/ds): U–s and F–s graphs,changed,0.0035,0.0035,,,0.0,5.5,0.0,0.0,0.0141,0.0,4
+ENERGY,ENE-T03,Define work done (and the joule); work as a mechanical transfer of energy; meaning of the sign of work,in,0.0019,0.0019,,,0.0,3.0,0.0,0.0,0.0077,0.0,3
+ENERGY,ENE-T06,Derive E_k = ½mv² from W = Fs and the equations of uniformly accelerated motion,in,0.0013,0.0013,,,0.0,2.0,0.0,0.0,0.0051,0.0,1
+ENERGY,ENE-T02,"Distinguish gravitational, electric and elastic potential energy",in,0.0003,0.0003,,,0.0,0.5,0.0,0.0,0.0013,0.0,1
+PROJ,PRJ-T05,"Oblique projection: resolve the launch velocity; time of flight, maximum height, range; launch speed or components from the range, the maximum height or the speed at the top (velocity horizontal, = u cos θ)",in,0.1785,0.1785,,,9.0,63.0,7.0,0.2455,0.1618,0.0614,26
+PROJ,PRJ-T14,Falling with air resistance to terminal velocity: force account and graphs,changed,0.1559,0.1559,,,8.0,33.67,11.5,0.2182,0.0865,0.1009,25
+PROJ,PRJ-T12,"Use ΔEp = mgΔh: directly (ΔEp from Δh, Δh from a given ΔEp) and with energy conservation (no resistance) for speeds and heights",in,0.1357,0.1357,,,5.0,50.5,16.0,0.1364,0.1297,0.1404,41
+PROJ,PRJ-T16,"Drag on a body moving through air from graphs: acceleration from a v–t tangent, drag from mg − F = ma, maximum drag = weight at terminal velocity, and testing a proposed drag law (F ∝ v, F ∝ v²)",in,0.1165,0.1165,,,7.5,10.17,3.5,0.2045,0.0261,0.0307,8
+PROJ,PRJ-T09,"Describe and explain the independent horizontal and vertical motions of a projectile (no air resistance): why the path is parabolic, and comparisons decided by the vertical motion alone",in,0.0847,0.0847,,,2.67,44.58,9.0,0.0727,0.1145,0.0789,33
+PROJ,PRJ-T13,"Body projected upwards with air resistance (vertical throw, or the vertical motion of an oblique launch): drag-free prediction vs observation, acceleration up vs down, maximum height, time up < time down, a–t / v–t / s–t graphs",in,0.0682,0.0682,,,3.0,22.0,6.0,0.0818,0.0565,0.0526,19
+PROJ,PRJ-T06,Projectile between different levels or hitting a slope/target at a known time,in,0.0645,0.0645,,,0.0,56.0,13.0,0.0,0.1439,0.114,26
+PROJ,PRJ-T04,"Horizontally launched projectile (u_y = 0): time of fall from the height, horizontal distance, release point for a target",in,0.0604,0.0604,,,0.0,19.0,22.0,0.0,0.0488,0.193,16
+PROJ,PRJ-T17,"Projectile with air resistance: effect on the horizontal component, the trajectory shape and the range; deciding whether drag is negligible from drag vs weight",in,0.0502,0.0502,,,0.5,28.33,11.5,0.0136,0.0728,0.1009,21
+PROJ,PRJ-T07,"Velocity of a projectile at a point from its components (speed and angle), and the inverse: where the velocity makes a given angle",in,0.0334,0.0334,,,0.0,21.33,9.0,0.0,0.0548,0.0789,18
+PROJ,PRJ-T15,"Falling with air resistance: energy account (Ep, Ek, thermal energy / work done against drag)",changed,0.0239,0.0239,,,1.0,7.5,2.5,0.0273,0.0193,0.0219,8
+PROJ,PRJ-T01,"Mass versus weight: define, distinguish, and use W = mg",in,0.0108,0.0108,,,0.0,6.5,3.0,0.0,0.0167,0.0263,7
+PROJ,PRJ-T08,"Derive general projectile results: time of flight, maximum height, range, max-range angle, parabolic path",in,0.0067,0.0067,,,0.0,10.5,0.0,0.0,0.027,0.0,4
+PROJ,PRJ-T10,Projectile data/graph analysis: deduce u_x and the acceleration of free fall (another planet) from positions at equal time intervals,in,0.0045,0.0045,,,0.0,7.0,0.0,0.0,0.018,0.0,2
+PROJ,PRJ-T11,Derive ΔEp = mgΔh from the definition of work done,in,0.0032,0.0032,,,0.0,5.0,0.0,0.0,0.0128,0.0,2
+PROJ,PRJ-T02,Free-fall acceleration is g and independent of mass,in,0.0016,0.0016,,,0.0,2.5,0.0,0.0,0.0064,0.0,3
+PROJ,PRJ-T18,"Change in gravitational potential energy of an extended body or fluid (centre-of-mass shift, ΔEp = mgΔh_cm)",in,0.0011,0.0011,,,0.0,1.67,0.0,0.0,0.0043,0.0,2
+COLL,COL-T03,"Average force from the change in momentum over a contact time (throw, rebound, landing, vertical bounce including the weight, two colliding bodies by N3L, deflection through an angle)",in,0.171,0.171,,,12.0,37.0,14.5,0.2162,0.099,0.1524,32
+COLL,COL-T18,"Unknown momentum, velocity, kinetic energy or mass of a body after a one-dimensional (inelastic) collision from conservation of momentum, using any energy data given",in,0.1165,0.1165,,,9.0,25.5,7.0,0.1622,0.0682,0.0736,19
+COLL,COL-T08,"Decide whether a collision is elastic or inelastic (and state what is meant by an inelastic collision): compare total KE before and after, or relative speeds of approach and separation",in,0.097,0.097,,,5.0,58.0,5.0,0.0901,0.1552,0.0525,36
+COLL,COL-T10,"Interactions with increase in KE: separation by a released spring, recoil and explosion from rest",in,0.0883,0.0883,,,5.5,26.5,8.0,0.0991,0.0709,0.0841,19
+COLL,COL-T02,Impulse as the area under a force–time graph: momentum change and final velocity from a variable force,changed,0.0832,0.0832,,,5.0,25.67,8.0,0.0901,0.0687,0.0841,12
+COLL,COL-T01,"Impulse on a body equals its change in momentum: impulse from a constant force × time, or from the velocities (or graph) before and after a collision; final velocity from a given impulse",changed,0.0766,0.0766,,,4.0,25.33,9.0,0.0721,0.0678,0.0946,26
+COLL,COL-T05,"State the principle of conservation of (linear) momentum, justify it from Newton's 2nd and 3rd laws (equal and opposite impulses), and reason from the equal and opposite impulses",in,0.0764,0.0764,,,4.0,38.67,5.5,0.0721,0.1035,0.0578,32
+COLL,COL-T19,"Can both colliding bodies be at rest at the same instant? Signed total momentum decides (non-zero: no; zero: yes, at the instant of maximum compression)",in,0.0588,0.0588,,,5.0,20.5,0.0,0.0901,0.0549,0.0,14
+COLL,COL-T07,Completely inelastic (coalescing) collision: common velocity and kinetic energy lost,in,0.0413,0.0413,,,2.0,25.0,2.5,0.036,0.0669,0.0263,13
+COLL,COL-T06,Final velocities in a one-dimensional perfectly elastic collision (momentum + relative speed of approach = separation),in,0.0398,0.0398,,,0.0,32.0,7.0,0.0,0.0856,0.0736,15
+COLL,COL-T13,"Sketch or interpret graphs of a collision against time (velocity, momentum, force of each body)",in,0.0331,0.0331,,,0.0,15.5,8.67,0.0,0.0415,0.0911,14
+COLL,COL-T09,"Collision through a spring/elastic buffer: maximum compression at common velocity, KE stored as elastic PE",in,0.0309,0.0309,,,0.0,1.0,11.5,0.0,0.0027,0.1208,5
+COLL,COL-T17,Repeated rebounds losing the same fraction of kinetic energy at every bounce: fraction retained per bounce and the number of bounces before the energy falls below a stated fraction,in,0.027,0.027,,,3.0,0.0,0.0,0.0541,0.0,0.0,1
+COLL,COL-T14,"Decide whether momentum is conserved for a chosen system: external forces, system boundaries and the short-impact approximation",in,0.026,0.026,,,0.0,19.17,5.0,0.0,0.0513,0.0525,22
+COLL,COL-T11,Momentum conserved while kinetic energy changes: where the KE goes (total energy conserved) and which interactions count as collisions,in,0.0117,0.0117,,,1.0,2.0,0.5,0.018,0.0054,0.0053,4
+COLL,COL-T04,"Average force and stopping time for a given momentum change: safety features (crumple zones, airbags, seat belts, bent knees) and F = Δp/Δt reasoning",in,0.0113,0.0113,,,0.0,9.0,2.0,0.0,0.0241,0.021,7
+COLL,COL-T12,"Derive the relative-speed relation and use the limiting cases of elastic collisions (equal masses exchange, light-on-heavy rebound, heavy-on-light at 2u)",in,0.0083,0.0083,,,0.0,8.5,1.0,0.0,0.0227,0.0105,5
+COLL,COL-T16,Unknown particle mass from elastic head-on collision recoil data (Chadwick neutron mass),in,0.0007,0.0007,,,0.0,1.0,0.0,0.0,0.0027,0.0,1
+CIRC,CIR-T03,"Angular velocity, period, frequency and linear speed: ω = 2π/T = 2πf, v = rω, T = 2πr/v",in,0.2531,0.2531,,,14.0,49.0,9.67,0.35,0.1539,0.1927,48
+CIRC,CIR-T13,"Vertical circle, top or bottom: contact force or tension from the radial equation (N or T ± mg = mv²/r = mrω²), for a body driven at constant speed (rod, drum, wheel, ride) or moving freely (loop, swing); where it is greatest or least",in,0.1442,0.1442,,,8.0,17.67,7.0,0.2,0.0555,0.1395,12
+CIRC,CIR-T15,"Critical contact in a vertical circle (N = 0 or T = 0) with energy: minimum speed at the top, minimum entry speed, where contact is lost",in,0.1323,0.1323,,,5.5,41.67,7.0,0.1375,0.1309,0.1395,15
+CIRC,CIR-T07,"Centripetal acceleration and the resultant force it needs: a = v²/r = rω², F = mv²/r = mrω² (direct use, limits, ratio reasoning, effect of changing v or r)",in,0.093,0.093,,,2.5,34.0,7.5,0.0625,0.1068,0.1495,30
+CIRC,CIR-T19,"Qualitatively describe motion on a curved path (arc) from the resultant force: which force supplies it, its direction at a point, and the path when it is removed",in,0.06,0.06,,,2.0,21.33,4.0,0.05,0.067,0.0797,23
+CIRC,CIR-T08,"Conical pendulum (incl. a pendulum hanging in a turning vehicle): T sinθ = mv²/r, T cosθ = mg, tanθ = v²/rg",in,0.0575,0.0575,,,3.0,28.5,0.0,0.075,0.0895,0.0,7
+CIRC,CIR-T09,"Banked turn with no friction (normal or lift force and weight only, tanθ = v²/rg): banking aircraft, ideally banked road, ball on the smooth inside of a fixed cone or bowl",in,0.0465,0.0465,,,0.0,22.0,6.0,0.0,0.0691,0.1196,9
+CIRC,CIR-T02,Radian measure: convert degrees ↔ radians and use θ = s/r for arc length or angle swept,in,0.0459,0.0459,,,2.5,14.5,1.0,0.0625,0.0455,0.0199,11
+CIRC,CIR-T20,"Change in velocity over a finite arc by vector subtraction (quarter or half revolution) and the average acceleration, compared with the centripetal acceleration",in,0.0399,0.0399,,yes,0.0,0.0,2.0,0.0,0.0,0.0399,1
+CIRC,CIR-T05,"Explain why a body in uniform circular motion (or an orbiting body) is accelerating, why the resultant force must point to the centre, why its speed stays constant, and why it does not fall inwards",in,0.0385,0.0385,,,0.0,31.17,3.0,0.0,0.0979,0.0598,20
+CIRC,CIR-T11,"Friction alone provides the resultant: car on a flat bend, cyclist leaning, object on a turntable; skidding",in,0.0282,0.0282,,,1.5,13.5,0.0,0.0375,0.0424,0.0,7
+CIRC,CIR-T10,"Inclined surface with friction in a horizontal circle: banked road off the design speed, object in a rotating bowl/cone",in,0.0155,0.0155,,,0.0,20.5,0.0,0.0,0.0644,0.0,7
+CIRC,CIR-T04,"Compare ω and v for points on a rigid rotating body (same ω, v ∝ r) or on linked wheels (same rim v, ω ∝ 1/r)",in,0.0141,0.0141,,,0.0,5.5,2.0,0.0,0.0173,0.0399,6
+CIRC,CIR-T21,"Rotation with a stem-supplied angular-momentum relation (L = Iω, e.g. L = (2/5)mr²ω, conserved): a body that contracts spins faster",in,0.012,0.012,,,1.0,0.0,0.0,0.025,0.0,0.0,1
+CIRC,CIR-T18,Non-uniform circular motion: resolve the resultant into centripetal and tangential components at a general angle,in,0.0072,0.0072,,,0.0,3.0,1.0,0.0,0.0094,0.0199,3
+CIRC,CIR-T01,"Define the circular-motion quantities (period, frequency, angular displacement, radian, angular velocity, uniform circular motion)",in,0.0041,0.0041,,,0.0,5.5,0.0,0.0,0.0173,0.0,5
+CIRC,CIR-T17,"Pendulum swinging through its lowest point: speed from energy, labelled forces, explain why T ≠ weight, calculate tension",in,0.0041,0.0041,,,0.0,5.5,0.0,0.0,0.0173,0.0,2
+CIRC,CIR-T12,"Rotating cylinder (rotor) wall: normal force provides the resultant, friction holds the weight; minimum ω",in,0.0015,0.0015,,,0.0,2.0,0.0,0.0,0.0063,0.0,1
+CIRC,CIR-T14,Energy in a constant-speed vertical circle: work done by an external agent / pivot friction while GPE changes,in,0.0015,0.0015,,,0.0,2.0,0.0,0.0,0.0063,0.0,1
+CIRC,CIR-T06,Derive a = v²/r (= rω²) from the velocity vector diagram for a small angular displacement,in,0.0008,0.0008,,,0.0,1.0,0.0,0.0,0.0031,0.0,1
+GRAV,GRV-T16,"Circular orbit calculation: gravitational force provides centripetal acceleration (speed, ω, period, radius, central mass)",in,0.1397,0.1397,,,18.0,85.83,24.17,0.1517,0.1146,0.1406,64
+GRAV,GRV-T14,Escape speed from energy conservation,new,0.0935,0.0935,,,12.5,59.17,14.5,0.1053,0.079,0.0844,35
+GRAV,GRV-T19,"Energies of a satellite in circular orbit: E_K = GMm/2r, E_P = −GMm/r, E_T = −GMm/2r (derive, ratio, graphs, energy to change orbit)",in,0.0833,0.0833,,,7.0,63.0,22.5,0.059,0.0841,0.1309,33
+GRAV,GRV-T02,"Field strength from g = GM/r² outside a spherical mass: expression, value at a surface or altitude, inverse use (M, R, ρ) and ratio scaling",in,0.0726,0.0726,,,13.5,23.17,5.5,0.1138,0.0309,0.032,26
+GRAV,GRV-T08,Potential and potential-energy values and changes from φ = −GM/r (one or several masses; work done; graphs of φ),in,0.0706,0.0706,,,8.0,54.0,13.0,0.0674,0.0721,0.0757,38
+GRAV,GRV-T22,"Binary star system: common centre of mass, same period, radii in inverse ratio of masses",in,0.0673,0.0673,,,11.0,54.0,2.0,0.0927,0.0721,0.0116,15
+GRAV,GRV-T07,Define gravitational potential and gravitational potential energy; explain why they are negative,in,0.0641,0.0641,,,6.0,59.67,13.0,0.0506,0.0797,0.0757,40
+GRAV,GRV-T04,"Resultant field strength and the null point between two bodies: locate it, vector-sum g, and explain surface non-uniformity near a second body",in,0.0548,0.0548,,,7.0,41.0,8.0,0.059,0.0547,0.0466,19
+GRAV,GRV-T21,"Geostationary satellites: conditions, orbit radius, identification and applications",in,0.0389,0.0389,,,2.5,53.0,7.33,0.0211,0.0708,0.0427,31
+GRAV,GRV-T01,"Newton's law of gravitation: state it, calculate the force between two bodies, justify the point-mass treatment and judge the force's effect",in,0.0373,0.0373,,,5.67,22.67,4.0,0.0478,0.0303,0.0233,21
+GRAV,GRV-T05,Near-surface field (T8(d)): explain why g is approximately uniform and why it equals the acceleration of free fall; test the approximation and judge its consequences,in,0.0336,0.0336,,,6.5,9.83,2.0,0.0548,0.0131,0.0116,11
+GRAV,GRV-T09,"Gravitational potential energy of a two-point-mass system, U = −GMm/r: expression, origin and energy to separate",new,0.0327,0.0327,,,5.0,17.33,4.0,0.0421,0.0231,0.0233,22
+GRAV,GRV-T13,g against distance outside a spherical planet (inverse-square plot) and surface g in terms of density and radius,in,0.0301,0.0301,,,6.0,14.5,0.0,0.0506,0.0194,0.0,10
+GRAV,GRV-T26,"Compare satellites in different circular orbits: a lower orbit is faster with a shorter period, higher KE, lower GPE and lower total energy",in,0.0239,0.0239,,,4.0,12.5,2.0,0.0337,0.0167,0.0116,11
+GRAV,GRV-T18,"Kepler's third law: derive T² ∝ r³ and use it (ratios, graphs)",in,0.0224,0.0224,,,0.0,28.5,8.83,0.0,0.0381,0.0514,14
+GRAV,GRV-T10,Field strength as negative potential gradient (g = −dφ/dr; F = −dU/dr): from gradients of φ–r or U–r graphs,new,0.0223,0.0223,,,0.0,45.0,5.0,0.0,0.0601,0.0291,22
+GRAV,GRV-T06,Apparent weight and measured free-fall acceleration on the rotating Earth (equator vs poles),in,0.0218,0.0218,,,2.0,14.0,6.0,0.0169,0.0187,0.0349,10
+GRAV,GRV-T15,Energy–distance diagram for a projected body: total-energy line against the U–r curve,new,0.0182,0.0182,,,3.0,10.0,1.5,0.0253,0.0134,0.0087,5
+GRAV,GRV-T27,"Elliptical (non-circular) orbit: energy conservation between periapsis and apoapsis, where it moves fastest and slowest, and why circular-orbit relations fail",in,0.0168,0.0168,,,0.0,4.5,10.5,0.0,0.006,0.0611,4
+GRAV,GRV-T20,"Satellite losing energy or speed (atmospheric drag or a brief retro-burn): total energy falls, the orbit shrinks, it speeds up and may burn up",in,0.016,0.016,,,0.0,17.5,7.0,0.0,0.0234,0.0407,11
+GRAV,GRV-T12,Projection from one body over the potential hill to another: minimum launch speed and arrival speed,in,0.0124,0.0124,,,0.0,28.5,2.0,0.0,0.0381,0.0116,12
+GRAV,GRV-T17,"Satellite or body orbiting under two attracting bodies (Sun–Earth L1, Earth–Moon line): resultant force provides centripetal acceleration",in,0.0108,0.0108,,,0.0,6.17,6.0,0.0,0.0082,0.0349,4
+GRAV,GRV-T11,Sketch and interpret the variation of potential with distance for one mass and between two masses,in,0.0084,0.0084,,,0.0,12.0,3.0,0.0,0.016,0.0175,10
+GRAV,GRV-T03,Derive g = GM/r² for a point mass from Newton's law and the definition of field strength,in,0.0064,0.0064,,,1.0,6.5,0.0,0.0084,0.0087,0.0,5
+GRAV,GRV-T23,Apparent weightlessness of an astronaut in an orbiting spacecraft (g at the orbit is not zero),in,0.001,0.001,,,0.0,3.0,0.0,0.0,0.004,0.0,2
+GRAV,GRV-T24,"Show that ΔU ≈ mgh near the surface from U = −GMm/r, and judge when mgh may be used",in,0.0007,0.0007,,,0.0,2.17,0.0,0.0,0.0029,0.0,2
+OSC,OSC-T06,"Determine amplitude, period and ω from an equation, numbers, a rotating drive or a displacement–time trace, then the maximum speed and maximum acceleration",in,0.1354,0.1354,,,17.0,94.5,18.83,0.1516,0.1345,0.1039,61
+OSC,OSC-T04,"Use the period (or ω) of a model oscillator to find a parameter, or state and explain the effect on the period of a change (mass, spring combination, g or length)",in,0.0845,0.0845,,,11.0,59.0,10.5,0.0981,0.084,0.0579,43
+OSC,OSC-T26,Derive the s.h.m. equation for a physical system from its restoring force (or by projection of circular motion) and hence obtain ω and T,in,0.0693,0.0693,,,9.0,33.5,12.5,0.0802,0.0477,0.0689,27
+OSC,OSC-T10,"Displacement, velocity and acceleration against time: sketch, relate and read",in,0.0585,0.0585,,,8.5,31.5,6.83,0.0758,0.0448,0.0377,28
+OSC,OSC-T03,"Explain, from a given acceleration–displacement relation or a–x graph, why the motion is (or is not) simple harmonic",in,0.0564,0.0564,,,5.0,45.5,13.0,0.0446,0.0648,0.0717,33
+OSC,OSC-T11,Velocity–displacement and acceleration–displacement graphs,in,0.0543,0.0543,,,8.5,32.5,3.5,0.0758,0.0463,0.0193,20
+OSC,OSC-T13,"Energy in s.h.m.: total, kinetic and potential energy calculations",in,0.0539,0.0539,,,4.0,64.5,9.5,0.0357,0.0918,0.0524,39
+OSC,OSC-T15,"Energy against displacement: sketch, or use a given potential-energy curve",in,0.0493,0.0493,,,6.0,44.0,5.0,0.0535,0.0626,0.0276,19
+OSC,OSC-T12,"Forces on an object in s.h.m. with its weight acting: contact force, tension or friction at the extremes, and the condition to lose contact or slip",in,0.0478,0.0478,,,8.0,22.5,3.0,0.0713,0.032,0.0165,12
+OSC,OSC-T01,State what is meant by simple harmonic motion (verbal definition and defining equation),in,0.0468,0.0468,,,4.0,33.0,12.5,0.0357,0.047,0.0689,29
+OSC,OSC-T08,"Use x = x0 sin ωt (or cos) and v = v0 cos ωt in time: values at a given time, time to reach a displacement, time beyond a level, distance in a given time",in,0.0452,0.0452,,,5.5,15.5,11.0,0.049,0.0221,0.0607,17
+OSC,OSC-T18,"Degrees of damping: describe and sketch light, critical and heavy damping",in,0.0406,0.0406,,,5.5,20.0,6.5,0.049,0.0285,0.0358,24
+OSC,OSC-T17,"Damped oscillation: explain the decay of amplitude and energy, and calculate the energy lost or the power dissipated",in,0.0389,0.0389,,,2.5,37.33,10.5,0.0223,0.0531,0.0579,33
+OSC,OSC-T05,"Graphical analysis of oscillator data: determine ω, k or g from a gradient (a–x, T²–m, T²–L), linearise or log–log, or test a proposed relation from read-off values",in,0.0338,0.0338,,,5.67,6.5,4.5,0.0505,0.0093,0.0248,6
+OSC,OSC-T02,"Define and use the oscillation terms: amplitude, period, frequency, angular frequency, phase, phase difference; express T in terms of f and ω",in,0.0253,0.0253,,,3.5,8.5,4.83,0.0312,0.0121,0.0267,16
+OSC,OSC-T14,Energy against time and the kinetic–potential interchange,in,0.0203,0.0203,,,0.0,24.0,8.5,0.0,0.0342,0.0469,19
+OSC,OSC-T07,Speed and acceleration at a given displacement,in,0.0193,0.0193,,,1.0,14.5,7.0,0.0089,0.0206,0.0386,12
+OSC,OSC-T27,Describe an experimental method to investigate an oscillator (measure the period or obtain x–t data accurately),in,0.0178,0.0178,,,4.0,0.0,0.0,0.0357,0.0,0.0,2
+OSC,OSC-T20,Forced oscillation and resonance: state what is meant and explain the observation,in,0.0177,0.0177,,,0.0,25.17,6.33,0.0,0.0358,0.0349,23
+OSC,OSC-T09,"Phase, phase constant and phase difference between oscillations",in,0.0171,0.0171,,,0.5,20.5,5.5,0.0045,0.0292,0.0303,21
+OSC,OSC-T22,Frequency response curve and the effect of damping on resonance,in,0.0162,0.0162,,,0.0,14.5,8.0,0.0,0.0206,0.0441,15
+OSC,OSC-T21,Resonant frequency: identify it (peak of the response curve = natural frequency of the free oscillation) and use the resonance condition to find an unknown,in,0.0135,0.0135,,,0.0,14.67,6.0,0.0,0.0209,0.0331,20
+OSC,OSC-T25,"Free oscillation: state what it means, define natural frequency, describe a simple example and distinguish it from damped and forced oscillation",in,0.0114,0.0114,,,2.0,5.0,0.5,0.0178,0.0071,0.0028,6
+OSC,OSC-T28,"Damped-oscillation data: test or use exponential decay of the amplitude (constant ratio of successive amplitudes, ln A against t linear) and extract the damping constant",in,0.0083,0.0083,,,0.0,4.0,5.0,0.0,0.0057,0.0276,5
+OSC,OSC-T23,Predict how the amplitude of a forced oscillation changes when the driver or the driven system changes,in,0.0062,0.0062,,,0.0,13.67,1.0,0.0,0.0194,0.0055,9
+OSC,OSC-T19,Explain why critical (or near-critical) damping is used in a car suspension or similar system,in,0.005,0.005,,,1.0,1.5,0.0,0.0089,0.0021,0.0,3
+OSC,OSC-T16,"Vertical spring-mass system with gravity: equilibrium extension, amplitude about the equilibrium position, and whether the motion stays s.h.m.",in,0.004,0.004,,,0.0,11.33,0.0,0.0,0.0161,0.0,9
+OSC,OSC-T24,Practical examples of forced oscillation and resonance: useful cases and cases to avoid,in,0.0033,0.0033,,,0.0,5.5,1.0,0.0,0.0078,0.0055,5
+WAVEM,WAV-T16,"Inverse square law for a point source (I = P/4πr²; I ∝ 1/r², A ∝ 1/r): calculate, compare distances, explain and state assumptions",in,0.2553,0.2553,,,15.5,53.17,16.0,0.3069,0.1348,0.2727,38
+WAVEM,WAV-T04,Recall and use v = fλ (with f = 1/T and time = distance/speed),in,0.1616,0.1616,,,9.0,56.17,8.67,0.1782,0.1424,0.1477,53
+WAVEM,WAV-T19,"Malus' law for one polariser (I = I0 cos²θ, A = A0 cos θ): transmitted fraction, or the angle for a given fraction",in,0.105,0.105,,,6.0,21.5,7.5,0.1188,0.0545,0.1278,19
+WAVEM,WAV-T18,"Polarisation: what it is, why only transverse waves, direction of polarisation",in,0.0844,0.0844,,,5.0,34.92,3.0,0.099,0.0885,0.0511,26
+WAVEM,WAV-T20,Malus' law through two or more filters (polarised or unpolarised incident light) and the graph of transmitted intensity (or amplitude) against the angle of a rotated filter,in,0.0839,0.0839,,,4.0,49.67,3.0,0.0792,0.1259,0.0511,22
+WAVEM,WAV-T15,"Intensity ∝ (amplitude)²: ratios in either direction (A → I and I → A), incl. a rescaled trace",in,0.0834,0.0834,,,4.0,28.75,6.0,0.0792,0.0729,0.1023,30
+WAVEM,WAV-T11,Distinguish transverse and longitudinal waves; classify a given wave,in,0.0525,0.0525,,,2.0,24.67,4.0,0.0396,0.0625,0.0682,20
+WAVEM,WAV-T14,"Intensity as power per unit area (I = P/A): define, received power for a given area, gradient of a power–area graph",changed,0.0392,0.0392,,,2.0,20.5,1.5,0.0396,0.052,0.0256,19
+WAVEM,WAV-T05,Read or draw a wave's displacement (pressure)–distance or –time graph and combine with v = fλ,in,0.0307,0.0307,,,1.0,16.0,2.5,0.0198,0.0406,0.0426,13
+WAVEM,WAV-T07,"Phase difference between two points of a wave: Δφ = 2πx/λ from a snapshot, from stated numbers, or to locate a point with a given lag",in,0.0251,0.0251,,,0.0,19.5,3.0,0.0,0.0494,0.0511,13
+WAVEM,WAV-T03,"Deduce v = fλ from the definitions of speed, frequency and wavelength",in,0.0249,0.0249,,,2.0,8.0,0.0,0.0396,0.0203,0.0,4
+WAVEM,WAV-T10,"Longitudinal (sound) waves on graphs: compressions, rarefactions, pressure–displacement relation, and what a transverse-looking representation shows",in,0.0168,0.0168,,,0.0,13.0,2.0,0.0,0.033,0.0341,10
+WAVEM,WAV-T12,Energy is transferred by a progressive wave without transfer of matter,in,0.0128,0.0128,,,0.0,13.5,1.0,0.0,0.0342,0.017,10
+WAVEM,WAV-T17,"Non-point sources: plane waves (constant intensity) and cylindrical / circular waves (I ∝ 1/r, A ∝ 1/√r)",in,0.0066,0.0066,,,0.0,7.0,0.5,0.0,0.0177,0.0085,6
+WAVEM,WAV-T08,Sketch displacement–time of a particle (or the profile a time later) from a wave snapshot,in,0.0063,0.0063,,,0.0,10.0,0.0,0.0,0.0253,0.0,5
+WAVEM,WAV-T02,"Define / explain the wave terms (displacement, amplitude, period, frequency, wavelength, speed, phase, phase difference, wavefront)",in,0.006,0.006,,,0.0,9.5,0.0,0.0,0.0241,0.0,8
+WAVEM,WAV-T06,Direction (and magnitude) of motion of particles from a wave snapshot,in,0.0041,0.0041,,,0.0,6.5,0.0,0.0,0.0165,0.0,5
+WAVEM,WAV-T01,What oscillates: mechanical waves (particles of a medium) vs electromagnetic waves (E and B fields),new,0.0007,0.0007,,,0.0,1.17,0.0,0.0,0.003,0.0,2
+WAVEM,WAV-T09,"Shortest time for a point to reach a given state (zero displacement, crest) from a snapshot",in,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+WAVEM,WAV-T13,Explain why intensity ∝ (amplitude)² (∝ A²f²) from the energy of the oscillating particles,in,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+SUPER,SUP-T24,"Single-slit diffraction: b sinθ = λ for the first minimum, central-maximum width, sketching the intensity pattern, and explaining the pattern",in,0.1379,0.1706,,,23.5,55.5,22.0,0.1934,0.0647,0.1001,33
+SUPER,SUP-T10,Resultant amplitude or phase difference at a point from path-difference geometry,in,0.0743,0.0916,,,8.5,74.5,15.5,0.07,0.0868,0.0705,43
+SUPER,SUP-T14,Young's double slit: use ax/D = λ,in,0.0741,0.0905,,,6.5,67.0,24.5,0.0535,0.0781,0.1114,44
+SUPER,SUP-T18,"Diffraction grating: a sinθ = nλ for angles, wavelength, line density or screen positions",in,0.0735,0.0,yes,,10.0,68.0,11.0,0.0823,0.0793,0.05,37
+SUPER,SUP-T02,"Stationary wave: define it, state the conditions for one to form, and explain its formation by reflection in a given set-up",in,0.0568,0.0698,,,6.0,55.5,14.0,0.0494,0.0647,0.0637,39
+SUPER,SUP-T05,"Standing waves in air columns: harmonics of open and closed pipes, N/A positions, and what the envelope represents",in,0.0526,0.0646,,,6.0,41.17,14.0,0.0494,0.048,0.0637,19
+SUPER,SUP-T09,Coherence and the conditions for observable two-source interference,in,0.0523,0.0,yes,,8.0,43.25,6.0,0.0658,0.0504,0.0273,37
+SUPER,SUP-T27,"Phase, amplitude and spacing of points on a standing wave: read them off a given pattern, relate them to the two component progressive waves, or sketch the amplitude or intensity envelope on a scaled grid",in,0.0506,0.0619,,,5.0,45.67,14.67,0.0412,0.0532,0.0667,34
+SUPER,SUP-T16,Fringe intensities when the two waves have unequal amplitudes (I ∝ A²),in,0.0462,0.0573,,,7.0,36.17,6.0,0.0576,0.0422,0.0273,26
+SUPER,SUP-T07,Wavelength and wave speed from detector readings of a standing wave between a source and a reflector,in,0.0426,0.0525,,,6.5,18.67,9.17,0.0535,0.0218,0.0417,17
+SUPER,SUP-T17,"Double-slit (or multi-slit) fringes modulated by the single-slit envelope: unequal maxima, missing orders, fringes within the central maximum",in,0.0354,0.0435,,,4.0,28.0,9.5,0.0329,0.0326,0.0432,22
+SUPER,SUP-T23,"Diffraction qualitatively: define, draw emerging wavefronts, gap versus wavelength, sound around corners and edges",changed,0.0345,0.0427,,,6.0,16.0,4.5,0.0494,0.0186,0.0205,19
+SUPER,SUP-T26,Limiting angle of resolution and minimum resolvable separation; improving resolving power,in,0.0341,0.0418,,,3.5,30.5,9.5,0.0288,0.0355,0.0432,21
+SUPER,SUP-T01,State the principle of superposition and apply it to overlapping waves or pulses (including zero resultant when waves meet π out of phase),in,0.0326,0.0406,,,5.0,29.5,3.0,0.0412,0.0344,0.0136,21
+SUPER,SUP-T25,"State the Rayleigh criterion and represent just-resolved, resolved and unresolved images",in,0.0317,0.0393,,,5.5,15.5,4.0,0.0453,0.0181,0.0182,14
+SUPER,SUP-T19,Highest observable order and total number of maxima for a grating,in,0.0284,0.0,yes,,4.5,20.33,3.5,0.037,0.0237,0.0159,18
+SUPER,SUP-T15,"Effect of a change on double-slit fringes: separation, brightness, contrast, shift",in,0.0221,0.0268,,,0.0,38.92,9.5,0.0,0.0454,0.0432,27
+SUPER,SUP-T20,"Grating with white light or two wavelengths: spectra, overlapping and coincident orders",in,0.0195,0.0,yes,,1.0,33.33,5.0,0.0082,0.0389,0.0227,15
+SUPER,SUP-T03,Compare standing and progressive waves (state differences; explain why a standing wave transfers no net energy),in,0.0159,0.0195,,,2.0,12.5,3.5,0.0165,0.0146,0.0159,10
+SUPER,SUP-T29,"Explain how a grating or double slit produces bright and dark fringes (diffraction at each slit, superposition, path difference)",in,0.0155,0.0189,,,1.0,19.5,5.0,0.0082,0.0227,0.0227,18
+SUPER,SUP-T12,"Two coherent sources and a moving detector: describe how the received amplitude varies, infer source phase, count maxima and minima along a line",in,0.0132,0.0163,,,1.0,19.5,3.0,0.0082,0.0227,0.0136,16
+SUPER,SUP-T08,Pressure versus displacement nodes and antinodes in a sound standing wave,changed,0.0113,0.0132,,,0.0,3.5,9.0,0.0,0.0041,0.0409,7
+SUPER,SUP-T13,Interference between direct and reflected waves from one source,in,0.0102,0.0124,,,0.0,17.5,4.5,0.0,0.0204,0.0205,8
+SUPER,SUP-T04,"Standing waves on a stretched string: draw the mode, label nodes, explain why only certain frequencies, harmonic wavelengths and frequencies",in,0.0083,0.0104,,,0.0,28.5,0.0,0.0,0.0332,0.0,9
+SUPER,SUP-T06,"Resonance tube: wavelength, speed of sound and end correction from successive resonance lengths",in,0.0071,0.0087,,,0.0,16.5,2.0,0.0,0.0192,0.0091,11
+SUPER,SUP-T28,Separating two close wavelengths with a grating: best order and angular separation against a stated minimum,in,0.0069,0.0,yes,,0.0,6.0,4.5,0.0,0.007,0.0205,5
+SUPER,SUP-T21,Describe the use of a diffraction grating to determine a wavelength; choice of order and accuracy,in,0.0067,0.0,yes,,1.0,5.0,1.0,0.0082,0.0058,0.0045,6
+SUPER,SUP-T22,"Compare single-slit, double-slit and grating patterns",in,0.0034,0.0041,,,0.0,4.0,2.0,0.0,0.0047,0.0091,4
+SUPER,SUP-T11,Two-source interference pattern from a wavefront (ripple-tank) diagram,in,0.0023,0.0029,,,0.0,8.0,0.0,0.0,0.0093,0.0,3
+THERM,THM-T14,"Apply the first law ΔU = Q + W to a single process (isothermal, isobaric, isochoric, adiabatic) or to a non-gas system, with the signs of Q and W",in,0.0828,0.0,yes,,8.5,99.33,12.5,0.072,0.118,0.0737,63
+THERM,GAS-T05,"Ideal gas equation for a single state: find n, N, mass, volume, density or number density",in,0.0676,0.0,yes,,11.0,42.0,6.5,0.0932,0.0499,0.0383,41
+THERM,THM-T08,"Internal energy of a monatomic ideal gas: why U ∝ T, U = (3/2)NkT = (3/2)nRT = (3/2)pV, and ΔU from ΔT or Δ(pV)",in,0.0674,0.0,yes,,10.5,53.5,5.5,0.089,0.0636,0.0324,40
+THERM,THM-T11,Work done by and on a gas expanding or compressed at constant pressure: W = pΔV with sign,in,0.0618,0.0,yes,,6.0,31.17,18.83,0.0508,0.037,0.111,34
+THERM,THM-T20,"Energy to heat a body or change its phase (Q = mcΔθ, Q = ml) from a heater, a given energy or converted kinetic energy, and what the temperature rise means for the device",in,0.0542,0.0916,,,9.0,22.0,7.0,0.0763,0.0261,0.0413,24
+THERM,GAS-T14,Mean translational kinetic energy ∝ thermodynamic temperature: ½m⟨c²⟩ = (3/2)kT,in,0.0473,0.0,yes,,6.0,42.83,6.67,0.0508,0.0509,0.0393,38
+THERM,GAS-T10,Kinetic-theory assumptions: state them (often the one relating to a named feature) and link each to the model,in,0.0465,0.0757,,,5.0,32.67,11.0,0.0424,0.0388,0.0648,26
+THERM,THM-T15,"Heat capacity of a gas at constant volume and at constant pressure: find c (or molar C) from the heat supplied, use given c_v / c_p, and explain why more heat is needed at constant pressure",in,0.045,0.074,,,5.5,32.83,8.5,0.0466,0.039,0.0501,21
+THERM,THM-T01,"State what is meant by the internal energy of a system (or of an ideal gas), and use the microscopic KE + PE decomposition",in,0.0343,0.0,yes,,5.5,18.83,4.0,0.0466,0.0224,0.0236,25
+THERM,GAS-T15,Root-mean-square speed: c_rms = √(3kT/m) and its mass and temperature scaling,in,0.0309,0.05,,,3.0,32.67,6.0,0.0254,0.0388,0.0354,27
+THERM,GAS-T03,Celsius–kelvin conversion and temperature intervals,in,0.0305,0.0521,,,5.5,8.5,3.5,0.0466,0.0101,0.0206,16
+THERM,GAS-T06,"Fixed amount of gas changing state: combined gas law (Boyle, Charles, pressure law)",in,0.0277,0.0453,,,3.0,32.0,4.0,0.0254,0.038,0.0236,26
+THERM,THM-T16,"Complete a first-law table (Q, W, ΔU) for each stage of a multi-stage process or cycle",in,0.0256,0.0406,,,1.5,41.17,5.0,0.0127,0.0489,0.0295,22
+THERM,GAS-T04,"Mole, Avogadro constant and Nk = nR: counting particles and switching between molar and particle forms",in,0.0251,0.0,yes,,4.5,13.33,1.67,0.0381,0.0158,0.0098,18
+THERM,GAS-T11,Explain gas pressure (and changes in it) from the random motion of particles,in,0.024,0.0397,,,3.0,29.33,2.0,0.0254,0.0348,0.0118,14
+THERM,GAS-T12,Derive pV = ⅓Nm⟨c²⟩ from a one-dimensional collision model,in,0.0238,0.0359,,,0.0,36.0,9.0,0.0,0.0428,0.053,11
+THERM,THM-T17,"Cyclic process from a closed p–V loop: net work (enclosed area), direction, ΔU = 0 and net heat",in,0.0237,0.0374,,,1.5,25.17,6.83,0.0127,0.0299,0.0403,20
+THERM,THM-T27,"State the first law of thermodynamics in words, and the meaning and sign of each term in ΔU = Q + W",in,0.023,0.037,,,2.0,25.0,5.0,0.0169,0.0297,0.0295,22
+THERM,GAS-T20,"Estimate particle volume or mean spacing from the volume per particle, and use it to judge the kinetic-theory size/separation assumption",in,0.0207,0.0356,,,4.0,3.83,2.0,0.0339,0.0046,0.0118,5
+THERM,THM-T21,"Method of mixtures: energy lost by the hotter part = energy gained by the colder part, including melting ice and the final temperature",in,0.0207,0.0345,,,3.0,10.5,3.5,0.0254,0.0125,0.0206,7
+THERM,THM-T24,Electrical determination of specific latent heat (fusion with a control funnel; vaporisation with two heating rates; heat gained from or lost to surroundings),in,0.0192,0.0323,,,3.0,8.0,3.0,0.0254,0.0095,0.0177,5
+THERM,THM-T09,"Thermal equilibrium: define it, describe how it is reached, and judge whether two bodies are in it",in,0.0191,0.0333,,,4.0,8.5,0.0,0.0339,0.0101,0.0,7
+THERM,THM-T13,"Sketch or interpret thermodynamic processes on a p–V graph (isothermal, isobaric, isochoric, adiabatic) using isotherms",in,0.0161,0.0244,,,0.0,20.0,7.0,0.0,0.0238,0.0413,17
+THERM,THM-T25,"First law applied to a change of phase at atmospheric pressure: work against (or by) the atmosphere from ΔV, then ΔU = ml − pΔV (per kg or per molecule)",in,0.0158,0.0263,,,2.0,25.67,0.0,0.0169,0.0305,0.0,12
+THERM,GAS-T07,Gas added or removed: change in amount from two states,in,0.0157,0.027,,,3.0,1.0,2.0,0.0254,0.0012,0.0118,3
+THERM,GAS-T21,"Ideal gas: definition by the equation of state, and when a real gas approximates it",in,0.0149,0.0249,,,2.0,21.0,0.33,0.0169,0.0249,0.002,19
+THERM,GAS-T13,"Use pV = ⅓Nm⟨c²⟩ (p = ⅓ρ⟨c²⟩, p = ⅔(N/V)⟨E_k⟩)",in,0.013,0.0207,,,1.0,15.0,3.0,0.0085,0.0178,0.0177,10
+THERM,GAS-T09,"Ideal-gas graphs: sketch or read p–V, p–1/V, V–T, p–T and pV–T",in,0.0125,0.0188,,,0.0,15.0,5.5,0.0,0.0178,0.0324,15
+THERM,THM-T05,Explain why the temperature stays constant during melting or boiling although energy is being supplied,in,0.0118,0.0202,,,2.0,12.0,0.0,0.0169,0.0143,0.0,9
+THERM,THM-T03,Thermodynamic temperature as a measure of the mean microscopic kinetic energy of the particles,changed,0.0101,0.0153,,,0.0,17.0,3.5,0.0,0.0202,0.0206,16
+THERM,THM-T02,"Internal energy as a function of state: same final state gives the same internal energy; ΔU path-independent, W and Q path-dependent",in,0.0095,0.0153,,,1.0,1.33,3.33,0.0085,0.0016,0.0196,4
+THERM,THM-T12,Work done as the area under a p–V graph (non-constant pressure),in,0.0077,0.0117,,,0.0,16.33,2.0,0.0,0.0194,0.0118,13
+THERM,GAS-T16,"Mean, mean-square and r.m.s. speed (and mean velocity) of gas particles",in,0.0074,0.0122,,,1.0,3.5,1.5,0.0085,0.0042,0.0088,5
+THERM,THM-T23,Electrical determination of specific heat capacity (solid block; continuous-flow method with two runs to eliminate heat loss),in,0.0068,0.0101,,,0.0,3.0,4.0,0.0,0.0036,0.0236,2
+THERM,THM-T07,"Cooling effect of evaporation, and how evaporation differs from boiling",in,0.0042,0.0074,,,1.0,0.0,0.0,0.0085,0.0,0.0,1
+THERM,GAS-T17,Explain atmospheric escape of light gases using r.m.s. speed and the spread of molecular speeds,in,0.004,0.0061,,,0.0,11.17,0.5,0.0,0.0133,0.0029,10
+THERM,THM-T19,"Define heat capacity, specific heat capacity and specific latent heat (fusion, vaporisation), with units",in,0.0029,0.0044,,,0.0,5.0,1.0,0.0,0.0059,0.0059,6
+THERM,THM-T18,"Heat engine energy accounting per cycle: work output, heat rejected, power and fuel use",in,0.0026,0.004,,,0.0,4.0,1.0,0.0,0.0048,0.0059,6
+THERM,GAS-T08,"Connected or partitioned gas systems: common pressure, conserved total amount",in,0.0018,0.0027,,,0.0,6.0,0.0,0.0,0.0071,0.0,3
+THERM,THM-T04,"Compare the particles of a substance in two phases at the same temperature: motion, spacing, forces, microscopic KE and PE, internal energy",changed,0.0014,0.0021,,,0.0,4.67,0.0,0.0,0.0055,0.0,4
+THERM,GAS-T01,Thermodynamic scale: absolute zero and independence of any substance,changed,0.0012,0.0018,,,0.0,4.0,0.0,0.0,0.0048,0.0,4
+THERM,THM-T22,"Temperature–time (or temperature–energy) heating curve at constant power: identify phases, find c and l from gradients and plateaus",in,0.0009,0.0014,,,0.0,3.0,0.0,0.0,0.0036,0.0,1
+THERM,THM-T06,Explain why the specific latent heat of vaporisation is greater than the specific latent heat of fusion,in,0.0006,0.0009,,,0.0,2.0,0.0,0.0,0.0024,0.0,2
+THERM,GAS-T02,"Empirical temperature scales: temperature from a thermometric property by interpolation, and why scales disagree",changed,0.0003,0.0005,,,0.0,1.0,0.0,0.0,0.0012,0.0,1
+THERM,THM-T10,Zeroth law of thermodynamics: state it and use it (thermometers),new,0.0003,0.0005,,,0.0,1.0,0.0,0.0,0.0012,0.0,1
+THERM,GAS-T18,"Unfamiliar kinetic-theory model with a supplied expression (molecular flux, leak or effusion rate)",in,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+EFLD,ELF-T19,"Energy stored in a capacitor: area under the V–Q graph, U = ½QV = ½Q²/C = ½CV², and energy change when V changes",new,0.1361,0.1361,,yes,0.0,0.0,24.5,0.0,0.0,0.1361,11
+EFLD,ELF-T09,"Field strength as negative potential gradient: E (magnitude and direction) from a V–x graph, E = 0 at turning points, signs and sizes of two charges from their combined V–x graph, and whether E or V can be zero between two charges",changed,0.1068,0.1068,,,12.17,88.5,27.0,0.1144,0.1275,0.15,45
+EFLD,ELF-T15,"Charged particle accelerated or decelerated along a uniform field: speed after a p.d., stopping distance, energy in eV",in,0.0817,0.0817,,,13.5,41.0,15.0,0.127,0.0591,0.0833,32
+EFLD,ELF-T17,"Deflection of a charged particle projected perpendicular to a uniform field: time in field, vertical displacement, exit angle, screen deflection",in,0.0748,0.0748,,,14.5,50.33,5.5,0.1364,0.0725,0.0306,20
+EFLD,ELF-T13,"Uniform field between parallel plates: E = V/d, potential at a point between plates, force qE and work done by the field",in,0.0684,0.0684,,,6.5,77.67,16.5,0.0611,0.1119,0.0917,51
+EFLD,ELF-T05,"Electric potential due to point charges: algebraic sum, zero-potential point, charge from a V–r value, testing V ∝ 1/r",in,0.0674,0.0674,,,11.67,41.17,9.5,0.1097,0.0593,0.0528,31
+EFLD,ELF-T18,"Capacitance: definition, C = Q/V, charge on the plates and from a Q–V graph",new,0.0583,0.0583,,yes,0.0,0.0,10.5,0.0,0.0,0.0583,8
+EFLD,ELF-T01,"Coulomb force between point charges (and charged bodies treated as point charges): magnitude and direction, resultant from several charges, and the acceleration it produces",in,0.0464,0.0464,,,8.5,30.0,5.0,0.0799,0.0432,0.0278,22
+EFLD,ELF-T03,"Electric field strength of point charges: E = Q/(4πε0r²), resultant field by vector addition, neutral points, and E = F/q",in,0.0407,0.0407,,,3.67,67.5,6.0,0.0345,0.0973,0.0333,32
+EFLD,ELF-T23,"Compare electric and gravitational fields (point sources and uniform fields): similarities, differences, relative magnitudes",in,0.0404,0.0404,,,9.67,18.17,0.0,0.0909,0.0262,0.0,15
+EFLD,ELF-T08,"Energy conservation for a charged particle moving in a non-uniform field: speed at a point, minimum energy to reach a point or to escape (potential barrier)",in,0.0377,0.0377,,,3.0,33.5,12.5,0.0282,0.0483,0.0694,24
+EFLD,ELF-T10,"Sketch E–x and V–x graphs: point charges, pairs of charges or spheres, parallel plates, and E–x from a given V–x",changed,0.037,0.037,,,5.0,42.0,5.0,0.047,0.0605,0.0278,23
+EFLD,ELF-T14,Charged particle held stationary (or at terminal speed) in a uniform field: balancing qE against weight (and drag),in,0.029,0.029,,,4.0,11.5,8.0,0.0376,0.0166,0.0444,9
+EFLD,ELF-T26,"Charged-particle beam devices: explain why the gun or tube is evacuated, why the beam has a spread of speeds, and the design choices (geometry, p.d.) of a device described in a passage",in,0.0243,0.0243,,,4.0,10.5,4.83,0.0376,0.0151,0.0269,11
+EFLD,ELF-T16,Describe and explain the path of a charged particle in (and beyond) a uniform electric field,in,0.0232,0.0232,,,0.67,39.25,7.0,0.0063,0.0565,0.0389,27
+EFLD,ELF-T06,"Electric potential energy of a system of charges and work done in moving a charge: U = Q1Q2/(4πε0r), U = qV, W_ext = qΔV",new,0.0214,0.0214,,,1.5,31.33,5.17,0.0141,0.0451,0.0287,28
+EFLD,ELF-T27,"Describe and explain the motion of a charged particle in a non-uniform (radial or two-charge) field: direction from the sign of the charge, acceleration changing with the field strength, speed rising at a changing rate",in,0.0193,0.0193,,,2.0,25.5,3.5,0.0188,0.0367,0.0194,17
+EFLD,ELF-T04,"Define electric potential (and electric potential energy, the electron-volt): the external-force, positive-test-charge wording",in,0.0176,0.0176,,,2.0,22.0,3.0,0.0188,0.0317,0.0167,22
+EFLD,ELF-T21,"Charge sharing between capacitors connected together: charge conservation, common p.d., energy loss",new,0.0167,0.0167,,yes,0.0,0.0,3.0,0.0,0.0,0.0167,1
+EFLD,ELF-T12,"Conductors in electrostatic equilibrium: zero field inside, equipotential surface, charge sharing between connected spheres",in,0.0157,0.0157,,,2.5,13.5,2.0,0.0235,0.0195,0.0111,13
+EFLD,ELF-T11,"Electric field-line and equipotential patterns for combined sources and conductors: unequal or opposite charges, two charged spheres, conductor surfaces",changed,0.0134,0.0134,,,1.5,18.17,2.0,0.0141,0.0262,0.0111,10
+EFLD,ELF-T20,Energy supplied by the source versus energy stored when charging a capacitor: half dissipated,new,0.0111,0.0111,,yes,0.0,0.0,2.0,0.0,0.0,0.0111,1
+EFLD,ELF-T07,"Force from an electric potential-energy function: F = −dU/dr, equilibrium separation and binding energy from U(r)",new,0.006,0.006,,,0.0,9.0,2.5,0.0,0.013,0.0139,4
+EFLD,ELF-T25,"Charged particle in a circular orbit under Coulomb attraction (electron round a nucleus): speed, kinetic, potential and total energy",in,0.0032,0.0032,,,0.0,11.5,0.0,0.0,0.0166,0.0,3
+EFLD,ELF-T02,"Equilibrium of a charged body under the electric force, its weight and a tension (suspended charged sphere)",in,0.0025,0.0025,,,0.0,9.0,0.0,0.0,0.013,0.0,4
+EFLD,ELF-T24,Capacitance of an isolated charged conductor (sphere or dome): C = 4πε0R from C = Q/V and V = Q/(4πε0R),new,0.0008,0.0008,,,0.0,3.0,0.0,0.0,0.0043,0.0,3
+EFLD,ELF-T22,"Changing an isolated charged capacitor (plates pulled apart): charge constant, new p.d., work done = change in stored energy",new,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+CURR,CUR-T14,"Sinusoidal r.m.s.–peak conversions and mean power in a resistor (I_rms = I0/√2, V_rms = V0/√2, ⟨P⟩ = ½P0)",in,0.1483,0.1483,,,16.5,66.17,13.0,0.1618,0.1324,0.1373,59
+CURR,CUR-T07,"Electrical power P = VI = I²R = V²/R: single components and ratings, cost of energy, power ratios in series/parallel, and cost-based arguments",in,0.1383,0.1383,,,17.17,74.0,6.5,0.1683,0.148,0.0687,59
+CURR,CUR-T03,"Drift velocity, number density or current from I = nAvq (n from density and molar mass, from a carrier count, or given; series sections; effect of changing the wire)",in,0.1278,0.1278,,,15.5,45.5,11.0,0.152,0.091,0.1162,27
+CURR,CUR-T11,Instantaneous power in a resistive load: P = P0 sin²ωt and its P–t graph,in,0.093,0.093,,,7.0,48.67,13.0,0.0686,0.0974,0.1373,34
+CURR,CUR-T10,"Represent a sinusoidal a.c. by x = x0 sin ωt: write the equation, find instantaneous values, and show V and I in phase for a resistor",in,0.068,0.068,,,9.0,38.17,1.83,0.0882,0.0764,0.0194,30
+CURR,CUR-T15,"Mean and r.m.s. values of non-sinusoidal waveforms (square, asymmetric square, rectified, ramp) by the I²–t method",in,0.0632,0.0632,,,1.0,35.5,15.33,0.0098,0.071,0.162,29
+CURR,CUR-T05,Define p.d. and e.m.f. and distinguish them using energy considerations,in,0.0582,0.0582,,,6.0,20.67,7.0,0.0588,0.0413,0.0739,23
+CURR,CUR-T16,Explain half-wave rectification by a single diode and sketch the output p.d. across the load,in,0.0562,0.0562,,,3.17,36.5,8.5,0.031,0.073,0.0898,32
+CURR,CUR-T13,"State what is meant by the r.m.s. value by reference to the heating effect, and why r.m.s. (not the mean) measures the heating effect of an a.c.",in,0.0489,0.0489,,,6.0,28.5,2.0,0.0588,0.057,0.0211,25
+CURR,CUR-T01,"Charge, current and number of charge carriers from I = Q/t (incl. direction of conventional current)",in,0.0486,0.0486,,,4.0,31.5,5.0,0.0392,0.063,0.0528,29
+CURR,CUR-T06,"Energy transferred from V = W/Q (W = QV, W = VIt)",in,0.0452,0.0452,,,4.5,14.67,6.0,0.0441,0.0293,0.0634,13
+CURR,CUR-T12,Deduce that the mean power in a resistive load is half the peak power,in,0.0263,0.0263,,,3.0,2.0,4.0,0.0294,0.004,0.0423,7
+CURR,CUR-T09,"Read period, frequency, peak (and peak-to-peak) values from an a.c. waveform; identify a.c. vs d.c.",in,0.0252,0.0252,,,3.5,16.0,0.0,0.0343,0.032,0.0,17
+CURR,CUR-T02,Derive I = nAvq for a current-carrying conductor,in,0.0157,0.0157,,,3.0,2.0,0.0,0.0294,0.004,0.0,2
+CURR,CUR-T04,"Explain electron motion in a conductor: random thermal motion vs drift, and why a lamp lights almost instantly despite slow drift",in,0.0151,0.0151,,,2.0,10.5,0.0,0.0196,0.021,0.0,7
+CURR,CUR-T08,"Power transmission through resistive cables: p.d. at load, power lost, efficiency and why high voltage is used",in,0.0115,0.0115,,,0.0,15.0,1.5,0.0,0.03,0.0158,11
+CURR,CUR-T17,Current waveform and r.m.s. reading in a diode-resistor network on an a.c. supply,in,0.0105,0.0105,,,0.67,14.5,0.0,0.0065,0.029,0.0,11
+CIRCUITS,CCT-T20,"RC calculations with x = x0 e^(−t/τ) and x = x0(1 − e^(−t/τ)), τ = RC",new,0.191,0.191,,yes,0.0,0.0,36.0,0.0,0.0,0.191,12
+CIRCUITS,CCT-T09,"E.m.f., internal resistance and terminal p.d. (E = I(R + r), V = E − Ir)",in,0.1179,0.1179,,,23.0,68.0,28.5,0.2054,0.1264,0.1512,58
+CIRCUITS,CCT-T11,Series and parallel combinations: equivalent resistance and the current/p.d. in each resistor,in,0.1146,0.1146,,,26.83,98.17,12.0,0.2396,0.1824,0.0637,67
+CIRCUITS,CCT-T17,Effective capacitance of a capacitor network (series and parallel),new,0.061,0.061,,yes,0.0,0.0,11.5,0.0,0.0,0.061,6
+CIRCUITS,CCT-T16,Sensor potential divider with an LDR or NTC thermistor,in,0.0568,0.0568,,,10.0,48.83,12.5,0.0893,0.0907,0.0663,26
+CIRCUITS,CCT-T22,Capacitor in a d.c. resistor network: steady state and switching between charge and discharge paths,new,0.0477,0.0477,,yes,0.0,0.0,9.0,0.0,0.0,0.0477,2
+CIRCUITS,CCT-T05,Resistivity calculation with R = ρ l / A,in,0.0451,0.0451,,,11.5,37.67,3.0,0.1027,0.07,0.0159,32
+CIRCUITS,CCT-T19,"Describe and sketch the variation of V, Q and I with time for an RC circuit charging or discharging",new,0.0451,0.0451,,yes,0.0,0.0,8.5,0.0,0.0,0.0451,5
+CIRCUITS,CCT-T18,"Charge on, p.d. across and energy stored in each capacitor of a series/parallel network on a d.c. supply",new,0.0424,0.0424,,yes,0.0,0.0,8.0,0.0,0.0,0.0424,3
+CIRCUITS,CCT-T08,Explain the temperature dependence of resistivity: metals (drift velocity) vs semiconductors/NTC thermistors (number density),changed,0.0372,0.0372,,,8.0,26.17,6.5,0.0714,0.0486,0.0345,25
+CIRCUITS,CCT-T10,Power delivered to an external load and the maximum power condition (R = r),in,0.0351,0.0351,,,7.67,31.5,4.5,0.0685,0.0585,0.0239,18
+CIRCUITS,CCT-T02,"Qualitative circuit reasoning: predict how currents, p.d.s, meter readings or lamp brightness change after a change or fault, or diagnose the fault from readings",in,0.0321,0.0321,,,2.0,34.5,13.0,0.0179,0.0641,0.069,29
+CIRCUITS,CCT-T04,"Resistance at a point on a non-linear I–V graph (V/I, not inverse gradient)",in,0.029,0.029,,,5.0,23.0,7.0,0.0446,0.0427,0.0371,20
+CIRCUITS,CCT-T14,Potential divider output: formula and range with a fixed or variable resistor,in,0.0229,0.0229,,,3.5,49.0,0.0,0.0312,0.091,0.0,36
+CIRCUITS,CCT-T03,Define resistance and apply V = IR to a component,in,0.0226,0.0226,,,4.5,21.5,3.5,0.0402,0.04,0.0186,27
+CIRCUITS,CCT-T23,"Use the I–V characteristics of two components combined in series or parallel to find the operating current, p.d.s or combined characteristic",in,0.0217,0.0217,,,2.0,23.33,7.5,0.0179,0.0434,0.0398,16
+CIRCUITS,CCT-T06,"Scaling of resistance with geometry (proportionality reasoning, constant-volume stretching)",in,0.0214,0.0214,,,4.5,10.0,5.0,0.0402,0.0186,0.0265,13
+CIRCUITS,CCT-T21,"Data analysis of an RC discharge: area under I–t, τ from graph, ln-linearisation",new,0.0159,0.0159,,yes,0.0,0.0,3.0,0.0,0.0,0.0159,1
+CIRCUITS,CCT-T01,"Draw or interpret a circuit diagram with standard symbols (incl. LDR, thermistor, diode, capacitor)",changed,0.0128,0.0128,,,2.5,5.5,3.5,0.0223,0.0102,0.0186,10
+CIRCUITS,CCT-T07,"Sketch and interpret I–V characteristics (ohmic resistor, filament lamp, diode, NTC thermistor)",in,0.0115,0.0115,,,1.0,17.5,3.0,0.0089,0.0325,0.0159,18
+CIRCUITS,CCT-T13,Potential at a point and p.d. between two points in a divider or bridge (earthed reference),in,0.0099,0.0099,,,0.0,21.33,3.0,0.0,0.0396,0.0159,15
+CIRCUITS,CCT-T15,Loading effect: a voltmeter or load connected across part of a divider,in,0.0022,0.0022,,,0.0,8.0,0.0,0.0,0.0149,0.0,4
+CIRCUITS,CCT-T12,Equivalent resistance of a network by labelling equipotential points and redrawing,in,0.0005,0.0005,,,0.0,1.83,0.0,0.0,0.0034,0.0,3
+EMFOR,EMF-T14,"Charged particle in uniform circular motion in B: r = mv/Bq solved for radius, speed, KE, momentum, B or mass; period independent of speed; comparing and sketching paths",in,0.1524,0.1524,,,15.0,128.67,21.0,0.1333,0.1893,0.1535,57
+EMFOR,EMF-T03,"Magnetic flux density from B = μ0I/2πd, B = μ0NI/2r, B = μ0nI: calculate, scale and sketch it, and judge a solenoid design",in,0.114,0.114,,,18.5,44.17,8.5,0.1644,0.065,0.0621,43
+EMFOR,EMF-T07,"Force on a current-carrying conductor: F = BIL sin θ with direction by Fleming's left-hand rule (uniform field, the field of another current, loops, rods in equilibrium, a.c.)",in,0.0859,0.0859,,,8.0,47.5,18.0,0.0711,0.0699,0.1315,31
+EMFOR,EMF-T20,"Velocity selector calculations: v = E/B, E = V/d, and the required field directions",in,0.0857,0.0857,,,11.0,43.0,11.5,0.0978,0.0633,0.084,28
+EMFOR,EMF-T15,Explain why a charged particle moving perpendicular to a uniform B follows a circular path at constant speed,in,0.0828,0.0828,,,12.0,45.25,7.0,0.1067,0.0666,0.0512,34
+EMFOR,EMF-T17,"Helical and non-uniform-field paths: velocity component along B — radius, period, pitch, and describing or explaining the path",in,0.0575,0.0575,,,2.0,62.5,14.0,0.0178,0.0919,0.1023,25
+EMFOR,EMF-T06,Define magnetic flux density and the tesla; express the tesla in base units,in,0.0542,0.0542,,,9.0,23.83,3.0,0.08,0.0351,0.0219,22
+EMFOR,EMF-T10,Forces between parallel current-carrying conductors: explain them and predict their direction; calculate F/L = μ0I1I2/2πd and the resultant force on a loop or one of several wires,in,0.0522,0.0522,,,7.0,35.0,4.5,0.0622,0.0515,0.0329,15
+EMFOR,EMF-T19,Explain velocity selection with crossed (perpendicular) E and B fields and predict what happens to other particles,in,0.052,0.052,,,7.0,22.0,7.0,0.0622,0.0324,0.0512,19
+EMFOR,EMF-T02,"Sketch magnetic field-line patterns for a long straight wire, flat circular coil, long solenoid (and permanent magnets)",in,0.0513,0.0513,,,7.0,30.0,5.0,0.0622,0.0441,0.0365,24
+EMFOR,EMF-T08,"Current balance and balance-reading methods: measure B (or I, or mass) from moments or from the change in a balance reading",in,0.0398,0.0398,,,3.5,21.17,9.0,0.0311,0.0311,0.0658,14
+EMFOR,EMF-T12,Direction of the magnetic force on a moving charge (Fleming's LHR with sign of charge); deducing charge sign or field direction,in,0.0379,0.0379,,,1.5,42.67,8.5,0.0133,0.0628,0.0621,43
+EMFOR,EMF-T04,"Resultant magnetic flux density from two or more currents (vector superposition, null points)",in,0.0317,0.0317,,,4.0,13.0,5.0,0.0356,0.0191,0.0365,12
+EMFOR,EMF-T09,Torque on a rectangular coil in a uniform field (motor / moving-coil meter): τ = NBIA cos θ,in,0.0213,0.0213,,,4.0,9.5,0.0,0.0356,0.014,0.0,6
+EMFOR,EMF-T23,"Particle accelerators (cyclotron; ring accelerator): E-field acceleration at a gap, B-field steering, dee timing independent of speed, exit energy",in,0.0203,0.0203,,,0.0,23.0,6.5,0.0,0.0338,0.0475,8
+EMFOR,EMF-T21,"Mass spectrometer: velocity selector then semicircle, r ∝ m/q, separation of isotopes",in,0.0177,0.0177,,,2.0,9.0,3.0,0.0178,0.0132,0.0219,9
+EMFOR,EMF-T24,"MRI scanner in a data-based passage: Larmor/RF frequency from a stem-supplied ω₀ = γB₀, role of the gradient coils, contrast from relaxation times, practical hazards and limitations",in,0.0116,0.0116,,,0.0,6.67,5.0,0.0,0.0098,0.0365,3
+EMFOR,EMF-T01,"Magnetic field as a field of force: define it, compare it with gravitational and electric fields, and state which fields act on moving/stationary, charged/uncharged particles",in,0.0102,0.0102,,,1.0,14.0,0.33,0.0089,0.0206,0.0024,12
+EMFOR,EMF-T25,"Hall effect in a current-carrying slab: deflection of the carriers, polarity of the faces, build-up to the steady state qE = Bqv, the Hall p.d. V_H = Bvd (= BI/(nqt)), and its use as a field probe",in,0.0081,0.0081,,,0.0,22.0,0.0,0.0,0.0324,0.0,5
+EMFOR,EMF-T13,"Magnitude of the force on a moving charge F = Bqv sin θ, and its link to F = BIL (charge carriers in a wire)",in,0.0079,0.0079,,,0.0,21.5,0.0,0.0,0.0316,0.0,13
+EMFOR,EMF-T16,"Accelerated through a p.d., then deflected in B: r in terms of V, B and specific charge; scaling with q/m",in,0.0033,0.0033,,,0.0,9.0,0.0,0.0,0.0132,0.0,2
+EMFOR,EMF-T05,Effect of a ferrous (soft-iron) core on a solenoid's field; electromagnets and relays,in,0.0012,0.0012,,,0.0,3.17,0.0,0.0,0.0047,0.0,4
+EMFOR,EMF-T18,Compare deflection of charged beams in uniform electric vs magnetic fields; identify the field or particle from the path,in,0.0006,0.0006,,,0.0,1.75,0.0,0.0,0.0026,0.0,2
+EMFOR,EMF-T22,Specific charge of the electron (Thomson-type experiment): e/m from crossed fields and accelerating p.d.,in,0.0006,0.0006,,,0.0,1.5,0.0,0.0,0.0022,0.0,1
+EMIND,EMI-T14,"Faraday's law from a graph: e.m.f. and current from the gradient of a B–t, NΦ–t or solenoid-current graph, instants of zero/maximum e.m.f., and the sketch of the resulting E–t or I–t",in,0.1831,0.1831,,,20.0,88.0,22.5,0.2299,0.133,0.1515,45
+EMIND,EMI-T03,State Faraday's law and Lenz's law,in,0.104,0.104,,,12.5,31.67,13.0,0.1437,0.0479,0.0875,40
+EMIND,EMI-T22,"Explain the principle of operation of an iron-core transformer (why an alternating e.m.f. is induced in the secondary, why it is smaller/larger) and the meaning of 'ideal'",in,0.067,0.067,,,9.0,32.0,2.67,0.1034,0.0484,0.018,21
+EMIND,EMI-T23,"Ideal transformer calculations (turns ratio, voltages, currents, power), often with r.m.s./peak conversion",in,0.0659,0.0659,,,4.0,66.5,11.17,0.046,0.1005,0.0752,40
+EMIND,EMI-T05,"Use Faraday's law to explain why an e.m.f. (and current) is induced in a coil: switching a primary (momentary, then zero), a continuously changing field, or a loop leaving a field",in,0.0637,0.0637,,,6.33,35.5,8.83,0.0728,0.0537,0.0595,33
+EMIND,EMI-T06,Determine the direction of the induced current using Lenz's law (pole argument or force argument),in,0.0571,0.0571,,,4.33,40.5,10.5,0.0498,0.0612,0.0707,33
+EMIND,EMI-T10,"Straight conductor moving across a field: E = BLv (length inside the field), alternating e.m.f. of an oscillating wire, cancellation in a folded wire, current, retarding force and power",in,0.0569,0.0569,,,7.0,29.0,4.0,0.0805,0.0438,0.0269,17
+EMIND,EMI-T12,"Coil or frame moving into, through and out of a field region: e.m.f., current and direction at each stage, with Φ–t and E–t sketches",in,0.0451,0.0451,,,6.0,21.5,2.0,0.069,0.0325,0.0135,8
+EMIND,EMI-T08,Lenz's law as a consequence of conservation of energy (work against the magnetic force becomes electrical energy and heat),in,0.0408,0.0408,,,3.0,21.33,9.5,0.0345,0.0322,0.064,19
+EMIND,EMI-T02,"Flux and flux linkage for a coil at an angle to B, and the change in flux linkage when it is rotated, flipped or removed",in,0.0387,0.0387,,,0.0,47.67,12.5,0.0,0.0721,0.0842,33
+EMIND,EMI-T24,Energy losses in a real transformer and the design features that reduce them,in,0.0365,0.0365,,,4.5,21.0,2.0,0.0517,0.0317,0.0135,15
+EMIND,EMI-T09,Average induced e.m.f. from a change in flux linkage over a time interval,in,0.0364,0.0364,,,1.0,33.0,11.0,0.0115,0.0499,0.0741,24
+EMIND,EMI-T01,"Define magnetic flux, magnetic flux linkage and the weber",in,0.0335,0.0335,,,4.0,20.5,2.0,0.046,0.031,0.0135,16
+EMIND,EMI-T21,"Explain a practical application of electromagnetic induction (wireless charger, induction cooker, guitar pick-up, metal detector, generator) and the conditions it needs",in,0.0311,0.0311,,,1.5,22.67,8.5,0.0172,0.0343,0.0572,14
+EMIND,EMI-T20,"Eddy-current damping and braking: explain the retarding force, the effect of slots, and energy dissipation",in,0.0231,0.0231,,,1.5,30.5,2.0,0.0172,0.0461,0.0135,14
+EMIND,EMI-T19,"Back e.m.f. in a motor: origin, current at switch-on and at speed, and mechanical power developed",in,0.0202,0.0202,,yes,0.0,0.0,3.0,0.0,0.0,0.0202,1
+EMIND,EMI-T13,Magnet moving through or past a coil: sketch flux linkage and e.m.f. against time and explain the shape,in,0.0187,0.0187,,,0.0,10.33,8.83,0.0,0.0156,0.0595,6
+EMIND,EMI-T17,Rotating coil (a.c. generator): sketch NΦ and E against time with coil orientations and explain the phase relation,in,0.0164,0.0164,,,0.0,28.5,3.5,0.0,0.0431,0.0236,11
+EMIND,EMI-T04,Infer the laws of induction from a magnet-and-coil (galvanometer) experiment; e.m.f. vs current,in,0.0156,0.0156,,,2.33,6.67,0.0,0.0268,0.0101,0.0,5
+EMIND,EMI-T18,"A.c. generator calculations: ω, peak e.m.f. NBAω, peak current, and E(t), I(t) expressions",in,0.0119,0.0119,,,0.0,18.5,3.0,0.0,0.028,0.0202,13
+EMIND,EMI-T15,"Predict and explain the effect of changing a parameter on the induced e.m.f. (amplitude, frequency, peak, duration, delay)",in,0.0116,0.0116,,,0.0,13.17,4.0,0.0,0.0199,0.0269,11
+EMIND,EMI-T07,"Polarity of a moving conductor: which end is at higher potential, from the force on its free electrons",in,0.0065,0.0065,,,0.0,8.5,2.0,0.0,0.0128,0.0135,8
+EMIND,EMI-T11,"Conductor on rails or falling through a field with no driving force other than gravity (or an initial push): free-body diagram, terminal velocity or decay to rest",in,0.0061,0.0061,,,0.0,16.5,0.0,0.0,0.0249,0.0,5
+EMIND,EMI-T16,Rotating disc (Faraday disc / homopolar generator): E = ½Br²ω = BAf,in,0.0054,0.0054,,,0.0,14.5,0.0,0.0,0.0219,0.0,4
+EMIND,EMI-T26,Change in flux linkage from the area under an E–t graph; search-coil measurement of B (and charge Q = Δ(NΦ)/R),in,0.0047,0.0047,,,0.0,3.5,2.0,0.0,0.0053,0.0135,4
+QUANT,QUA-T02,"Photon as a quantum: state what a photon is and calculate photon energy E = hf = hc/λ (J ↔ eV, spectrum region)",in,0.1115,0.1396,,,24.0,86.83,20.5,0.186,0.1204,0.0825,70
+QUANT,QUA-T01,"Photoelectric evidence for the particulate (photon) nature, and not the wave nature, of e.m. radiation: threshold frequency (meaning, emission or not for a given radiation, f0 = Φ/h), one photon–one electron; interference/diffraction as evidence of the wave nature",in,0.1078,0.1349,,,20.5,101.5,23.0,0.1589,0.1407,0.0926,52
+QUANT,QUA-T20,"Transitions on a given energy-level diagram: photon energy/wavelength (hf = E_upper − E_lower), longest/shortest wavelength, identify and mark a transition, count spectral lines, ionisation energy, series",in,0.1007,0.126,,,15.5,137.5,21.0,0.1202,0.1906,0.0845,62
+QUANT,QUA-T13,"Energy levels of a particle in an infinite well, E_n = h²n²/8mL²: derive, calculate ground state and level spacing, scaling with m and L",new,0.0946,0.0,yes,yes,0.0,0.0,23.5,0.0,0.0,0.0946,10
+QUANT,QUA-T12,"Particle in a 1-D infinite square well: standing-wave solutions ψ_n (boundary conditions, L = nλ/2), sketches of ψ_n and |ψ_n|², superposition explanation",new,0.0704,0.0,yes,yes,0.0,0.0,17.5,0.0,0.0,0.0704,11
+QUANT,QUA-T11,Normalisation constant for square (constant) and sinusoidal wavefunctions from 'area under |ψ|² = 1',new,0.0604,0.0756,,yes,0.0,0.0,15.0,0.0,0.0,0.0604,7
+QUANT,QUA-T09,"de Broglie wavelength λ = h/p: of a moving particle, of a particle accelerated through a p.d., or given kinetic energy",in,0.0576,0.0721,,,7.5,70.33,18.0,0.0581,0.0975,0.0724,36
+QUANT,QUA-T19,"Distinguish emission and absorption line spectra: appearance, how each is produced, and why absorption lines are dark",in,0.049,0.0613,,,7.0,36.5,19.5,0.0543,0.0506,0.0785,26
+QUANT,QUA-T18,Explain how line spectra provide evidence for discrete electron energy levels in isolated atoms (and the electron-wavefunction picture of those levels),in,0.0467,0.0584,,,7.0,53.0,13.0,0.0543,0.0735,0.0523,39
+QUANT,QUA-T04,Photon momentum p = E/c = h/λ: calculate it and explain how a massless photon carries momentum,new,0.0399,0.05,,,9.5,24.17,6.5,0.0736,0.0335,0.0262,23
+QUANT,QUA-T14,"Photon emitted or absorbed in a transition between particle-in-a-box levels: photon energy/wavelength, region, or well width from an observed wavelength (quantum dots)",new,0.0362,0.0,yes,yes,0.0,0.0,9.0,0.0,0.0,0.0362,6
+QUANT,QUA-T21,Excitation by photon absorption vs by particle (electron) collision: which transitions occur for a given photon or electron energy; accelerating p.d. range,in,0.035,0.0438,,,7.0,48.5,2.5,0.0543,0.0672,0.0101,28
+QUANT,QUA-T29,"X-ray tube and X-ray imaging in a data-based question with stem-supplied models: attenuation ratios (∝ Z³), I = I0e^(−μx) and half-value thickness, transmitted fractions through layered tissue and image contrast, contrast media, scatter blur and patient dose, tube design",in,0.0346,0.0434,,,8.5,16.67,6.0,0.0659,0.0231,0.0241,7
+QUANT,QUA-T03,Rate of photon emission or arrival from beam power or intensity (P = (dN/dt)·hf),in,0.0296,0.0371,,,8.0,14.5,3.0,0.062,0.0201,0.0121,15
+QUANT,QUA-T05,Force or pressure exerted by a photon beam on an absorbing or reflecting surface (rate of change of photon momentum),new,0.0258,0.0323,,,5.5,21.67,4.5,0.0426,0.03,0.0181,14
+QUANT,QUA-T07,"Electron diffraction as evidence for the wave nature of particles: explain the ring pattern from a graphite film (or the spread through a slit), the condition λ ~ atomic spacing, and the effect of changing the accelerating p.d.",in,0.0239,0.03,,,2.5,40.0,6.5,0.0194,0.0554,0.0262,22
+QUANT,QUA-T06,Recoil of an atom or nucleus that emits (or absorbs) a photon: conservation of momentum with photon momentum,new,0.0187,0.0234,,,5.0,5.33,3.0,0.0388,0.0074,0.0121,6
+QUANT,QUA-T10,"Interpret a wavefunction: |ψ|² as probability density, most probable positions, probability in a region (area under |ψ|²) or in a small interval (|ψ|²δx), mean vs most probable position",new,0.0184,0.023,,,0.0,1.0,18.0,0.0,0.0014,0.0724,9
+QUANT,QUA-T28,"Photon–electron (Compton) scattering, stem-supplied: momentum conservation with photon momentum fixes the outgoing paths; the photon loses energy so its wavelength increases; electron energy and momentum from the energy loss",new,0.0092,0.0116,,,1.5,9.5,2.5,0.0116,0.0132,0.0101,5
+QUANT,QUA-T23,"Uncertainty principle applied to particles passing through a narrow slit: Δy ≈ slit width b, transverse momentum spread Δp ≈ h/b, angular spread θ ≈ λ/b (link to single-slit diffraction)",in,0.0081,0.0101,,,0.0,4.0,7.0,0.0,0.0055,0.0282,4
+QUANT,QUA-T08,Single-particle double-slit experiment as evidence for the wave nature of particles: describe the build-up of the fringe pattern from individual localised arrivals (electrons or photons sent one at a time),new,0.0072,0.009,,,0.0,4.5,6.0,0.0,0.0062,0.0241,5
+QUANT,QUA-T15,"Heisenberg uncertainty ΔxΔp ≳ h: minimum uncertainty in position or momentum/velocity from given data (incl. percentage uncertainty in speed, photon Δλ)",in,0.0042,0.0053,,,0.0,12.5,1.0,0.0,0.0173,0.004,8
+QUANT,QUA-T17,Confinement and the uncertainty principle: why a particle in a box has non-zero minimum energy and no definite momentum; estimates of ground-state energy or atom size,new,0.0032,0.004,,,0.0,4.5,2.0,0.0,0.0062,0.008,3
+QUANT,QUA-T16,"Explain the uncertainty principle: a localised particle needs a spread of momenta (wave-packet picture), a definite momentum means no localisation, and the limit is fundamental, not instrumental",in,0.0009,0.0011,,,0.0,3.5,0.0,0.0,0.0049,0.0,4
+QUANT,QUA-T22,"Superposition of a single particle's wavefunction in the double-slit experiment: ψ_total = ψ1 + ψ2, probability density |ψ1 + ψ2|², and the pattern with one slit closed or the slits blocked alternately",new,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+QUANT,QUA-T24,"Admissible wavefunctions: state the conditions a wavefunction must satisfy (normalisable, single-valued, continuous and smoothly varying; zero where the particle cannot be) and judge given sketches",new,0.0,0.0,,,0.0,0.0,0.0,0.0,0.0,0.0,0
+NUCL,NUC-T21,Energy released (Q) in a nuclear reaction from masses or from binding energies,in,0.1173,0.1173,,,14.0,110.5,35.5,0.105,0.1102,0.1499,72
+NUCL,NUC-T12,"Exponential decay and half-life calculations (x = x0 e^(−λt), (½)^n)",in,0.1146,0.1146,,,15.67,114.0,26.17,0.1175,0.1137,0.1105,66
+NUCL,NUC-T10,"Activity and decay constant: definitions (λ as the probability of decay per unit time), A = λN, number of nuclei from mass or from activity",in,0.1027,0.1027,,,13.17,91.0,29.17,0.0988,0.0907,0.1232,56
+NUCL,NUC-T05,"Nuclear equations and conservation in nuclear processes: balancing, identifying the unknown particle, decay series, gamma emission and neutron activation",in,0.0779,0.0779,,,10.5,78.83,18.0,0.0788,0.0786,0.076,63
+NUCL,NUC-T18,Mass defect and nuclear binding energy (and per nucleon) of a nuclide,in,0.0584,0.0584,,,6.0,53.33,21.5,0.045,0.0532,0.0908,31
+NUCL,NUC-T01,"Rutherford α-scattering: observations, conclusions and trajectories",in,0.0562,0.0562,,,12.5,38.0,0.0,0.0938,0.0379,0.0,13
+NUCL,NUC-T20,Why fission of heavy nuclei and fusion of light nuclei release energy (binding energy per nucleon); definitions and the conditions for fusion,in,0.0507,0.0507,,,6.0,60.0,12.67,0.045,0.0598,0.0535,36
+NUCL,NUC-T17,"Mass–energy equivalence: E = mc² conversions, rest energy, pair production threshold",in,0.0463,0.0463,,,6.0,49.0,11.0,0.045,0.0489,0.0464,43
+NUCL,NUC-T22,Sharing of released energy and momentum among the products of a decay or reaction (two-body share; effect of daughter recoil and of an accompanying gamma photon),in,0.0431,0.0431,,,3.5,57.0,15.0,0.0262,0.0568,0.0633,25
+NUCL,NUC-T14,Half-life / decay constant from experimental count-rate data (best-fit curve or ln C–t line),in,0.0388,0.0388,,,7.5,22.5,4.83,0.0562,0.0224,0.0204,19
+NUCL,NUC-T06,"Spontaneous and random nature of decay: meaning of radioactive decay, evidence and consequences",in,0.0354,0.0354,,,4.0,51.0,7.33,0.03,0.0508,0.031,31
+NUCL,NUC-T02,"Distance of closest approach of an α-particle (or other charged particle) fired head-on at a nucleus, by energy conservation (KE → U_E = Qq/4πε0r)",in,0.0317,0.0317,,,7.5,10.5,1.0,0.0562,0.0105,0.0042,10
+NUCL,NUC-T26,"Hazards of ionising radiation: danger by emission type and route of exposure, by half-life, and safe handling",changed,0.031,0.031,,,5.5,14.5,6.5,0.0412,0.0145,0.0274,16
+NUCL,NUC-T09,Prediction of the (anti)neutrino from conservation of energy and momentum in β decay,in,0.0303,0.0303,,,5.5,22.0,4.0,0.0412,0.0219,0.0169,14
+NUCL,NUC-T23,"Scale-up: energy from a mass of nuclear fuel, fuel needed for a given power output",in,0.0261,0.0261,,,2.0,28.17,11.0,0.015,0.0281,0.0464,17
+NUCL,NUC-T13,Sketch the exponential decay curve and mark half-lives,in,0.0217,0.0217,,,4.0,18.5,2.0,0.03,0.0184,0.0084,16
+NUCL,NUC-T19,Binding energy per nucleon against nucleon number: sketch and interpret,in,0.018,0.018,,,2.0,17.0,6.0,0.015,0.0169,0.0253,17
+NUCL,NUC-T15,"Radioactive dating: carbon-14 from the living ratio and measured activity, and parent : daughter ratios",in,0.0136,0.0136,,,1.5,32.0,0.0,0.0112,0.0319,0.0,15
+NUCL,NUC-T11,Power or energy output of a radioactive source from activity × energy per decay,in,0.013,0.013,,,1.0,21.5,3.67,0.0075,0.0214,0.0155,14
+NUCL,NUC-T16,"Applications of radioactivity: choosing a source by emission type (penetration, ionisation) and by half-life",changed,0.012,0.012,,,1.5,11.0,3.5,0.0112,0.011,0.0148,12
+NUCL,NUC-T08,"Nature and properties of α, β and γ radiation (identification, penetration, ionisation, deflection)",changed,0.0116,0.0116,,,0.5,30.67,2.0,0.0037,0.0306,0.0084,26
+NUCL,NUC-T03,Order-of-magnitude nuclear size and density estimates (R = R0 A^(1/3); nuclear vs atomic scale),in,0.0104,0.0104,,,1.5,0.0,4.5,0.0112,0.0,0.019,2
+NUCL,NUC-T04,"Nuclide notation, nucleon vs proton number, isotopes and the unified atomic mass unit",in,0.0096,0.0096,,,1.0,21.5,0.5,0.0075,0.0214,0.0021,19
+NUCL,NUC-T27,"Fission-product yield curve (percentage yield against nucleon number on a logarithmic axis): read the most probable fragment masses and yields, explain the log scale and the equal yields of complementary fragments",in,0.0089,0.0089,,,0.0,8.0,6.5,0.0,0.008,0.0274,5
+NUCL,NUC-T07,"Background radiation: origin, measurement and correction",in,0.0077,0.0077,,,1.0,11.5,1.0,0.0075,0.0115,0.0042,10
+NUCL,NUC-T29,"Two-nuclide systems: a radioactive daughter in a decay chain (growth then decay, formation rate against decay rate, which nuclide dominates) and a mixture of two independent nuclides (total activity as a sum of two exponentials)",in,0.0055,0.0055,,,0.0,22.0,0.0,0.0,0.0219,0.0,12
+NUCL,NUC-T28,"Fission chain reaction: neutrons released by one fission induce further fissions; control (moderator, control rods) and uncontrolled growth",in,0.0054,0.0054,,,0.0,9.0,3.0,0.0,0.009,0.0127,8
+NUCL,NUC-T25,Coulomb repulsion between protons at nuclear separations and the need for a short-range attractive nuclear force,in,0.0021,0.0021,,yes,0.0,0.0,0.5,0.0,0.0,0.0021,1

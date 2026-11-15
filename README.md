@@ -108,6 +108,8 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H2 computing
 
+**Archived 2026-11-11** (both papers over). Freeze notice: `raw files/H2 computing/ARCHIVED.md`. Role: `agents/computing.md`. The gaps below are optional library gaps, not practice tasks.
+
 1. TYS ANS 2020–2025; prelim ANS; HCI prelim 2025; RI prelim 2021–2022
 2. Practical resource fidelity vs origin dumps if you re-import
 
