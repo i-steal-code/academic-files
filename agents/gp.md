@@ -38,6 +38,12 @@
 
 ## Session log
 
+### 2026-11-15 — Filing reopen, re-frozen (by build)
+
+- **Decided:** One-pass unfreeze on Debig's instruction to file inbox GP docs; re-frozen the same day. New files are library material only (see `raw files/H1 GP/ARCHIVED.md` § Filing reopen). Not added to `LOCKED SITS.md` (none were sat).
+- **Touched:** `exam papers/prelim {QP,IN,ANS}/2026 DHS P2 prelim H1 GP.docx`, `prelim ANS/2025 {TJC,VJC} P2 prelim H1 GP.docx`, `misc/8881 P2 {Excellence,Shopping Malls} *.docx`, converted packages for each, `ARCHIVED.md`, `README.md` GP inventory
+- **Next:** None unless the user explicitly reopens GP. `scripts/2025 P2 VJC prelim.md` is an empty committed file and fails GP conversion; left as is (freeze).
+
 ### 2026-11-04 — Archive and lock up (papers over)
 
 - **Decided:** End the GP practice workflow. Freeze in place (no tree move). Added `raw files/H1 GP/ARCHIVED.md`. Bannered arsenal `00`, planning index, P1 worksheet, accuracy bank. Hardened `.cursor/rules/gp-8881-locked-sits.mdc` so overflow is not an active sit list. Removed GP practice paths from root `AGENTS.md` open-by-default. Role is archive steward only.

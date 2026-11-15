@@ -28,6 +28,14 @@ Design and maintain **workspace infrastructure**: how the academic library is la
 
 ## Session log
 
+### 2026-11-15 — Inbox filing pass + revision-paper category
+
+- **Decided:** Emptied `raw files/unfiled/` into subject trees (71 files). New math category `revision papers QP|ANS` named `YYYY RI Y5 {CT|TP} H2 math.pdf` (RP1 = 2022 CT, RP2 = 2023 CT, RP3 = 2024 TP). Math tutorials mirror physics: `base syllabus/{pure,statistics}/{tutorials,tut soln}/`, `C… Tutorial[ Solutions].pdf`; `- updated` / `(1)` suffixes dropped when they were the only copy. GP unfrozen for filing only, then re-frozen (see `agents/gp.md`).
+- **Decided (converter):** A default 150-DPI run of `convert_one.ps1` silently re-rendered the 220-DPI scan packages (exact-DPI skip check). Restored those 50 math packages at 220 DPI and changed `convert_science_package.py` to skip when the existing render is at least the requested DPI. Use `-Force` to deliberately rebuild lower.
+- **Decided (2026-11-10):** Hand-transcribed `converted packages/H2 computing/TYS QP/2025 P1 A-level H2 computing/content.md` from the raw PDF (old file was reversed-character garbage). Manifest not regenerated.
+- **Touched:** `raw files/H2 math/{revision papers QP,revision papers ANS,base syllabus/*/tutorials,base syllabus/*/tut soln,topical}/`, `raw files/H1 GP/exam papers/**`, `tools/convert_science_package.py`, `README.md`, `raw files/H1 GP/ARCHIVED.md`, `agents/gp.md`
+- **Next:** None. Inbox is empty (the bitwise duplicate `C1 Tut Sect A (Soln) (1).pdf` was removed outside this session; the filed copy is `pure/tut soln/C1 Tutorial Solutions.pdf`).
+
 ### 2026-11-04 — GP archive freeze (infra touch)
 
 - **Decided:** GP practice workflow ended in place (no folder move). Root `AGENTS.md` no longer opens GP arsenal/planning/scripts by default. Always-on lock rule covers full season archive, not only the gold sit list.

@@ -22,3 +22,7 @@
 | P2 accuracy bank (closed; do not extend) | `scripts/P2 accuracy bank (Tue).md` |
 
 Overflow other-school 8881 files remain in the tree as library material, not as an active sit list.
+
+## Filing reopen (2026-11-15, re-frozen same day)
+
+Debig unfroze GP for one filing pass only. Added as library material, not as sit queue items: 2026 DHS P2 prelim (QP/IN/ANS), 2025 VJC P2 prelim ANS, 2025 TJC P2 prelim ANS (`.docx` beside the existing `.pdf`), and `misc/` packs `8881 P2 Excellence` (QP/IN/MS) and `8881 P2 Shopping Malls` (QP/MS). No practice workflow was restarted. The freeze above applies again.

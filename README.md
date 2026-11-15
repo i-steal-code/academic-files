@@ -23,7 +23,7 @@ Each subject under `raw files/` has a **working tree** (canonical, named, LLM-fa
 
 **Per-subject working layout**
 
-- **H2 math:** `TYS QP|ANS`, `prelim QP|ANS`, `revision packages/`, `origin/` (A-level / prelim / revision scan bundles)
+- **H2 math:** `TYS QP|ANS`, `prelim QP|ANS`, `revision papers QP|ANS` (RI Y5 common tests / timed practice reissued as revision papers), `revision packages/`, `base syllabus/{pure,statistics}/` (lecture notes at folder root, plus `tutorials/` and `tut soln/`), `topical/`, `misc/`, `origin/` (A-level / prelim / revision scan bundles)
 - **H2 physics:** `exam papers/{TYS,prelim} {QP|ANS}`, `exam papers/misc/` (TP/CT), `base syllabus/{lect notes,tutorials,tut soln}/`, `revision packages/Chap N …/Chap N Revision Package {1|2|3}.pdf` (+ data booklet), `origin/` (revision scan bundles)
 - **H2 computing:** `base syllabus/S1–S4/` contains theory notes and lesson resources; `TYS QP/` and `prelim QP/` use a flat P1 PDF and a P2 **package** (PDF + `resource files/`); other-school CT/MYE/prelim sets are under `Past Exam Papers from Other Schools/`; references are under `base syllabus/reference documents/`; timed practice is under `misc/`; imports are under `origin/`
 - **H1 GP:** `exam papers/{TYS,prelim,promo} {ANS|QP|IN}`, plus `essay resources/`, `topics + case studies/`, `notes/`, `misc/`, `origin/`
@@ -82,6 +82,8 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 ## Naming
 
 - TYS: `YYYY PX A-level H2 {subject}.pdf` (physics TYS ANS currently year-bundled: `YYYY A-level H2 physics.pdf`)
+- Math revision papers: `YYYY RI Y5 {CT|TP} H2 math.pdf` (CT = common test, TP = timed practice; same stem in `revision papers QP` and `revision papers ANS`). Source labels: Revision Paper 1 = 2022 CT, 2 = 2023 CT, 3 = 2024 TP
+- Math tutorials: `C{N}[A-C] Tutorial.pdf` / `C{N}[A-C] Tutorial Solutions.pdf` under `pure/`; `CS{N}[AB] …` under `statistics/` (Section A solutions only)
 - Prelims: `YYYY {RI|HCI} PX prelim H2 {subject}.pdf` (GP: `YYYY {school} PX prelim H1 GP.pdf`) — use **prelim**, not `A-level`, so these are not confused with national papers
 - Promo (GP extras): keep `YYYY {RI|HCI} PX A-level H1 GP.pdf` under `promo *` folders (folder already marks promo). Pre-8881 (8807) papers live under `exam papers/misc/not 8881/`
 - Folder holds ANS vs QP (not repeated in filename); GP P2 also uses `prelim IN` / `promo IN` for comprehension inserts
@@ -95,7 +97,7 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 1. HCI prelim QP + ANS 2021–2022 (P1 + P2)
 2. Optional: earlier HCI coverage beyond target window
 
-**have:** TYS QP+ANS 2016–2025 P1–2; RI prelim QP 2018–2025; RI prelim ANS 2018–2025 (including Revision Paper solns for 2018–2021); HCI prelim QP+ANS 2023–2025; chapter revision packages + data booklet
+**have:** TYS QP+ANS 2016–2025 P1–2; RI prelim QP 2018–2025; RI prelim ANS 2018–2025 (including Revision Paper solns for 2018–2021); HCI prelim QP+ANS 2023–2025; chapter revision packages + data booklet; RI Y5 revision papers QP+ANS (2022 CT, 2023 CT, 2024 TP); pure C1–C9C and statistics CS1A–CS6 tutorials + Section A solutions; Yr 5 Promo / TP topical revision sets under `topical/`
 
 ### H2 physics
 
@@ -134,9 +136,10 @@ Image-only PDFs (no text layer) go through Tesseract OCR (`extract_mode: pdf_ocr
 - Specimen: IN+QP (no ANS) under `exam papers/misc/`
 - RI: prelim 2024–2025; promo 2024–2025; TP 2025 (`misc/`)
 - HCI: prelim 2024–2025
-- Other-school 8881 complete: 2024 ACJC, ASRJC, DHS, EJC, NJC, SAJC, VJC; 2025 ACJC, DHS, EJC, NJC, SAJC, TJC
+- Other-school 8881 complete: 2024 ACJC, ASRJC, DHS, EJC, NJC, SAJC, VJC; 2025 ACJC, DHS, EJC, NJC, SAJC, TJC, VJC; 2026 DHS
+- 2025 TJC P2 ANS exists as both `.pdf` and `.docx` (same paper; the converted package uses the `.docx` per GP policy)
 - 8807 / pre-8881: `exam papers/misc/not 8881/` (2023 RI P2; 2017 DHS Arts; 2023 TMJC JC1 Parental Guidance)
-- 8881 practice packs under `exam papers/misc/` (Comedy, Rules, Democracy, …). Not all are sit-shaped (Complaining / Gender Norms are 2-passage; some files are P1 essays)
+- 8881 practice packs under `exam papers/misc/` (Comedy, Rules, Democracy, Excellence, Shopping Malls, …). Not all are sit-shaped (Complaining / Gender Norms are 2-passage; some files are P1 essays)
 
 Tuition dump previously unpacked via `tools/reorg_gp_tuition.py`. Markdown mirrors: `python tools/convert_gp_package.py` (skips files >40MB, e.g. gitignored 2020 KS Bull Issue 1).
 

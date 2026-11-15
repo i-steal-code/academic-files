@@ -22,4 +22,4 @@
 | Papers | `TYS QP/`, `prelim QP/`, `Past Exam Papers from Other Schools/` |
 | Converted theory notes | `../../converted packages/H2 computing/` |
 
-Known library issue left for the build agent: the converted 2025 A-level P1 package is garbled (vertical OCR text); the raw PDF is fine.
+Resolved 2026-11-10 (build): the converted 2025 A-level P1 `content.md` was garbled (vertical OCR text) and has been hand-transcribed from the raw PDF.

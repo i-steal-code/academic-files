@@ -144,7 +144,7 @@ def convert_pdf(
         not force
         and existing
         and existing.get("source_sha256") == digest
-        and existing.get("dpi") == dpi
+        and (existing.get("dpi") or 0) >= dpi  # never downgrade 220-DPI scan rasters on a default run
         and (pkg / "content.md").is_file()
         and (pkg / "pages").is_dir()
     ):
