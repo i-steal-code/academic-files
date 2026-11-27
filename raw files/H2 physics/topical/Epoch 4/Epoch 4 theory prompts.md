@@ -1,0 +1,66 @@
+# Physics Epoch 4 · theory prompts
+
+Closed book. Write each answer on paper, then mark it against the answer key. Marks are in brackets.
+
+## Block 1 · tonight (34 marks)
+
+1. Explain how the photoelectric effect provides evidence for the particulate nature of light. [3]
+2. Explain how line spectra, together with the concept of the photon, provide evidence for discrete energy levels in atoms. [2]
+3. A beam of light is reflected normally by a mirror. Explain why the mirror experiences a force. [3]
+4. An atom has three energy levels, n = 1, 2 and 3. Explain why its emission spectrum can contain three lines, and state which transition gives the longest wavelength. [2]
+5. State the approximate range of wavelengths of visible light, and name the regions of the electromagnetic spectrum on either side of it. [2]
+6. Light above the threshold frequency falls on a metal. Its intensity is increased at constant frequency. Explain the effect on the photocurrent and on the maximum kinetic energy of the photoelectrons. [2]
+7. White light passes through a cool gas. Explain why the spectrum of the emerging light has dark lines. [2]
+8. State the principle of superposition. [1]
+9. A loudspeaker at one end of a tube, open at both ends, produces a stationary wave in the tube. Explain how the stationary wave is formed. [3]
+10. State three differences between a stationary wave and a progressive wave. [3]
+11. Two progressive waves, each of amplitude A, form a stationary wave. State the amplitude of the stationary wave. [1]
+12. State the phase relationship between two particles in a stationary wave that are (a) in the same loop, (b) in adjacent loops. [2]
+13. A microwave source faces a metal plate. A detector moved between them records minima that are not zero. Explain why. [2]
+14. Define electric field strength at a point. [1]
+15. An electron is in a uniform electric field directed into the page. State the direction of the electric force on it. [1]
+16. A ball bounces off a wall. State and explain whether the momentum of the ball is conserved. [2]
+17. Explain why gravitational potential is always negative. [2]
+
+## Block 2 · tomorrow morning, main (64 marks)
+
+18. Define e.m.f. and potential difference in terms of energy. [2]
+19. A cell with internal resistance is connected to a variable resistor. The resistance of the variable resistor is increased. Explain the change in the terminal p.d. of the cell. [3]
+20. The temperature of a thermistor rises. Explain, in terms of charge carriers, why its resistance falls. [2]
+21. (a) Define capacitance. [1] (b) Explain why capacitors connected in series carry the same charge. [2]
+22. A charged capacitor discharges through a resistor. Explain why the current decreases with time. [2]
+23. A potential divider has a fixed resistor in the upper arm and a light-dependent resistor (LDR) in the lower arm. The output is taken across the LDR. Explain the effect on the output p.d. when the light intensity increases. [2]
+24. Define the root-mean-square value of an alternating current. [2]
+25. A sinusoidal alternating current passes through a resistor. Describe the power–time graph and explain why the mean power is half the peak power. [2]
+26. Define gravitational potential at a point. [2]
+27. Define gravitational field strength at a point. [1]
+28. State three conditions for a satellite to be in a geostationary orbit. [3]
+29. A satellite in a circular orbit loses energy to air resistance. Explain why its speed increases. [3]
+30. Define simple harmonic motion. [2]
+31. Explain what is meant by damping, and describe light, critical and heavy damping. [3]
+32. Explain what is meant by resonance, and describe how increasing the damping changes the amplitude–driving frequency graph. [3]
+33. Define mass defect and binding energy of a nucleus. [2]
+34. Explain, with reference to binding energy per nucleon, why the fission of a heavy nucleus releases energy. [2]
+35. Explain what is meant by the random and the spontaneous nature of radioactive decay, and state the evidence for each. [2]
+36. Define decay constant and half-life. [2]
+37. A nucleus at rest emits an α-particle. Explain why the α-particle and the daughter nucleus move in opposite directions, and why the α-particle takes most of the kinetic energy. [3]
+38. In another decay, a γ-ray photon is emitted together with the α-particle. Explain why the α-particle and the daughter nucleus no longer move in exactly opposite directions. [2]
+39. Define electric potential at a point. [2]
+40. State two relationships between electric field lines and equipotential surfaces. [2]
+41. An electron must cross from one parallel plate to the other against the field. Explain why the minimum speed needed does not depend on the plate separation. [2]
+42. A charged particle enters a uniform magnetic field at right angles to the field. Explain why it moves in a circle. [3]
+43. Explain why the magnetic force does no work on the particle in 42. [2]
+44. Explain how crossed electric and magnetic fields select particles of one speed, and state what happens to particles that are faster. [3]
+45. Explain why the period of a charged particle's circular motion in a uniform magnetic field does not depend on its speed. [2]
+
+## Block 3 · tomorrow morning, hedges (17 marks, skip if behind)
+
+46. Define specific heat capacity and specific latent heat of fusion. [2]
+47. Explain why the temperature of a solid stays constant while it melts, even though energy is supplied. [2]
+48. Define the internal energy of a system, and explain why the internal energy of an ideal gas depends only on its temperature. [2]
+49. State the first law of thermodynamics, defining each term. [1]
+50. Distinguish between systematic and random errors. [2]
+51. Distinguish between accuracy and precision. [2]
+52. Explain what is meant by a polarised wave, and state which type of wave can be polarised. [2]
+53. State the principle of conservation of momentum, and state what is meant by an elastic collision. [2]
+54. Use Newton's laws to explain why momentum is conserved when two bodies collide. [2]

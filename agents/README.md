@@ -4,13 +4,17 @@ Chat context is disposable. Each **role** keeps a durable markdown file that the
 
 ## Roles
 
-| Role file | Primary function |
+H1 GP, H2 computing, H2 math and H2 physics are **archived** (physics re-froze 2026-11-27 after P1); their roles are **bookkeepers** for their own field: each files new documents by the `README.md` naming rules, keeps converted packages and the README inventory in step, answers where things live, and logs here. None of these roles runs practice or builds new tools unless the user explicitly asks.
+
+| Role file | Covers |
 | --- | --- |
-| [`build.md`](build.md) | Workspace infrastructure: library layout, conversion, ignore/slim hygiene, agent portability, tooling under `tools/` / `ops/`, repo conventions |
-| [`computing.md`](computing.md) | H2 computing **archived** (both papers done, 2026-11-11): freeze steward only — see `raw files/H2 computing/ARCHIVED.md` |
-| [`gp.md`](gp.md) | H1 GP **archived** (season closed): freeze steward only — see `raw files/H1 GP/ARCHIVED.md` |
-| [`math.md`](math.md) | H2 math content and practice: topical sets, prelims/TYS, readiness canvases, syllabus cuts |
-| [`physics.md`](physics.md) | H2 physics content and practice: chapters, revision packages, prelims, blurt sheets |
+| [`chemistry.md`](chemistry.md) | H2 chemistry — `raw files/H2 chemistry/` |
+| [`computing.md`](computing.md) | H2 computing — `raw files/H2 computing/ARCHIVED.md` |
+| [`gp.md`](gp.md) | H1 GP — `raw files/H1 GP/ARCHIVED.md` |
+| [`math.md`](math.md) | H2 math — `raw files/H2 math/ARCHIVED.md` |
+| [`physics.md`](physics.md) | H2 physics — `raw files/H2 physics/ARCHIVED.md` |
+
+Library-wide conventions (layers, naming, conversion) live in the root `README.md`.
 
 Add a new role by copying [`_role.template.md`](_role.template.md) and linking it in this table.
 

@@ -28,3 +28,6 @@ tools/_scan_work/
 # Cursor → Claude Code memory export (chat PII / local-only)
 ops/cursor-memory/
 
+# Build (infrastructure) agent role is private to the owner; public clones get subject bookkeepers only
+agents/build.md
+

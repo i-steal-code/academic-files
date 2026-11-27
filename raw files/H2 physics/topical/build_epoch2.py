@@ -94,7 +94,7 @@ def readiness():
             "setAttribute(){},addEventListener(){},querySelectorAll(){return []}}),querySelectorAll(){return []},"
             "addEventListener(){}};const window={addEventListener(){}};")
     tail = "\nconsole.log(JSON.stringify(CH.map(c=>({ch:c.ch,t:c.t,w:c.w,low:lowFrac(c)}))));"
-    r = subprocess.run(["node", "-e", stub + js + tail], capture_output=True, text=True, encoding="utf-8", check=True)
+    r = subprocess.run(["node"], input=stub + js + tail, capture_output=True, text=True, encoding="utf-8", check=True)  # stdin: the script is too long for a Windows command line
     return {c["ch"]: c for c in json.loads(r.stdout.strip().splitlines()[-1])}
 
 

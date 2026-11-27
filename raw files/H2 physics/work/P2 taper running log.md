@@ -1,5 +1,7 @@
 # P2 final taper — running log
 
+> **Frozen 2026-11-27 (A-levels over).** Kept as a practice record. Items still marked "pending" below were never closed and will not be.
+
 Single running log for the 20-chapter taper set (`../exam papers/P2 final taper questions.md`). Reflections and reviews come in through chat; the physics agent appends each entry here.
 
 **Per-chapter loop**
@@ -105,6 +107,11 @@ Frequency is the number of the six 2026 prelim sets (RI, DHS, EJC, HCI, NYJC, VJ
 - **A symbol the question defines is used exactly as defined** (Epoch 2 TMJC Q8 (b)(ix), 2 marks): "σ is the absolute uncertainty of the radius" means one radius, 0.001 m. Don't re-derive it as the uncertainty of Δr; the 3σ in the criterion is the safety margin.
 - **"Suggest an explanation for these observations": one point per observation, including any the stem hands you as data** (Epoch 2 JPJC Q9 (d)(iv)).
 - **2 marks on a one-line "explain" means two points:** the principle in words (W = Fs cos θ, with θ = 90°), then the conclusion (no work, constant speed) (Epoch 2 TMJC Q8 (b)(v)).
+- **Slow start (Epoch 3 P1 and the A-level P2):** the first two questions ate the paper's leeway. While waiting to start, recite the relations for the likeliest topics (φ = −GM/r, g = GM/r², E = −dV/dx, F = qE, r = mv/Bq, τ = RC, ½CV², BE bookkeeping) so the first question isn't the warm-up. Apply the 45-second skip test from question 1, not from question 3.
+- **Read the stem's end state** (Epoch 3 P3 EJC Q3 (b)): "the ice remains ice" means mcΔθ only, no latent heat. Underline the final state as you underline time-words.
+- **Check a formula's units before using it** (Epoch 3 P2 HCI Q3 (c)): ½mv is momentum-like, not energy; ½mv² gives J.
+- **"Change in X" is signed: ΔX = final − initial.** A drop gives a negative answer, and markers deduct a mark for a positive one. (Epoch 3 HCI Q2 (b)(ii))
+- **Circuit changes: write V = IR for each component before stating any direction.** R up → total R up → I down (same I everywhere in series) → p.d. across the fixed resistors down → p.d. across the changed component up, since the e.m.f. is shared. Every resistor in the loop goes into the total. (Epoch 3 DHS Q1 (b), (d))
 - Underline every command word. "Determine" means a value with unit and direction.
 - Sanity-check values against known ones: magnitude, units, sign. (Calculator entry, 5 leaks)
 - In a paper, open each new question by naming its topic and the two or three relations it needs before reading the parts. (Quick jumps between unlinked questions)
@@ -119,7 +126,7 @@ Frequency is the number of the six 2026 prelim sets (RI, DHS, EJC, HCI, NYJC, VJ
 
 **Gravitation (6/6 sets)**
 - ΔU = GMm(1/r₁ − 1/r₂), never GMm/Δr: U ∝ −1/r is not linear in r. (Ch 8)
-- φ ∝ −1/r, but g ∝ 1/r². g is minus the potential gradient. (Ch 8)
+- φ ∝ −1/r, but g ∝ 1/r². g is minus the potential gradient. (Ch 8; again in Epoch 3: g = GM/r written for GM/r²)
 - Why φ is negative, 2 marks: φ = 0 at infinity; the force is attractive, so the external force bringing the mass in is opposite to its displacement and does negative work. Give both points. (Epoch 2 YIJC Q3 (a)(ii))
 - Gravitational potential at a point: work done **per unit mass** by an external force bringing a small test mass **from infinity to that point**. "To infinity" is the binding-energy direction; don't mix them. (Ch 8; again in Epoch 1 JPJC Q2 (a))
 - Satellite losing energy to drag, three links, one mark each: E_total = −GMm/2r, so losing energy means r falls; E_K = GMm/2r, so E_K and speed rise; faster means more work against drag, turned to heat, so it burns up. Write all three, starting from E ∝ −1/r. (Epoch 1 JPJC Q2 (d))
@@ -144,10 +151,14 @@ In every set: RI P2 Q5, DHS P2 Q7 and P3 Q6, EJC P2 Q6, HCI P3 Q6, NYJC P3 Q4, V
 **Collisions and momentum (4/6)**
 - "Explain why momentum is conserved": the mechanism, Newton's third law with equal and opposite impulses, not the condition. (Ch 6)
 - Conservation of momentum: total momentum of a system is constant if no resultant external force acts on it. (Ch 6)
+- Ball hitting a wall: its momentum is **not** conserved because the wall exerts a resultant external force on it. Name the force and what it acts on. (Epoch 3 P3 TMJC Q3 (d), 2 marks)
 
 **Projectiles and charged particles between plates (4/6 and 3/6)**
 - Direction of a velocity: tan θ = v_y/v_x, never y/x. (Ch 14)
-- Force in an E-field: positive charge **along** the field lines, negative charge **against** them. To balance a downward magnetic force on an electron, E points **down**. (Epoch 2 YIJC Q6 (b)(i))
+- Force in an E-field: positive charge **along** the field lines, negative charge **against** them. **Missed twice now** (Epoch 2 YIJC Q6, Epoch 3 ASRJC Q5: an electron in B with E into the page drifts **out** of the page, and its pitch grows because that force accelerates it). To balance a downward magnetic force on an electron, E points **down**. (Epoch 2 YIJC Q6 (b)(i))
+- Electric field strength: force per unit charge on a small **positive** test charge at that point. (Epoch 3 YIJC Q5 (a))
+- Minimum launch speed to cross plates: ½mu² = e × (p.d. between the plates), so u_min = √(2eV/m). Plate spacing drops out: doubling d halves E = V/d but doubles the distance, so the work eEd = eV is unchanged. (Epoch 3 YIJC Q5 (b)(iii))
+- Field lines between unequal charges: arrows from + to −, perpendicular to each surface, and line count ∝ charge (twice the charge, twice the lines; the extra lines end at infinity). (Epoch 3 CJC Q1 (a))
 - Speed change in an E-field, from first principles: gain in KE = loss in EPE, ½mv² − ½mu² = −qΔV (electron: q = −e). Write the change, not totals; the end point has EPE too. (Epoch 2 DHS Q5 (d))
 - Deflection between plates ∝ V when the entry speed and plate length are fixed. Look for a proportionality before redoing working. (Ch 14)
 - s = ½(u + v)t is the area under a straight v–t line; s = vt only at constant velocity. (Ch 3)
@@ -172,10 +183,15 @@ In every set: RI P2 Q7, DHS P2 Q6, EJC P2 Q7 and P3 Q7, HCI P2 Q8 and P3 Q8, NYJ
 - Energy from a mass difference, one route only: Δm in u × 1.66 × 10⁻²⁷ → kg; E = Δmc² in J; ÷ 1.60 × 10⁻¹⁹ → eV; ÷ 10⁶ → MeV. The data booklet has no 931.5 MeV per u, so don't rely on it. (Ch 20 (e))
 - Two bodies flying apart from rest (fusion products, α decay, recoil): equal and opposite momenta; E_K = p²/2m, so E_K ∝ 1/m and the lighter particle takes the larger share. For n + He-4: 4 : 1, so the neutron gets ⅘ of 17.6 = 14.1 MeV. Same logic as an explosion. (Ch 20 (e)(iv))
 - α-decay with a γ photon (Epoch 2 JPJC Q9 (c)): name it, "gamma photon". Not all the energy goes to kinetic energy. The photon carries momentum in a random direction, so the α and the daughter don't fly apart exactly opposite; the total momentum is still conserved.
+- Why fission releases energy, 2 marks: the products have higher BE per nucleon, so their **total** BE exceeds the uranium's. More energy is released forming the products from free nucleons than is needed to separate the uranium into nucleons. (Epoch 3 HCI Q8 (a))
 - Energy released from binding energies: Σ BE(products) − Σ BE(reactants), each BE = BE per nucleon × A. Free neutrons, protons and electrons have **zero** binding energy, so leave them out. (Epoch 1 NJC Q7 (b), 2 marks plus the carry into (c))
 
 **Photoelectric effect (3/6)**
 - Threshold: one photon gives all of hf to one electron, so below f₀ nothing is emitted at any intensity. The wave model ties energy to intensity, so it predicts emission at any frequency eventually. Name both models. (Ch 19)
+- **Two evidence chains, never swapped** (Epoch 3 P2 HCI Q7 (a) and P3 CJC Q5 (a), swapped both ways). *Photoelectric effect → light is photons:* threshold frequency; below it no emission at any intensity; one photon to one electron, hf ≥ Φ. *Line spectra → discrete energy levels:* each photon's energy hf = hc/λ equals the **difference between two levels**; only certain photon energies appear, so only certain level values exist. The level-difference line is the bridge from "discrete photons" to "discrete levels".
+- Photon momentum p = h/λ. Bouncing off a sail reverses it, so each photon's Δp = 2h/λ; force = rate of change of momentum; by Newton's third law the sail feels an equal and opposite force. (Epoch 3 P2 HCI Q7 (c))
+- Line spectra from three levels: an atom in n = 3 drops 3→1 directly, or 3→2 then 2→1, so three lines. Longest λ = smallest gap. Energies add (E₃₁ = E₃₂ + E₂₁); wavelengths don't, 1/λ does. (Epoch 3 P3 CJC Q5 (b)(i))
+- Visible light is about 400–700 nm. Shorter is **ultraviolet**, longer is **infrared**; write the word in full. (Epoch 3 P3 CJC Q5 (b)(ii))
 
 **Infinite well (3/6)**
 - One chain: L = nλ/2 → p = h/λ = nh/2L → V = 0 inside, so E = p²/2m → E_n = n²h²/8mL². (Ch 19)
@@ -192,6 +208,9 @@ Double slit: RI P2 Q2, EJC P2 Q5, HCI P3 Q10. Stationary waves: HCI P2 Q4 (micro
 - Minima not zero: the reflected wave is weaker than the incident wave, so they cannot cancel fully. Nearer the source the incident wave is stronger and the reflected weaker, so the minimum readings rise. (Ch 11 (c)(iii))
 - Conditions for observable fringes: coherent (constant phase difference); similar amplitudes; for transverse waves, the **same polarisation**; fringe separation λD/a **large enough to see**. (Ch 11 (d))
 - Phase difference Δφ = 2πΔx/λ. (Ch 10)
+- Principle of superposition: **when two or more waves meet at a point**, the resultant displacement is the sum of the individual displacements. Displacement, never amplitude. (Epoch 3 P2 EJC Q6 (a))
+- Forming a stationary wave, 3 marks: incident and reflected waves of the **same type, frequency, wavelength and speed, about the same amplitude**, travelling in **opposite directions**; the wave reflects **at the end of the tube** (an open end reflects sound too); they **superpose** ("meet" or "interfere" is not accepted). (Epoch 3 P2 EJC Q6 (b))
+- Amplitude of a stationary wave = amplitude at an antinode = 2A of each progressive wave. Sketch both extreme positions, one solid and one dotted; open–open tube has displacement antinodes at both ends, and a pressure antinode is a displacement node. (Epoch 3 P2 EJC Q6 (c))
 - "Features of a stationary wave" is a list question (3 marks): profile does not advance; amplitude varies from zero at nodes to maximum at antinodes; particles in one loop in phase, adjacent loops in antiphase; adjacent nodes λ/2 apart; no net energy transfer. (Epoch 1 NJC Q5 (a))
 
 ### Tier 2: reread once
@@ -475,6 +494,12 @@ Answered as numbered method lines, not worked numbers, so calculation parts are 
 - **Readiness (v21):** paper added to `PAPERS` at 56; lowball 69.7% → 69.9% (about 52/75). The paper anchor is still the worst paper (54). P3 habit weights: drawings and graphs 8, marker's intent 6.5, calculator and long chains 6.
 - **Fix:** three new Tier 1 habits (gradient, drawing, long chains). For P3 practice, Epoch 2's graph items are DHS Q5 (E from the V–x gradient), YIJC Q3 (φ–r sketch), JPJC Q4 (pressure to displacement sketch) and TJC Q6 (tangent on a V–t curve).
 
+### A-level P3 — 2026-11-17
+- **Mark (user):** about 60–62/75, similar to P2. Read the same way as P2: the model takes 56/75 (mean less ~5). Target was 60.
+- **What came out:** no nuclear; standing waves appeared instead (the Epoch 3 and Epoch 4 stationary-wave fixes were drilled the night before). Section B options: circuits and thermodynamics.
+- **Leaks:** not reported, so nothing added to `LEAKS`.
+- **Readiness (v31):** paper added to `PAPERS` and `RECORD`. The focus lock ends here; next paper is P1 on Fri 27 Nov.
+
 ### Topical: Epoch 2 Block 1 marathon — 2026-11-13
 - **Target / actual:** 121 min / 1:56:00, one sitting (1.5 min per mark, under P3 pace)
 - **Mark:** about 64/76 (84%), low end. Skill leaks about 8 (graphs 6, method 2); content about 4.
@@ -509,6 +534,51 @@ Answered as numbered method lines, not worked numbers, so calculation parts are 
 - **Reclassified (user, 14 Nov):** the reading misses (σ as defined, the observation left out, the p.d. "after the flash" in the marathon) are one leak, marker's intent read as reading comprehension, the main risk in data-based and Section B stems. DHS (c)(iv) is P4-style data analysis, unlikely in P3, so it is left out of the Ch 9 evidence (Ch 9 back to 4; lowball 71.3%, about 53/75; ceiling 93.8%; v25).
 - **Readiness (v24):** lowball 71.1% → 71.2% (about 53/75); ceiling 92.8%; content Ch 17 3 → 4, Ch 20 3 → 4, Ch 9 4 → 3. Leak weights: marker's intent 6.5 → 7.5, command words 1 → 1.5; drawings and graphs still top at 11.
 - **Fix:** correction-sheet lines tagged "Epoch 2" (Tier 1 habits, nuclear, s.h.m.).
+
+### Topical: Epoch 3 Paper 1 (exam-style) — 2026-11-15
+- **Target / actual:** 2:00 / 1:56:30, one sitting. The first two questions took far longer than their marks, so the rest ran without leeway.
+- **Mark:** about 59/76 (78%), low end. Skill leaks about 11, content about 6.
+
+| No. | Code | Question | Mark | Lost |
+| --- | --- | --- | --- | --- |
+| 1 | E3-101 | HCI Q2 | 5/8 | (a)(ii) GM/r for GM/r², 2 (A); (b)(ii) change in KE given positive (R) |
+| 2 | E3-102 | CJC Q2 | 6/7 | (b)(i) 2/6 copied as 2/3 (A) |
+| 3 | E3-103 | ASRJC Q5 | 8/9 | (b)(iii) helix into the page, no increasing pitch: force on an electron opposes E (C, repeat) |
+| 4 | E3-104 | CJC Q1 | 8/11 | (a) field-line direction and density, 2 (G); (b)(ii)1 acceleration rising 28–20 mm (G) |
+| 5 | E3-105 | DHS Q1 | 6/10 | (b) 5800 Ω left out, 2 (D); (d) current and p.d. swapped, 2 (D) |
+| 6 | E3-106 | HCI Q8 | 6/7 | (a) total-BE point (C) |
+| 7 | E3-107 | YIJC Q5 | 7/10 | (a) "positive" test charge (C); (b)(iii) u_min set by the p.d. only, 2 (C) |
+| 8 | E3-108 | EJC Q5 | 6/6 | none |
+| 9 | E3-109 | HCI Q5 | 7/8 | (b)(ii) second point: Ir grows with I (C) |
+
+- **Read:** two thirds of the loss is skill: careless copying (3), graphs (3), circuit set-up (4), a sign (1). The force-on-a-negative-charge miss is a repeat from Epoch 2. HCI Q5 (c) is a 1/I against R graph in a P3 Section A: data analysis does appear in P3, at a small share.
+- **Readiness (v26):** lowball 71.3% → 71.7% (about 54/75); ceiling 94.8%; Ch 8 content 3 → 4. Leak weights: drawings and graphs 13, marker's intent 8.5, calculator and copying 8, stalls 2.5, diagrams in working 2.
+- **Fix:** Tier 1 lines tagged "Epoch 3".
+
+### Topical: Epoch 3 Papers 2 and 3 (exam-style, back to back) — 2026-11-16
+- **Target / actual:** Paper 2 2:00 / 1:55:57; graph parts took the most time, leaving little to check skipped parts. Paper 3 (hedges) straight after, about 50 min with interrupted timing.
+- **Mark:** Paper 2 about 62/76 (82%), Paper 3 about 26/32 (81%), low end. Skill leaks about 10, content about 16.
+
+| No. | Code | Question | Mark | Lost |
+| --- | --- | --- | --- | --- |
+| 1 | E3-201 | SAJC Q2 | 5/5 | none |
+| 2 | E3-202 | HCI Q3 | 7/8 | (c) KE peak from ½mv (A) |
+| 3 | E3-203 | JPJC Q5 | 7/8 | (b)(i) got by reverse-engineering, no mark lost; (b)(ii) energy argument, not R down → p.d. across 48 Ω down (D) |
+| 4 | E3-204 | SAJC Q3 | 8/8 | none |
+| 5 | E3-205 | HCI Q7 | 3/6 | (a) line-spectra chain given for photoelectric evidence, 2 (C); (c) p = h/λ and Δp → force (C) |
+| 6 | E3-206 | EJC Q7 | 6/8 | (a)(i) proton numbers wrong (C); (b)(ii) 931.5 MeV/u, not SI (U; 7.84 vs 7.86 likely still scores) |
+| 7 | E3-207 | YIJC Q2 | 4/5 | (b) calculator mis-entry (A) |
+| 8 | E3-208 | EJC Q6 | 3/8 | (a) "when two or more waves meet" (C); (b) conditions list, reflection moved from the tube end to the walls, 2 (C); (c)(i) amplitude 2A (C); (c)(ii) other extreme not dotted (G) |
+| 9 | E3-209 | EJC Q8 | 19/20 | (c) "always" perpendicular (R; likely benefit of the doubt) |
+| P3-1 | E3-301 | ASRJC Q1 | 5/5 | none |
+| P3-2 | E3-302 | TMJC Q3 | 7/9 | (d) cause not named: the wall's external force on the ball, 2 (R) |
+| P3-3 | E3-303 | EJC Q3 | 4/5 | (b) stem said the ice stays ice: only mcΔθ (R) |
+| P3-4 | E3-304 | EJC Q4 | 8/8 | none |
+| P3-5 | E3-305 | CJC Q5 | 2/5 | (a) photon energy = level difference (C); (b)(i) cascade 3→2→1 (C); (ii) ultraviolet (C) |
+
+- **Read:** the skill leaks shrank (about 10 against 11 in Paper 1, over 40% more marks). Content is now the larger loss, and it sits in two small areas: quantum evidence (photoelectric vs line spectra, swapped both ways across the two papers; photon momentum; EM-spectrum boundaries) and stationary-wave wording (definition, conditions, amplitude 2A, dotted extreme, reflection at an open end). Both are list-and-definition facts, fixable in one read. Mechanics, gravitation, waves and measurement were clean.
+- **Readiness (v30):** lowball 71.7% → 72.2% (about 54/75); ceiling about 71/75. Leak weights: drawings and graphs 15, marker's intent 10, calculator and copying 10, stalls 2.5, diagrams in working 2.5.
+- **Fix:** Tier 1 lines tagged "Epoch 3 P2/P3"; pre-paper sheet section 3.
 
 ## Learning history (Cursor physics chat, 4 Jul – 2 Nov)
 

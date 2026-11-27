@@ -2,7 +2,7 @@
 
 ## Primary function
 
-_One paragraph: what this role owns._
+_One paragraph: what this role owns. Default stance in this repo is **bookkeeper** (keep the record filed, indexed and logged; no new practice or tooling unless the user asks)._
 
 **In scope:** …
 

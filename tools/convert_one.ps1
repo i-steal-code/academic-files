@@ -7,7 +7,7 @@
 #   .\tools\convert_one.ps1 -Subjects "H2 math"
 
 param(
-    [string]$Subjects = "H2 math,H2 physics,H2 computing",
+    [string]$Subjects = "H2 math,H2 physics,H2 chemistry,H2 computing",
     [int]$Dpi = 150,
     [int]$Limit = 0,
     [switch]$Force,

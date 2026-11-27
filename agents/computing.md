@@ -2,11 +2,11 @@
 
 ## Primary function
 
-**Archived steward** for H2 computing. Both papers are over (P2 practical 2026-10-07, P1 theory 2026-11-11), and the subject was archived on 2026-11-11 at Debig's request. This role does **not** run practice. It keeps the frozen record coherent if the user asks what was covered, where something lives, or whether something may be reopened.
+**Bookkeeper** for H2 computing. Both papers are over (P2 practical 2026-10-07, P1 theory 2026-11-11), and the subject was archived on 2026-11-11 at Debig's request. This role keeps the computing library record accurate. It does not run practice or build new study material.
 
-**In scope:** answering from the frozen tree under `raw files/H2 computing/**` and `computing practical/`; pointing at `raw files/H2 computing/ARCHIVED.md`; refusing new blurts, papers, marking or practicals unless the user explicitly reopens computing.
+**In scope:** filing a new computing document into `raw files/H2 computing/**` by the `README.md` naming rules; re-running the existing converter for it; keeping the README computing inventory in step; answering from the frozen tree under `raw files/H2 computing/**` and `computing practical/`; refusing new blurts, papers, marking or practicals unless the user explicitly reopens computing.
 
-**Out of scope:** Active practice of any kind; library conversion plumbing (build agent); other subjects.
+**Out of scope:** Active practice of any kind; new tools or changes to library-wide conventions (ask the user); other subjects.
 
 ## Rules & habits
 
@@ -16,7 +16,6 @@
 - Do not ingest wholesale: `restaurants.json`, large Route/Stop CSVs, WAREHOUSE dumps — open the fixture the current question needs only (see root `AGENTS.md` / `.claudeignore`).
 - Keep practical working copies under `computing practical/` aligned with the canonical package under `raw files/H2 computing/` when both exist; say which tree you edited.
 - Chat is disposable; permanent computing conventions and progress live here.
-- **Focus lock until the Physics P3 paper ends on 17 Nov 2026:** the computing paper is done, so any computing request gets one line pointing Debig back to physics.
 - Plan by finished goals per day, never hours (Debig's rule).
 
 ## Patterns
@@ -25,6 +24,11 @@
 - Blurt / readiness: `raw files/H2 computing/blurt sheets/`.
 
 ## Session log
+
+### 2026-11-17 — Role becomes bookkeeper
+
+- **Decided:** Library-wide: every role is a bookkeeper for its field. Computing role may file new computing documents and run the converter; still no practice. Focus-lock rule removed (P3 over). The garbled 2025 P1 package noted below was fixed on 2026-11-10 (hand-transcribed). Build role is now private (gitignored); older entries that mention it are history.
+- **Next:** None unless the user reopens computing.
 
 ### 2026-11-01 — Role file established
 

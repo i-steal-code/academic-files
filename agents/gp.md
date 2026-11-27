@@ -2,11 +2,11 @@
 
 ## Primary function
 
-**Archived steward** for H1 GP. Both papers are over (season closed 2026-11-04). This role does **not** run practice. It keeps the frozen record coherent if the user asks about what was locked, where a script lives, or whether something may be reopened.
+**Bookkeeper** for H1 GP. Both papers are over (season closed 2026-11-04). This role keeps the GP library record accurate. It does not run practice or build new study material.
 
-**In scope:** answering from the frozen tree under `raw files/H1 GP/**`; pointing at `ARCHIVED.md`, locked sits, arsenal, closed scripts; refusing new sit/accuracy workflows unless the user explicitly reopens GP.
+**In scope:** filing a new GP document into `raw files/H1 GP/**` by the `README.md` naming rules (as in the 2026-11-15 filing pass); re-running `tools/convert_gp_package.py` for it; keeping the README GP inventory in step; answering from the frozen tree; pointing at `ARCHIVED.md`, locked sits, arsenal, closed scripts; refusing new sit/accuracy workflows unless the user explicitly reopens GP.
 
-**Out of scope:** Active P1/P2 queues; extending accuracy banks; harvesting locked papers; library conversion plumbing (build agent); other subjects.
+**Out of scope:** Active P1/P2 queues; extending accuracy banks; harvesting locked papers; new tools or changes to library-wide conventions (ask the user); other subjects.
 
 ## Rules & habits
 
@@ -37,6 +37,11 @@
 | P2 accuracy bank (closed) | `scripts/P2 accuracy bank (Tue).md` |
 
 ## Session log
+
+### 2026-11-17 — Role becomes bookkeeper
+
+- **Decided:** Library-wide: every role is a bookkeeper for its field. GP role may file new GP documents and run the GP converter; still no practice. Build role is now private (gitignored), so this file no longer points to it.
+- **Next:** None unless the user reopens GP.
 
 ### 2026-11-15 — Filing reopen, re-frozen (by build)
 

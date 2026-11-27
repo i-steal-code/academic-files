@@ -2,21 +2,23 @@
 
 Prefer small, decision-bearing files. Do **not** walk bulk OCR dumps, page rasters, or sample datasets into context.
 
-## Focus lock (until the Physics P3 paper ends, 2026-11-17)
+## Library archived (2026-11-27)
 
-Debig set this on 2026-11-07 so he can study; it overrides the rest of this file. Physics works normally to the agreed study plan. Computing's paper was on 2026-11-11 and the subject is now archived. Every other role does no work and replies in one line that points Debig back to studying. Full rule: `../hub/AGENTS.md`.
+A-levels are over. H1 GP, H2 computing, H2 math and H2 physics are closed and kept as a frozen record; each subject folder has an `ARCHIVED.md` freeze notice. Agents for those subjects act as **bookkeepers**: file new documents by the `README.md` naming rules, keep converted packages and the README inventory in step, answer where things live, and log decisions. Do not run practice, set or mark work, or build new tools unless the user explicitly reopens a subject.
+
+Physics was briefly reopened for the P1 paper (2026-11-17 → 2026-11-27) and re-froze when P1 ended. H2 chemistry is a library section with no archive or active-development label.
 
 ## Role agents (permanent thumbdrive)
 
 Chats are disposable. Each role keeps durable state in `agents/<role>.md` (function, rules, habits, session log). Protocol: `agents/README.md`. Always-on rule: `.cursor/rules/agent-role-logs.mdc`.
 
-| Role | File | Job |
+| Role | File | Covers |
 | --- | --- | --- |
-| Build | `agents/build.md` | Workspace infrastructure |
-| Computing | `agents/computing.md` | H2 computing **archived**: freeze steward only (`raw files/H2 computing/ARCHIVED.md`) |
-| GP | `agents/gp.md` | H1 GP **archived** — freeze steward only (`raw files/H1 GP/ARCHIVED.md`) |
-| Math | `agents/math.md` | H2 math content |
-| Physics | `agents/physics.md` | H2 physics content |
+| Chemistry | `agents/chemistry.md` | H2 chemistry library (`raw files/H2 chemistry/`) |
+| Computing | `agents/computing.md` | H2 computing (`raw files/H2 computing/ARCHIVED.md`) |
+| GP | `agents/gp.md` | H1 GP (`raw files/H1 GP/ARCHIVED.md`) |
+| Math | `agents/math.md` | H2 math (`raw files/H2 math/ARCHIVED.md`) |
+| Physics | `agents/physics.md` | H2 physics (`raw files/H2 physics/ARCHIVED.md`) |
 
 At session start, read your role file. Before the chat ends, append decisions there so the next holder is not stuck replaying a long transcript.
 
@@ -28,19 +30,20 @@ At session start, read your role file. Before the chat ends, append decisions th
 | --- | --- |
 | `agents/<role>.md` | Your role’s permanent context |
 | `README.md` | Library layers, naming, conversion policy |
+| `raw files/<subject>/ARCHIVED.md` | Freeze notice and where that subject's records live |
 | `.cursor/rules/` | Role-log protocol; GP archive/lock rule; writing coherence |
-| `raw files/*/blurt sheets/` | Active revision notes (math / physics; computing's are archived) |
 
 ## Open only when the task names them
 
 - A specific paper under `converted packages/…/<stem>/content.md` (or its raw PDF)
 - One chapter tutorial / lect notes package
-- Any `raw files/H1 GP/**` path — **season archived**; open only if the user explicitly asks about GP
-- Any `raw files/H2 computing/**` or `computing practical/**` path — **archived 2026-11-11**; open only if the user explicitly asks about computing
+- Any archived subject's `blurt sheets/`, `work/`, `scripts/` or practice files — frozen practice records
+- Any `raw files/H1 GP/**` path — open only if the user explicitly asks about GP
+- Any `raw files/H2 computing/**` or `computing practical/**` path — open only if the user explicitly asks about computing
 
 ## Never load wholesale
 
-- Entire H1 GP tree as “default context” (archived — see `raw files/H1 GP/ARCHIVED.md`)
+- Any whole subject tree as “default context”
 - KS Bull / Kaleidoscope / REHEARSE / Infopacks / IPS papers / long GP guides / **all** `topics + case studies` packs — **index-only** under `converted packages/` (`corpus_mode: index`). Titles only; raw PDF/DOCX for deep read. Rebuild full dump only with `python tools/convert_gp_package.py --full-corpus --force`.
 - `converted packages/**/pages/` rasters
 - `tools/_scan_work/`, `ops/cursor-memory/`, `origin/`, `unfiled/`

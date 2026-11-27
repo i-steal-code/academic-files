@@ -1,6 +1,8 @@
 # academic-files
 File database for LLM qualitative analysis.
 
+> **Archived 2026-11-27 — A-levels are over.** H1 GP, H2 computing, H2 math and H2 physics are closed and kept as a frozen record; each has an `ARCHIVED.md` freeze notice under `raw files/<subject>/`. Their agent roles in `agents/` are bookkeepers only (filing, indexing, inventory), not practice builders. The "Missing documents" lists below are optional library gaps, not study tasks.
+
 ## Resource management overview
 
 Each subject under `raw files/` has a **working tree** (canonical, named, LLM-facing) plus an **`origin/`** vault for original imports. These are the only files that physical humans need to download and read.
@@ -25,6 +27,7 @@ Each subject under `raw files/` has a **working tree** (canonical, named, LLM-fa
 
 - **H2 math:** `TYS QP|ANS`, `prelim QP|ANS`, `revision papers QP|ANS` (RI Y5 common tests / timed practice reissued as revision papers), `revision packages/`, `base syllabus/{pure,statistics}/` (lecture notes at folder root, plus `tutorials/` and `tut soln/`), `topical/`, `misc/`, `origin/` (A-level / prelim / revision scan bundles)
 - **H2 physics:** `exam papers/{TYS,prelim} {QP|ANS}`, `exam papers/misc/` (TP/CT), `base syllabus/{lect notes,tutorials,tut soln}/`, `revision packages/Chap N …/Chap N Revision Package {1|2|3}.pdf` (+ data booklet), `origin/` (revision scan bundles)
+- **H2 chemistry:** `TYS ANS/`, `prelim {QP|ANS}/`, `school papers {QP|ANS}/` (RI Y5 TP / promo, Y6 CT / T3 TP / class tests), `base syllabus/{tutorials,tut soln}/Chap NN …/` (Chap 00 bridging to Chap 24), `revision booklet ANS/`, `chem focus/` (RI Chem Focus and CHEMpower sets, original Year/Term/Session structure kept), `revision/2026 T3/` (planning, practical theory, Wed revision, revision tutorials, revision timed practice, practical expt answers)
 - **H2 computing:** `base syllabus/S1–S4/` contains theory notes and lesson resources; `TYS QP/` and `prelim QP/` use a flat P1 PDF and a P2 **package** (PDF + `resource files/`); other-school CT/MYE/prelim sets are under `Past Exam Papers from Other Schools/`; references are under `base syllabus/reference documents/`; timed practice is under `misc/`; imports are under `origin/`
 - **H1 GP:** `exam papers/{TYS,prelim,promo} {ANS|QP|IN}`, plus `essay resources/`, `topics + case studies/`, `notes/`, `misc/`, `origin/`
 
@@ -35,7 +38,7 @@ Reorg / dedupe helper: `python tools/reorg_subjects_origin_dedupe.py`
 - **H1 GP:** markdown-only packages under `converted packages/H1 GP/` (prefer `.docx` → md when both exist for the same stem; PDF only if no DOCX). Run `python tools/convert_gp_package.py`.
 - **GP bulk corpora** (KS Bull, Kaleidoscope, REHEARSE, Infopacks, IPS papers, long guides, and all `topics + case studies` packs): convert stores a **title index only** by default so agents are not drowned in OCR dumps. Curated model essays / question lists under `essay resources/` stay full-text. Open the raw PDF for a named pack, or rebuild a full dump with `python tools/convert_gp_package.py --full-corpus --force`. Re-slim with `python tools/slim_agent_context.py`.
 - **Cheatsheets / living notes:** keep as ordinary files under `notes/`. Prefer infrequent manual drops over live API sync. Experimental Google Docs hourly sync lives on archived branch `archive/google-integration`.
-- **H2 math / physics / computing:** hybrid packages — raw PDF stays canonical; MarkItDown `content.md` is a lossy text index; `pages/page-NNN.png` preserves visual fidelity for equations/figures.
+- **H2 math / physics / chemistry / computing:** hybrid packages — raw PDF stays canonical; MarkItDown `content.md` is a lossy text index; `pages/page-NNN.png` preserves visual fidelity for equations/figures.
 - Never treat science `content.md` as exam-accurate alone. Prefer md for search/chunking; open `pages/` or the raw PDF when math or diagrams matter.
 
 **Agent context:** see `AGENTS.md`. `.claudeignore` / `.cursorignore` exclude binaries, page rasters, sample datasets, `origin/`, and operator dumps.
@@ -48,7 +51,7 @@ some minor changes in qns, mark out portions of questions that are not tested in
 Requires **Python 3.10+** on PATH/`py` launcher (MarkItDown). The wrapper creates `.venv-convert` automatically.
 
 ```powershell
-# setup + mass convert (math, physics, computing PDFs under raw files/)
+# setup + mass convert (math, physics, chemistry, computing PDFs under raw files/)
 .\tools\convert_one.ps1
 
 # skip archived RI TP under exam papers/misc/ (and other misc/)
@@ -76,14 +79,16 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 - Digitised TYS for all subjects (ANS + QP per paper)
 - Past 5 years prelims (2021–2025) from RI and HCI for all subjects (ANS + QP per paper)
-- Paper counts: math P1–2; physics P1–4 (RI prelims usually split P3 into P3A/P3B); computing P1–2 (P1 theory, P2 practical); GP P1–2 (P1 essay, P2 compre)
+- Paper counts: math P1–2; physics P1–4 (RI prelims usually split P3 into P3A/P3B); chemistry P1–4 (P4 practical); computing P1–2 (P1 theory, P2 practical); GP P1–2 (P1 essay, P2 compre)
 - ANS may appear as MS / SS / Soln(s) / Solutions in source filenames; stored under ANS folders
 
 ## Naming
 
-- TYS: `YYYY PX A-level H2 {subject}.pdf` (physics TYS ANS currently year-bundled: `YYYY A-level H2 physics.pdf`)
+- TYS: `YYYY PX A-level H2 {subject}.pdf` (physics TYS ANS and chemistry TYS ANS 2015–2024 are year-bundled: `YYYY A-level H2 {physics|chemistry}.pdf`)
 - Math revision papers: `YYYY RI Y5 {CT|TP} H2 math.pdf` (CT = common test, TP = timed practice; same stem in `revision papers QP` and `revision papers ANS`). Source labels: Revision Paper 1 = 2022 CT, 2 = 2023 CT, 3 = 2024 TP
 - Math tutorials: `C{N}[A-C] Tutorial.pdf` / `C{N}[A-C] Tutorial Solutions.pdf` under `pure/`; `CS{N}[AB] …` under `statistics/` (Section A solutions only)
+- Chemistry school papers: `YYYY RI {Y5 TP|Y5 promo|Y6 CT|Y6 T1 org quiz|Y6 T2 CT|Y6 T3 TP} H2 chemistry.pdf` (same stem in `school papers QP` and `school papers ANS`)
+- Chemistry tutorials, revision booklet, Chem Focus and T3 revision files keep their source filenames inside normalised `Chap NN …` / session folders (extensionless PDFs given `.pdf`)
 - Prelims: `YYYY {RI|HCI} PX prelim H2 {subject}.pdf` (GP: `YYYY {school} PX prelim H1 GP.pdf`) — use **prelim**, not `A-level`, so these are not confused with national papers
 - Promo (GP extras): keep `YYYY {RI|HCI} PX A-level H1 GP.pdf` under `promo *` folders (folder already marks promo). Pre-8881 (8807) papers live under `exam papers/misc/not 8881/`
 - Folder holds ANS vs QP (not repeated in filename); GP P2 also uses `prelim IN` / `promo IN` for comprehension inserts
@@ -94,6 +99,8 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H2 math
 
+**Archived 2026-11-17.** Freeze notice: `raw files/H2 math/ARCHIVED.md`. Role: `agents/math.md`.
+
 1. HCI prelim QP + ANS 2021–2022 (P1 + P2)
 2. Optional: earlier HCI coverage beyond target window
 
@@ -101,12 +108,23 @@ Image-only scans (many math TYS/prelim QP + revision packages) often have empty 
 
 ### H2 physics
 
+**Archived 2026-11-27** (closed after P3 on 2026-11-17, briefly reopened for P1, re-frozen after P1). Notice: `raw files/H2 physics/ARCHIVED.md`. Role: `agents/physics.md`.
+
 1. TYS QP 2016–2025 (all papers) — none present
 2. TYS ANS 2025 — have year-bundled ANS 2016–2024 only (not yet split into P1–4)
 3. RI prelim 2024 entire; RI P4 QP gaps where only ANS exists; HCI prelim QP+ANS 2021–2025
 4. Optional: spot-check thin chapters (e.g. RP3 Currents is short in source)
 
 **have:** TYS ANS year-bundles 2016–2024; RI prelim QP+ANS for 2021–2023 + 2025; RI TP/CT under `exam papers/misc/`; base syllabus lect notes + tut soln Chap 1–20; `revision packages/Chap N …/` each with **two** sets (`Chap N Revision Package 2` for Ch1–11 / `Chap N Revision Package 1` for Ch12–20, plus `Chap N Revision Package 3`), data booklet at folder root. Rebuild via `tools/rebuild_physics_revision_packages.py`. Originals in `origin/`.
+
+### H2 chemistry
+
+1. TYS QP (all years) — only suggested solutions present
+2. RI prelim 2026 P1–P3 QP+ANS (only P4 ANS present); RI prelim P4 QP for any year; TJC 2026 prelim QP (only P3 ANS); HCI prelims
+3. Tutorial question papers for most chapters (only Chap 00, 01, 15 have questions; the rest are answers only); lecture notes
+4. Chem Focus Y6 T3 CF1 and CF4 timed practice QP (answers present)
+
+**have:** A-level suggested solutions 2015–2025 (2015–2024 bundled P1–3; 2025 split P1–P3); RI prelim QP+ANS 2021–2025 P1–P3; RI prelim 2026 P4 ANS; SAJC 2026 prelim P1–P3 QP+ANS; TJC 2026 prelim P3 ANS; RI Y5 TP + promo 2022–2024 and Y6 CT/T3 TP 2023–2025 (QP+ANS); 2026 Y6 T1 org quiz / T2 class test / T3 TP answers; tutorial answers Chap 00–24; revision booklet answers (all chapters + organic elucidation / pattern recognition); Chem Focus Y5/Y6 + CHEMpower; 2026 T3 revision set (A-level planning answers 2016–2025, prelim practical theory, Wed revision 1–3, revision tutorials, revision timed practice A–E + session 4, expt 16/18 answers)
 
 ### H2 computing
 

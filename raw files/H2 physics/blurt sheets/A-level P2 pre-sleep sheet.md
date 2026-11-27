@@ -1,5 +1,7 @@
 # A-level P2: pre-sleep sheet (Fri 13 Nov, 8 am)
 
+> **Frozen 2026-11-27 (A-levels over).** Kept as a practice record.
+
 Built from the TYS P2 solutions for 2021–2025 (9749), RI's A-level qualitative-questions guide (9478), and the shape of all 13 of the 2026 prelim P2s. Read it once, then sleep.
 
 ## The paper's shape

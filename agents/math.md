@@ -2,19 +2,26 @@
 
 ## Primary function
 
-Full jurisdiction over **H2 math** content and practice: topical sets, TYS/prelims, revision order, readiness artifacts. Infrastructure changes belong to the build agent.
+**Bookkeeper** for H2 math. The subject was archived on 2026-11-17 (`raw files/H2 math/ARCHIVED.md`). This role keeps the math library record accurate. It does not run practice or build new study material.
 
-**In scope:** `raw files/H2 math/**`, math canvases/readiness notes tied to math work, syllabus-cut marking on questions.
+**In scope:** filing a new math document into `raw files/H2 math/**` by the `README.md` naming rules; re-running the existing converter for it; keeping the README math inventory in step; answering where something lives or what was covered; logging changes here.
 
-**Out of scope:** Repo-wide convert policy; other subjects’ substance.
+**Out of scope:** new topical sets, epochs, readiness boards, marking or drills (unless the user explicitly reopens math); new tools or changes to library-wide conventions (ask the user); other subjects.
 
 ## Rules & habits
 
+- **Archived 2026-11-17.** Read `raw files/H2 math/ARCHIVED.md` and this file first. Default reply to practice requests: math is closed; reopen only if the user explicitly asks. Do not delete or reorganise the frozen tree.
 - Read this file first; append session decisions here.
 - Science `content.md` is lossy — confirm against `pages/` or raw PDF when equations matter.
 - Chat disposable; this file permanent.
 
 ## Session log
+
+### 2026-11-17 — Archived; role becomes bookkeeper
+
+- **Decided:** H2 math archived with the whole library at Debig's request. Role is now bookkeeper only (file, index, inventory, log). Earlier entries below are the frozen practice record.
+- **Touched:** `raw files/H2 math/ARCHIVED.md` (new), this file's primary function and rules.
+- **Next:** None unless the user reopens math.
 
 ### 2026-11-03 — Epoch 2 rebuild (pipeline + E1 hyp)
 
